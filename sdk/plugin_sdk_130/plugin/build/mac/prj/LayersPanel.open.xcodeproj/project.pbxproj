@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AF372017ED993900CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B059DA80883CE3E00D809E1 /* PluginPList.plc */; };
+		32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B059DA80883CE3E00D809E1 /* PluginPList.plc */; };
+		E74DA8E51C282CB20047943B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74DA8E41C282CB20047943B /* Cocoa.framework */; };
+		E74DA8E61C282CB20047943B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74DA8E41C282CB20047943B /* Cocoa.framework */; };
+		F957DFD415C7E21000C95573 /* LayerPanel.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D9A0883CE3200D809E1 /* LayerPanel.fr */; };
+		F957DFD615C7E21000C95573 /* LayerPanelUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D540883CDDE00D809E1 /* LayerPanelUtils.cpp */; };
+		F957DFD715C7E21000C95573 /* LayerPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D560883CDDF00D809E1 /* LayerPanelMenuComponent.cpp */; };
+		F957DFD815C7E21000C95573 /* PointyHandCursorProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D570883CDE100D809E1 /* PointyHandCursorProvider.cpp */; };
+		F957DFD915C7E21000C95573 /* LayerDeleteDragDropTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D5B0883CDE500D809E1 /* LayerDeleteDragDropTarget.cpp */; };
+		F957DFDA15C7E21000C95573 /* LayerEyeDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D5F0883CDE800D809E1 /* LayerEyeDEHandler.cpp */; };
+		F957DFDB15C7E21000C95573 /* LayerEyeDragDropSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D600883CDEA00D809E1 /* LayerEyeDragDropSource.cpp */; };
+		F957DFDC15C7E21000C95573 /* LayerEyeDragDropTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D610883CDEC00D809E1 /* LayerEyeDragDropTarget.cpp */; };
+		F957DFDD15C7E21000C95573 /* LayerPencilDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D630883CDEE00D809E1 /* LayerPencilDEHandler.cpp */; };
+		F957DFDE15C7E21000C95573 /* LayerPencilDragDropSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D640883CDEF00D809E1 /* LayerPencilDragDropSource.cpp */; };
+		F957DFDF15C7E21000C95573 /* LayerPencilDragDropTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D650883CDF100D809E1 /* LayerPencilDragDropTarget.cpp */; };
+		F957DFE015C7E21000C95573 /* LayerProxyDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D670883CDF300D809E1 /* LayerProxyDEHandler.cpp */; };
+		F957DFE115C7E21000C95573 /* ProxyViewDragDropSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D680883CDF400D809E1 /* ProxyViewDragDropSource.cpp */; };
+		F957DFE215C7E21000C95573 /* LayerZOrderDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D6B0883CDF700D809E1 /* LayerZOrderDEHandler.cpp */; };
+		F957DFE315C7E21000C95573 /* LayerZOrderDragDropSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D6C0883CDF900D809E1 /* LayerZOrderDragDropSource.cpp */; };
+		F957DFE415C7E21000C95573 /* LayerNameEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D6F0883CDFC00D809E1 /* LayerNameEH.cpp */; };
+		F957DFE515C7E21000C95573 /* LayerEyeDragDropSourceEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D700883CDFE00D809E1 /* LayerEyeDragDropSourceEH.cpp */; };
+		F957DFE615C7E21000C95573 /* LayerPencilDragDropSourceEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D710883CDFF00D809E1 /* LayerPencilDragDropSourceEH.cpp */; };
+		F957DFE715C7E21000C95573 /* LayerProxyDragDropSourceEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D720883CE0100D809E1 /* LayerProxyDragDropSourceEH.cpp */; };
+		F957DFE815C7E21000C95573 /* LayerOptionsDlgController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D740883CE0300D809E1 /* LayerOptionsDlgController.cpp */; };
+		F957DFE915C7E21000C95573 /* LayerPanelMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D770883CE0400D809E1 /* LayerPanelMWHacks.cpp */; };
+		F957DFEA15C7E21000C95573 /* LayerPanelPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D780883CE0600D809E1 /* LayerPanelPlugIn.cpp */; };
+		F957DFEB15C7E21000C95573 /* LayerPanelID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D790883CE0800D809E1 /* LayerPanelID.cpp */; };
+		F957DFEC15C7E21000C95573 /* LayerPanelPencilObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D880883CE1C00D809E1 /* LayerPanelPencilObserver.cpp */; };
+		F957DFED15C7E21000C95573 /* LayerPanelEyeballObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D890883CE1E00D809E1 /* LayerPanelEyeballObserver.cpp */; };
+		F957DFEE15C7E21000C95573 /* LayerPanelSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D8A0883CE1F00D809E1 /* LayerPanelSelectionObserver.cpp */; };
+		F957DFEF15C7E21000C95573 /* DeleteLayerButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D8B0883CE2100D809E1 /* DeleteLayerButtonObserver.cpp */; };
+		F957DFF015C7E21000C95573 /* NewLayerButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D8C0883CE2200D809E1 /* NewLayerButtonObserver.cpp */; };
+		F957DFF115C7E21000C95573 /* ActiveView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D900883CE2600D809E1 /* ActiveView.cpp */; };
+		F957DFF215C7E21000C95573 /* SelectionProxyView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D930883CE2A00D809E1 /* SelectionProxyView.cpp */; };
+		F957DFF315C7E21000C95573 /* ActiveLayerWidgetTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D960883CE2E00D809E1 /* ActiveLayerWidgetTip.cpp */; };
+		F957DFF415C7E21000C95573 /* ProxyWidgetTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D970883CE2F00D809E1 /* ProxyWidgetTip.cpp */; };
+		F957DFF515C7E21000C95573 /* LayerDuplicateDragDropTarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D5D0883CDE700D809E1 /* LayerDuplicateDragDropTarg.cpp */; };
+		F957DFF615C7E21000C95573 /* LayerSwatchView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D940883CE2C00D809E1 /* LayerSwatchView.cpp */; };
+		F957DFF715C7E21000C95573 /* LayerOptionsDlgObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BD44B5708BD2400004CF43C /* LayerOptionsDlgObserver.cpp */; };
+		F957DFF815C7E21000C95573 /* CLayoutLayerListObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45330CF3B153006E3981 /* CLayoutLayerListObserver.cpp */; };
+		F957DFF915C7E21000C95573 /* LayerSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45360CF3B177006E3981 /* LayerSelectionObserver.cpp */; };
+		F957DFFA15C7E21000C95573 /* LayerSuiteDefaultCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45370CF3B177006E3981 /* LayerSuiteDefaultCSB.cpp */; };
+		F957DFFB15C7E21000C95573 /* LayerSuiteIntegrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45380CF3B177006E3981 /* LayerSuiteIntegrator.cpp */; };
+		F957DFFC15C7E21000C95573 /* LayerSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45390CF3B177006E3981 /* LayerSuiteLayoutCSB.cpp */; };
+		F957DFFD15C7E21000C95573 /* LayerSuiteTableCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE453A0CF3B177006E3981 /* LayerSuiteTableCSB.cpp */; };
+		F957DFFE15C7E21000C95573 /* LayerSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE453B0CF3B177006E3981 /* LayerSuiteTextCSB.cpp */; };
+		F957DFFF15C7E21000C95573 /* LayerListLayoutAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45480CF3B190006E3981 /* LayerListLayoutAction.cpp */; };
+		F957E00015C7E21000C95573 /* LayerUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE454B0CF3B1AE006E3981 /* LayerUIUtils.cpp */; };
+		F957E00115C7E21000C95573 /* DebuggingLayers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE454E0CF3B1B9006E3981 /* DebuggingLayers.cpp */; };
+		F957E00215C7E21000C95573 /* LayerStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45540CF3B1D9006E3981 /* LayerStartupShutdown.cpp */; };
+		F957E00315C7E21000C95573 /* LayerPanelTreeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E36D8DF0EAD1C1700D767DC /* LayerPanelTreeObserver.cpp */; };
+		F957E00415C7E21000C95573 /* LayerPanelTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E36D8E90EAD1C3D00D767DC /* LayerPanelTreeViewAdapter.cpp */; };
+		F957E00515C7E21000C95573 /* LayerPanelTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E36D8ED0EAD1C5800D767DC /* LayerPanelTreeViewWidgetMgr.cpp */; };
+		F957E00615C7E21000C95573 /* LayerTreeRowPanelEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CE41D0EB8CF3600BD0A9D /* LayerTreeRowPanelEH.cpp */; };
+		F957E00715C7E21000C95573 /* LayerTreeUIDNodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB0CA90EE74A6900A69251 /* LayerTreeUIDNodeID.cpp */; };
+		F957E00815C7E21000C95573 /* PageItemZOrderDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB0F1B0EEF04EC00A69251 /* PageItemZOrderDEHandler.cpp */; };
+		F957E00915C7E21000C95573 /* LayerPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B0BB50F1D0C3900D77888 /* LayerPanelView.cpp */; };
+		F957E00A15C7E21000C95573 /* LayerPageItemNameEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E78FD1A0F2F9593009AD0EE /* LayerPageItemNameEH.cpp */; };
+		F957E00B15C7E21000C95573 /* LayerPageItemPencilEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E78FE7D0F379A1A009AD0EE /* LayerPageItemPencilEH.cpp */; };
+		F957E00C15C7E21000C95573 /* LayerPageItemPencilObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E78FE810F379A51009AD0EE /* LayerPageItemPencilObserver.cpp */; };
+		F957E00D15C7E21000C95573 /* SelectionProxyDrawData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E78FF380F37BF9D009AD0EE /* SelectionProxyDrawData.cpp */; };
+		F957E00E15C7E21000C95573 /* LayersPanelTreeViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EBE44150F3BA65F003D2C25 /* LayersPanelTreeViewController.cpp */; };
+		F957E00F15C7E21000C95573 /* LayerTreeDragDropTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2D1570F672F3A0061B9D6 /* LayerTreeDragDropTarget.cpp */; };
+		F957E01015C7E21000C95573 /* PageItemNameEditObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF93E2A0F7AB303009C5883 /* PageItemNameEditObserver.cpp */; };
+		F957E01115C7E21000C95573 /* LayerNameEditObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF941070F7D8381009C5883 /* LayerNameEditObserver.cpp */; };
+		F957E01215C7E21000C95573 /* LayerSubwidgetEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF941240F7D8A23009C5883 /* LayerSubwidgetEH.cpp */; };
+		F957E01315C7E21000C95573 /* LayerPanelNameILEEditingAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF941590F7D9301009C5883 /* LayerPanelNameILEEditingAttributes.cpp */; };
+		F957E01415C7E21000C95573 /* LayerPanelNameView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9415A0F7D9301009C5883 /* LayerPanelNameView.cpp */; };
+		F957E01515C7E21000C95573 /* LayerNameTextValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9415F0F7D9343009C5883 /* LayerNameTextValidation.cpp */; };
+		F957E01615C7E21000C95573 /* LayersPanelSAXHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6793E0F96514600AEF28D /* LayersPanelSAXHandler.cpp */; };
+		F957E01715C7E21000C95573 /* LayersPanelXMLGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6793F0F96514600AEF28D /* LayersPanelXMLGenerator.cpp */; };
+		F957E01815C7E21000C95573 /* PageItemDupDeleteDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A47A66B106D771800D6D542 /* PageItemDupDeleteDEHandler.cpp */; };
+		F957E01915C7E21000C95573 /* LayersTreeViewTypeAhead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F640010B5DA2100DE2260 /* LayersTreeViewTypeAhead.cpp */; };
+		F957E01A15C7E21000C95573 /* DVLayerElementView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57242C951340A6D60036D96B /* DVLayerElementView.cpp */; };
+		F957E02615C7E21300C95573 /* LayerPanel.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D9A0883CE3200D809E1 /* LayerPanel.fr */; };
+		F957E02815C7E21300C95573 /* DeleteLayerButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D8B0883CE2100D809E1 /* DeleteLayerButtonObserver.cpp */; };
+		F957E02915C7E21300C95573 /* NewLayerButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D8C0883CE2200D809E1 /* NewLayerButtonObserver.cpp */; };
+		F957E02A15C7E21300C95573 /* LayerPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D560883CDDF00D809E1 /* LayerPanelMenuComponent.cpp */; };
+		F957E02B15C7E21300C95573 /* LayerPanelPencilObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D880883CE1C00D809E1 /* LayerPanelPencilObserver.cpp */; };
+		F957E02C15C7E21300C95573 /* LayerPanelEyeballObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D890883CE1E00D809E1 /* LayerPanelEyeballObserver.cpp */; };
+		F957E02D15C7E21300C95573 /* SelectionProxyView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D930883CE2A00D809E1 /* SelectionProxyView.cpp */; };
+		F957E02E15C7E21300C95573 /* LayerPanelMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D770883CE0400D809E1 /* LayerPanelMWHacks.cpp */; };
+		F957E02F15C7E21300C95573 /* LayerPanelPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D780883CE0600D809E1 /* LayerPanelPlugIn.cpp */; };
+		F957E03015C7E21300C95573 /* LayerPanelID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D790883CE0800D809E1 /* LayerPanelID.cpp */; };
+		F957E03115C7E21300C95573 /* LayerOptionsDlgController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D740883CE0300D809E1 /* LayerOptionsDlgController.cpp */; };
+		F957E03215C7E21300C95573 /* LayerPanelUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D540883CDDE00D809E1 /* LayerPanelUtils.cpp */; };
+		F957E03315C7E21300C95573 /* LayerPanelSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D8A0883CE1F00D809E1 /* LayerPanelSelectionObserver.cpp */; };
+		F957E03415C7E21300C95573 /* ActiveView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D900883CE2600D809E1 /* ActiveView.cpp */; };
+		F957E03515C7E21300C95573 /* LayerProxyDragDropSourceEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D720883CE0100D809E1 /* LayerProxyDragDropSourceEH.cpp */; };
+		F957E03615C7E21300C95573 /* ProxyViewDragDropSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D680883CDF400D809E1 /* ProxyViewDragDropSource.cpp */; };
+		F957E03715C7E21300C95573 /* LayerProxyDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D670883CDF300D809E1 /* LayerProxyDEHandler.cpp */; };
+		F957E03815C7E21300C95573 /* LayerDeleteDragDropTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D5B0883CDE500D809E1 /* LayerDeleteDragDropTarget.cpp */; };
+		F957E03915C7E21300C95573 /* LayerZOrderDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D6B0883CDF700D809E1 /* LayerZOrderDEHandler.cpp */; };
+		F957E03A15C7E21300C95573 /* LayerZOrderDragDropSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D6C0883CDF900D809E1 /* LayerZOrderDragDropSource.cpp */; };
+		F957E03B15C7E21300C95573 /* LayerEyeDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D5F0883CDE800D809E1 /* LayerEyeDEHandler.cpp */; };
+		F957E03C15C7E21300C95573 /* LayerEyeDragDropSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D600883CDEA00D809E1 /* LayerEyeDragDropSource.cpp */; };
+		F957E03D15C7E21300C95573 /* LayerEyeDragDropSourceEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D700883CDFE00D809E1 /* LayerEyeDragDropSourceEH.cpp */; };
+		F957E03E15C7E21300C95573 /* LayerEyeDragDropTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D610883CDEC00D809E1 /* LayerEyeDragDropTarget.cpp */; };
+		F957E03F15C7E21300C95573 /* LayerPencilDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D630883CDEE00D809E1 /* LayerPencilDEHandler.cpp */; };
+		F957E04015C7E21300C95573 /* LayerPencilDragDropSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D640883CDEF00D809E1 /* LayerPencilDragDropSource.cpp */; };
+		F957E04115C7E21300C95573 /* LayerPencilDragDropSourceEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D710883CDFF00D809E1 /* LayerPencilDragDropSourceEH.cpp */; };
+		F957E04215C7E21300C95573 /* LayerPencilDragDropTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D650883CDF100D809E1 /* LayerPencilDragDropTarget.cpp */; };
+		F957E04315C7E21300C95573 /* LayerNameEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D6F0883CDFC00D809E1 /* LayerNameEH.cpp */; };
+		F957E04415C7E21300C95573 /* PointyHandCursorProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D570883CDE100D809E1 /* PointyHandCursorProvider.cpp */; };
+		F957E04515C7E21300C95573 /* ProxyWidgetTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D970883CE2F00D809E1 /* ProxyWidgetTip.cpp */; };
+		F957E04615C7E21300C95573 /* ActiveLayerWidgetTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D960883CE2E00D809E1 /* ActiveLayerWidgetTip.cpp */; };
+		F957E04715C7E21300C95573 /* LayerDuplicateDragDropTarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D5D0883CDE700D809E1 /* LayerDuplicateDragDropTarg.cpp */; };
+		F957E04815C7E21300C95573 /* LayerSwatchView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B059D940883CE2C00D809E1 /* LayerSwatchView.cpp */; };
+		F957E04915C7E21300C95573 /* LayerOptionsDlgObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BD44B5708BD2400004CF43C /* LayerOptionsDlgObserver.cpp */; };
+		F957E04A15C7E21300C95573 /* CLayoutLayerListObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45330CF3B153006E3981 /* CLayoutLayerListObserver.cpp */; };
+		F957E04B15C7E21300C95573 /* LayerSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45360CF3B177006E3981 /* LayerSelectionObserver.cpp */; };
+		F957E04C15C7E21300C95573 /* LayerSuiteDefaultCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45370CF3B177006E3981 /* LayerSuiteDefaultCSB.cpp */; };
+		F957E04D15C7E21300C95573 /* LayerSuiteIntegrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45380CF3B177006E3981 /* LayerSuiteIntegrator.cpp */; };
+		F957E04E15C7E21300C95573 /* LayerSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45390CF3B177006E3981 /* LayerSuiteLayoutCSB.cpp */; };
+		F957E04F15C7E21300C95573 /* LayerSuiteTableCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE453A0CF3B177006E3981 /* LayerSuiteTableCSB.cpp */; };
+		F957E05015C7E21300C95573 /* LayerSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE453B0CF3B177006E3981 /* LayerSuiteTextCSB.cpp */; };
+		F957E05115C7E21300C95573 /* LayerListLayoutAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45480CF3B190006E3981 /* LayerListLayoutAction.cpp */; };
+		F957E05215C7E21300C95573 /* LayerUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE454B0CF3B1AE006E3981 /* LayerUIUtils.cpp */; };
+		F957E05315C7E21300C95573 /* DebuggingLayers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE454E0CF3B1B9006E3981 /* DebuggingLayers.cpp */; };
+		F957E05415C7E21300C95573 /* LayerStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06FE45540CF3B1D9006E3981 /* LayerStartupShutdown.cpp */; };
+		F957E05515C7E21300C95573 /* LayerPanelTreeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E36D8DF0EAD1C1700D767DC /* LayerPanelTreeObserver.cpp */; };
+		F957E05615C7E21300C95573 /* LayerPanelTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E36D8E90EAD1C3D00D767DC /* LayerPanelTreeViewAdapter.cpp */; };
+		F957E05715C7E21300C95573 /* LayerPanelTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E36D8ED0EAD1C5800D767DC /* LayerPanelTreeViewWidgetMgr.cpp */; };
+		F957E05815C7E21300C95573 /* LayerTreeRowPanelEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CE41D0EB8CF3600BD0A9D /* LayerTreeRowPanelEH.cpp */; };
+		F957E05915C7E21300C95573 /* LayerTreeUIDNodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB0CA90EE74A6900A69251 /* LayerTreeUIDNodeID.cpp */; };
+		F957E05A15C7E21300C95573 /* PageItemZOrderDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB0F1B0EEF04EC00A69251 /* PageItemZOrderDEHandler.cpp */; };
+		F957E05B15C7E21300C95573 /* LayerPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B0BB50F1D0C3900D77888 /* LayerPanelView.cpp */; };
+		F957E05C15C7E21300C95573 /* LayerPageItemNameEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E78FD1A0F2F9593009AD0EE /* LayerPageItemNameEH.cpp */; };
+		F957E05D15C7E21300C95573 /* LayerPageItemPencilEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E78FE7D0F379A1A009AD0EE /* LayerPageItemPencilEH.cpp */; };
+		F957E05E15C7E21300C95573 /* LayerPageItemPencilObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E78FE810F379A51009AD0EE /* LayerPageItemPencilObserver.cpp */; };
+		F957E05F15C7E21300C95573 /* SelectionProxyDrawData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E78FF380F37BF9D009AD0EE /* SelectionProxyDrawData.cpp */; };
+		F957E06015C7E21300C95573 /* LayersPanelTreeViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EBE44150F3BA65F003D2C25 /* LayersPanelTreeViewController.cpp */; };
+		F957E06115C7E21300C95573 /* LayerTreeDragDropTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2D1570F672F3A0061B9D6 /* LayerTreeDragDropTarget.cpp */; };
+		F957E06215C7E21300C95573 /* PageItemNameEditObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF93E2A0F7AB303009C5883 /* PageItemNameEditObserver.cpp */; };
+		F957E06315C7E21300C95573 /* LayerNameEditObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF941070F7D8381009C5883 /* LayerNameEditObserver.cpp */; };
+		F957E06415C7E21300C95573 /* LayerSubwidgetEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF941240F7D8A23009C5883 /* LayerSubwidgetEH.cpp */; };
+		F957E06515C7E21300C95573 /* LayerPanelNameILEEditingAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF941590F7D9301009C5883 /* LayerPanelNameILEEditingAttributes.cpp */; };
+		F957E06615C7E21300C95573 /* LayerPanelNameView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9415A0F7D9301009C5883 /* LayerPanelNameView.cpp */; };
+		F957E06715C7E21300C95573 /* LayerNameTextValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9415F0F7D9343009C5883 /* LayerNameTextValidation.cpp */; };
+		F957E06815C7E21300C95573 /* LayersPanelSAXHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6793E0F96514600AEF28D /* LayersPanelSAXHandler.cpp */; };
+		F957E06915C7E21300C95573 /* LayersPanelXMLGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6793F0F96514600AEF28D /* LayersPanelXMLGenerator.cpp */; };
+		F957E06A15C7E21300C95573 /* PageItemDupDeleteDEHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A47A66B106D771800D6D542 /* PageItemDupDeleteDEHandler.cpp */; };
+		F957E06B15C7E21300C95573 /* LayersTreeViewTypeAhead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F640010B5DA2100DE2260 /* LayersTreeViewTypeAhead.cpp */; };
+		F957E06C15C7E21300C95573 /* DVLayerElementView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57242C951340A6D60036D96B /* DVLayerElementView.cpp */; };
+		F957E08F15C7E33300C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957E08215C7E30C00C95573 /* InDesignModelAndUI.framework */; };
+		F957E09015C7E33400C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957E08315C7E30C00C95573 /* libPublicPlugIn.a */; };
+		F957E09115C7E33900C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957E08515C7E30C00C95573 /* InDesignModelAndUI.framework */; };
+		F957E09215C7E33900C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957E08615C7E30C00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957E01F15C7E21000C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957E02015C7E21000C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+		F957E07115C7E21300C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957E07215C7E21300C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		06FE45330CF3B153006E3981 /* CLayoutLayerListObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CLayoutLayerListObserver.cpp; path = ../../../source/open/components/layerpanel/CLayoutLayerListObserver.cpp; sourceTree = SOURCE_ROOT; };
+		06FE45360CF3B177006E3981 /* LayerSelectionObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerSelectionObserver.cpp; path = ../../../source/open/components/layerpanel/LayerSelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		06FE45370CF3B177006E3981 /* LayerSuiteDefaultCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerSuiteDefaultCSB.cpp; path = ../../../source/open/components/layerpanel/LayerSuiteDefaultCSB.cpp; sourceTree = SOURCE_ROOT; };
+		06FE45380CF3B177006E3981 /* LayerSuiteIntegrator.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerSuiteIntegrator.cpp; path = ../../../source/open/components/layerpanel/LayerSuiteIntegrator.cpp; sourceTree = SOURCE_ROOT; };
+		06FE45390CF3B177006E3981 /* LayerSuiteLayoutCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerSuiteLayoutCSB.cpp; path = ../../../source/open/components/layerpanel/LayerSuiteLayoutCSB.cpp; sourceTree = SOURCE_ROOT; };
+		06FE453A0CF3B177006E3981 /* LayerSuiteTableCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerSuiteTableCSB.cpp; path = ../../../source/open/components/layerpanel/LayerSuiteTableCSB.cpp; sourceTree = SOURCE_ROOT; };
+		06FE453B0CF3B177006E3981 /* LayerSuiteTextCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerSuiteTextCSB.cpp; path = ../../../source/open/components/layerpanel/LayerSuiteTextCSB.cpp; sourceTree = SOURCE_ROOT; };
+		06FE45480CF3B190006E3981 /* LayerListLayoutAction.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerListLayoutAction.cpp; path = ../../../source/open/components/layerpanel/LayerListLayoutAction.cpp; sourceTree = SOURCE_ROOT; };
+		06FE454B0CF3B1AE006E3981 /* LayerUIUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerUIUtils.cpp; path = ../../../source/open/components/layerpanel/LayerUIUtils.cpp; sourceTree = SOURCE_ROOT; };
+		06FE454E0CF3B1B9006E3981 /* DebuggingLayers.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DebuggingLayers.cpp; path = ../../../source/open/components/layerpanel/DebuggingLayers.cpp; sourceTree = SOURCE_ROOT; };
+		06FE45540CF3B1D9006E3981 /* LayerStartupShutdown.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerStartupShutdown.cpp; path = ../../../source/open/components/layerpanel/LayerStartupShutdown.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D540883CDDE00D809E1 /* LayerPanelUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelUtils.cpp; path = ../../../source/open/components/layerpanel/LayerPanelUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D560883CDDF00D809E1 /* LayerPanelMenuComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelMenuComponent.cpp; path = ../../../source/open/components/layerpanel/LayerPanelMenuComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D570883CDE100D809E1 /* PointyHandCursorProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PointyHandCursorProvider.cpp; path = ../../../source/open/components/layerpanel/PointyHandCursorProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D5B0883CDE500D809E1 /* LayerDeleteDragDropTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerDeleteDragDropTarget.cpp; path = ../../../source/open/components/layerpanel/LayerDeleteDragDropTarget.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D5D0883CDE700D809E1 /* LayerDuplicateDragDropTarg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerDuplicateDragDropTarg.cpp; path = ../../../source/open/components/layerpanel/LayerDuplicateDragDropTarg.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D5F0883CDE800D809E1 /* LayerEyeDEHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerEyeDEHandler.cpp; path = ../../../source/open/components/layerpanel/LayerEyeDEHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D600883CDEA00D809E1 /* LayerEyeDragDropSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerEyeDragDropSource.cpp; path = ../../../source/open/components/layerpanel/LayerEyeDragDropSource.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D610883CDEC00D809E1 /* LayerEyeDragDropTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerEyeDragDropTarget.cpp; path = ../../../source/open/components/layerpanel/LayerEyeDragDropTarget.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D630883CDEE00D809E1 /* LayerPencilDEHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPencilDEHandler.cpp; path = ../../../source/open/components/layerpanel/LayerPencilDEHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D640883CDEF00D809E1 /* LayerPencilDragDropSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPencilDragDropSource.cpp; path = ../../../source/open/components/layerpanel/LayerPencilDragDropSource.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D650883CDF100D809E1 /* LayerPencilDragDropTarget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPencilDragDropTarget.cpp; path = ../../../source/open/components/layerpanel/LayerPencilDragDropTarget.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D670883CDF300D809E1 /* LayerProxyDEHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerProxyDEHandler.cpp; path = ../../../source/open/components/layerpanel/LayerProxyDEHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D680883CDF400D809E1 /* ProxyViewDragDropSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ProxyViewDragDropSource.cpp; path = ../../../source/open/components/layerpanel/ProxyViewDragDropSource.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D6B0883CDF700D809E1 /* LayerZOrderDEHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerZOrderDEHandler.cpp; path = ../../../source/open/components/layerpanel/LayerZOrderDEHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D6C0883CDF900D809E1 /* LayerZOrderDragDropSource.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerZOrderDragDropSource.cpp; path = ../../../source/open/components/layerpanel/LayerZOrderDragDropSource.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D6F0883CDFC00D809E1 /* LayerNameEH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerNameEH.cpp; path = ../../../source/open/components/layerpanel/LayerNameEH.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D700883CDFE00D809E1 /* LayerEyeDragDropSourceEH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerEyeDragDropSourceEH.cpp; path = ../../../source/open/components/layerpanel/LayerEyeDragDropSourceEH.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D710883CDFF00D809E1 /* LayerPencilDragDropSourceEH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPencilDragDropSourceEH.cpp; path = ../../../source/open/components/layerpanel/LayerPencilDragDropSourceEH.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D720883CE0100D809E1 /* LayerProxyDragDropSourceEH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerProxyDragDropSourceEH.cpp; path = ../../../source/open/components/layerpanel/LayerProxyDragDropSourceEH.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D740883CE0300D809E1 /* LayerOptionsDlgController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerOptionsDlgController.cpp; path = ../../../source/open/components/layerpanel/LayerOptionsDlgController.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D750883CE0300D809E1 /* LayerOptionsDlgController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LayerOptionsDlgController.h; path = ../../../source/open/components/layerpanel/LayerOptionsDlgController.h; sourceTree = SOURCE_ROOT; };
+		4B059D770883CE0400D809E1 /* LayerPanelMWHacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelMWHacks.cpp; path = ../../../source/open/components/layerpanel/LayerPanelMWHacks.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D780883CE0600D809E1 /* LayerPanelPlugIn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelPlugIn.cpp; path = ../../../source/open/components/layerpanel/LayerPanelPlugIn.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D790883CE0800D809E1 /* LayerPanelID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelID.cpp; path = ../../../source/open/components/layerpanel/LayerPanelID.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D880883CE1C00D809E1 /* LayerPanelPencilObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelPencilObserver.cpp; path = ../../../source/open/components/layerpanel/LayerPanelPencilObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D890883CE1E00D809E1 /* LayerPanelEyeballObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelEyeballObserver.cpp; path = ../../../source/open/components/layerpanel/LayerPanelEyeballObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D8A0883CE1F00D809E1 /* LayerPanelSelectionObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelSelectionObserver.cpp; path = ../../../source/open/components/layerpanel/LayerPanelSelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D8B0883CE2100D809E1 /* DeleteLayerButtonObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DeleteLayerButtonObserver.cpp; path = ../../../source/open/components/layerpanel/DeleteLayerButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D8C0883CE2200D809E1 /* NewLayerButtonObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NewLayerButtonObserver.cpp; path = ../../../source/open/components/layerpanel/NewLayerButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D900883CE2600D809E1 /* ActiveView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ActiveView.cpp; path = ../../../source/open/components/layerpanel/ActiveView.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D930883CE2A00D809E1 /* SelectionProxyView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SelectionProxyView.cpp; path = ../../../source/open/components/layerpanel/SelectionProxyView.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D940883CE2C00D809E1 /* LayerSwatchView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LayerSwatchView.cpp; path = ../../../source/open/components/layerpanel/LayerSwatchView.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D960883CE2E00D809E1 /* ActiveLayerWidgetTip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ActiveLayerWidgetTip.cpp; path = ../../../source/open/components/layerpanel/ActiveLayerWidgetTip.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D970883CE2F00D809E1 /* ProxyWidgetTip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ProxyWidgetTip.cpp; path = ../../../source/open/components/layerpanel/ProxyWidgetTip.cpp; sourceTree = SOURCE_ROOT; };
+		4B059D9A0883CE3200D809E1 /* LayerPanel.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = LayerPanel.fr; path = ../../../source/open/components/layerpanel/LayerPanel.fr; sourceTree = SOURCE_ROOT; };
+		4B059DA80883CE3E00D809E1 /* PluginPList.plc */ = {isa = PBXFileReference; lastKnownFileType = text; name = PluginPList.plc; path = ../../../source/open/components/resourcedefs/PluginPList.plc; sourceTree = SOURCE_ROOT; };
+		4BD44B5708BD2400004CF43C /* LayerOptionsDlgObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LayerOptionsDlgObserver.cpp; path = ../../../source/open/components/layerpanel/LayerOptionsDlgObserver.cpp; sourceTree = SOURCE_ROOT; };
+		57242C951340A6D60036D96B /* DVLayerElementView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DVLayerElementView.cpp; path = ../../../source/open/components/layerpanel/DVLayerElementView.cpp; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7A0F640010B5DA2100DE2260 /* LayersTreeViewTypeAhead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayersTreeViewTypeAhead.cpp; path = ../../../source/open/components/layerpanel/LayersTreeViewTypeAhead.cpp; sourceTree = SOURCE_ROOT; };
+		7A47A66B106D771800D6D542 /* PageItemDupDeleteDEHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PageItemDupDeleteDEHandler.cpp; path = ../../../source/open/components/layerpanel/PageItemDupDeleteDEHandler.cpp; sourceTree = SOURCE_ROOT; };
+		7E36D8DF0EAD1C1700D767DC /* LayerPanelTreeObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelTreeObserver.cpp; path = ../../../source/open/components/layerpanel/LayerPanelTreeObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7E36D8E90EAD1C3D00D767DC /* LayerPanelTreeViewAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelTreeViewAdapter.cpp; path = ../../../source/open/components/layerpanel/LayerPanelTreeViewAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		7E36D8ED0EAD1C5800D767DC /* LayerPanelTreeViewWidgetMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelTreeViewWidgetMgr.cpp; path = ../../../source/open/components/layerpanel/LayerPanelTreeViewWidgetMgr.cpp; sourceTree = SOURCE_ROOT; };
+		7E3CE41D0EB8CF3600BD0A9D /* LayerTreeRowPanelEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerTreeRowPanelEH.cpp; path = ../../../source/open/components/layerpanel/LayerTreeRowPanelEH.cpp; sourceTree = SOURCE_ROOT; };
+		7E6B0BB50F1D0C3900D77888 /* LayerPanelView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelView.cpp; path = ../../../source/open/components/layerpanel/LayerPanelView.cpp; sourceTree = SOURCE_ROOT; };
+		7E78FD1A0F2F9593009AD0EE /* LayerPageItemNameEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPageItemNameEH.cpp; path = ../../../source/open/components/layerpanel/LayerPageItemNameEH.cpp; sourceTree = SOURCE_ROOT; };
+		7E78FE7D0F379A1A009AD0EE /* LayerPageItemPencilEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPageItemPencilEH.cpp; path = ../../../source/open/components/layerpanel/LayerPageItemPencilEH.cpp; sourceTree = SOURCE_ROOT; };
+		7E78FE810F379A51009AD0EE /* LayerPageItemPencilObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPageItemPencilObserver.cpp; path = ../../../source/open/components/layerpanel/LayerPageItemPencilObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7E78FF380F37BF9D009AD0EE /* SelectionProxyDrawData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SelectionProxyDrawData.cpp; path = ../../../source/open/components/layerpanel/SelectionProxyDrawData.cpp; sourceTree = SOURCE_ROOT; };
+		7EB2D1570F672F3A0061B9D6 /* LayerTreeDragDropTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerTreeDragDropTarget.cpp; path = ../../../source/open/components/layerpanel/LayerTreeDragDropTarget.cpp; sourceTree = SOURCE_ROOT; };
+		7EB6793E0F96514600AEF28D /* LayersPanelSAXHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayersPanelSAXHandler.cpp; path = ../../../source/open/components/layerpanel/LayersPanelSAXHandler.cpp; sourceTree = SOURCE_ROOT; };
+		7EB6793F0F96514600AEF28D /* LayersPanelXMLGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayersPanelXMLGenerator.cpp; path = ../../../source/open/components/layerpanel/LayersPanelXMLGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		7EBB0CA90EE74A6900A69251 /* LayerTreeUIDNodeID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerTreeUIDNodeID.cpp; path = ../../../source/open/components/layerpanel/LayerTreeUIDNodeID.cpp; sourceTree = SOURCE_ROOT; };
+		7EBB0F1B0EEF04EC00A69251 /* PageItemZOrderDEHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PageItemZOrderDEHandler.cpp; path = ../../../source/open/components/layerpanel/PageItemZOrderDEHandler.cpp; sourceTree = SOURCE_ROOT; };
+		7EBE44150F3BA65F003D2C25 /* LayersPanelTreeViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayersPanelTreeViewController.cpp; path = ../../../source/open/components/layerpanel/LayersPanelTreeViewController.cpp; sourceTree = SOURCE_ROOT; };
+		7EF93E2A0F7AB303009C5883 /* PageItemNameEditObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PageItemNameEditObserver.cpp; path = ../../../source/open/components/layerpanel/PageItemNameEditObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7EF941070F7D8381009C5883 /* LayerNameEditObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerNameEditObserver.cpp; path = ../../../source/open/components/layerpanel/LayerNameEditObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7EF941240F7D8A23009C5883 /* LayerSubwidgetEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerSubwidgetEH.cpp; path = ../../../source/open/components/layerpanel/LayerSubwidgetEH.cpp; sourceTree = SOURCE_ROOT; };
+		7EF941590F7D9301009C5883 /* LayerPanelNameILEEditingAttributes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelNameILEEditingAttributes.cpp; path = ../../../source/open/components/layerpanel/LayerPanelNameILEEditingAttributes.cpp; sourceTree = SOURCE_ROOT; };
+		7EF9415A0F7D9301009C5883 /* LayerPanelNameView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerPanelNameView.cpp; path = ../../../source/open/components/layerpanel/LayerPanelNameView.cpp; sourceTree = SOURCE_ROOT; };
+		7EF9415F0F7D9343009C5883 /* LayerNameTextValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LayerNameTextValidation.cpp; path = ../../../source/open/components/layerpanel/LayerNameTextValidation.cpp; sourceTree = SOURCE_ROOT; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.xcconfig; sourceTree = SOURCE_ROOT; };
+		C31D3E8D0C4581BB001C2132 /* _shared_build_settings/pluginOpen.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/pluginOpen.xcconfig; sourceTree = "<group>"; };
+		E74DA8E41C282CB20047943B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F957E02315C7E21000C95573 /* Layers Panel.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Layers Panel.InDesignPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F957E07515C7E21300C95573 /* Layers Panel.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Layers Panel.InDesignPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F957E08215C7E30C00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957E08315C7E30C00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957E08515C7E30C00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957E08615C7E30C00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957E01B15C7E21000C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957E09115C7E33900C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957E09215C7E33900C95573 /* libPublicPlugIn.a in Frameworks */,
+				E74DA8E51C282CB20047943B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957E06D15C7E21300C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957E08F15C7E33300C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957E09015C7E33400C95573 /* libPublicPlugIn.a in Frameworks */,
+				E74DA8E61C282CB20047943B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B059D370883CDD700D809E1 = {
+			isa = PBXGroup;
+			children = (
+				7E6B0C8C0F1E6AE900D77888 /* Widgets */,
+				4B059D520883CDD800D809E1 /* Layer Panel */,
+				4B059D730883CE0100D809E1 /* Layer Options Dialog */,
+				4B059D760883CE0300D809E1 /* Layer PlugIn */,
+				4B059D7D0883CE0B00D809E1 /* Layout View */,
+				4B059D8D0883CE2200D809E1 /* Service Providers */,
+				4B059D980883CE2F00D809E1 /* Resources */,
+				4B059DA80883CE3E00D809E1 /* PluginPList.plc */,
+				F957E08015C7E30C00C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B059D450883CDD700D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B059D450883CDD700D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F957E02315C7E21000C95573 /* Layers Panel.InDesignPlugin */,
+				F957E07515C7E21300C95573 /* Layers Panel.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B059D520883CDD800D809E1 /* Layer Panel */ = {
+			isa = PBXGroup;
+			children = (
+				7EB6793E0F96514600AEF28D /* LayersPanelSAXHandler.cpp */,
+				7EB6793F0F96514600AEF28D /* LayersPanelXMLGenerator.cpp */,
+				7E36D8DE0EAD1C0500D767DC /* Layer Tree Hierarchy */,
+				57242C951340A6D60036D96B /* DVLayerElementView.cpp */,
+				4B059D940883CE2C00D809E1 /* LayerSwatchView.cpp */,
+				4B059D8A0883CE1F00D809E1 /* LayerPanelSelectionObserver.cpp */,
+				7E6B0BB50F1D0C3900D77888 /* LayerPanelView.cpp */,
+				06FE454B0CF3B1AE006E3981 /* LayerUIUtils.cpp */,
+				4B059D540883CDDE00D809E1 /* LayerPanelUtils.cpp */,
+				4B059D560883CDDF00D809E1 /* LayerPanelMenuComponent.cpp */,
+				4B059D570883CDE100D809E1 /* PointyHandCursorProvider.cpp */,
+			);
+			name = "Layer Panel";
+			sourceTree = "<group>";
+		};
+		4B059D590883CDE300D809E1 /* Z-Order Drag&Drop */ = {
+			isa = PBXGroup;
+			children = (
+				7A47A66B106D771800D6D542 /* PageItemDupDeleteDEHandler.cpp */,
+				7EBB0F1B0EEF04EC00A69251 /* PageItemZOrderDEHandler.cpp */,
+				4B059D6B0883CDF700D809E1 /* LayerZOrderDEHandler.cpp */,
+				4B059D6C0883CDF900D809E1 /* LayerZOrderDragDropSource.cpp */,
+				7EB2D1570F672F3A0061B9D6 /* LayerTreeDragDropTarget.cpp */,
+			);
+			name = "Z-Order Drag&Drop";
+			sourceTree = "<group>";
+		};
+		4B059D5A0883CDE300D809E1 /* Delete button */ = {
+			isa = PBXGroup;
+			children = (
+				4B059D8B0883CE2100D809E1 /* DeleteLayerButtonObserver.cpp */,
+				4B059D5B0883CDE500D809E1 /* LayerDeleteDragDropTarget.cpp */,
+			);
+			name = "Delete button";
+			sourceTree = "<group>";
+		};
+		4B059D5C0883CDE500D809E1 /* New button */ = {
+			isa = PBXGroup;
+			children = (
+				4B059D8C0883CE2200D809E1 /* NewLayerButtonObserver.cpp */,
+				4B059D5D0883CDE700D809E1 /* LayerDuplicateDragDropTarg.cpp */,
+			);
+			name = "New button";
+			sourceTree = "<group>";
+		};
+		4B059D730883CE0100D809E1 /* Layer Options Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				4BD44B5708BD2400004CF43C /* LayerOptionsDlgObserver.cpp */,
+				4B059D750883CE0300D809E1 /* LayerOptionsDlgController.h */,
+				4B059D740883CE0300D809E1 /* LayerOptionsDlgController.cpp */,
+			);
+			name = "Layer Options Dialog";
+			sourceTree = "<group>";
+		};
+		4B059D760883CE0300D809E1 /* Layer PlugIn */ = {
+			isa = PBXGroup;
+			children = (
+				4B059D770883CE0400D809E1 /* LayerPanelMWHacks.cpp */,
+				4B059D780883CE0600D809E1 /* LayerPanelPlugIn.cpp */,
+				4B059D790883CE0800D809E1 /* LayerPanelID.cpp */,
+				06FE454E0CF3B1B9006E3981 /* DebuggingLayers.cpp */,
+			);
+			name = "Layer PlugIn";
+			sourceTree = "<group>";
+		};
+		4B059D7D0883CE0B00D809E1 /* Layout View */ = {
+			isa = PBXGroup;
+			children = (
+				06FE45330CF3B153006E3981 /* CLayoutLayerListObserver.cpp */,
+				06FE45360CF3B177006E3981 /* LayerSelectionObserver.cpp */,
+				06FE45370CF3B177006E3981 /* LayerSuiteDefaultCSB.cpp */,
+				06FE45380CF3B177006E3981 /* LayerSuiteIntegrator.cpp */,
+				06FE45390CF3B177006E3981 /* LayerSuiteLayoutCSB.cpp */,
+				06FE453A0CF3B177006E3981 /* LayerSuiteTableCSB.cpp */,
+				06FE453B0CF3B177006E3981 /* LayerSuiteTextCSB.cpp */,
+				06FE45480CF3B190006E3981 /* LayerListLayoutAction.cpp */,
+			);
+			name = "Layout View";
+			sourceTree = "<group>";
+		};
+		4B059D8D0883CE2200D809E1 /* Service Providers */ = {
+			isa = PBXGroup;
+			children = (
+				06FE45540CF3B1D9006E3981 /* LayerStartupShutdown.cpp */,
+			);
+			name = "Service Providers";
+			sourceTree = "<group>";
+		};
+		4B059D980883CE2F00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B059D9A0883CE3200D809E1 /* LayerPanel.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7E36D8DE0EAD1C0500D767DC /* Layer Tree Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				7A0F640010B5DA2100DE2260 /* LayersTreeViewTypeAhead.cpp */,
+				7EBE44150F3BA65F003D2C25 /* LayersPanelTreeViewController.cpp */,
+				7EBB0CA90EE74A6900A69251 /* LayerTreeUIDNodeID.cpp */,
+				7E36D8DF0EAD1C1700D767DC /* LayerPanelTreeObserver.cpp */,
+				7E36D8E90EAD1C3D00D767DC /* LayerPanelTreeViewAdapter.cpp */,
+				7E36D8ED0EAD1C5800D767DC /* LayerPanelTreeViewWidgetMgr.cpp */,
+				7E3CE41D0EB8CF3600BD0A9D /* LayerTreeRowPanelEH.cpp */,
+			);
+			name = "Layer Tree Hierarchy";
+			sourceTree = "<group>";
+		};
+		7E6B0C870F1E697200D77888 /* Eye Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4B059D890883CE1E00D809E1 /* LayerPanelEyeballObserver.cpp */,
+				4B059D700883CDFE00D809E1 /* LayerEyeDragDropSourceEH.cpp */,
+				4B059D5F0883CDE800D809E1 /* LayerEyeDEHandler.cpp */,
+				4B059D600883CDEA00D809E1 /* LayerEyeDragDropSource.cpp */,
+				4B059D610883CDEC00D809E1 /* LayerEyeDragDropTarget.cpp */,
+			);
+			name = "Eye Widget";
+			sourceTree = "<group>";
+		};
+		7E6B0C880F1E699500D77888 /* Pencil - Lock Widget */ = {
+			isa = PBXGroup;
+			children = (
+				7E78FE7D0F379A1A009AD0EE /* LayerPageItemPencilEH.cpp */,
+				7E78FE810F379A51009AD0EE /* LayerPageItemPencilObserver.cpp */,
+				4B059D880883CE1C00D809E1 /* LayerPanelPencilObserver.cpp */,
+				4B059D710883CDFF00D809E1 /* LayerPencilDragDropSourceEH.cpp */,
+				4B059D630883CDEE00D809E1 /* LayerPencilDEHandler.cpp */,
+				4B059D640883CDEF00D809E1 /* LayerPencilDragDropSource.cpp */,
+				4B059D650883CDF100D809E1 /* LayerPencilDragDropTarget.cpp */,
+			);
+			name = "Pencil - Lock Widget";
+			sourceTree = "<group>";
+		};
+		7E6B0C890F1E69CB00D77888 /* Selection Proxy widget */ = {
+			isa = PBXGroup;
+			children = (
+				7E78FF380F37BF9D009AD0EE /* SelectionProxyDrawData.cpp */,
+				4B059D720883CE0100D809E1 /* LayerProxyDragDropSourceEH.cpp */,
+				4B059D970883CE2F00D809E1 /* ProxyWidgetTip.cpp */,
+				4B059D930883CE2A00D809E1 /* SelectionProxyView.cpp */,
+				4B059D670883CDF300D809E1 /* LayerProxyDEHandler.cpp */,
+				4B059D680883CDF400D809E1 /* ProxyViewDragDropSource.cpp */,
+			);
+			name = "Selection Proxy widget";
+			sourceTree = "<group>";
+		};
+		7E6B0C8A0F1E69F100D77888 /* Name widgets */ = {
+			isa = PBXGroup;
+			children = (
+				7EF9415F0F7D9343009C5883 /* LayerNameTextValidation.cpp */,
+				7EF941590F7D9301009C5883 /* LayerPanelNameILEEditingAttributes.cpp */,
+				7EF9415A0F7D9301009C5883 /* LayerPanelNameView.cpp */,
+				4B059D6F0883CDFC00D809E1 /* LayerNameEH.cpp */,
+				7EF941070F7D8381009C5883 /* LayerNameEditObserver.cpp */,
+				7EF93E2A0F7AB303009C5883 /* PageItemNameEditObserver.cpp */,
+				7E78FD1A0F2F9593009AD0EE /* LayerPageItemNameEH.cpp */,
+			);
+			name = "Name widgets";
+			sourceTree = "<group>";
+		};
+		7E6B0C8B0F1E6A4900D77888 /* Active Layer widget */ = {
+			isa = PBXGroup;
+			children = (
+				7EF941240F7D8A23009C5883 /* LayerSubwidgetEH.cpp */,
+				4B059D900883CE2600D809E1 /* ActiveView.cpp */,
+				4B059D960883CE2E00D809E1 /* ActiveLayerWidgetTip.cpp */,
+			);
+			name = "Active Layer widget";
+			sourceTree = "<group>";
+		};
+		7E6B0C8C0F1E6AE900D77888 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				7E6B0C890F1E69CB00D77888 /* Selection Proxy widget */,
+				7E6B0C8B0F1E6A4900D77888 /* Active Layer widget */,
+				7E6B0C8A0F1E69F100D77888 /* Name widgets */,
+				7E6B0C880F1E699500D77888 /* Pencil - Lock Widget */,
+				4B059D5A0883CDE300D809E1 /* Delete button */,
+				4B059D5C0883CDE500D809E1 /* New button */,
+				7E6B0C870F1E697200D77888 /* Eye Widget */,
+				4B059D590883CDE300D809E1 /* Z-Order Drag&Drop */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				C31D3E8D0C4581BB001C2132 /* _shared_build_settings/pluginOpen.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957E08015C7E30C00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E74DA8E41C282CB20047943B /* Cocoa.framework */,
+				F957E08115C7E30C00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957E08115C7E30C00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957E08215C7E30C00C95573 /* InDesignModelAndUI.framework */,
+				F957E08315C7E30C00C95573 /* libPublicPlugIn.a */,
+				F957E08415C7E30C00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957E08415C7E30C00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957E08515C7E30C00C95573 /* InDesignModelAndUI.framework */,
+				F957E08615C7E30C00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957DFD215C7E21000C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957E02115C7E21000C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957DFD315C7E21000C95573 /* Sources */,
+				F957E01B15C7E21000C95573 /* Frameworks */,
+				F957E01C15C7E21000C95573 /* Rez */,
+				F957E01D15C7E21000C95573 /* Resources */,
+				F957E01E15C7E21000C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957E01F15C7E21000C95573 /* PBXBuildRule */,
+				F957E02015C7E21000C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = F957E02315C7E21000C95573 /* Layers Panel.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		F957E02415C7E21300C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957E07315C7E21300C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957E02515C7E21300C95573 /* Sources */,
+				F957E06D15C7E21300C95573 /* Frameworks */,
+				F957E06E15C7E21300C95573 /* Rez */,
+				F957E06F15C7E21300C95573 /* Resources */,
+				F957E07015C7E21300C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957E07115C7E21300C95573 /* PBXBuildRule */,
+				F957E07215C7E21300C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = F957E07515C7E21300C95573 /* Layers Panel.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B059D390883CDD700D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B059D3A0883CDD700D809E1 /* Build configuration list for PBXProject "LayersPanel.open" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B059D370883CDD700D809E1;
+			productRefGroup = 4B059D450883CDD700D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = ../../..;
+			targets = (
+				F957DFD215C7E21000C95573 /* Debug_Cocoa64 */,
+				F957E02415C7E21300C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957E01D15C7E21000C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957E06F15C7E21300C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372017ED993900CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957E01C15C7E21000C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957E06E15C7E21300C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957E01E15C7E21000C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957E07015C7E21300C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957DFD315C7E21000C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957DFD415C7E21000C95573 /* LayerPanel.fr in Sources */,
+				F957DFD615C7E21000C95573 /* LayerPanelUtils.cpp in Sources */,
+				F957DFD715C7E21000C95573 /* LayerPanelMenuComponent.cpp in Sources */,
+				F957DFD815C7E21000C95573 /* PointyHandCursorProvider.cpp in Sources */,
+				F957DFD915C7E21000C95573 /* LayerDeleteDragDropTarget.cpp in Sources */,
+				F957DFDA15C7E21000C95573 /* LayerEyeDEHandler.cpp in Sources */,
+				F957DFDB15C7E21000C95573 /* LayerEyeDragDropSource.cpp in Sources */,
+				F957DFDC15C7E21000C95573 /* LayerEyeDragDropTarget.cpp in Sources */,
+				F957DFDD15C7E21000C95573 /* LayerPencilDEHandler.cpp in Sources */,
+				F957DFDE15C7E21000C95573 /* LayerPencilDragDropSource.cpp in Sources */,
+				F957DFDF15C7E21000C95573 /* LayerPencilDragDropTarget.cpp in Sources */,
+				F957DFE015C7E21000C95573 /* LayerProxyDEHandler.cpp in Sources */,
+				F957DFE115C7E21000C95573 /* ProxyViewDragDropSource.cpp in Sources */,
+				F957DFE215C7E21000C95573 /* LayerZOrderDEHandler.cpp in Sources */,
+				F957DFE315C7E21000C95573 /* LayerZOrderDragDropSource.cpp in Sources */,
+				F957DFE415C7E21000C95573 /* LayerNameEH.cpp in Sources */,
+				F957DFE515C7E21000C95573 /* LayerEyeDragDropSourceEH.cpp in Sources */,
+				F957DFE615C7E21000C95573 /* LayerPencilDragDropSourceEH.cpp in Sources */,
+				F957DFE715C7E21000C95573 /* LayerProxyDragDropSourceEH.cpp in Sources */,
+				F957DFE815C7E21000C95573 /* LayerOptionsDlgController.cpp in Sources */,
+				F957DFE915C7E21000C95573 /* LayerPanelMWHacks.cpp in Sources */,
+				F957DFEA15C7E21000C95573 /* LayerPanelPlugIn.cpp in Sources */,
+				F957DFEB15C7E21000C95573 /* LayerPanelID.cpp in Sources */,
+				F957DFEC15C7E21000C95573 /* LayerPanelPencilObserver.cpp in Sources */,
+				F957DFED15C7E21000C95573 /* LayerPanelEyeballObserver.cpp in Sources */,
+				F957DFEE15C7E21000C95573 /* LayerPanelSelectionObserver.cpp in Sources */,
+				F957DFEF15C7E21000C95573 /* DeleteLayerButtonObserver.cpp in Sources */,
+				F957DFF015C7E21000C95573 /* NewLayerButtonObserver.cpp in Sources */,
+				F957DFF115C7E21000C95573 /* ActiveView.cpp in Sources */,
+				F957DFF215C7E21000C95573 /* SelectionProxyView.cpp in Sources */,
+				F957DFF315C7E21000C95573 /* ActiveLayerWidgetTip.cpp in Sources */,
+				F957DFF415C7E21000C95573 /* ProxyWidgetTip.cpp in Sources */,
+				F957DFF515C7E21000C95573 /* LayerDuplicateDragDropTarg.cpp in Sources */,
+				F957DFF615C7E21000C95573 /* LayerSwatchView.cpp in Sources */,
+				F957DFF715C7E21000C95573 /* LayerOptionsDlgObserver.cpp in Sources */,
+				F957DFF815C7E21000C95573 /* CLayoutLayerListObserver.cpp in Sources */,
+				F957DFF915C7E21000C95573 /* LayerSelectionObserver.cpp in Sources */,
+				F957DFFA15C7E21000C95573 /* LayerSuiteDefaultCSB.cpp in Sources */,
+				F957DFFB15C7E21000C95573 /* LayerSuiteIntegrator.cpp in Sources */,
+				F957DFFC15C7E21000C95573 /* LayerSuiteLayoutCSB.cpp in Sources */,
+				F957DFFD15C7E21000C95573 /* LayerSuiteTableCSB.cpp in Sources */,
+				F957DFFE15C7E21000C95573 /* LayerSuiteTextCSB.cpp in Sources */,
+				F957DFFF15C7E21000C95573 /* LayerListLayoutAction.cpp in Sources */,
+				F957E00015C7E21000C95573 /* LayerUIUtils.cpp in Sources */,
+				F957E00115C7E21000C95573 /* DebuggingLayers.cpp in Sources */,
+				F957E00215C7E21000C95573 /* LayerStartupShutdown.cpp in Sources */,
+				F957E00315C7E21000C95573 /* LayerPanelTreeObserver.cpp in Sources */,
+				F957E00415C7E21000C95573 /* LayerPanelTreeViewAdapter.cpp in Sources */,
+				F957E00515C7E21000C95573 /* LayerPanelTreeViewWidgetMgr.cpp in Sources */,
+				F957E00615C7E21000C95573 /* LayerTreeRowPanelEH.cpp in Sources */,
+				F957E00715C7E21000C95573 /* LayerTreeUIDNodeID.cpp in Sources */,
+				F957E00815C7E21000C95573 /* PageItemZOrderDEHandler.cpp in Sources */,
+				F957E00915C7E21000C95573 /* LayerPanelView.cpp in Sources */,
+				F957E00A15C7E21000C95573 /* LayerPageItemNameEH.cpp in Sources */,
+				F957E00B15C7E21000C95573 /* LayerPageItemPencilEH.cpp in Sources */,
+				F957E00C15C7E21000C95573 /* LayerPageItemPencilObserver.cpp in Sources */,
+				F957E00D15C7E21000C95573 /* SelectionProxyDrawData.cpp in Sources */,
+				F957E00E15C7E21000C95573 /* LayersPanelTreeViewController.cpp in Sources */,
+				F957E00F15C7E21000C95573 /* LayerTreeDragDropTarget.cpp in Sources */,
+				F957E01015C7E21000C95573 /* PageItemNameEditObserver.cpp in Sources */,
+				F957E01115C7E21000C95573 /* LayerNameEditObserver.cpp in Sources */,
+				F957E01215C7E21000C95573 /* LayerSubwidgetEH.cpp in Sources */,
+				F957E01315C7E21000C95573 /* LayerPanelNameILEEditingAttributes.cpp in Sources */,
+				F957E01415C7E21000C95573 /* LayerPanelNameView.cpp in Sources */,
+				F957E01515C7E21000C95573 /* LayerNameTextValidation.cpp in Sources */,
+				F957E01615C7E21000C95573 /* LayersPanelSAXHandler.cpp in Sources */,
+				F957E01715C7E21000C95573 /* LayersPanelXMLGenerator.cpp in Sources */,
+				F957E01815C7E21000C95573 /* PageItemDupDeleteDEHandler.cpp in Sources */,
+				F957E01915C7E21000C95573 /* LayersTreeViewTypeAhead.cpp in Sources */,
+				F957E01A15C7E21000C95573 /* DVLayerElementView.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957E02515C7E21300C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957E02615C7E21300C95573 /* LayerPanel.fr in Sources */,
+				F957E02815C7E21300C95573 /* DeleteLayerButtonObserver.cpp in Sources */,
+				F957E02915C7E21300C95573 /* NewLayerButtonObserver.cpp in Sources */,
+				F957E02A15C7E21300C95573 /* LayerPanelMenuComponent.cpp in Sources */,
+				F957E02B15C7E21300C95573 /* LayerPanelPencilObserver.cpp in Sources */,
+				F957E02C15C7E21300C95573 /* LayerPanelEyeballObserver.cpp in Sources */,
+				F957E02D15C7E21300C95573 /* SelectionProxyView.cpp in Sources */,
+				F957E02E15C7E21300C95573 /* LayerPanelMWHacks.cpp in Sources */,
+				F957E02F15C7E21300C95573 /* LayerPanelPlugIn.cpp in Sources */,
+				F957E03015C7E21300C95573 /* LayerPanelID.cpp in Sources */,
+				F957E03115C7E21300C95573 /* LayerOptionsDlgController.cpp in Sources */,
+				F957E03215C7E21300C95573 /* LayerPanelUtils.cpp in Sources */,
+				F957E03315C7E21300C95573 /* LayerPanelSelectionObserver.cpp in Sources */,
+				F957E03415C7E21300C95573 /* ActiveView.cpp in Sources */,
+				F957E03515C7E21300C95573 /* LayerProxyDragDropSourceEH.cpp in Sources */,
+				F957E03615C7E21300C95573 /* ProxyViewDragDropSource.cpp in Sources */,
+				F957E03715C7E21300C95573 /* LayerProxyDEHandler.cpp in Sources */,
+				F957E03815C7E21300C95573 /* LayerDeleteDragDropTarget.cpp in Sources */,
+				F957E03915C7E21300C95573 /* LayerZOrderDEHandler.cpp in Sources */,
+				F957E03A15C7E21300C95573 /* LayerZOrderDragDropSource.cpp in Sources */,
+				F957E03B15C7E21300C95573 /* LayerEyeDEHandler.cpp in Sources */,
+				F957E03C15C7E21300C95573 /* LayerEyeDragDropSource.cpp in Sources */,
+				F957E03D15C7E21300C95573 /* LayerEyeDragDropSourceEH.cpp in Sources */,
+				F957E03E15C7E21300C95573 /* LayerEyeDragDropTarget.cpp in Sources */,
+				F957E03F15C7E21300C95573 /* LayerPencilDEHandler.cpp in Sources */,
+				F957E04015C7E21300C95573 /* LayerPencilDragDropSource.cpp in Sources */,
+				F957E04115C7E21300C95573 /* LayerPencilDragDropSourceEH.cpp in Sources */,
+				F957E04215C7E21300C95573 /* LayerPencilDragDropTarget.cpp in Sources */,
+				F957E04315C7E21300C95573 /* LayerNameEH.cpp in Sources */,
+				F957E04415C7E21300C95573 /* PointyHandCursorProvider.cpp in Sources */,
+				F957E04515C7E21300C95573 /* ProxyWidgetTip.cpp in Sources */,
+				F957E04615C7E21300C95573 /* ActiveLayerWidgetTip.cpp in Sources */,
+				F957E04715C7E21300C95573 /* LayerDuplicateDragDropTarg.cpp in Sources */,
+				F957E04815C7E21300C95573 /* LayerSwatchView.cpp in Sources */,
+				F957E04915C7E21300C95573 /* LayerOptionsDlgObserver.cpp in Sources */,
+				F957E04A15C7E21300C95573 /* CLayoutLayerListObserver.cpp in Sources */,
+				F957E04B15C7E21300C95573 /* LayerSelectionObserver.cpp in Sources */,
+				F957E04C15C7E21300C95573 /* LayerSuiteDefaultCSB.cpp in Sources */,
+				F957E04D15C7E21300C95573 /* LayerSuiteIntegrator.cpp in Sources */,
+				F957E04E15C7E21300C95573 /* LayerSuiteLayoutCSB.cpp in Sources */,
+				F957E04F15C7E21300C95573 /* LayerSuiteTableCSB.cpp in Sources */,
+				F957E05015C7E21300C95573 /* LayerSuiteTextCSB.cpp in Sources */,
+				F957E05115C7E21300C95573 /* LayerListLayoutAction.cpp in Sources */,
+				F957E05215C7E21300C95573 /* LayerUIUtils.cpp in Sources */,
+				F957E05315C7E21300C95573 /* DebuggingLayers.cpp in Sources */,
+				F957E05415C7E21300C95573 /* LayerStartupShutdown.cpp in Sources */,
+				F957E05515C7E21300C95573 /* LayerPanelTreeObserver.cpp in Sources */,
+				F957E05615C7E21300C95573 /* LayerPanelTreeViewAdapter.cpp in Sources */,
+				F957E05715C7E21300C95573 /* LayerPanelTreeViewWidgetMgr.cpp in Sources */,
+				F957E05815C7E21300C95573 /* LayerTreeRowPanelEH.cpp in Sources */,
+				F957E05915C7E21300C95573 /* LayerTreeUIDNodeID.cpp in Sources */,
+				F957E05A15C7E21300C95573 /* PageItemZOrderDEHandler.cpp in Sources */,
+				F957E05B15C7E21300C95573 /* LayerPanelView.cpp in Sources */,
+				F957E05C15C7E21300C95573 /* LayerPageItemNameEH.cpp in Sources */,
+				F957E05D15C7E21300C95573 /* LayerPageItemPencilEH.cpp in Sources */,
+				F957E05E15C7E21300C95573 /* LayerPageItemPencilObserver.cpp in Sources */,
+				F957E05F15C7E21300C95573 /* SelectionProxyDrawData.cpp in Sources */,
+				F957E06015C7E21300C95573 /* LayersPanelTreeViewController.cpp in Sources */,
+				F957E06115C7E21300C95573 /* LayerTreeDragDropTarget.cpp in Sources */,
+				F957E06215C7E21300C95573 /* PageItemNameEditObserver.cpp in Sources */,
+				F957E06315C7E21300C95573 /* LayerNameEditObserver.cpp in Sources */,
+				F957E06415C7E21300C95573 /* LayerSubwidgetEH.cpp in Sources */,
+				F957E06515C7E21300C95573 /* LayerPanelNameILEEditingAttributes.cpp in Sources */,
+				F957E06615C7E21300C95573 /* LayerPanelNameView.cpp in Sources */,
+				F957E06715C7E21300C95573 /* LayerNameTextValidation.cpp in Sources */,
+				F957E06815C7E21300C95573 /* LayersPanelSAXHandler.cpp in Sources */,
+				F957E06915C7E21300C95573 /* LayersPanelXMLGenerator.cpp in Sources */,
+				F957E06A15C7E21300C95573 /* PageItemDupDeleteDEHandler.cpp in Sources */,
+				F957E06B15C7E21300C95573 /* LayersTreeViewTypeAhead.cpp in Sources */,
+				F957E06C15C7E21300C95573 /* DVLayerElementView.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B059D3B0883CDD700D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31D3E8D0C4581BB001C2132 /* _shared_build_settings/pluginOpen.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_PLUGINS_DIR)/Layout";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(DVA_HEADER_SEARCH_PATHS)",
+					../../../source/public/interfaces/cjk,
+					../../../source/public/interfaces/tables,
+					../../../source/open/components/layer,
+					../../../source/public/interfaces/interactive,
+				);
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = "Layers Panel";
+				REZ_SEARCH_PATHS = (
+					"$(ID_COMMON_REZ_SEARCH_PATHS)",
+					"$(ID_ICONS_SEARCH_PATHS)",
+				);
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+			};
+			name = Default;
+		};
+		F957E02215C7E21000C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F957E07415C7E21300C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B059D3A0883CDD700D809E1 /* Build configuration list for PBXProject "LayersPanel.open" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B059D3B0883CDD700D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957E02115C7E21000C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957E02215C7E21000C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957E07315C7E21300C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957E07415C7E21300C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B059D390883CDD700D809E1 /* Project object */;
+}

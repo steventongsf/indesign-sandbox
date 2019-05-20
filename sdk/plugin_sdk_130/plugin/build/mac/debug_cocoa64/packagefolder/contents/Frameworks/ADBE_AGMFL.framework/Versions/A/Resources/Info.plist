@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>2014/01/13-19:44:00</string>
+	<key>BuildID</key>
+	<string>32362</string>
+	<key>BuildVersion</key>
+	<string>79.551282</string>
+	<key>CFBundleExecutable</key>
+	<string>ADBE_AGMFL</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AdobeAGMFL 2.1.0.32362, © 1995-2009 Adobe Systems Incorporated.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.AGMFL</string>
+	<key>CFBundleName</key>
+	<string>ADBE_AGMFL</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>AdobeAGMFL 2.1.0.32362</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2.1.0.32362</string>
+	<key>Configuration</key>
+	<string>PDFPort Debug</string>
+</dict>
+</plist>

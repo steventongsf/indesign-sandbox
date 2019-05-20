@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>2018/08/14-01:11:25</string>
+	<key>BuildID</key>
+	<string>41706</string>
+	<key>BuildType</key>
+	<string>Debug</string>
+	<key>BuildVersion</key>
+	<string>79.600623</string>
+	<key>CFBundleExecutable</key>
+	<string>AdobeSVGAGM</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AdobeSVGAGM 1.0.41706, Copyright 1998-2015 Adobe Systems Incorporated. All Rights Reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.AdobeSVGAGM</string>
+	<key>CFBundleName</key>
+	<string>AdobeSVGAGM</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.41706</string>
+</dict>
+</plist>

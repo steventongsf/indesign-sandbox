@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95719A515CFB6D700C95573 /* FrmLblNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F9B10884155B00D809E1 /* FrmLblNoStrip.cpp */; };
+		F95719A615CFB6D700C95573 /* FrmLblID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F9B20884155B00D809E1 /* FrmLblID.cpp */; };
+		F95719A715CFB6D700C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F9B40884155C00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95719A815CFB6D700C95573 /* FrmLblAdornment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4400BF962680070DFC5 /* FrmLblAdornment.cpp */; };
+		F95719A915CFB6D700C95573 /* FrmLblCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4410BF962680070DFC5 /* FrmLblCmd.cpp */; };
+		F95719AA15CFB6D700C95573 /* FrmLblData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4420BF962680070DFC5 /* FrmLblData.cpp */; };
+		F95719AB15CFB6D700C95573 /* FrmLblDataFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4430BF962680070DFC5 /* FrmLblDataFacade.cpp */; };
+		F95719AC15CFB6D700C95573 /* FrmLblPrefsScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4440BF962680070DFC5 /* FrmLblPrefsScriptProvider.cpp */; };
+		F95719AD15CFB6D700C95573 /* FrmLblPrintPrefCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4450BF962680070DFC5 /* FrmLblPrintPrefCmd.cpp */; };
+		F95719AE15CFB6D700C95573 /* FrmLblPrintPrefsDataPersist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4460BF962680070DFC5 /* FrmLblPrintPrefsDataPersist.cpp */; };
+		F95719AF15CFB6D700C95573 /* FrmLblScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4470BF962680070DFC5 /* FrmLblScriptProvider.cpp */; };
+		F95719B015CFB6D700C95573 /* FrmLblErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BBA00C0199FF003CEF9A /* FrmLblErrorStringService.cpp */; };
+		F95719B115CFB6D700C95573 /* FrmLblResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C440090C180EFA00F36D20 /* FrmLblResponder.cpp */; };
+		F95719B215CFB6D700C95573 /* FrmLblScriptsUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C4400A0C180EFA00F36D20 /* FrmLblScriptsUtils.cpp */; };
+		F95719B315CFB6D700C95573 /* FrmLblDataSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B00C4B1D2800A97940 /* FrmLblDataSuiteASB.cpp */; };
+		F95719B415CFB6D700C95573 /* FrmLblDataSuiteDefaultCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B10C4B1D2800A97940 /* FrmLblDataSuiteDefaultCSB.cpp */; };
+		F95719B515CFB6D700C95573 /* FrmLblDataSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B20C4B1D2800A97940 /* FrmLblDataSuiteLayoutCSB.cpp */; };
+		F95719B615CFB6D700C95573 /* FrmLblDataSuiteTableCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B30C4B1D2800A97940 /* FrmLblDataSuiteTableCSB.cpp */; };
+		F95719B715CFB6D700C95573 /* FrmLblDataSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B40C4B1D2800A97940 /* FrmLblDataSuiteTextCSB.cpp */; };
+		F95719BB15CFB6D700C95573 /* FrmLbl.fr in Resources */ = {isa = PBXBuildFile; fileRef = D600E43D0BF962060070DFC5 /* FrmLbl.fr */; };
+		F95719C415CFB6D900C95573 /* FrmLblNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F9B10884155B00D809E1 /* FrmLblNoStrip.cpp */; };
+		F95719C515CFB6D900C95573 /* FrmLblID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F9B20884155B00D809E1 /* FrmLblID.cpp */; };
+		F95719C615CFB6D900C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F9B40884155C00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95719C715CFB6D900C95573 /* FrmLblAdornment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4400BF962680070DFC5 /* FrmLblAdornment.cpp */; };
+		F95719C815CFB6D900C95573 /* FrmLblCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4410BF962680070DFC5 /* FrmLblCmd.cpp */; };
+		F95719C915CFB6D900C95573 /* FrmLblData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4420BF962680070DFC5 /* FrmLblData.cpp */; };
+		F95719CA15CFB6D900C95573 /* FrmLblDataFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4430BF962680070DFC5 /* FrmLblDataFacade.cpp */; };
+		F95719CB15CFB6D900C95573 /* FrmLblPrefsScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4440BF962680070DFC5 /* FrmLblPrefsScriptProvider.cpp */; };
+		F95719CC15CFB6D900C95573 /* FrmLblPrintPrefCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4450BF962680070DFC5 /* FrmLblPrintPrefCmd.cpp */; };
+		F95719CD15CFB6D900C95573 /* FrmLblPrintPrefsDataPersist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4460BF962680070DFC5 /* FrmLblPrintPrefsDataPersist.cpp */; };
+		F95719CE15CFB6D900C95573 /* FrmLblScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D600E4470BF962680070DFC5 /* FrmLblScriptProvider.cpp */; };
+		F95719CF15CFB6D900C95573 /* FrmLblErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C4BBA00C0199FF003CEF9A /* FrmLblErrorStringService.cpp */; };
+		F95719D015CFB6D900C95573 /* FrmLblResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C440090C180EFA00F36D20 /* FrmLblResponder.cpp */; };
+		F95719D115CFB6D900C95573 /* FrmLblScriptsUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C4400A0C180EFA00F36D20 /* FrmLblScriptsUtils.cpp */; };
+		F95719D215CFB6D900C95573 /* FrmLblDataSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B00C4B1D2800A97940 /* FrmLblDataSuiteASB.cpp */; };
+		F95719D315CFB6D900C95573 /* FrmLblDataSuiteDefaultCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B10C4B1D2800A97940 /* FrmLblDataSuiteDefaultCSB.cpp */; };
+		F95719D415CFB6D900C95573 /* FrmLblDataSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B20C4B1D2800A97940 /* FrmLblDataSuiteLayoutCSB.cpp */; };
+		F95719D515CFB6D900C95573 /* FrmLblDataSuiteTableCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B30C4B1D2800A97940 /* FrmLblDataSuiteTableCSB.cpp */; };
+		F95719D615CFB6D900C95573 /* FrmLblDataSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6CFD0B40C4B1D2800A97940 /* FrmLblDataSuiteTextCSB.cpp */; };
+		F95719DA15CFB6D900C95573 /* FrmLbl.fr in Resources */ = {isa = PBXBuildFile; fileRef = D600E43D0BF962060070DFC5 /* FrmLbl.fr */; };
+		F95719EE15CFB71900C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95719EC15CFB71000C95573 /* InDesignModel.framework */; };
+		F95719EF15CFB71900C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95719ED15CFB71000C95573 /* libPublicPlugIn.a */; };
+		F95719F015CFB7AE00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95719EA15CFB71000C95573 /* InDesignModel.framework */; };
+		F95719F115CFB7AE00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95719EB15CFB71000C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95719BD15CFB6D700C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95719DC15CFB6D900C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73E1E094F8B4300AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73E1F094F8B4300AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F80A175DF0A600A71E17 /* FrmLbl_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = FrmLbl_enUS.fr; path = ../../../source/sdksamples/framelabel/FrmLbl_enUS.fr; sourceTree = "<group>"; };
+		3227F80B175DF0A600A71E17 /* FrmLbl_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = FrmLbl_jaJP.fr; path = ../../../source/sdksamples/framelabel/FrmLbl_jaJP.fr; sourceTree = "<group>"; };
+		4B05F9B10884155B00D809E1 /* FrmLblNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblNoStrip.cpp; path = ../../../source/sdksamples/framelabel/FrmLblNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F9B20884155B00D809E1 /* FrmLblID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblID.cpp; path = ../../../source/sdksamples/framelabel/FrmLblID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F9B30884155B00D809E1 /* FrmLblID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FrmLblID.h; path = ../../../source/sdksamples/framelabel/FrmLblID.h; sourceTree = SOURCE_ROOT; };
+		4B05F9B40884155C00D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		D600E43D0BF962060070DFC5 /* FrmLbl.fr */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = FrmLbl.fr; path = ../../../source/sdksamples/framelabel/FrmLbl.fr; sourceTree = SOURCE_ROOT; };
+		D600E4400BF962680070DFC5 /* FrmLblAdornment.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblAdornment.cpp; path = ../../../source/sdksamples/framelabel/FrmLblAdornment.cpp; sourceTree = SOURCE_ROOT; };
+		D600E4410BF962680070DFC5 /* FrmLblCmd.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblCmd.cpp; path = ../../../source/sdksamples/framelabel/FrmLblCmd.cpp; sourceTree = SOURCE_ROOT; };
+		D600E4420BF962680070DFC5 /* FrmLblData.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblData.cpp; path = ../../../source/sdksamples/framelabel/FrmLblData.cpp; sourceTree = SOURCE_ROOT; };
+		D600E4430BF962680070DFC5 /* FrmLblDataFacade.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblDataFacade.cpp; path = ../../../source/sdksamples/framelabel/FrmLblDataFacade.cpp; sourceTree = SOURCE_ROOT; };
+		D600E4440BF962680070DFC5 /* FrmLblPrefsScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblPrefsScriptProvider.cpp; path = ../../../source/sdksamples/framelabel/FrmLblPrefsScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		D600E4450BF962680070DFC5 /* FrmLblPrintPrefCmd.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblPrintPrefCmd.cpp; path = ../../../source/sdksamples/framelabel/FrmLblPrintPrefCmd.cpp; sourceTree = SOURCE_ROOT; };
+		D600E4460BF962680070DFC5 /* FrmLblPrintPrefsDataPersist.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblPrintPrefsDataPersist.cpp; path = ../../../source/sdksamples/framelabel/FrmLblPrintPrefsDataPersist.cpp; sourceTree = SOURCE_ROOT; };
+		D600E4470BF962680070DFC5 /* FrmLblScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblScriptProvider.cpp; path = ../../../source/sdksamples/framelabel/FrmLblScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		D6C440090C180EFA00F36D20 /* FrmLblResponder.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblResponder.cpp; path = ../../../source/sdksamples/framelabel/FrmLblResponder.cpp; sourceTree = SOURCE_ROOT; };
+		D6C4400A0C180EFA00F36D20 /* FrmLblScriptsUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblScriptsUtils.cpp; path = ../../../source/sdksamples/framelabel/FrmLblScriptsUtils.cpp; sourceTree = SOURCE_ROOT; };
+		D6C4BBA00C0199FF003CEF9A /* FrmLblErrorStringService.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblErrorStringService.cpp; path = ../../../source/sdksamples/framelabel/FrmLblErrorStringService.cpp; sourceTree = SOURCE_ROOT; };
+		D6CFD0B00C4B1D2800A97940 /* FrmLblDataSuiteASB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblDataSuiteASB.cpp; path = ../../../source/sdksamples/framelabel/FrmLblDataSuiteASB.cpp; sourceTree = SOURCE_ROOT; };
+		D6CFD0B10C4B1D2800A97940 /* FrmLblDataSuiteDefaultCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblDataSuiteDefaultCSB.cpp; path = ../../../source/sdksamples/framelabel/FrmLblDataSuiteDefaultCSB.cpp; sourceTree = SOURCE_ROOT; };
+		D6CFD0B20C4B1D2800A97940 /* FrmLblDataSuiteLayoutCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblDataSuiteLayoutCSB.cpp; path = ../../../source/sdksamples/framelabel/FrmLblDataSuiteLayoutCSB.cpp; sourceTree = SOURCE_ROOT; };
+		D6CFD0B30C4B1D2800A97940 /* FrmLblDataSuiteTableCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblDataSuiteTableCSB.cpp; path = ../../../source/sdksamples/framelabel/FrmLblDataSuiteTableCSB.cpp; sourceTree = SOURCE_ROOT; };
+		D6CFD0B40C4B1D2800A97940 /* FrmLblDataSuiteTextCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FrmLblDataSuiteTextCSB.cpp; path = ../../../source/sdksamples/framelabel/FrmLblDataSuiteTextCSB.cpp; sourceTree = SOURCE_ROOT; };
+		F95719EA15CFB71000C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F95719EB15CFB71000C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95719EC15CFB71000C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F95719ED15CFB71000C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95719B815CFB6D700C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95719F015CFB7AE00C95573 /* InDesignModel.framework in Frameworks */,
+				F95719F115CFB7AE00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95719D715CFB6D900C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95719EE15CFB71900C95573 /* InDesignModel.framework in Frameworks */,
+				F95719EF15CFB71900C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F98D0884155200D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F9A70884155200D809E1 /* Source */,
+				4B05F9B50884155C00D809E1 /* Resources */,
+				F95719E115CFB71000C95573 /* InDesign Libs */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F9A70884155200D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6CFD0B00C4B1D2800A97940 /* FrmLblDataSuiteASB.cpp */,
+				D6CFD0B10C4B1D2800A97940 /* FrmLblDataSuiteDefaultCSB.cpp */,
+				D6CFD0B20C4B1D2800A97940 /* FrmLblDataSuiteLayoutCSB.cpp */,
+				D6CFD0B30C4B1D2800A97940 /* FrmLblDataSuiteTableCSB.cpp */,
+				D6CFD0B40C4B1D2800A97940 /* FrmLblDataSuiteTextCSB.cpp */,
+				D6C440090C180EFA00F36D20 /* FrmLblResponder.cpp */,
+				D6C4400A0C180EFA00F36D20 /* FrmLblScriptsUtils.cpp */,
+				D6C4BBA00C0199FF003CEF9A /* FrmLblErrorStringService.cpp */,
+				D600E4400BF962680070DFC5 /* FrmLblAdornment.cpp */,
+				D600E4410BF962680070DFC5 /* FrmLblCmd.cpp */,
+				D600E4420BF962680070DFC5 /* FrmLblData.cpp */,
+				D600E4430BF962680070DFC5 /* FrmLblDataFacade.cpp */,
+				D600E4440BF962680070DFC5 /* FrmLblPrefsScriptProvider.cpp */,
+				D600E4450BF962680070DFC5 /* FrmLblPrintPrefCmd.cpp */,
+				D600E4460BF962680070DFC5 /* FrmLblPrintPrefsDataPersist.cpp */,
+				D600E4470BF962680070DFC5 /* FrmLblScriptProvider.cpp */,
+				4B05F9B00884155A00D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F9B00884155A00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F9B10884155B00D809E1 /* FrmLblNoStrip.cpp */,
+				4B05F9B30884155B00D809E1 /* FrmLblID.h */,
+				4B05F9B20884155B00D809E1 /* FrmLblID.cpp */,
+				4B05F9B40884155C00D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F9B50884155C00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F80A175DF0A600A71E17 /* FrmLbl_enUS.fr */,
+				3227F80B175DF0A600A71E17 /* FrmLbl_jaJP.fr */,
+				D600E43D0BF962060070DFC5 /* FrmLbl.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73E1E094F8B4300AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73E1F094F8B4300AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F95719E115CFB71000C95573 /* InDesign Libs */ = {
+			isa = PBXGroup;
+			children = (
+				F95719E815CFB71000C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libs";
+			sourceTree = "<group>";
+		};
+		F95719E815CFB71000C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F95719EC15CFB71000C95573 /* InDesignModel.framework */,
+				F95719ED15CFB71000C95573 /* libPublicPlugIn.a */,
+				F95719E915CFB71000C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F95719E915CFB71000C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F95719EA15CFB71000C95573 /* InDesignModel.framework */,
+				F95719EB15CFB71000C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95719A315CFB6D700C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95719BE15CFB6D700C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95719A415CFB6D700C95573 /* Sources */,
+				F95719B815CFB6D700C95573 /* Frameworks */,
+				F95719B915CFB6D700C95573 /* Rez */,
+				F95719BA15CFB6D700C95573 /* Resources */,
+				F95719BC15CFB6D700C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95719BD15CFB6D700C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95719C215CFB6D900C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95719DD15CFB6D900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95719C315CFB6D900C95573 /* Sources */,
+				F95719D715CFB6D900C95573 /* Frameworks */,
+				F95719D815CFB6D900C95573 /* Rez */,
+				F95719D915CFB6D900C95573 /* Resources */,
+				F95719DB15CFB6D900C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95719DC15CFB6D900C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F98F0884155200D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05F9900884155200D809E1 /* Build configuration list for PBXProject "FrameLabel.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F98D0884155200D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95719A315CFB6D700C95573 /* Debug_Cocoa64 */,
+				F95719C215CFB6D900C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95719BA15CFB6D700C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95719BB15CFB6D700C95573 /* FrmLbl.fr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95719D915CFB6D900C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95719DA15CFB6D900C95573 /* FrmLbl.fr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95719B915CFB6D700C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95719D815CFB6D900C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95719BC15CFB6D700C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95719DB15CFB6D900C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95719A415CFB6D700C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95719A515CFB6D700C95573 /* FrmLblNoStrip.cpp in Sources */,
+				F95719A615CFB6D700C95573 /* FrmLblID.cpp in Sources */,
+				F95719A715CFB6D700C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95719A815CFB6D700C95573 /* FrmLblAdornment.cpp in Sources */,
+				F95719A915CFB6D700C95573 /* FrmLblCmd.cpp in Sources */,
+				F95719AA15CFB6D700C95573 /* FrmLblData.cpp in Sources */,
+				F95719AB15CFB6D700C95573 /* FrmLblDataFacade.cpp in Sources */,
+				F95719AC15CFB6D700C95573 /* FrmLblPrefsScriptProvider.cpp in Sources */,
+				F95719AD15CFB6D700C95573 /* FrmLblPrintPrefCmd.cpp in Sources */,
+				F95719AE15CFB6D700C95573 /* FrmLblPrintPrefsDataPersist.cpp in Sources */,
+				F95719AF15CFB6D700C95573 /* FrmLblScriptProvider.cpp in Sources */,
+				F95719B015CFB6D700C95573 /* FrmLblErrorStringService.cpp in Sources */,
+				F95719B115CFB6D700C95573 /* FrmLblResponder.cpp in Sources */,
+				F95719B215CFB6D700C95573 /* FrmLblScriptsUtils.cpp in Sources */,
+				F95719B315CFB6D700C95573 /* FrmLblDataSuiteASB.cpp in Sources */,
+				F95719B415CFB6D700C95573 /* FrmLblDataSuiteDefaultCSB.cpp in Sources */,
+				F95719B515CFB6D700C95573 /* FrmLblDataSuiteLayoutCSB.cpp in Sources */,
+				F95719B615CFB6D700C95573 /* FrmLblDataSuiteTableCSB.cpp in Sources */,
+				F95719B715CFB6D700C95573 /* FrmLblDataSuiteTextCSB.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95719C315CFB6D900C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95719C415CFB6D900C95573 /* FrmLblNoStrip.cpp in Sources */,
+				F95719C515CFB6D900C95573 /* FrmLblID.cpp in Sources */,
+				F95719C615CFB6D900C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95719C715CFB6D900C95573 /* FrmLblAdornment.cpp in Sources */,
+				F95719C815CFB6D900C95573 /* FrmLblCmd.cpp in Sources */,
+				F95719C915CFB6D900C95573 /* FrmLblData.cpp in Sources */,
+				F95719CA15CFB6D900C95573 /* FrmLblDataFacade.cpp in Sources */,
+				F95719CB15CFB6D900C95573 /* FrmLblPrefsScriptProvider.cpp in Sources */,
+				F95719CC15CFB6D900C95573 /* FrmLblPrintPrefCmd.cpp in Sources */,
+				F95719CD15CFB6D900C95573 /* FrmLblPrintPrefsDataPersist.cpp in Sources */,
+				F95719CE15CFB6D900C95573 /* FrmLblScriptProvider.cpp in Sources */,
+				F95719CF15CFB6D900C95573 /* FrmLblErrorStringService.cpp in Sources */,
+				F95719D015CFB6D900C95573 /* FrmLblResponder.cpp in Sources */,
+				F95719D115CFB6D900C95573 /* FrmLblScriptsUtils.cpp in Sources */,
+				F95719D215CFB6D900C95573 /* FrmLblDataSuiteASB.cpp in Sources */,
+				F95719D315CFB6D900C95573 /* FrmLblDataSuiteDefaultCSB.cpp in Sources */,
+				F95719D415CFB6D900C95573 /* FrmLblDataSuiteLayoutCSB.cpp in Sources */,
+				F95719D515CFB6D900C95573 /* FrmLblDataSuiteTableCSB.cpp in Sources */,
+				F95719D615CFB6D900C95573 /* FrmLblDataSuiteTextCSB.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F9910884155200D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = FrameLabel.sdk;
+				TARGET_BUILD_DIR = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Default;
+		};
+		F95719BF15CFB6D700C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+				TARGET_BUILD_DIR = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Default;
+		};
+		F95719DE15CFB6D900C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F9900884155200D809E1 /* Build configuration list for PBXProject "FrameLabel.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F9910884155200D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95719BE15CFB6D700C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95719BF15CFB6D700C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95719DD15CFB6D900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95719DE15CFB6D900C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F98F0884155200D809E1 /* Project object */;
+}

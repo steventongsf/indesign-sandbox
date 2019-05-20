@@ -1,0 +1,652 @@
+<DIALOG_TRANSFORMATION>
+	<TESTLETTE_FILE_FORMAT FORMAT="2">
+	</TESTLETTE_FILE_FORMAT>
+	<XFORM>
+		<!--INST_NAME is the string key for the name of the UI to which this Xform belongs. Use keyword "Any" for all UI or non-UI Xforms.-->
+		<INST_NAME>Table Options</INST_NAME>
+		<!--This block contains the build information for which the data in the Xform was last valid.  If the new data were in version 5, build 100, then the values would be vers: 5, build: 99.-->
+		<XFORM_BUILD>
+			<BUILD_NUMBER>372</BUILD_NUMBER>
+			<PRODUCT_VERS>5.0</PRODUCT_VERS>
+		</XFORM_BUILD>
+		<!--KEY is the name of the AAT Action lists to which the Xformed AAT Action belongs.  May have multiple entries esp. for Add Ons.-->
+		<KEY>Dialogs And Panels Actions</KEY>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67344</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67344</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130576</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67350</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67350</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130582</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67340</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67340</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130572</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67341</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67341</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130573</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67342</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67342</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130574</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67343</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67343</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130575</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67345</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67345</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130577</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67346</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67346</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130578</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67347</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67347</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130579</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67348</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67348</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130580</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67349</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67349</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130581</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67351</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67351</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130583</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67356</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67356</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130588</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67371</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67371</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130603</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67352</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67352</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130584</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67353</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67353</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130585</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67354</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67354</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130586</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67355</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67355</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130587</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67357</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67357</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130589</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67358</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67358</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130590</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67368</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67368</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130600</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67369</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67369</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130601</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67370</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67370</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130602</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67372</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67372</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130604</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67379</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67379</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130611</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="PARENT_CHAIN_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67379</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<PARENT_ID>
+					<OLD_ID>67292</OLD_ID>
+					<NEW_ID>67292</NEW_ID>
+				</PARENT_ID>
+				<PARENT_ID>
+					<OLD_ID>67375</OLD_ID>
+					<NEW_ID>130607</NEW_ID>
+				</PARENT_ID>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67382</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67382</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130614</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="PARENT_CHAIN_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67382</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<PARENT_ID>
+					<OLD_ID>67292</OLD_ID>
+					<NEW_ID>67292</NEW_ID>
+				</PARENT_ID>
+				<PARENT_ID>
+					<OLD_ID>67375</OLD_ID>
+					<NEW_ID>130607</NEW_ID>
+				</PARENT_ID>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67377</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67377</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130609</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="PARENT_CHAIN_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67377</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<PARENT_ID>
+					<OLD_ID>67292</OLD_ID>
+					<NEW_ID>67292</NEW_ID>
+				</PARENT_ID>
+				<PARENT_ID>
+					<OLD_ID>67375</OLD_ID>
+					<NEW_ID>130607</NEW_ID>
+				</PARENT_ID>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67378</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67378</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130610</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="PARENT_CHAIN_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67378</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<PARENT_ID>
+					<OLD_ID>67292</OLD_ID>
+					<NEW_ID>67292</NEW_ID>
+				</PARENT_ID>
+				<PARENT_ID>
+					<OLD_ID>67375</OLD_ID>
+					<NEW_ID>130607</NEW_ID>
+				</PARENT_ID>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67380</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67380</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130612</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="PARENT_CHAIN_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67380</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<PARENT_ID>
+					<OLD_ID>67292</OLD_ID>
+					<NEW_ID>67292</NEW_ID>
+				</PARENT_ID>
+				<PARENT_ID>
+					<OLD_ID>67375</OLD_ID>
+					<NEW_ID>130607</NEW_ID>
+				</PARENT_ID>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67381</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67381</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130613</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="PARENT_CHAIN_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67381</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<PARENT_ID>
+					<OLD_ID>67292</OLD_ID>
+					<NEW_ID>67292</NEW_ID>
+				</PARENT_ID>
+				<PARENT_ID>
+					<OLD_ID>67375</OLD_ID>
+					<NEW_ID>130607</NEW_ID>
+				</PARENT_ID>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="ID_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67376</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<ID_CHANGE>
+					<OLD_WIDGET_ID>67376</OLD_WIDGET_ID>
+					<NEW_WIDGET_ID>130608</NEW_WIDGET_ID>
+				</ID_CHANGE>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--An Instance of an Xform.  This token will cause an Xform to be instantiated based on the value of TYPE.-->
+		<!--TYPE must correspond to the value returned from GetSupportedXFormToken() one Xform.-->
+		<WIDGET_XFORM TYPE="PARENT_CHAIN_CHANGE">
+			<!--Identifier Blocks - each block contains a Key and Value.  The Key should be the Token for the value data.-->
+			<!--For example, WIDGET_ID would be the Key and 8772 the value.  (A WIDGET_ID of 0 indicates all widgets).-->
+			<ID>
+				<KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+				<KEY_VALUE>67376</KEY_VALUE>
+			</ID>
+			<RESPONSE>
+				<PARENT_ID>
+					<OLD_ID>67292</OLD_ID>
+					<NEW_ID>67292</NEW_ID>
+				</PARENT_ID>
+				<PARENT_ID>
+					<OLD_ID>67375</OLD_ID>
+					<NEW_ID>130607</NEW_ID>
+				</PARENT_ID>
+			</RESPONSE>
+		</WIDGET_XFORM>
+		<!--Close the Transform entry.-->
+	</XFORM>
+</DIALOG_TRANSFORMATION>

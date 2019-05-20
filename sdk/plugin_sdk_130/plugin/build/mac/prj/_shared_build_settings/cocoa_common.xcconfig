@@ -1,0 +1,18 @@
+// Common InDesign build settings shared between all cocoa targets
+ID_BUILD_CONFIG_COMMON__COCOA = YES
+
+// Main Flag for InDesign family Cocoa enabled builds
+ID_COCOA_ENABLE = 1
+
+// Drover/Cocoa flags
+ID_DROVER_ENABLE = 1
+DVA_COCOA_UI = 1
+
+// OWL, OWLCanvas Cocoa
+OWL_COCOA_ENABLE = 1
+UICANVAS_COCOA_ENABLE = 1
+ID_NO_DIRECT_DRAWING_ALLOWED = 1
+
+// Starting point for project header includes. No Private headers should be in here
+// They can be added in the base and plugin configs
+ID_COMMON_HEADER_SEARCH_PATHS = $(OS_HEADER_SEARCH_PATHS) $(ID_PUBLIC_HEADER_SEARCH_PATHS) $(ID_OPEN_HEADER_SEARCH_PATHS) $(ASL_HEADER_SEARCH_PATHS)

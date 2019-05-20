@@ -1,0 +1,76 @@
+<DIALOG_TRANSFORMATION>
+	<TESTLETTE_FILE_FORMAT FORMAT="2.000000">
+	</TESTLETTE_FILE_FORMAT>
+  <XFORM>
+    <INST_NAME>Synchronize Options</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>270</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Dialogs And Panels Actions</KEY>
+    <WIDGET_XFORM TYPE="SOURCED">
+      <ID>
+        <KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+        <KEY_VALUE>65813</KEY_VALUE>
+      </ID>
+      <NEW_INFO FILE="aat:required:xform_sources:SynchronizeOptions.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </NEW_INFO>
+      <OLD_INFO FILE="aat:required:xform_sources:SynchronizeOptionsRev.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </OLD_INFO>
+      <RESPONSE>
+        <VALUE TYPE="KEEP"></VALUE>
+        <TYPE>REPLACE</TYPE>
+        <NEW_ID>2</NEW_ID>
+        <OLD_ID>2</OLD_ID>
+      </RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Synchronize Options</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>316</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Dialogs And Panels Actions</KEY>
+    <WIDGET_XFORM TYPE="SOURCED">
+      <ID>
+        <KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+        <KEY_VALUE>65813</KEY_VALUE>
+      </ID>
+      <NEW_INFO FILE="aat:required:xform_sources:SynchronizeOptions.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </NEW_INFO>
+      <OLD_INFO FILE="aat:required:xform_sources:SynchronizeOptionsRev.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </OLD_INFO>
+      <RESPONSE>
+        <VALUE TYPE="KEEP"></VALUE>
+        <TYPE>REPLACE</TYPE>
+        <NEW_ID>18</NEW_ID>
+        <OLD_ID>2</OLD_ID>
+      </RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Synchronize Options</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>199</BUILD_NUMBER>
+      <PRODUCT_VERS>6.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Dialogs And Panels Actions</KEY>
+    <WIDGET_XFORM TYPE="SOURCED">
+      <ID>
+        <KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+        <KEY_VALUE>65813</KEY_VALUE>
+      </ID>
+      <NEW_INFO FILE="aat:required:xform_sources:SynchronizeOptions.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </NEW_INFO>
+      <OLD_INFO FILE="aat:required:xform_sources:SynchronizeOptionsRev.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </OLD_INFO>
+      <RESPONSE>
+        <VALUE TYPE="KEEP"></VALUE>
+        <TYPE>REPLACE</TYPE>
+        <NEW_ID>64</NEW_ID>
+        <OLD_ID>2</OLD_ID>
+      </RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+</DIALOG_TRANSFORMATION>

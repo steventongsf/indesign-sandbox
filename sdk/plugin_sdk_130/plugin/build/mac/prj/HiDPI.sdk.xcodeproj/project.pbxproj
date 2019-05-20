@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3289383B1B4D318B00200D5C /* HiDPINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9CF191CB0EB008A9291 /* HiDPINoStrip.cpp */; };
+		3289383E1B4D31C700200D5C /* HiDPIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9D1191CB11D008A9291 /* HiDPIID.cpp */; };
+		3289383F1B4D31E400200D5C /* HiDPIActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9C9191CB0BC008A9291 /* HiDPIActionComponent.cpp */; };
+		328938401B4D31E600200D5C /* HiDPIWidgetControlView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9CA191CB0BC008A9291 /* HiDPIWidgetControlView.cpp */; };
+		328938411B4D31E800200D5C /* HiDPIWidgetEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9CB191CB0BC008A9291 /* HiDPIWidgetEventHandler.cpp */; };
+		328938421B4D31FE00200D5C /* HiDPI.fr in Resources */ = {isa = PBXBuildFile; fileRef = DBF7A9D6191CB196008A9291 /* HiDPI.fr */; };
+		DBF7A9CC191CB0BC008A9291 /* HiDPIActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9C9191CB0BC008A9291 /* HiDPIActionComponent.cpp */; };
+		DBF7A9CD191CB0BC008A9291 /* HiDPIWidgetControlView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9CA191CB0BC008A9291 /* HiDPIWidgetControlView.cpp */; };
+		DBF7A9CE191CB0BC008A9291 /* HiDPIWidgetEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9CB191CB0BC008A9291 /* HiDPIWidgetEventHandler.cpp */; };
+		DBF7A9D0191CB0EB008A9291 /* HiDPINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9CF191CB0EB008A9291 /* HiDPINoStrip.cpp */; };
+		DBF7A9D3191CB11D008A9291 /* HiDPIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBF7A9D1191CB11D008A9291 /* HiDPIID.cpp */; };
+		DBF7A9D9191CB196008A9291 /* HiDPI.fr in Resources */ = {isa = PBXBuildFile; fileRef = DBF7A9D6191CB196008A9291 /* HiDPI.fr */; };
+		F9570C8E15C9323100C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F0E808840FE100D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9570C9E15C9323300C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F0E808840FE100D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9570CC415C9327100C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9570CC215C9326C00C95573 /* InDesignModelAndUI.framework */; };
+		F9570CC515C9327100C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9570CC315C9326C00C95573 /* libPublicPlugIn.a */; };
+		F9570CC615C9327500C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9570CC015C9326C00C95573 /* InDesignModelAndUI.framework */; };
+		F9570CC715C9327500C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9570CC115C9326C00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9570C9315C9323100C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9570CA315C9323300C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73C00094F85D700AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73C01094F85D700AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		32C8B4B0192E0E6200F77EA4 /* HiDPIFactoryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = HiDPIFactoryList.h; path = ../../../source/sdksamples/hidpi/HiDPIFactoryList.h; sourceTree = "<group>"; };
+		32C8B4B1192E0E8800F77EA4 /* TriggerResourceDeps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = TriggerResourceDeps.cpp; path = ../../../source/sdksamples/hidpi/TriggerResourceDeps.cpp; sourceTree = "<group>"; };
+		32FD610C192DFA3000FA2ECF /* HiDPIWidgetEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = HiDPIWidgetEventHandler.h; path = ../../../source/sdksamples/hidpi/HiDPIWidgetEventHandler.h; sourceTree = "<group>"; };
+		32FD610D192DFA5900FA2ECF /* HiDPIWidgetControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = HiDPIWidgetControlView.h; path = ../../../source/sdksamples/hidpi/HiDPIWidgetControlView.h; sourceTree = "<group>"; };
+		32FD610E192DFAAE00FA2ECF /* HiDPI_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; lineEnding = 0; name = HiDPI_enUS.fr; path = ../../../source/sdksamples/hidpi/HiDPI_enUS.fr; sourceTree = "<group>"; };
+		32FD610F192DFAAE00FA2ECF /* HiDPI_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; lineEnding = 0; name = HiDPI_jaJP.fr; path = ../../../source/sdksamples/hidpi/HiDPI_jaJP.fr; sourceTree = "<group>"; };
+		4B05F0E808840FE100D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		77355573120250F800E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; name = plugin.sdk.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		DBF7A9C9191CB0BC008A9291 /* HiDPIActionComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = HiDPIActionComponent.cpp; path = ../../../source/sdksamples/hidpi/HiDPIActionComponent.cpp; sourceTree = "<group>"; };
+		DBF7A9CA191CB0BC008A9291 /* HiDPIWidgetControlView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = HiDPIWidgetControlView.cpp; path = ../../../source/sdksamples/hidpi/HiDPIWidgetControlView.cpp; sourceTree = "<group>"; };
+		DBF7A9CB191CB0BC008A9291 /* HiDPIWidgetEventHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = HiDPIWidgetEventHandler.cpp; path = ../../../source/sdksamples/hidpi/HiDPIWidgetEventHandler.cpp; sourceTree = "<group>"; };
+		DBF7A9CF191CB0EB008A9291 /* HiDPINoStrip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = HiDPINoStrip.cpp; path = ../../../source/sdksamples/hidpi/HiDPINoStrip.cpp; sourceTree = "<group>"; };
+		DBF7A9D1191CB11D008A9291 /* HiDPIID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; name = HiDPIID.cpp; path = ../../../source/sdksamples/hidpi/HiDPIID.cpp; sourceTree = "<group>"; };
+		DBF7A9D2191CB11D008A9291 /* HiDPIID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = HiDPIID.h; path = ../../../source/sdksamples/hidpi/HiDPIID.h; sourceTree = "<group>"; };
+		DBF7A9D6191CB196008A9291 /* HiDPI.fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; name = HiDPI.fr; path = ../../../source/sdksamples/hidpi/HiDPI.fr; sourceTree = "<group>"; };
+		F9570CC015C9326C00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9570CC115C9326C00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9570CC215C9326C00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9570CC315C9326C00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9570C8F15C9323100C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570CC615C9327500C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9570CC715C9327500C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570C9F15C9323300C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570CC415C9327100C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9570CC515C9327100C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F0C808840FDC00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F0E208840FDC00D809E1 /* Source */,
+				4B05F0E908840FE100D809E1 /* Resources */,
+				F9570CB715C9326C00C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				77355573120250F800E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F0E208840FDC00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32FD610D192DFA5900FA2ECF /* HiDPIWidgetControlView.h */,
+				32FD610C192DFA3000FA2ECF /* HiDPIWidgetEventHandler.h */,
+				DBF7A9C9191CB0BC008A9291 /* HiDPIActionComponent.cpp */,
+				DBF7A9CA191CB0BC008A9291 /* HiDPIWidgetControlView.cpp */,
+				DBF7A9CB191CB0BC008A9291 /* HiDPIWidgetEventHandler.cpp */,
+				4B05F0E408840FDF00D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F0E408840FDF00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				32C8B4B1192E0E8800F77EA4 /* TriggerResourceDeps.cpp */,
+				32C8B4B0192E0E6200F77EA4 /* HiDPIFactoryList.h */,
+				DBF7A9D1191CB11D008A9291 /* HiDPIID.cpp */,
+				DBF7A9D2191CB11D008A9291 /* HiDPIID.h */,
+				DBF7A9CF191CB0EB008A9291 /* HiDPINoStrip.cpp */,
+				4B05F0E808840FE100D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F0E908840FE100D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32FD610E192DFAAE00FA2ECF /* HiDPI_enUS.fr */,
+				32FD610F192DFAAE00FA2ECF /* HiDPI_jaJP.fr */,
+				DBF7A9D6191CB196008A9291 /* HiDPI.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73C00094F85D700AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73C01094F85D700AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9570CB715C9326C00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9570CBE15C9326C00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9570CBE15C9326C00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9570CC215C9326C00C95573 /* InDesignModelAndUI.framework */,
+				F9570CC315C9326C00C95573 /* libPublicPlugIn.a */,
+				F9570CBF15C9326C00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9570CBF15C9326C00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9570CC015C9326C00C95573 /* InDesignModelAndUI.framework */,
+				F9570CC115C9326C00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9570C8815C9323100C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9570C9415C9323100C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9570C8915C9323100C95573 /* Sources */,
+				F9570C8F15C9323100C95573 /* Frameworks */,
+				F9570C9015C9323100C95573 /* Rez */,
+				F9570C9115C9323100C95573 /* Resources */,
+				F9570C9215C9323100C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9570C9315C9323100C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9570C9815C9323300C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9570CA415C9323300C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9570C9915C9323300C95573 /* Sources */,
+				F9570C9F15C9323300C95573 /* Frameworks */,
+				F9570CA015C9323300C95573 /* Rez */,
+				F9570CA115C9323300C95573 /* Resources */,
+				F9570CA215C9323300C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9570CA315C9323300C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F0CA08840FDC00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B05F0CB08840FDC00D809E1 /* Build configuration list for PBXProject "HiDPI.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F0C808840FDC00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9570C8815C9323100C95573 /* Debug_Cocoa64 */,
+				F9570C9815C9323300C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9570C9115C9323100C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF7A9D9191CB196008A9291 /* HiDPI.fr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570CA115C9323300C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328938421B4D31FE00200D5C /* HiDPI.fr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9570C9015C9323100C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570CA015C9323300C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9570C9215C9323100C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9570CA215C9323300C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9570C8915C9323100C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570C8E15C9323100C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				DBF7A9CC191CB0BC008A9291 /* HiDPIActionComponent.cpp in Sources */,
+				DBF7A9CD191CB0BC008A9291 /* HiDPIWidgetControlView.cpp in Sources */,
+				DBF7A9CE191CB0BC008A9291 /* HiDPIWidgetEventHandler.cpp in Sources */,
+				DBF7A9D0191CB0EB008A9291 /* HiDPINoStrip.cpp in Sources */,
+				DBF7A9D3191CB11D008A9291 /* HiDPIID.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570C9915C9323300C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328938401B4D31E600200D5C /* HiDPIWidgetControlView.cpp in Sources */,
+				328938411B4D31E800200D5C /* HiDPIWidgetEventHandler.cpp in Sources */,
+				3289383B1B4D318B00200D5C /* HiDPINoStrip.cpp in Sources */,
+				3289383F1B4D31E400200D5C /* HiDPIActionComponent.cpp in Sources */,
+				F9570C9E15C9323300C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				3289383E1B4D31C700200D5C /* HiDPIID.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F0CC08840FDC00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = hidpi.sdk;
+			};
+			name = Default;
+		};
+		F9570C9515C9323100C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = HiDPI.sdk;
+			};
+			name = Default;
+		};
+		F9570CA515C9323300C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = HiDPI.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F0CB08840FDC00D809E1 /* Build configuration list for PBXProject "HiDPI.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F0CC08840FDC00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9570C9415C9323100C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9570C9515C9323100C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9570CA415C9323300C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9570CA515C9323300C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F0CA08840FDC00D809E1 /* Project object */;
+}

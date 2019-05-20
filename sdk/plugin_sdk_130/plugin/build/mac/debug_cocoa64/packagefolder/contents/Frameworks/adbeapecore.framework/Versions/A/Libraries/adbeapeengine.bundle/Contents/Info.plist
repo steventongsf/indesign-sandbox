@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>xxxx/xx/xx-00:00:00</string>
+	<key>BuildID</key>
+	<string>1</string>
+	<key>BuildVersion</key>
+	<string>1.000000</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>adbeapeengine</string>
+	<key>CFBundleGetInfoString</key>
+	<string>adbeapeengine 3.4.0.1, © 2007-2012 Adobe Systems Incorporated. All rights reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.ape.engine</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>adbeapeengine</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.4.0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3.4.0.1</string>
+	<key>Configuration</key>
+	<string>APE Engine Release 3.4.0.1</string>
+	<key>FlashRuntime Version</key>
+	<string>2.7.1</string>
+</dict>
+</plist>

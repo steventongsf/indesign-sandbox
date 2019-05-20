@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AF372017ED993900CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B05EB5D08840D2900D809E1 /* PluginPList.plc */; };
+		32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B05EB5D08840D2900D809E1 /* PluginPList.plc */; };
+		F957C13B15C6842A00C95573 /* InCopyFileActionsUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D56F0F973CB000BD91DF /* InCopyFileActionsUI.fr */; };
+		F957C13D15C6842A00C95573 /* InCopyFileActionsUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5560F973C4B00BD91DF /* InCopyFileActionsUIID.cpp */; };
+		F957C13E15C6842A00C95573 /* InCopyFileActionsUIMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5580F973C4B00BD91DF /* InCopyFileActionsUIMWHacks.cpp */; };
+		F957C13F15C6842A00C95573 /* InCopyFileActionsUIPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5590F973C4B00BD91DF /* InCopyFileActionsUIPlugin.cpp */; };
+		F957C14015C6842A00C95573 /* InCopyFileActionsComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5610F973C7E00BD91DF /* InCopyFileActionsComponent.cpp */; };
+		F957C14115C6842A00C95573 /* InCopyRecentDocsComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5620F973C7E00BD91DF /* InCopyRecentDocsComponent.cpp */; };
+		F957C14215C6842A00C95573 /* InCopyRecentDocsDynamicMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5630F973C7E00BD91DF /* InCopyRecentDocsDynamicMenu.cpp */; };
+		F957C14F15C6842C00C95573 /* InCopyFileActionsUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D56F0F973CB000BD91DF /* InCopyFileActionsUI.fr */; };
+		F957C15115C6842C00C95573 /* InCopyFileActionsUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5560F973C4B00BD91DF /* InCopyFileActionsUIID.cpp */; };
+		F957C15215C6842C00C95573 /* InCopyFileActionsUIMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5580F973C4B00BD91DF /* InCopyFileActionsUIMWHacks.cpp */; };
+		F957C15315C6842C00C95573 /* InCopyFileActionsUIPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5590F973C4B00BD91DF /* InCopyFileActionsUIPlugin.cpp */; };
+		F957C15415C6842C00C95573 /* InCopyFileActionsComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5610F973C7E00BD91DF /* InCopyFileActionsComponent.cpp */; };
+		F957C15515C6842C00C95573 /* InCopyRecentDocsComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5620F973C7E00BD91DF /* InCopyRecentDocsComponent.cpp */; };
+		F957C15615C6842C00C95573 /* InCopyRecentDocsDynamicMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68C3D5630F973C7E00BD91DF /* InCopyRecentDocsDynamicMenu.cpp */; };
+		F957C16315C6845700C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957C16115C6845700C95573 /* InDesignModelAndUI.framework */; };
+		F957C16415C6845700C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957C16215C6845700C95573 /* libPublicPlugIn.a */; };
+		F957C16915C6845F00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957C16715C6845F00C95573 /* InDesignModelAndUI.framework */; };
+		F957C16A15C6845F00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957C16815C6845F00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957C14815C6842A00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957C14915C6842A00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+		F957C15C15C6842C00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957C15D15C6842C00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2A06D8CD0DA16F70003D6BB9 /* _shared_build_settings/pluginOpen.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/pluginOpen.xcconfig; sourceTree = "<group>"; };
+		4B05EB5D08840D2900D809E1 /* PluginPList.plc */ = {isa = PBXFileReference; lastKnownFileType = text; name = PluginPList.plc; path = ../../../source/open/components/resourcedefs/PluginPList.plc; sourceTree = SOURCE_ROOT; };
+		68C3D5550F973C4B00BD91DF /* InCopyFileActionsUIFactoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InCopyFileActionsUIFactoryList.h; path = ../../../source/open/components/incopyfileactionsui/InCopyFileActionsUIFactoryList.h; sourceTree = SOURCE_ROOT; };
+		68C3D5560F973C4B00BD91DF /* InCopyFileActionsUIID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyFileActionsUIID.cpp; path = ../../../source/open/components/incopyfileactionsui/InCopyFileActionsUIID.cpp; sourceTree = SOURCE_ROOT; };
+		68C3D5570F973C4B00BD91DF /* InCopyFileActionsUIID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InCopyFileActionsUIID.h; path = ../../../source/open/components/incopyfileactionsui/InCopyFileActionsUIID.h; sourceTree = SOURCE_ROOT; };
+		68C3D5580F973C4B00BD91DF /* InCopyFileActionsUIMWHacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyFileActionsUIMWHacks.cpp; path = ../../../source/open/components/incopyfileactionsui/InCopyFileActionsUIMWHacks.cpp; sourceTree = SOURCE_ROOT; };
+		68C3D5590F973C4B00BD91DF /* InCopyFileActionsUIPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyFileActionsUIPlugin.cpp; path = ../../../source/open/components/incopyfileactionsui/InCopyFileActionsUIPlugin.cpp; sourceTree = SOURCE_ROOT; };
+		68C3D5610F973C7E00BD91DF /* InCopyFileActionsComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyFileActionsComponent.cpp; path = ../../../source/open/components/incopyfileactionsui/InCopyFileActionsComponent.cpp; sourceTree = SOURCE_ROOT; };
+		68C3D5620F973C7E00BD91DF /* InCopyRecentDocsComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyRecentDocsComponent.cpp; path = ../../../source/open/components/incopyfileactionsui/InCopyRecentDocsComponent.cpp; sourceTree = SOURCE_ROOT; };
+		68C3D5630F973C7E00BD91DF /* InCopyRecentDocsDynamicMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyRecentDocsDynamicMenu.cpp; path = ../../../source/open/components/incopyfileactionsui/InCopyRecentDocsDynamicMenu.cpp; sourceTree = SOURCE_ROOT; };
+		68C3D56F0F973CB000BD91DF /* InCopyFileActionsUI.fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = InCopyFileActionsUI.fr; path = ../../../source/open/components/incopyfileactionsui/resources/InCopyFileActionsUI.fr; sourceTree = SOURCE_ROOT; };
+		68C3D5C50F973DD800BD91DF /* InCopyFileActionsUIDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InCopyFileActionsUIDefs.h; path = ../../../source/open/components/incopyfileactionsui/InCopyFileActionsUIDefs.h; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		F957C14C15C6842A00C95573 /* InCopyFileActionsUI.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InCopyFileActionsUI.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F957C16015C6842C00C95573 /* InCopyFileActionsUI.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InCopyFileActionsUI.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F957C16115C6845700C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957C16215C6845700C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957C16715C6845F00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957C16815C6845F00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957C14315C6842A00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957C16915C6845F00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957C16A15C6845F00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957C15715C6842C00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957C16315C6845700C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957C16415C6845700C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B050A610883839D00D809E1 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957C13715C6840900C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		4B05EB2408840D1F00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05EB3E08840D1F00D809E1 /* Plugin */,
+				4B05EB4408840D2000D809E1 /* Source */,
+				4B05EB4D08840D2000D809E1 /* Resources */,
+				4B05EB5D08840D2900D809E1 /* PluginPList.plc */,
+				0B050A610883839D00D809E1 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B05EB3208840D1F00D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05EB3208840D1F00D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F957C14C15C6842A00C95573 /* InCopyFileActionsUI.InDesignPlugin */,
+				F957C16015C6842C00C95573 /* InCopyFileActionsUI.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B05EB3E08840D1F00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				68C3D5C50F973DD800BD91DF /* InCopyFileActionsUIDefs.h */,
+				68C3D5550F973C4B00BD91DF /* InCopyFileActionsUIFactoryList.h */,
+				68C3D5560F973C4B00BD91DF /* InCopyFileActionsUIID.cpp */,
+				68C3D5570F973C4B00BD91DF /* InCopyFileActionsUIID.h */,
+				68C3D5580F973C4B00BD91DF /* InCopyFileActionsUIMWHacks.cpp */,
+				68C3D5590F973C4B00BD91DF /* InCopyFileActionsUIPlugin.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05EB4408840D2000D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				68C3D5610F973C7E00BD91DF /* InCopyFileActionsComponent.cpp */,
+				68C3D5620F973C7E00BD91DF /* InCopyRecentDocsComponent.cpp */,
+				68C3D5630F973C7E00BD91DF /* InCopyRecentDocsDynamicMenu.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05EB4D08840D2000D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68C3D56F0F973CB000BD91DF /* InCopyFileActionsUI.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2A06D8CD0DA16F70003D6BB9 /* _shared_build_settings/pluginOpen.xcconfig */,
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957C13715C6840900C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957C16115C6845700C95573 /* InDesignModelAndUI.framework */,
+				F957C16215C6845700C95573 /* libPublicPlugIn.a */,
+				F957C13815C6841000C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957C13815C6841000C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957C16715C6845F00C95573 /* InDesignModelAndUI.framework */,
+				F957C16815C6845F00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957C13915C6842A00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957C14A15C6842A00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957C13A15C6842A00C95573 /* Sources */,
+				F957C14315C6842A00C95573 /* Frameworks */,
+				F957C14415C6842A00C95573 /* Rez */,
+				F957C14515C6842A00C95573 /* Resources */,
+				F957C14715C6842A00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957C14815C6842A00C95573 /* PBXBuildRule */,
+				F957C14915C6842A00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = F957C14C15C6842A00C95573 /* InCopyFileActionsUI.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		F957C14D15C6842C00C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957C15E15C6842C00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957C14E15C6842C00C95573 /* Sources */,
+				F957C15715C6842C00C95573 /* Frameworks */,
+				F957C15815C6842C00C95573 /* Rez */,
+				F957C15915C6842C00C95573 /* Resources */,
+				F957C15B15C6842C00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957C15C15C6842C00C95573 /* PBXBuildRule */,
+				F957C15D15C6842C00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = F957C16015C6842C00C95573 /* InCopyFileActionsUI.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05EB2608840D1F00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B05EB2708840D1F00D809E1 /* Build configuration list for PBXProject "InCopyFileActionsUI.open" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05EB2408840D1F00D809E1;
+			productRefGroup = 4B05EB3208840D1F00D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957C13915C6842A00C95573 /* Debug_Cocoa64 */,
+				F957C14D15C6842C00C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957C14515C6842A00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957C15915C6842C00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372017ED993900CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957C14415C6842A00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957C15815C6842C00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957C14715C6842A00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957C15B15C6842C00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957C13A15C6842A00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957C13B15C6842A00C95573 /* InCopyFileActionsUI.fr in Sources */,
+				F957C13D15C6842A00C95573 /* InCopyFileActionsUIID.cpp in Sources */,
+				F957C13E15C6842A00C95573 /* InCopyFileActionsUIMWHacks.cpp in Sources */,
+				F957C13F15C6842A00C95573 /* InCopyFileActionsUIPlugin.cpp in Sources */,
+				F957C14015C6842A00C95573 /* InCopyFileActionsComponent.cpp in Sources */,
+				F957C14115C6842A00C95573 /* InCopyRecentDocsComponent.cpp in Sources */,
+				F957C14215C6842A00C95573 /* InCopyRecentDocsDynamicMenu.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957C14E15C6842C00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957C14F15C6842C00C95573 /* InCopyFileActionsUI.fr in Sources */,
+				F957C15115C6842C00C95573 /* InCopyFileActionsUIID.cpp in Sources */,
+				F957C15215C6842C00C95573 /* InCopyFileActionsUIMWHacks.cpp in Sources */,
+				F957C15315C6842C00C95573 /* InCopyFileActionsUIPlugin.cpp in Sources */,
+				F957C15415C6842C00C95573 /* InCopyFileActionsComponent.cpp in Sources */,
+				F957C15515C6842C00C95573 /* InCopyRecentDocsComponent.cpp in Sources */,
+				F957C15615C6842C00C95573 /* InCopyRecentDocsDynamicMenu.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05EB2808840D1F00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A06D8CD0DA16F70003D6BB9 /* _shared_build_settings/pluginOpen.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_PLUGINS_DIR)/UI";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					../../../source/public/components/publiclib/plugins,
+					../../../source/public/components/publiclib/files,
+					../../../source/public/components/publiclib/objectmodel,
+					../../../source/public/interfaces/incopy,
+					../../../source/open/components/incopyfileactions,
+					../../../source/open/components/incopyfileactionsui,
+					../../../source/public/interfaces/cjk,
+					../../../source/public/interfaces/incopy,
+					../../../source/public/interfaces/tables,
+					../../../source/open/components/incopyfileactionsui/resources,
+					../../../source/open/components/incopyimport,
+					../../../source/public/interfaces/workgroup,
+				);
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = InCopyFileActionsUI;
+			};
+			name = Default;
+		};
+		F957C14B15C6842A00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					../../../source/public/components/publiclib/plugins,
+					../../../source/public/components/publiclib/files,
+					../../../source/public/components/publiclib/objectmodel,
+					../../../source/public/interfaces/incopy,
+					../../../source/open/components/incopyfileactions,
+					../../../source/open/components/incopyfileactionsui,
+					../../../source/public/interfaces/cjk,
+					../../../source/public/interfaces/incopy,
+					../../../source/public/interfaces/tables,
+					../../../source/open/components/incopyfileactionsui/resources,
+					../../../source/open/components/incopyimport,
+					../../../source/public/interfaces/workgroup,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(ID_BUILDFOLDER_RELPATH)/plug-ins/UI/InCopyFileActionsUI.InDesignPlugin\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(ID_BUILDFOLDER_RELPATH)/plug-ins/UI/InCopyFileActionsUI.InDesignPlugin/Versions/A\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(ID_BUILDFOLDER_RELPATH)/plug-ins/UI/InCopyFileActionsUI.InDesignPlugin/Versions/Current\"";
+			};
+			name = Default;
+		};
+		F957C15F15C6842C00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					../../../source/public/components/publiclib/plugins,
+					../../../source/public/components/publiclib/files,
+					../../../source/public/components/publiclib/objectmodel,
+					../../../source/public/interfaces/incopy,
+					../../../source/open/components/incopyfileactions,
+					../../../source/open/components/incopyfileactionsui,
+					../../../source/public/interfaces/cjk,
+					../../../source/public/interfaces/incopy,
+					../../../source/public/interfaces/tables,
+					../../../source/open/components/incopyfileactionsui/resources,
+					../../../source/open/components/incopyimport,
+					../../../source/public/interfaces/workgroup,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(ID_BUILDFOLDER_RELPATH)/plug-ins/UI/InCopyFileActionsUI.InDesignPlugin\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(ID_BUILDFOLDER_RELPATH)/plug-ins/UI/InCopyFileActionsUI.InDesignPlugin/Versions/A\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(ID_BUILDFOLDER_RELPATH)/plug-ins/UI/InCopyFileActionsUI.InDesignPlugin/Versions/Current\"";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05EB2708840D1F00D809E1 /* Build configuration list for PBXProject "InCopyFileActionsUI.open" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05EB2808840D1F00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957C14A15C6842A00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957C14B15C6842A00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957C15E15C6842C00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957C15F15C6842C00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05EB2608840D1F00D809E1 /* Project object */;
+}

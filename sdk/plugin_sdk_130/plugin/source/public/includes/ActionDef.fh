@@ -1,0 +1,57 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/public/includes/ActionDef.fh $
+//  
+//  Owner: lance bushore
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#ifndef __ActionDef__
+#define __ActionDef__
+
+#include "CoreResTypes.h"
+#include "PMTypes.fh"
+
+#ifdef __ODFRC__
+
+type ActionDef (kActionRsrcType)
+{
+	longint = $$CountOf(Actions);
+	array Actions
+	{
+		longint;					// class/boss id of ActionComponent
+		longint;					// global action id, eg. kEditActionID
+		wstring;					// action string description key
+		wstring;					// action area name key
+		integer;					// action type(kNormalAction,kPreNotify,kPostNotify)
+		longint;					// enabling type(see ActionDefs.h)
+		longint;					// SelectionIID this action cares about
+		integer;					// bool - user editable
+	}
+};
+
+type ActionIDPool( kActionIDPoolRsrcType )
+{
+	longint ;						// first action id for pool
+	longint ;						// last action id for pool
+} ;
+
+#endif // __ODFRC__
+
+#endif // __ActionDef__
+

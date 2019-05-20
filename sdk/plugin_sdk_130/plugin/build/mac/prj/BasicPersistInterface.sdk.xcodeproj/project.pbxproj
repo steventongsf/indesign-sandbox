@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12CEDEE1D942E34005CAF59 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12CEDED1D942E34005CAF59 /* InDesignModel.framework */; };
+		C12CEDF11D942E56005CAF59 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12CEDEF1D942E51005CAF59 /* InDesignModel.framework */; };
+		F9570BE015C9304300C95573 /* BPI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EED108840E9500D809E1 /* BPI.fr */; };
+		F9570BE115C9304300C95573 /* BPINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECD08840E9300D809E1 /* BPINoStrip.cpp */; };
+		F9570BE215C9304300C95573 /* BPIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECE08840E9400D809E1 /* BPIID.cpp */; };
+		F9570BE315C9304300C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9570BE415C9304300C95573 /* BPIDefaultResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAACC0FBBC66500DE6F8E /* BPIDefaultResponder.cpp */; };
+		F9570BE515C9304300C95573 /* BPIDataPersist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAD90FBBC76100DE6F8E /* BPIDataPersist.cpp */; };
+		F9570BE615C9304300C95573 /* BPIErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAADD0FBBC7BE00DE6F8E /* BPIErrorStringService.cpp */; };
+		F9570BE715C9304300C95573 /* BPIPrefsScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAADE0FBBC7BE00DE6F8E /* BPIPrefsScriptProvider.cpp */; };
+		F9570BE815C9304300C95573 /* BPIScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAE00FBBC7BE00DE6F8E /* BPIScriptProvider.cpp */; };
+		F9570BE915C9304300C95573 /* BPISuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAEA0FBBC83E00DE6F8E /* BPISuiteASB.cpp */; };
+		F9570BEA15C9304300C95573 /* BPISuiteCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAEB0FBBC83E00DE6F8E /* BPISuiteCSB.cpp */; };
+		F9570BEB15C9304300C95573 /* BPISuiteDefaultCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAED0FBBC83E00DE6F8E /* BPISuiteDefaultCSB.cpp */; };
+		F9570BEC15C9304300C95573 /* BPISuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAEE0FBBC83E00DE6F8E /* BPISuiteLayoutCSB.cpp */; };
+		F9570BED15C9304300C95573 /* BPISuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAEF0FBBC83E00DE6F8E /* BPISuiteTextCSB.cpp */; };
+		F9570BEE15C9304300C95573 /* BPIData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAB0C0FBBC8B800DE6F8E /* BPIData.cpp */; };
+		F9570BEF15C9304300C95573 /* BPIHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAB0D0FBBC8B800DE6F8E /* BPIHelper.cpp */; };
+		F9570BF015C9304300C95573 /* BPISetDataCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAB0F0FBBC8B800DE6F8E /* BPISetDataCmd.cpp */; };
+		F9570BFC15C9304600C95573 /* BPI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EED108840E9500D809E1 /* BPI.fr */; };
+		F9570BFD15C9304600C95573 /* BPINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECD08840E9300D809E1 /* BPINoStrip.cpp */; };
+		F9570BFE15C9304600C95573 /* BPIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECE08840E9400D809E1 /* BPIID.cpp */; };
+		F9570BFF15C9304600C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9570C0015C9304600C95573 /* BPIDefaultResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAACC0FBBC66500DE6F8E /* BPIDefaultResponder.cpp */; };
+		F9570C0115C9304600C95573 /* BPIDataPersist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAD90FBBC76100DE6F8E /* BPIDataPersist.cpp */; };
+		F9570C0215C9304600C95573 /* BPIErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAADD0FBBC7BE00DE6F8E /* BPIErrorStringService.cpp */; };
+		F9570C0315C9304600C95573 /* BPIPrefsScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAADE0FBBC7BE00DE6F8E /* BPIPrefsScriptProvider.cpp */; };
+		F9570C0415C9304600C95573 /* BPIScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAE00FBBC7BE00DE6F8E /* BPIScriptProvider.cpp */; };
+		F9570C0515C9304600C95573 /* BPISuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAEA0FBBC83E00DE6F8E /* BPISuiteASB.cpp */; };
+		F9570C0615C9304600C95573 /* BPISuiteCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAEB0FBBC83E00DE6F8E /* BPISuiteCSB.cpp */; };
+		F9570C0715C9304600C95573 /* BPISuiteDefaultCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAED0FBBC83E00DE6F8E /* BPISuiteDefaultCSB.cpp */; };
+		F9570C0815C9304600C95573 /* BPISuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAEE0FBBC83E00DE6F8E /* BPISuiteLayoutCSB.cpp */; };
+		F9570C0915C9304600C95573 /* BPISuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAAEF0FBBC83E00DE6F8E /* BPISuiteTextCSB.cpp */; };
+		F9570C0A15C9304600C95573 /* BPIData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAB0C0FBBC8B800DE6F8E /* BPIData.cpp */; };
+		F9570C0B15C9304600C95573 /* BPIHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAB0D0FBBC8B800DE6F8E /* BPIHelper.cpp */; };
+		F9570C0C15C9304600C95573 /* BPISetDataCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83CEAB0F0FBBC8B800DE6F8E /* BPISetDataCmd.cpp */; };
+		F9570C2415C9306400C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9570C2215C9305F00C95573 /* libPublicPlugIn.a */; };
+		F9570C2615C9306800C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9570C2015C9305F00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9570BF515C9304300C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "\"$ID_SDK_ROOT/devtools/bin/odfrc-cmd\" -d DEBUG -d MACINTOSH -d __GNUC__ -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9570C1115C9304600C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "\"$ID_SDK_ROOT/devtools/bin/odfrc-cmd\" -d RELEASE -d MACINTOSH -d __GNUC__ -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		3227F7E0175DEDAB00A71E17 /* BPI_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = BPI_enUS.fr; path = ../../../source/sdksamples/basicpersistinterface/BPI_enUS.fr; sourceTree = "<group>"; };
+		3227F7E1175DEDAB00A71E17 /* BPI_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = BPI_jaJP.fr; path = ../../../source/sdksamples/basicpersistinterface/BPI_jaJP.fr; sourceTree = "<group>"; };
+		4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECD08840E9300D809E1 /* BPINoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BPINoStrip.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPINoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECE08840E9400D809E1 /* BPIID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BPIID.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPIID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EED108840E9500D809E1 /* BPI.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = BPI.fr; path = ../../../source/sdksamples/basicpersistInterface/BPI.fr; sourceTree = SOURCE_ROOT; };
+		773555801202519500E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		83C286C50FB7C1770097639A /* BPIID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPIID.h; path = ../../../source/sdksamples/basicpersistinterface/BPIID.h; sourceTree = SOURCE_ROOT; };
+		83CEAACB0FBBC5CB00DE6F8E /* BPIFactoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPIFactoryList.h; path = ../../../source/sdksamples/basicpersistInterface/BPIFactoryList.h; sourceTree = SOURCE_ROOT; };
+		83CEAACC0FBBC66500DE6F8E /* BPIDefaultResponder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPIDefaultResponder.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPIDefaultResponder.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAAD90FBBC76100DE6F8E /* BPIDataPersist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPIDataPersist.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPIDataPersist.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAADD0FBBC7BE00DE6F8E /* BPIErrorStringService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPIErrorStringService.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPIErrorStringService.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAADE0FBBC7BE00DE6F8E /* BPIPrefsScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPIPrefsScriptProvider.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPIPrefsScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAADF0FBBC7BE00DE6F8E /* BPIScriptingDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPIScriptingDefs.h; path = ../../../source/sdksamples/basicpersistInterface/BPIScriptingDefs.h; sourceTree = SOURCE_ROOT; };
+		83CEAAE00FBBC7BE00DE6F8E /* BPIScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPIScriptProvider.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPIScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAAEA0FBBC83E00DE6F8E /* BPISuiteASB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPISuiteASB.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPISuiteASB.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAAEB0FBBC83E00DE6F8E /* BPISuiteCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPISuiteCSB.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPISuiteCSB.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAAEC0FBBC83E00DE6F8E /* BPISuiteCSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPISuiteCSB.h; path = ../../../source/sdksamples/basicpersistInterface/BPISuiteCSB.h; sourceTree = SOURCE_ROOT; };
+		83CEAAED0FBBC83E00DE6F8E /* BPISuiteDefaultCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPISuiteDefaultCSB.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPISuiteDefaultCSB.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAAEE0FBBC83E00DE6F8E /* BPISuiteLayoutCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPISuiteLayoutCSB.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPISuiteLayoutCSB.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAAEF0FBBC83E00DE6F8E /* BPISuiteTextCSB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPISuiteTextCSB.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPISuiteTextCSB.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAAF00FBBC83E00DE6F8E /* IBPISuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBPISuite.h; path = ../../../source/sdksamples/basicpersistInterface/IBPISuite.h; sourceTree = SOURCE_ROOT; };
+		83CEAB0C0FBBC8B800DE6F8E /* BPIData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPIData.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPIData.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAB0D0FBBC8B800DE6F8E /* BPIHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPIHelper.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPIHelper.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAB0E0FBBC8B800DE6F8E /* BPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPIHelper.h; path = ../../../source/sdksamples/basicpersistInterface/BPIHelper.h; sourceTree = SOURCE_ROOT; };
+		83CEAB0F0FBBC8B800DE6F8E /* BPISetDataCmd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BPISetDataCmd.cpp; path = ../../../source/sdksamples/basicpersistInterface/BPISetDataCmd.cpp; sourceTree = SOURCE_ROOT; };
+		83CEAB100FBBC8B800DE6F8E /* IBPIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IBPIData.h; path = ../../../source/sdksamples/basicpersistInterface/IBPIData.h; sourceTree = SOURCE_ROOT; };
+		C12CEDED1D942E34005CAF59 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = "<group>"; };
+		C12CEDEF1D942E51005CAF59 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = "<group>"; };
+		F9570C2015C9305F00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9570C2215C9305F00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9570BF115C9304300C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570C2615C9306800C95573 /* libPublicPlugIn.a in Frameworks */,
+				C12CEDEE1D942E34005CAF59 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570C0D15C9304600C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570C2415C9306400C95573 /* libPublicPlugIn.a in Frameworks */,
+				C12CEDF11D942E56005CAF59 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05EEAD08840E8D00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05EEC708840E8D00D809E1 /* Source */,
+				4B05EED008840E9400D809E1 /* Resources */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				F9570C1615C9305F00C95573 /* InDesign Libraries */,
+				773555801202519500E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05EEC708840E8D00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				83C286D90FB7C1940097639A /* Scripting */,
+				83C286CC0FB7C1800097639A /* Suite */,
+				83C286BD0FB7C1650097639A /* Model */,
+				4B05EECB08840E9100D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05EECB08840E9100D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */,
+				4B05EECD08840E9300D809E1 /* BPINoStrip.cpp */,
+				4B05EECE08840E9400D809E1 /* BPIID.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05EED008840E9400D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F7E0175DEDAB00A71E17 /* BPI_enUS.fr */,
+				3227F7E1175DEDAB00A71E17 /* BPI_jaJP.fr */,
+				4B05EED108840E9500D809E1 /* BPI.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		83C286BD0FB7C1650097639A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83CEAACB0FBBC5CB00DE6F8E /* BPIFactoryList.h */,
+				83CEAB0C0FBBC8B800DE6F8E /* BPIData.cpp */,
+				83CEAB0D0FBBC8B800DE6F8E /* BPIHelper.cpp */,
+				83CEAB0E0FBBC8B800DE6F8E /* BPIHelper.h */,
+				83CEAB0F0FBBC8B800DE6F8E /* BPISetDataCmd.cpp */,
+				83CEAB100FBBC8B800DE6F8E /* IBPIData.h */,
+				83CEAAD90FBBC76100DE6F8E /* BPIDataPersist.cpp */,
+				83CEAACC0FBBC66500DE6F8E /* BPIDefaultResponder.cpp */,
+				83C286C50FB7C1770097639A /* BPIID.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		83C286CC0FB7C1800097639A /* Suite */ = {
+			isa = PBXGroup;
+			children = (
+				83CEAAEA0FBBC83E00DE6F8E /* BPISuiteASB.cpp */,
+				83CEAAEB0FBBC83E00DE6F8E /* BPISuiteCSB.cpp */,
+				83CEAAEC0FBBC83E00DE6F8E /* BPISuiteCSB.h */,
+				83CEAAED0FBBC83E00DE6F8E /* BPISuiteDefaultCSB.cpp */,
+				83CEAAEE0FBBC83E00DE6F8E /* BPISuiteLayoutCSB.cpp */,
+				83CEAAEF0FBBC83E00DE6F8E /* BPISuiteTextCSB.cpp */,
+				83CEAAF00FBBC83E00DE6F8E /* IBPISuite.h */,
+			);
+			name = Suite;
+			sourceTree = "<group>";
+		};
+		83C286D90FB7C1940097639A /* Scripting */ = {
+			isa = PBXGroup;
+			children = (
+				83CEAADD0FBBC7BE00DE6F8E /* BPIErrorStringService.cpp */,
+				83CEAADE0FBBC7BE00DE6F8E /* BPIPrefsScriptProvider.cpp */,
+				83CEAADF0FBBC7BE00DE6F8E /* BPIScriptingDefs.h */,
+				83CEAAE00FBBC7BE00DE6F8E /* BPIScriptProvider.cpp */,
+			);
+			name = Scripting;
+			sourceTree = "<group>";
+		};
+		F9570C1615C9305F00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9570C1D15C9305F00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9570C1D15C9305F00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				C12CEDEF1D942E51005CAF59 /* InDesignModel.framework */,
+				F9570C2215C9305F00C95573 /* libPublicPlugIn.a */,
+				F9570C1E15C9305F00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9570C1E15C9305F00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				C12CEDED1D942E34005CAF59 /* InDesignModel.framework */,
+				F9570C2015C9305F00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9570BDE15C9304300C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9570BF615C9304300C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9570BDF15C9304300C95573 /* Sources */,
+				F9570BF115C9304300C95573 /* Frameworks */,
+				F9570BF215C9304300C95573 /* Rez */,
+				F9570BF315C9304300C95573 /* Resources */,
+				F9570BF415C9304300C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9570BF515C9304300C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9570BFA15C9304600C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9570C1215C9304600C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9570BFB15C9304600C95573 /* Sources */,
+				F9570C0D15C9304600C95573 /* Frameworks */,
+				F9570C0E15C9304600C95573 /* Rez */,
+				F9570C0F15C9304600C95573 /* Resources */,
+				F9570C1015C9304600C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9570C1115C9304600C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05EEAF08840E8D00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B05EEB008840E8D00D809E1 /* Build configuration list for PBXProject "BasicPersistInterface.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05EEAD08840E8D00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9570BDE15C9304300C95573 /* Debug_Cocoa64 */,
+				F9570BFA15C9304600C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9570BF315C9304300C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570C0F15C9304600C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9570BF215C9304300C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570C0E15C9304600C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9570BF415C9304300C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9570C1015C9304600C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9570BDF15C9304300C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570BE015C9304300C95573 /* BPI.fr in Sources */,
+				F9570BE115C9304300C95573 /* BPINoStrip.cpp in Sources */,
+				F9570BE215C9304300C95573 /* BPIID.cpp in Sources */,
+				F9570BE315C9304300C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9570BE415C9304300C95573 /* BPIDefaultResponder.cpp in Sources */,
+				F9570BE515C9304300C95573 /* BPIDataPersist.cpp in Sources */,
+				F9570BE615C9304300C95573 /* BPIErrorStringService.cpp in Sources */,
+				F9570BE715C9304300C95573 /* BPIPrefsScriptProvider.cpp in Sources */,
+				F9570BE815C9304300C95573 /* BPIScriptProvider.cpp in Sources */,
+				F9570BE915C9304300C95573 /* BPISuiteASB.cpp in Sources */,
+				F9570BEA15C9304300C95573 /* BPISuiteCSB.cpp in Sources */,
+				F9570BEB15C9304300C95573 /* BPISuiteDefaultCSB.cpp in Sources */,
+				F9570BEC15C9304300C95573 /* BPISuiteLayoutCSB.cpp in Sources */,
+				F9570BED15C9304300C95573 /* BPISuiteTextCSB.cpp in Sources */,
+				F9570BEE15C9304300C95573 /* BPIData.cpp in Sources */,
+				F9570BEF15C9304300C95573 /* BPIHelper.cpp in Sources */,
+				F9570BF015C9304300C95573 /* BPISetDataCmd.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570BFB15C9304600C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570BFC15C9304600C95573 /* BPI.fr in Sources */,
+				F9570BFD15C9304600C95573 /* BPINoStrip.cpp in Sources */,
+				F9570BFE15C9304600C95573 /* BPIID.cpp in Sources */,
+				F9570BFF15C9304600C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9570C0015C9304600C95573 /* BPIDefaultResponder.cpp in Sources */,
+				F9570C0115C9304600C95573 /* BPIDataPersist.cpp in Sources */,
+				F9570C0215C9304600C95573 /* BPIErrorStringService.cpp in Sources */,
+				F9570C0315C9304600C95573 /* BPIPrefsScriptProvider.cpp in Sources */,
+				F9570C0415C9304600C95573 /* BPIScriptProvider.cpp in Sources */,
+				F9570C0515C9304600C95573 /* BPISuiteASB.cpp in Sources */,
+				F9570C0615C9304600C95573 /* BPISuiteCSB.cpp in Sources */,
+				F9570C0715C9304600C95573 /* BPISuiteDefaultCSB.cpp in Sources */,
+				F9570C0815C9304600C95573 /* BPISuiteLayoutCSB.cpp in Sources */,
+				F9570C0915C9304600C95573 /* BPISuiteTextCSB.cpp in Sources */,
+				F9570C0A15C9304600C95573 /* BPIData.cpp in Sources */,
+				F9570C0B15C9304600C95573 /* BPIHelper.cpp in Sources */,
+				F9570C0C15C9304600C95573 /* BPISetDataCmd.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05EEB108840E8D00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/preflight,
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/libs/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/libs/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/libs/publiclib/files,
+					$ID_SDK_ROOT/source/public/libs/publiclib/objectmodel,
+					$ID_SDK_ROOT/external/asl/boost_libraries,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+					$ID_SDK_ROOT/source/sdksamples/basicpersistInterface,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PRODUCT_NAME = BasicPersistInterface.sdk;
+			};
+			name = Default;
+		};
+		F9570BF715C9304300C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+			};
+			name = Default;
+		};
+		F9570C1315C9304600C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05EEB008840E8D00D809E1 /* Build configuration list for PBXProject "BasicPersistInterface.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05EEB108840E8D00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9570BF615C9304300C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9570BF715C9304300C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9570C1215C9304600C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9570C1315C9304600C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05EEAF08840E8D00D809E1 /* Project object */;
+}

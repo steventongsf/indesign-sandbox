@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95727DA15D0C26F00C95573 /* TranFxUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05054408841A5700D809E1 /* TranFxUI.fr */; };
+		F95727DB15D0C26F00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05054208841A5600D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95727DC15D0C26F00C95573 /* TranFxUIActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05053E08841A5300D809E1 /* TranFxUIActionComponent.cpp */; };
+		F95727DD15D0C26F00C95573 /* TranFxUINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05054008841A5400D809E1 /* TranFxUINoStrip.cpp */; };
+		F95727DE15D0C26F00C95573 /* TranFxUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05054108841A5500D809E1 /* TranFxUIID.cpp */; };
+		F95727DF15D0C26F00C95573 /* TranFxUIDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05053D08841A5300D809E1 /* TranFxUIDialogController.cpp */; };
+		F95727E015D0C26F00C95573 /* TranFxUIDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05053C08841A5200D809E1 /* TranFxUIDialogObserver.cpp */; };
+		F95727E315D0C26F00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05054508841A5700D809E1 /* SDKResources.r */; };
+		F95727ED15D0C27200C95573 /* TranFxUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05054408841A5700D809E1 /* TranFxUI.fr */; };
+		F95727EE15D0C27200C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05054208841A5600D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95727EF15D0C27200C95573 /* TranFxUIActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05053E08841A5300D809E1 /* TranFxUIActionComponent.cpp */; };
+		F95727F015D0C27200C95573 /* TranFxUINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05054008841A5400D809E1 /* TranFxUINoStrip.cpp */; };
+		F95727F115D0C27200C95573 /* TranFxUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05054108841A5500D809E1 /* TranFxUIID.cpp */; };
+		F95727F215D0C27200C95573 /* TranFxUIDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05053D08841A5300D809E1 /* TranFxUIDialogController.cpp */; };
+		F95727F315D0C27200C95573 /* TranFxUIDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05053C08841A5200D809E1 /* TranFxUIDialogObserver.cpp */; };
+		F95727F615D0C27200C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05054508841A5700D809E1 /* SDKResources.r */; };
+		F957280215D0C29800C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95727D515D0C26B00C95573 /* InDesignModelAndUI.framework */; };
+		F957280315D0C29800C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95727D615D0C26B00C95573 /* libPublicPlugIn.a */; };
+		F957280415D0C29C00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95727D315D0C26B00C95573 /* InDesignModelAndUI.framework */; };
+		F957280515D0C29C00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95727D415D0C26B00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95727E615D0C26F00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95727F915D0C27200C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE740D1094F923700AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE740D2094F923700AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F842175DF2F100A71E17 /* TranFxUI_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TranFxUI_enUS.fr; path = ../../../source/sdksamples/transparencyeffectui/TranFxUI_enUS.fr; sourceTree = "<group>"; };
+		3227F843175DF2F100A71E17 /* TranFxUI_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TranFxUI_jaJP.fr; path = ../../../source/sdksamples/transparencyeffectui/TranFxUI_jaJP.fr; sourceTree = "<group>"; };
+		4B05053A08841A5000D809E1 /* TranFxUIID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TranFxUIID.h; path = ../../../source/sdksamples/transparencyeffectui/TranFxUIID.h; sourceTree = SOURCE_ROOT; };
+		4B05053B08841A5100D809E1 /* TranFxUIFactoryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TranFxUIFactoryList.h; path = ../../../source/sdksamples/transparencyeffectui/TranFxUIFactoryList.h; sourceTree = SOURCE_ROOT; };
+		4B05053C08841A5200D809E1 /* TranFxUIDialogObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxUIDialogObserver.cpp; path = ../../../source/sdksamples/transparencyeffectui/TranFxUIDialogObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05053D08841A5300D809E1 /* TranFxUIDialogController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxUIDialogController.cpp; path = ../../../source/sdksamples/transparencyeffectui/TranFxUIDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		4B05053E08841A5300D809E1 /* TranFxUIActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxUIActionComponent.cpp; path = ../../../source/sdksamples/transparencyeffectui/TranFxUIActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B05054008841A5400D809E1 /* TranFxUINoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxUINoStrip.cpp; path = ../../../source/sdksamples/transparencyeffectui/TranFxUINoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05054108841A5500D809E1 /* TranFxUIID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxUIID.cpp; path = ../../../source/sdksamples/transparencyeffectui/TranFxUIID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05054208841A5600D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05054408841A5700D809E1 /* TranFxUI.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TranFxUI.fr; path = ../../../source/sdksamples/transparencyeffectui/TranFxUI.fr; sourceTree = SOURCE_ROOT; };
+		4B05054508841A5700D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F95727D315D0C26B00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F95727D415D0C26B00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95727D515D0C26B00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F95727D615D0C26B00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95727E115D0C26F00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957280415D0C29C00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957280515D0C29C00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95727F415D0C27200C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957280215D0C29800C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957280315D0C29800C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05051F08841A4E00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05053908841A4E00D809E1 /* Source */,
+				4B05054308841A5600D809E1 /* Resources */,
+				F95727CA15D0C26B00C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05053908841A4E00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05053A08841A5000D809E1 /* TranFxUIID.h */,
+				4B05053B08841A5100D809E1 /* TranFxUIFactoryList.h */,
+				4B05053C08841A5200D809E1 /* TranFxUIDialogObserver.cpp */,
+				4B05053D08841A5300D809E1 /* TranFxUIDialogController.cpp */,
+				4B05053E08841A5300D809E1 /* TranFxUIActionComponent.cpp */,
+				4B05053F08841A5300D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05053F08841A5300D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05054008841A5400D809E1 /* TranFxUINoStrip.cpp */,
+				4B05054108841A5500D809E1 /* TranFxUIID.cpp */,
+				4B05054208841A5600D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05054308841A5600D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F842175DF2F100A71E17 /* TranFxUI_enUS.fr */,
+				3227F843175DF2F100A71E17 /* TranFxUI_jaJP.fr */,
+				4B05054408841A5700D809E1 /* TranFxUI.fr */,
+				4B05054508841A5700D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE740D1094F923700AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE740D2094F923700AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F95727CA15D0C26B00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F95727D115D0C26B00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F95727D115D0C26B00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F95727D515D0C26B00C95573 /* InDesignModelAndUI.framework */,
+				F95727D615D0C26B00C95573 /* libPublicPlugIn.a */,
+				F95727D215D0C26B00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F95727D215D0C26B00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F95727D315D0C26B00C95573 /* InDesignModelAndUI.framework */,
+				F95727D415D0C26B00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95727D815D0C26F00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95727E715D0C26F00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95727D915D0C26F00C95573 /* Sources */,
+				F95727E115D0C26F00C95573 /* Frameworks */,
+				F95727E215D0C26F00C95573 /* Rez */,
+				F95727E415D0C26F00C95573 /* Resources */,
+				F95727E515D0C26F00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95727E615D0C26F00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95727EB15D0C27200C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95727FA15D0C27200C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95727EC15D0C27200C95573 /* Sources */,
+				F95727F415D0C27200C95573 /* Frameworks */,
+				F95727F515D0C27200C95573 /* Rez */,
+				F95727F715D0C27200C95573 /* Resources */,
+				F95727F815D0C27200C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95727F915D0C27200C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05052108841A4E00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05052208841A4E00D809E1 /* Build configuration list for PBXProject "TransparencyEffectUI.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05051F08841A4E00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95727D815D0C26F00C95573 /* Debug_Cocoa64 */,
+				F95727EB15D0C27200C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95727E415D0C26F00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95727F715D0C27200C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95727E215D0C26F00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95727E315D0C26F00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95727F515D0C27200C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95727F615D0C27200C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95727E515D0C26F00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95727F815D0C27200C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95727D915D0C26F00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95727DA15D0C26F00C95573 /* TranFxUI.fr in Sources */,
+				F95727DB15D0C26F00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95727DC15D0C26F00C95573 /* TranFxUIActionComponent.cpp in Sources */,
+				F95727DD15D0C26F00C95573 /* TranFxUINoStrip.cpp in Sources */,
+				F95727DE15D0C26F00C95573 /* TranFxUIID.cpp in Sources */,
+				F95727DF15D0C26F00C95573 /* TranFxUIDialogController.cpp in Sources */,
+				F95727E015D0C26F00C95573 /* TranFxUIDialogObserver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95727EC15D0C27200C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95727ED15D0C27200C95573 /* TranFxUI.fr in Sources */,
+				F95727EE15D0C27200C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95727EF15D0C27200C95573 /* TranFxUIActionComponent.cpp in Sources */,
+				F95727F015D0C27200C95573 /* TranFxUINoStrip.cpp in Sources */,
+				F95727F115D0C27200C95573 /* TranFxUIID.cpp in Sources */,
+				F95727F215D0C27200C95573 /* TranFxUIDialogController.cpp in Sources */,
+				F95727F315D0C27200C95573 /* TranFxUIDialogObserver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05052308841A4E00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+					$ID_SDK_ROOT/source/sdksamples/transparencyeffect,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = TransparencyEffectUI.sdk;
+			};
+			name = Default;
+		};
+		F95727E815D0C26F00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F95727FB15D0C27200C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05052208841A4E00D809E1 /* Build configuration list for PBXProject "TransparencyEffectUI.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05052308841A4E00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95727E715D0C26F00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95727E815D0C26F00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95727FA15D0C27200C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95727FB15D0C27200C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05052108841A4E00D809E1 /* Project object */;
+}

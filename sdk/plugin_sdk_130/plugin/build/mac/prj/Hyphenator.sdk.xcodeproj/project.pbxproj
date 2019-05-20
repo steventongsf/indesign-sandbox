@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9571C1615CFCE1200C95573 /* Hyp.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB2B088415FE00D809E1 /* Hyp.fr */; };
+		F9571C1715CFCE1200C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB29088415FD00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571C1815CFCE1200C95573 /* HypNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB27088415FC00D809E1 /* HypNoStrip.cpp */; };
+		F9571C1915CFCE1200C95573 /* HypID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB28088415FC00D809E1 /* HypID.cpp */; };
+		F9571C1A15CFCE1200C95573 /* HypHyphenationService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB1F088415F600D809E1 /* HypHyphenationService.cpp */; };
+		F9571C1B15CFCE1200C95573 /* HypHyphenationMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB20088415F700D809E1 /* HypHyphenationMgr.cpp */; };
+		F9571C1C15CFCE1200C95573 /* HypServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB21088415F700D809E1 /* HypServiceProvider.cpp */; };
+		F9571C1D15CFCE1200C95573 /* HypAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB1B088415F400D809E1 /* HypAdapter.cpp */; };
+		F9571C1E15CFCE1200C95573 /* HypDiagnostic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB22088415F800D809E1 /* HypDiagnostic.cpp */; };
+		F9571C1F15CFCE1200C95573 /* HypHyphenatedWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB1D088415F500D809E1 /* HypHyphenatedWord.cpp */; };
+		F9571C2015CFCE1200C95573 /* HypPerformanceMetric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF22AF451105BA5F007C0ECD /* HypPerformanceMetric.cpp */; };
+		F9571C2115CFCE1200C95573 /* HypScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF22AF461105BA5F007C0ECD /* HypScriptProvider.cpp */; };
+		F9571C2215CFCE1200C95573 /* HypPerformanceData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF5A8E701106DDCC0051F8D0 /* HypPerformanceData.cpp */; };
+		F9571C2515CFCE1200C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FB2D088415FF00D809E1 /* SDKResources.r */; };
+		F9571C2F15CFCE1400C95573 /* Hyp.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB2B088415FE00D809E1 /* Hyp.fr */; };
+		F9571C3015CFCE1400C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB29088415FD00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571C3115CFCE1400C95573 /* HypNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB27088415FC00D809E1 /* HypNoStrip.cpp */; };
+		F9571C3215CFCE1400C95573 /* HypID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB28088415FC00D809E1 /* HypID.cpp */; };
+		F9571C3315CFCE1400C95573 /* HypHyphenationService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB1F088415F600D809E1 /* HypHyphenationService.cpp */; };
+		F9571C3415CFCE1400C95573 /* HypHyphenationMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB20088415F700D809E1 /* HypHyphenationMgr.cpp */; };
+		F9571C3515CFCE1400C95573 /* HypServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB21088415F700D809E1 /* HypServiceProvider.cpp */; };
+		F9571C3615CFCE1400C95573 /* HypAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB1B088415F400D809E1 /* HypAdapter.cpp */; };
+		F9571C3715CFCE1400C95573 /* HypDiagnostic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB22088415F800D809E1 /* HypDiagnostic.cpp */; };
+		F9571C3815CFCE1400C95573 /* HypHyphenatedWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FB1D088415F500D809E1 /* HypHyphenatedWord.cpp */; };
+		F9571C3915CFCE1400C95573 /* HypPerformanceMetric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF22AF451105BA5F007C0ECD /* HypPerformanceMetric.cpp */; };
+		F9571C3A15CFCE1400C95573 /* HypScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF22AF461105BA5F007C0ECD /* HypScriptProvider.cpp */; };
+		F9571C3B15CFCE1400C95573 /* HypPerformanceData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF5A8E701106DDCC0051F8D0 /* HypPerformanceData.cpp */; };
+		F9571C3E15CFCE1400C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FB2D088415FF00D809E1 /* SDKResources.r */; };
+		F9571C4615CFCE5700C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571C1115CFCE0300C95573 /* InDesignModel.framework */; };
+		F9571C4715CFCE5700C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571C1215CFCE0300C95573 /* libPublicPlugIn.a */; };
+		F9571C4815CFCE5B00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571C0F15CFCE0300C95573 /* InDesignModel.framework */; };
+		F9571C4915CFCE5B00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571C1015CFCE0300C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9571C2815CFCE1200C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9571C4115CFCE1400C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73E6F094F8BFD00AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73E70094F8BFD00AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F814175DF10300A71E17 /* Hyp_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = Hyp_enUS.fr; path = ../../../source/sdksamples/hyphenator/Hyp_enUS.fr; sourceTree = "<group>"; };
+		3227F815175DF10300A71E17 /* Hyp_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = Hyp_jaJP.fr; path = ../../../source/sdksamples/hyphenator/Hyp_jaJP.fr; sourceTree = "<group>"; };
+		4B05FB1B088415F400D809E1 /* HypAdapter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HypAdapter.cpp; path = ../../../source/sdksamples/hyphenator/HypAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB1C088415F400D809E1 /* HypAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HypAdapter.h; path = ../../../source/sdksamples/hyphenator/HypAdapter.h; sourceTree = SOURCE_ROOT; };
+		4B05FB1D088415F500D809E1 /* HypHyphenatedWord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HypHyphenatedWord.cpp; path = ../../../source/sdksamples/hyphenator/HypHyphenatedWord.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB1E088415F500D809E1 /* HypHyphenatedWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HypHyphenatedWord.h; path = ../../../source/sdksamples/hyphenator/HypHyphenatedWord.h; sourceTree = SOURCE_ROOT; };
+		4B05FB1F088415F600D809E1 /* HypHyphenationService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HypHyphenationService.cpp; path = ../../../source/sdksamples/hyphenator/HypHyphenationService.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB20088415F700D809E1 /* HypHyphenationMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HypHyphenationMgr.cpp; path = ../../../source/sdksamples/hyphenator/HypHyphenationMgr.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB21088415F700D809E1 /* HypServiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HypServiceProvider.cpp; path = ../../../source/sdksamples/hyphenator/HypServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB22088415F800D809E1 /* HypDiagnostic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HypDiagnostic.cpp; path = ../../../source/sdksamples/hyphenator/HypDiagnostic.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB23088415F800D809E1 /* HypDiagnostic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HypDiagnostic.h; path = ../../../source/sdksamples/hyphenator/HypDiagnostic.h; sourceTree = SOURCE_ROOT; };
+		4B05FB25088415FB00D809E1 /* HypID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HypID.h; path = ../../../source/sdksamples/hyphenator/HypID.h; sourceTree = SOURCE_ROOT; };
+		4B05FB27088415FC00D809E1 /* HypNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HypNoStrip.cpp; path = ../../../source/sdksamples/hyphenator/HypNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB28088415FC00D809E1 /* HypID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HypID.cpp; path = ../../../source/sdksamples/hyphenator/HypID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB29088415FD00D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FB2B088415FE00D809E1 /* Hyp.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = Hyp.fr; path = ../../../source/sdksamples/hyphenator/Hyp.fr; sourceTree = SOURCE_ROOT; };
+		4B05FB2C088415FE00D809E1 /* Hyp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Hyp.h; path = ../../../source/sdksamples/hyphenator/Hyp.h; sourceTree = SOURCE_ROOT; };
+		4B05FB2D088415FF00D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		CF22AF451105BA5F007C0ECD /* HypPerformanceMetric.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HypPerformanceMetric.cpp; path = ../../../source/sdksamples/hyphenator/HypPerformanceMetric.cpp; sourceTree = SOURCE_ROOT; };
+		CF22AF461105BA5F007C0ECD /* HypScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HypScriptProvider.cpp; path = ../../../source/sdksamples/hyphenator/HypScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		CF5A8E701106DDCC0051F8D0 /* HypPerformanceData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HypPerformanceData.cpp; path = ../../../source/sdksamples/hyphenator/HypPerformanceData.cpp; sourceTree = SOURCE_ROOT; };
+		F9571C0F15CFCE0300C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9571C1015CFCE0300C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9571C1115CFCE0300C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9571C1215CFCE0300C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9571C2315CFCE1200C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571C4815CFCE5B00C95573 /* InDesignModel.framework in Frameworks */,
+				F9571C4915CFCE5B00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571C3C15CFCE1400C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571C4615CFCE5700C95573 /* InDesignModel.framework in Frameworks */,
+				F9571C4715CFCE5700C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05FB00088415F200D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05FB1A088415F200D809E1 /* Source */,
+				4B05FB2A088415FD00D809E1 /* Resources */,
+				F9571C0615CFCE0300C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05FB1A088415F200D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FB2C088415FE00D809E1 /* Hyp.h */,
+				4B05FB1C088415F400D809E1 /* HypAdapter.h */,
+				4B05FB1B088415F400D809E1 /* HypAdapter.cpp */,
+				4B05FB1E088415F500D809E1 /* HypHyphenatedWord.h */,
+				4B05FB1D088415F500D809E1 /* HypHyphenatedWord.cpp */,
+				4B05FB1F088415F600D809E1 /* HypHyphenationService.cpp */,
+				4B05FB20088415F700D809E1 /* HypHyphenationMgr.cpp */,
+				4B05FB21088415F700D809E1 /* HypServiceProvider.cpp */,
+				4B05FB23088415F800D809E1 /* HypDiagnostic.h */,
+				4B05FB22088415F800D809E1 /* HypDiagnostic.cpp */,
+				CF22AF461105BA5F007C0ECD /* HypScriptProvider.cpp */,
+				CF22AF451105BA5F007C0ECD /* HypPerformanceMetric.cpp */,
+				CF5A8E701106DDCC0051F8D0 /* HypPerformanceData.cpp */,
+				4B05FB24088415F800D809E1 /* Headers */,
+				4B05FB26088415FB00D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05FB24088415F800D809E1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FB25088415FB00D809E1 /* HypID.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		4B05FB26088415FB00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FB27088415FC00D809E1 /* HypNoStrip.cpp */,
+				4B05FB28088415FC00D809E1 /* HypID.cpp */,
+				4B05FB29088415FD00D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05FB2A088415FD00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F814175DF10300A71E17 /* Hyp_enUS.fr */,
+				3227F815175DF10300A71E17 /* Hyp_jaJP.fr */,
+				4B05FB2B088415FE00D809E1 /* Hyp.fr */,
+				4B05FB2D088415FF00D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73E6F094F8BFD00AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73E70094F8BFD00AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9571C0615CFCE0300C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9571C0D15CFCE0300C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9571C0D15CFCE0300C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9571C1115CFCE0300C95573 /* InDesignModel.framework */,
+				F9571C1215CFCE0300C95573 /* libPublicPlugIn.a */,
+				F9571C0E15CFCE0300C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9571C0E15CFCE0300C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9571C0F15CFCE0300C95573 /* InDesignModel.framework */,
+				F9571C1015CFCE0300C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9571C1415CFCE1200C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571C2915CFCE1200C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9571C1515CFCE1200C95573 /* Sources */,
+				F9571C2315CFCE1200C95573 /* Frameworks */,
+				F9571C2415CFCE1200C95573 /* Rez */,
+				F9571C2615CFCE1200C95573 /* Resources */,
+				F9571C2715CFCE1200C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571C2815CFCE1200C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9571C2D15CFCE1400C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571C4215CFCE1400C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9571C2E15CFCE1400C95573 /* Sources */,
+				F9571C3C15CFCE1400C95573 /* Frameworks */,
+				F9571C3D15CFCE1400C95573 /* Rez */,
+				F9571C3F15CFCE1400C95573 /* Resources */,
+				F9571C4015CFCE1400C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571C4115CFCE1400C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05FB02088415F200D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05FB03088415F200D809E1 /* Build configuration list for PBXProject "Hyphenator.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05FB00088415F200D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9571C1415CFCE1200C95573 /* Debug_Cocoa64 */,
+				F9571C2D15CFCE1400C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9571C2615CFCE1200C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571C3F15CFCE1400C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9571C2415CFCE1200C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571C2515CFCE1200C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571C3D15CFCE1400C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571C3E15CFCE1400C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9571C2715CFCE1200C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9571C4015CFCE1400C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9571C1515CFCE1200C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571C1615CFCE1200C95573 /* Hyp.fr in Sources */,
+				F9571C1715CFCE1200C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571C1815CFCE1200C95573 /* HypNoStrip.cpp in Sources */,
+				F9571C1915CFCE1200C95573 /* HypID.cpp in Sources */,
+				F9571C1A15CFCE1200C95573 /* HypHyphenationService.cpp in Sources */,
+				F9571C1B15CFCE1200C95573 /* HypHyphenationMgr.cpp in Sources */,
+				F9571C1C15CFCE1200C95573 /* HypServiceProvider.cpp in Sources */,
+				F9571C1D15CFCE1200C95573 /* HypAdapter.cpp in Sources */,
+				F9571C1E15CFCE1200C95573 /* HypDiagnostic.cpp in Sources */,
+				F9571C1F15CFCE1200C95573 /* HypHyphenatedWord.cpp in Sources */,
+				F9571C2015CFCE1200C95573 /* HypPerformanceMetric.cpp in Sources */,
+				F9571C2115CFCE1200C95573 /* HypScriptProvider.cpp in Sources */,
+				F9571C2215CFCE1200C95573 /* HypPerformanceData.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571C2E15CFCE1400C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571C2F15CFCE1400C95573 /* Hyp.fr in Sources */,
+				F9571C3015CFCE1400C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571C3115CFCE1400C95573 /* HypNoStrip.cpp in Sources */,
+				F9571C3215CFCE1400C95573 /* HypID.cpp in Sources */,
+				F9571C3315CFCE1400C95573 /* HypHyphenationService.cpp in Sources */,
+				F9571C3415CFCE1400C95573 /* HypHyphenationMgr.cpp in Sources */,
+				F9571C3515CFCE1400C95573 /* HypServiceProvider.cpp in Sources */,
+				F9571C3615CFCE1400C95573 /* HypAdapter.cpp in Sources */,
+				F9571C3715CFCE1400C95573 /* HypDiagnostic.cpp in Sources */,
+				F9571C3815CFCE1400C95573 /* HypHyphenatedWord.cpp in Sources */,
+				F9571C3915CFCE1400C95573 /* HypPerformanceMetric.cpp in Sources */,
+				F9571C3A15CFCE1400C95573 /* HypScriptProvider.cpp in Sources */,
+				F9571C3B15CFCE1400C95573 /* HypPerformanceData.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05FB04088415F200D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = Hyphenator.sdk;
+			};
+			name = Default;
+		};
+		F9571C2A15CFCE1200C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F9571C4315CFCE1400C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05FB03088415F200D809E1 /* Build configuration list for PBXProject "Hyphenator.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05FB04088415F200D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9571C2915CFCE1200C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571C2A15CFCE1200C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9571C4215CFCE1400C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571C4315CFCE1400C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05FB02088415F200D809E1 /* Project object */;
+}

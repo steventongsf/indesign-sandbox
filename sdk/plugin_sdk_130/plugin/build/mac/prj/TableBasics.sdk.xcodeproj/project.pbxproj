@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95729AE15D0C73C00C95573 /* TblBsc.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503730884195A00D809E1 /* TblBsc.fr */; };
+		F95729AF15D0C73C00C95573 /* TblBscActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05036C0884195600D809E1 /* TblBscActionComponent.cpp */; };
+		F95729B015D0C73C00C95573 /* TblBscNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05036F0884195700D809E1 /* TblBscNoStrip.cpp */; };
+		F95729B115D0C73C00C95573 /* TblBscID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503700884195800D809E1 /* TblBscID.cpp */; };
+		F95729B215D0C73C00C95573 /* TblBscDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503680884195300D809E1 /* TblBscDialogController.cpp */; };
+		F95729B315D0C73C00C95573 /* TblBscDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503690884195300D809E1 /* TblBscDialogObserver.cpp */; };
+		F95729B415D0C73C00C95573 /* TblBscSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05036A0884195400D809E1 /* TblBscSuiteASB.cpp */; };
+		F95729B515D0C73C00C95573 /* TblBscSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05036B0884195500D809E1 /* TblBscSuiteTextCSB.cpp */; };
+		F95729B615D0C73C00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503710884195900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95729C215D0C73E00C95573 /* TblBsc.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503730884195A00D809E1 /* TblBsc.fr */; };
+		F95729C315D0C73E00C95573 /* TblBscActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05036C0884195600D809E1 /* TblBscActionComponent.cpp */; };
+		F95729C415D0C73E00C95573 /* TblBscNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05036F0884195700D809E1 /* TblBscNoStrip.cpp */; };
+		F95729C515D0C73E00C95573 /* TblBscID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503700884195800D809E1 /* TblBscID.cpp */; };
+		F95729C615D0C73E00C95573 /* TblBscDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503680884195300D809E1 /* TblBscDialogController.cpp */; };
+		F95729C715D0C73E00C95573 /* TblBscDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503690884195300D809E1 /* TblBscDialogObserver.cpp */; };
+		F95729C815D0C73E00C95573 /* TblBscSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05036A0884195400D809E1 /* TblBscSuiteASB.cpp */; };
+		F95729C915D0C73E00C95573 /* TblBscSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05036B0884195500D809E1 /* TblBscSuiteTextCSB.cpp */; };
+		F95729CA15D0C73E00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0503710884195900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95729E115D0C87F00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95729DF15D0C75300C95573 /* InDesignModelAndUI.framework */; };
+		F95729E215D0C87F00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95729E015D0C75300C95573 /* libPublicPlugIn.a */; };
+		F95729E315D0C88300C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95729DD15D0C75300C95573 /* InDesignModelAndUI.framework */; };
+		F95729E415D0C88300C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95729DE15D0C75300C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95729BB15D0C73C00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95729CF15D0C73E00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE74065094F916900AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE74066094F916900AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F83A175DF2BE00A71E17 /* TblBsc_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TblBsc_enUS.fr; path = ../../../source/sdksamples/tablebasics/TblBsc_enUS.fr; sourceTree = "<group>"; };
+		3227F83B175DF2BE00A71E17 /* TblBsc_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TblBsc_jaJP.fr; path = ../../../source/sdksamples/tablebasics/TblBsc_jaJP.fr; sourceTree = "<group>"; };
+		4B0503680884195300D809E1 /* TblBscDialogController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TblBscDialogController.cpp; path = ../../../source/sdksamples/tablebasics/TblBscDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		4B0503690884195300D809E1 /* TblBscDialogObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TblBscDialogObserver.cpp; path = ../../../source/sdksamples/tablebasics/TblBscDialogObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05036A0884195400D809E1 /* TblBscSuiteASB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TblBscSuiteASB.cpp; path = ../../../source/sdksamples/tablebasics/TblBscSuiteASB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05036B0884195500D809E1 /* TblBscSuiteTextCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TblBscSuiteTextCSB.cpp; path = ../../../source/sdksamples/tablebasics/TblBscSuiteTextCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05036C0884195600D809E1 /* TblBscActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TblBscActionComponent.cpp; path = ../../../source/sdksamples/tablebasics/TblBscActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B05036D0884195700D809E1 /* TblBscID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TblBscID.h; path = ../../../source/sdksamples/tablebasics/TblBscID.h; sourceTree = SOURCE_ROOT; };
+		4B05036F0884195700D809E1 /* TblBscNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TblBscNoStrip.cpp; path = ../../../source/sdksamples/tablebasics/TblBscNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B0503700884195800D809E1 /* TblBscID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TblBscID.cpp; path = ../../../source/sdksamples/tablebasics/TblBscID.cpp; sourceTree = SOURCE_ROOT; };
+		4B0503710884195900D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B0503730884195A00D809E1 /* TblBsc.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TblBsc.fr; path = ../../../source/sdksamples/tablebasics/TblBsc.fr; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F95729DD15D0C75300C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F95729DE15D0C75300C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95729DF15D0C75300C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F95729E015D0C75300C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95729B715D0C73C00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95729E315D0C88300C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F95729E415D0C88300C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95729CB15D0C73E00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95729E115D0C87F00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F95729E215D0C87F00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05034D0884195000D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B0503670884195100D809E1 /* Source */,
+				4B0503720884195900D809E1 /* Resources */,
+				F95729D415D0C75300C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B0503670884195100D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B0503680884195300D809E1 /* TblBscDialogController.cpp */,
+				4B0503690884195300D809E1 /* TblBscDialogObserver.cpp */,
+				4B05036A0884195400D809E1 /* TblBscSuiteASB.cpp */,
+				4B05036B0884195500D809E1 /* TblBscSuiteTextCSB.cpp */,
+				4B05036C0884195600D809E1 /* TblBscActionComponent.cpp */,
+				4B05036D0884195700D809E1 /* TblBscID.h */,
+				4B05036E0884195700D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05036E0884195700D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05036F0884195700D809E1 /* TblBscNoStrip.cpp */,
+				4B0503700884195800D809E1 /* TblBscID.cpp */,
+				4B0503710884195900D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B0503720884195900D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F83A175DF2BE00A71E17 /* TblBsc_enUS.fr */,
+				3227F83B175DF2BE00A71E17 /* TblBsc_jaJP.fr */,
+				4B0503730884195A00D809E1 /* TblBsc.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE74065094F916900AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE74066094F916900AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F95729D415D0C75300C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F95729DB15D0C75300C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F95729DB15D0C75300C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F95729DF15D0C75300C95573 /* InDesignModelAndUI.framework */,
+				F95729E015D0C75300C95573 /* libPublicPlugIn.a */,
+				F95729DC15D0C75300C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F95729DC15D0C75300C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F95729DD15D0C75300C95573 /* InDesignModelAndUI.framework */,
+				F95729DE15D0C75300C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95729AC15D0C73C00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95729BC15D0C73C00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95729AD15D0C73C00C95573 /* Sources */,
+				F95729B715D0C73C00C95573 /* Frameworks */,
+				F95729B815D0C73C00C95573 /* Rez */,
+				F95729B915D0C73C00C95573 /* Resources */,
+				F95729BA15D0C73C00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95729BB15D0C73C00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95729C015D0C73E00C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95729D015D0C73E00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95729C115D0C73E00C95573 /* Sources */,
+				F95729CB15D0C73E00C95573 /* Frameworks */,
+				F95729CC15D0C73E00C95573 /* Rez */,
+				F95729CD15D0C73E00C95573 /* Resources */,
+				F95729CE15D0C73E00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95729CF15D0C73E00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05034F0884195000D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B0503500884195000D809E1 /* Build configuration list for PBXProject "TableBasics.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05034D0884195000D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95729AC15D0C73C00C95573 /* Debug_Cocoa64 */,
+				F95729C015D0C73E00C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95729B915D0C73C00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95729CD15D0C73E00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95729B815D0C73C00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95729CC15D0C73E00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95729BA15D0C73C00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95729CE15D0C73E00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95729AD15D0C73C00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95729AE15D0C73C00C95573 /* TblBsc.fr in Sources */,
+				F95729AF15D0C73C00C95573 /* TblBscActionComponent.cpp in Sources */,
+				F95729B015D0C73C00C95573 /* TblBscNoStrip.cpp in Sources */,
+				F95729B115D0C73C00C95573 /* TblBscID.cpp in Sources */,
+				F95729B215D0C73C00C95573 /* TblBscDialogController.cpp in Sources */,
+				F95729B315D0C73C00C95573 /* TblBscDialogObserver.cpp in Sources */,
+				F95729B415D0C73C00C95573 /* TblBscSuiteASB.cpp in Sources */,
+				F95729B515D0C73C00C95573 /* TblBscSuiteTextCSB.cpp in Sources */,
+				F95729B615D0C73C00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95729C115D0C73E00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95729C215D0C73E00C95573 /* TblBsc.fr in Sources */,
+				F95729C315D0C73E00C95573 /* TblBscActionComponent.cpp in Sources */,
+				F95729C415D0C73E00C95573 /* TblBscNoStrip.cpp in Sources */,
+				F95729C515D0C73E00C95573 /* TblBscID.cpp in Sources */,
+				F95729C615D0C73E00C95573 /* TblBscDialogController.cpp in Sources */,
+				F95729C715D0C73E00C95573 /* TblBscDialogObserver.cpp in Sources */,
+				F95729C815D0C73E00C95573 /* TblBscSuiteASB.cpp in Sources */,
+				F95729C915D0C73E00C95573 /* TblBscSuiteTextCSB.cpp in Sources */,
+				F95729CA15D0C73E00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B0503510884195000D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = TableBasics.sdk;
+			};
+			name = Default;
+		};
+		F95729BD15D0C73C00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F95729D115D0C73E00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0503500884195000D809E1 /* Build configuration list for PBXProject "TableBasics.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0503510884195000D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95729BC15D0C73C00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95729BD15D0C73C00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95729D015D0C73E00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95729D115D0C73E00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05034F0884195000D809E1 /* Project object */;
+}

@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6832FB38210F23700008A4E5 /* CusDtLnkLinkResourceHelperHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6832FB37210F23700008A4E5 /* CusDtLnkLinkResourceHelperHandler.cpp */; };
+		6832FB39210F23700008A4E5 /* CusDtLnkLinkResourceHelperHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6832FB37210F23700008A4E5 /* CusDtLnkLinkResourceHelperHandler.cpp */; };
+		F957162B15CF924400C95573 /* CusDtLnk.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6DB0884140A00D809E1 /* CusDtLnk.fr */; };
+		F957162C15CF924400C95573 /* CusDtLnkNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C4088413F900D809E1 /* CusDtLnkNoStrip.cpp */; };
+		F957162D15CF924400C95573 /* CusDtLnkID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C5088413FA00D809E1 /* CusDtLnkID.cpp */; };
+		F957162E15CF924400C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C3088413F900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957162F15CF924400C95573 /* CusDtLnkFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C8088413FC00D809E1 /* CusDtLnkFacade.cpp */; };
+		F957163015CF924400C95573 /* CusDtLnkChangeOptionsCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C9088413FD00D809E1 /* CusDtLnkChangeOptionsCmd.cpp */; };
+		F957163115CF924400C95573 /* CusDtLnkScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6CD0884140000D809E1 /* CusDtLnkScriptProvider.cpp */; };
+		F957163215CF924400C95573 /* CusDtLnkRespServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6CE0884140100D809E1 /* CusDtLnkRespServiceProvider.cpp */; };
+		F957163315CF924400C95573 /* CusDtLnkOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6CF0884140200D809E1 /* CusDtLnkOptions.cpp */; };
+		F957163415CF924400C95573 /* CusDtLnkLinkResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D00884140300D809E1 /* CusDtLnkLinkResponder.cpp */; };
+		F957163515CF924400C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D10884140300D809E1 /* SDKFileHelper.cpp */; };
+		F957163615CF924400C95573 /* CusDtLnkDocRespServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D30884140400D809E1 /* CusDtLnkDocRespServiceProvider.cpp */; };
+		F957163715CF924400C95573 /* CusDtLnkDelimTextReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D40884140500D809E1 /* CusDtLnkDelimTextReader.cpp */; };
+		F957163815CF924400C95573 /* CusDtLnkDocResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D70884140800D809E1 /* CusDtLnkDocResponder.cpp */; };
+		F957163915CF924400C95573 /* CusDtLnkAdornmentShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D80884140900D809E1 /* CusDtLnkAdornmentShape.cpp */; };
+		F957163A15CF924400C95573 /* CusDtLnkDocObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D90884140900D809E1 /* CusDtLnkDocObserver.cpp */; };
+		F957163B15CF924400C95573 /* CusDtLnkOptionScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76D3D2FF0C062F6A00E36C12 /* CusDtLnkOptionScriptProvider.cpp */; };
+		F957163C15CF924400C95573 /* CusDtLnkLinkResourceHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A47F6730C2B192A00B4F6A9 /* CusDtLnkLinkResourceHandler.cpp */; };
+		F957163D15CF924400C95573 /* CusDtLnkLinkResourceFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A47F7DC0C30294F00B4F6A9 /* CusDtLnkLinkResourceFactory.cpp */; };
+		F957163E15CF924400C95573 /* CusDtLnkLinkResourceStateUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DEB1F0C42F44B00A2784E /* CusDtLnkLinkResourceStateUpdater.cpp */; };
+		F957163F15CF924400C95573 /* CusDtLnkAliasedDataLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555D480C6002C00062175B /* CusDtLnkAliasedDataLink.cpp */; };
+		F957164015CF924400C95573 /* CusDtLnkAliasedLinkedStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555D4B0C6002D00062175B /* CusDtLnkAliasedLinkedStream.cpp */; };
+		F957164115CF924400C95573 /* CusDtLnkAliasedDataLinkAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555D4E0C6002EC0062175B /* CusDtLnkAliasedDataLinkAction.cpp */; };
+		F957164215CF924400C95573 /* CusDtLnkScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555D510C60030D0062175B /* CusDtLnkScript.cpp */; };
+		F957164315CF924400C95573 /* CusDtLnkPhase2Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555DD90C61382F0062175B /* CusDtLnkPhase2Conversion.cpp */; };
+		F957164415CF924400C95573 /* CusDtLnkNewLinkConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555E190C6151E00062175B /* CusDtLnkNewLinkConverter.cpp */; };
+		F957164515CF924400C95573 /* CusDtLnkLinkAssetConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555E7E0C6254040062175B /* CusDtLnkLinkAssetConverter.cpp */; };
+		F957164615CF924400C95573 /* CusDtLnkImportLinkConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555EAC0C625E2C0062175B /* CusDtLnkImportLinkConverter.cpp */; };
+		F957164715CF924400C95573 /* CusDtLnkLinkResourceStatePacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47D990D87001F002C08A5 /* CusDtLnkLinkResourceStatePacket.cpp */; };
+		F957164815CF924400C95573 /* CusDtLnkLinkInfoProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6A67D0D8AF2A5003860AD /* CusDtLnkLinkInfoProvider.cpp */; };
+		F957164915CF924400C95573 /* CusDtLnkLinkResourceStateUpdaterIdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EAE820E53533200B9B5DD /* CusDtLnkLinkResourceStateUpdaterIdleTask.cpp */; };
+		F957164A15CF924400C95573 /* CusDtLnkStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EAE890E5353F000B9B5DD /* CusDtLnkStartupShutdown.cpp */; };
+		F957164B15CF924400C95573 /* CusDtLnkStateUpdateProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EAE980E5354BA00B9B5DD /* CusDtLnkStateUpdateProcessor.cpp */; };
+		F957165715CF924700C95573 /* CusDtLnk.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6DB0884140A00D809E1 /* CusDtLnk.fr */; };
+		F957165815CF924700C95573 /* CusDtLnkNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C4088413F900D809E1 /* CusDtLnkNoStrip.cpp */; };
+		F957165915CF924700C95573 /* CusDtLnkID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C5088413FA00D809E1 /* CusDtLnkID.cpp */; };
+		F957165A15CF924700C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C3088413F900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957165B15CF924700C95573 /* CusDtLnkFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C8088413FC00D809E1 /* CusDtLnkFacade.cpp */; };
+		F957165C15CF924700C95573 /* CusDtLnkChangeOptionsCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6C9088413FD00D809E1 /* CusDtLnkChangeOptionsCmd.cpp */; };
+		F957165D15CF924700C95573 /* CusDtLnkScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6CD0884140000D809E1 /* CusDtLnkScriptProvider.cpp */; };
+		F957165E15CF924700C95573 /* CusDtLnkRespServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6CE0884140100D809E1 /* CusDtLnkRespServiceProvider.cpp */; };
+		F957165F15CF924700C95573 /* CusDtLnkOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6CF0884140200D809E1 /* CusDtLnkOptions.cpp */; };
+		F957166015CF924700C95573 /* CusDtLnkLinkResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D00884140300D809E1 /* CusDtLnkLinkResponder.cpp */; };
+		F957166115CF924700C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D10884140300D809E1 /* SDKFileHelper.cpp */; };
+		F957166215CF924700C95573 /* CusDtLnkDocRespServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D30884140400D809E1 /* CusDtLnkDocRespServiceProvider.cpp */; };
+		F957166315CF924700C95573 /* CusDtLnkDelimTextReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D40884140500D809E1 /* CusDtLnkDelimTextReader.cpp */; };
+		F957166415CF924700C95573 /* CusDtLnkDocResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D70884140800D809E1 /* CusDtLnkDocResponder.cpp */; };
+		F957166515CF924700C95573 /* CusDtLnkAdornmentShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D80884140900D809E1 /* CusDtLnkAdornmentShape.cpp */; };
+		F957166615CF924700C95573 /* CusDtLnkDocObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F6D90884140900D809E1 /* CusDtLnkDocObserver.cpp */; };
+		F957166715CF924700C95573 /* CusDtLnkOptionScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76D3D2FF0C062F6A00E36C12 /* CusDtLnkOptionScriptProvider.cpp */; };
+		F957166815CF924700C95573 /* CusDtLnkLinkResourceHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A47F6730C2B192A00B4F6A9 /* CusDtLnkLinkResourceHandler.cpp */; };
+		F957166915CF924700C95573 /* CusDtLnkLinkResourceFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A47F7DC0C30294F00B4F6A9 /* CusDtLnkLinkResourceFactory.cpp */; };
+		F957166A15CF924700C95573 /* CusDtLnkLinkResourceStateUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A8DEB1F0C42F44B00A2784E /* CusDtLnkLinkResourceStateUpdater.cpp */; };
+		F957166B15CF924700C95573 /* CusDtLnkAliasedDataLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555D480C6002C00062175B /* CusDtLnkAliasedDataLink.cpp */; };
+		F957166C15CF924700C95573 /* CusDtLnkAliasedLinkedStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555D4B0C6002D00062175B /* CusDtLnkAliasedLinkedStream.cpp */; };
+		F957166D15CF924700C95573 /* CusDtLnkAliasedDataLinkAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555D4E0C6002EC0062175B /* CusDtLnkAliasedDataLinkAction.cpp */; };
+		F957166E15CF924700C95573 /* CusDtLnkScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555D510C60030D0062175B /* CusDtLnkScript.cpp */; };
+		F957166F15CF924700C95573 /* CusDtLnkPhase2Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555DD90C61382F0062175B /* CusDtLnkPhase2Conversion.cpp */; };
+		F957167015CF924700C95573 /* CusDtLnkNewLinkConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555E190C6151E00062175B /* CusDtLnkNewLinkConverter.cpp */; };
+		F957167115CF924700C95573 /* CusDtLnkLinkAssetConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555E7E0C6254040062175B /* CusDtLnkLinkAssetConverter.cpp */; };
+		F957167215CF924700C95573 /* CusDtLnkImportLinkConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A555EAC0C625E2C0062175B /* CusDtLnkImportLinkConverter.cpp */; };
+		F957167315CF924700C95573 /* CusDtLnkLinkResourceStatePacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47D990D87001F002C08A5 /* CusDtLnkLinkResourceStatePacket.cpp */; };
+		F957167415CF924700C95573 /* CusDtLnkLinkInfoProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6A67D0D8AF2A5003860AD /* CusDtLnkLinkInfoProvider.cpp */; };
+		F957167515CF924700C95573 /* CusDtLnkLinkResourceStateUpdaterIdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EAE820E53533200B9B5DD /* CusDtLnkLinkResourceStateUpdaterIdleTask.cpp */; };
+		F957167615CF924700C95573 /* CusDtLnkStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EAE890E5353F000B9B5DD /* CusDtLnkStartupShutdown.cpp */; };
+		F957167715CF924700C95573 /* CusDtLnkStateUpdateProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A9EAE980E5354BA00B9B5DD /* CusDtLnkStateUpdateProcessor.cpp */; };
+		F957168115CF927100C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957162615CF923F00C95573 /* InDesignModel.framework */; };
+		F957168215CF927100C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957162715CF923F00C95573 /* libPublicPlugIn.a */; };
+		F957168315CF927500C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957162415CF923F00C95573 /* InDesignModel.framework */; };
+		F957168415CF927500C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957162515CF923F00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957165015CF924400C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957167C15CF924700C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2A47F6700C2B190400B4F6A9 /* CusDtLnkLinkResourceHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CusDtLnkLinkResourceHandler.h; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResourceHandler.h; sourceTree = SOURCE_ROOT; };
+		2A47F6730C2B192A00B4F6A9 /* CusDtLnkLinkResourceHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkResourceHandler.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResourceHandler.cpp; sourceTree = SOURCE_ROOT; };
+		2A47F7DC0C30294F00B4F6A9 /* CusDtLnkLinkResourceFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkResourceFactory.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResourceFactory.cpp; sourceTree = SOURCE_ROOT; };
+		2A555D480C6002C00062175B /* CusDtLnkAliasedDataLink.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkAliasedDataLink.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkAliasedDataLink.cpp; sourceTree = SOURCE_ROOT; };
+		2A555D4B0C6002D00062175B /* CusDtLnkAliasedLinkedStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkAliasedLinkedStream.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkAliasedLinkedStream.cpp; sourceTree = SOURCE_ROOT; };
+		2A555D4E0C6002EC0062175B /* CusDtLnkAliasedDataLinkAction.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkAliasedDataLinkAction.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkAliasedDataLinkAction.cpp; sourceTree = SOURCE_ROOT; };
+		2A555D510C60030D0062175B /* CusDtLnkScript.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkScript.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkScript.cpp; sourceTree = SOURCE_ROOT; };
+		2A555DD90C61382F0062175B /* CusDtLnkPhase2Conversion.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkPhase2Conversion.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkPhase2Conversion.cpp; sourceTree = SOURCE_ROOT; };
+		2A555E190C6151E00062175B /* CusDtLnkNewLinkConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkNewLinkConverter.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkNewLinkConverter.cpp; sourceTree = SOURCE_ROOT; };
+		2A555E7E0C6254040062175B /* CusDtLnkLinkAssetConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkAssetConverter.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkAssetConverter.cpp; sourceTree = SOURCE_ROOT; };
+		2A555EAC0C625E2C0062175B /* CusDtLnkImportLinkConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkImportLinkConverter.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkImportLinkConverter.cpp; sourceTree = SOURCE_ROOT; };
+		2A8DEB1F0C42F44B00A2784E /* CusDtLnkLinkResourceStateUpdater.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkResourceStateUpdater.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResourceStateUpdater.cpp; sourceTree = SOURCE_ROOT; };
+		2A9EAE820E53533200B9B5DD /* CusDtLnkLinkResourceStateUpdaterIdleTask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkResourceStateUpdaterIdleTask.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResourceStateUpdaterIdleTask.cpp; sourceTree = SOURCE_ROOT; };
+		2A9EAE890E5353F000B9B5DD /* CusDtLnkStartupShutdown.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkStartupShutdown.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkStartupShutdown.cpp; sourceTree = SOURCE_ROOT; };
+		2A9EAE980E5354BA00B9B5DD /* CusDtLnkStateUpdateProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkStateUpdateProcessor.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkStateUpdateProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		2AD47D990D87001F002C08A5 /* CusDtLnkLinkResourceStatePacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkResourceStatePacket.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResourceStatePacket.cpp; sourceTree = SOURCE_ROOT; };
+		2AD47D9A0D87001F002C08A5 /* CusDtLnkLinkResourceStatePacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CusDtLnkLinkResourceStatePacket.h; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResourceStatePacket.h; sourceTree = SOURCE_ROOT; };
+		2AE73D62094F89CE00AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73D63094F89CE00AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		2AF6A67D0D8AF2A5003860AD /* CusDtLnkLinkInfoProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkInfoProvider.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkInfoProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6C3088413F900D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6C4088413F900D809E1 /* CusDtLnkNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkNoStrip.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6C5088413FA00D809E1 /* CusDtLnkID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkID.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6C6088413FA00D809E1 /* CusDtLnkID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CusDtLnkID.h; path = ../../../source/sdksamples/customdatalink/CusDtLnkID.h; sourceTree = SOURCE_ROOT; };
+		4B05F6C8088413FC00D809E1 /* CusDtLnkFacade.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkFacade.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkFacade.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6C9088413FD00D809E1 /* CusDtLnkChangeOptionsCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkChangeOptionsCmd.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkChangeOptionsCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6CD0884140000D809E1 /* CusDtLnkScriptProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkScriptProvider.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6CE0884140100D809E1 /* CusDtLnkRespServiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkRespServiceProvider.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkRespServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6CF0884140200D809E1 /* CusDtLnkOptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkOptions.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkOptions.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6D00884140300D809E1 /* CusDtLnkLinkResponder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkResponder.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResponder.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6D10884140300D809E1 /* SDKFileHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKFileHelper.cpp; path = ../../../source/sdksamples/common/SDKFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6D20884140300D809E1 /* SDKFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKFileHelper.h; path = ../../../source/sdksamples/common/SDKFileHelper.h; sourceTree = SOURCE_ROOT; };
+		4B05F6D30884140400D809E1 /* CusDtLnkDocRespServiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkDocRespServiceProvider.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkDocRespServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6D40884140500D809E1 /* CusDtLnkDelimTextReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkDelimTextReader.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkDelimTextReader.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6D70884140800D809E1 /* CusDtLnkDocResponder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkDocResponder.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkDocResponder.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6D80884140900D809E1 /* CusDtLnkAdornmentShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkAdornmentShape.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkAdornmentShape.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6D90884140900D809E1 /* CusDtLnkDocObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkDocObserver.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkDocObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F6DB0884140A00D809E1 /* CusDtLnk.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CusDtLnk.fr; path = ../../../source/sdksamples/customdatalink/CusDtLnk.fr; sourceTree = SOURCE_ROOT; };
+		6832FB37210F23700008A4E5 /* CusDtLnkLinkResourceHelperHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkLinkResourceHelperHandler.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkLinkResourceHelperHandler.cpp; sourceTree = "<group>"; };
+		76D3D2FF0C062F6A00E36C12 /* CusDtLnkOptionScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CusDtLnkOptionScriptProvider.cpp; path = ../../../source/sdksamples/customdatalink/CusDtLnkOptionScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		77355650120337C700E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F957162415CF923F00C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957162515CF923F00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957162615CF923F00C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957162715CF923F00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957164C15CF924400C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957168315CF927500C95573 /* InDesignModel.framework in Frameworks */,
+				F957168415CF927500C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957167815CF924700C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957168115CF927100C95573 /* InDesignModel.framework in Frameworks */,
+				F957168215CF927100C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F6A7088413F600D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F6C1088413F600D809E1 /* Source */,
+				4B05F6DA0884140900D809E1 /* Resources */,
+				F957161B15CF923F00C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				77355650120337C700E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F6C1088413F600D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6832FB37210F23700008A4E5 /* CusDtLnkLinkResourceHelperHandler.cpp */,
+				4B05F6C2088413F600D809E1 /* Plugin */,
+				4B05F6C8088413FC00D809E1 /* CusDtLnkFacade.cpp */,
+				4B05F6C9088413FD00D809E1 /* CusDtLnkChangeOptionsCmd.cpp */,
+				4B05F6CD0884140000D809E1 /* CusDtLnkScriptProvider.cpp */,
+				76D3D2FF0C062F6A00E36C12 /* CusDtLnkOptionScriptProvider.cpp */,
+				4B05F6CE0884140100D809E1 /* CusDtLnkRespServiceProvider.cpp */,
+				4B05F6CF0884140200D809E1 /* CusDtLnkOptions.cpp */,
+				4B05F6D00884140300D809E1 /* CusDtLnkLinkResponder.cpp */,
+				4B05F6D20884140300D809E1 /* SDKFileHelper.h */,
+				4B05F6D10884140300D809E1 /* SDKFileHelper.cpp */,
+				4B05F6D30884140400D809E1 /* CusDtLnkDocRespServiceProvider.cpp */,
+				4B05F6D40884140500D809E1 /* CusDtLnkDelimTextReader.cpp */,
+				2A555EAC0C625E2C0062175B /* CusDtLnkImportLinkConverter.cpp */,
+				2A555E7E0C6254040062175B /* CusDtLnkLinkAssetConverter.cpp */,
+				2AF6A67D0D8AF2A5003860AD /* CusDtLnkLinkInfoProvider.cpp */,
+				2A555E190C6151E00062175B /* CusDtLnkNewLinkConverter.cpp */,
+				2A555DD90C61382F0062175B /* CusDtLnkPhase2Conversion.cpp */,
+				2A47F6730C2B192A00B4F6A9 /* CusDtLnkLinkResourceHandler.cpp */,
+				2A47F6700C2B190400B4F6A9 /* CusDtLnkLinkResourceHandler.h */,
+				2A47F7DC0C30294F00B4F6A9 /* CusDtLnkLinkResourceFactory.cpp */,
+				2AD47D990D87001F002C08A5 /* CusDtLnkLinkResourceStatePacket.cpp */,
+				2AD47D9A0D87001F002C08A5 /* CusDtLnkLinkResourceStatePacket.h */,
+				2A8DEB1F0C42F44B00A2784E /* CusDtLnkLinkResourceStateUpdater.cpp */,
+				4B05F6D70884140800D809E1 /* CusDtLnkDocResponder.cpp */,
+				4B05F6D80884140900D809E1 /* CusDtLnkAdornmentShape.cpp */,
+				4B05F6D90884140900D809E1 /* CusDtLnkDocObserver.cpp */,
+				2A9EAE820E53533200B9B5DD /* CusDtLnkLinkResourceStateUpdaterIdleTask.cpp */,
+				2A9EAE890E5353F000B9B5DD /* CusDtLnkStartupShutdown.cpp */,
+				2A9EAE980E5354BA00B9B5DD /* CusDtLnkStateUpdateProcessor.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F6C2088413F600D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F6C3088413F900D809E1 /* SDKPlugInEntrypoint.cpp */,
+				4B05F6C4088413F900D809E1 /* CusDtLnkNoStrip.cpp */,
+				4B05F6C6088413FA00D809E1 /* CusDtLnkID.h */,
+				4B05F6C5088413FA00D809E1 /* CusDtLnkID.cpp */,
+				2A555D480C6002C00062175B /* CusDtLnkAliasedDataLink.cpp */,
+				2A555D4E0C6002EC0062175B /* CusDtLnkAliasedDataLinkAction.cpp */,
+				2A555D4B0C6002D00062175B /* CusDtLnkAliasedLinkedStream.cpp */,
+				2A555D510C60030D0062175B /* CusDtLnkScript.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F6DA0884140900D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F6DB0884140A00D809E1 /* CusDtLnk.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73D62094F89CE00AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73D63094F89CE00AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957161B15CF923F00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957162215CF923F00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957162215CF923F00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957162615CF923F00C95573 /* InDesignModel.framework */,
+				F957162715CF923F00C95573 /* libPublicPlugIn.a */,
+				F957162315CF923F00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957162315CF923F00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957162415CF923F00C95573 /* InDesignModel.framework */,
+				F957162515CF923F00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957162915CF924400C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957165115CF924400C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957162A15CF924400C95573 /* Sources */,
+				F957164C15CF924400C95573 /* Frameworks */,
+				F957164D15CF924400C95573 /* Rez */,
+				F957164E15CF924400C95573 /* Resources */,
+				F957164F15CF924400C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957165015CF924400C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F957165515CF924700C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957167D15CF924700C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957165615CF924700C95573 /* Sources */,
+				F957167815CF924700C95573 /* Frameworks */,
+				F957167915CF924700C95573 /* Rez */,
+				F957167A15CF924700C95573 /* Resources */,
+				F957167B15CF924700C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957167C15CF924700C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F6A9088413F600D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B05F6AA088413F600D809E1 /* Build configuration list for PBXProject "CustomDataLink.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F6A7088413F600D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957162915CF924400C95573 /* Debug_Cocoa64 */,
+				F957165515CF924700C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957164E15CF924400C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957167A15CF924700C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957164D15CF924400C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957167915CF924700C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957164F15CF924400C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957167B15CF924700C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957162A15CF924400C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957162B15CF924400C95573 /* CusDtLnk.fr in Sources */,
+				F957162C15CF924400C95573 /* CusDtLnkNoStrip.cpp in Sources */,
+				F957162D15CF924400C95573 /* CusDtLnkID.cpp in Sources */,
+				F957162E15CF924400C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957162F15CF924400C95573 /* CusDtLnkFacade.cpp in Sources */,
+				F957163015CF924400C95573 /* CusDtLnkChangeOptionsCmd.cpp in Sources */,
+				F957163115CF924400C95573 /* CusDtLnkScriptProvider.cpp in Sources */,
+				F957163215CF924400C95573 /* CusDtLnkRespServiceProvider.cpp in Sources */,
+				F957163315CF924400C95573 /* CusDtLnkOptions.cpp in Sources */,
+				F957163415CF924400C95573 /* CusDtLnkLinkResponder.cpp in Sources */,
+				F957163515CF924400C95573 /* SDKFileHelper.cpp in Sources */,
+				F957163615CF924400C95573 /* CusDtLnkDocRespServiceProvider.cpp in Sources */,
+				6832FB38210F23700008A4E5 /* CusDtLnkLinkResourceHelperHandler.cpp in Sources */,
+				F957163715CF924400C95573 /* CusDtLnkDelimTextReader.cpp in Sources */,
+				F957163815CF924400C95573 /* CusDtLnkDocResponder.cpp in Sources */,
+				F957163915CF924400C95573 /* CusDtLnkAdornmentShape.cpp in Sources */,
+				F957163A15CF924400C95573 /* CusDtLnkDocObserver.cpp in Sources */,
+				F957163B15CF924400C95573 /* CusDtLnkOptionScriptProvider.cpp in Sources */,
+				F957163C15CF924400C95573 /* CusDtLnkLinkResourceHandler.cpp in Sources */,
+				F957163D15CF924400C95573 /* CusDtLnkLinkResourceFactory.cpp in Sources */,
+				F957163E15CF924400C95573 /* CusDtLnkLinkResourceStateUpdater.cpp in Sources */,
+				F957163F15CF924400C95573 /* CusDtLnkAliasedDataLink.cpp in Sources */,
+				F957164015CF924400C95573 /* CusDtLnkAliasedLinkedStream.cpp in Sources */,
+				F957164115CF924400C95573 /* CusDtLnkAliasedDataLinkAction.cpp in Sources */,
+				F957164215CF924400C95573 /* CusDtLnkScript.cpp in Sources */,
+				F957164315CF924400C95573 /* CusDtLnkPhase2Conversion.cpp in Sources */,
+				F957164415CF924400C95573 /* CusDtLnkNewLinkConverter.cpp in Sources */,
+				F957164515CF924400C95573 /* CusDtLnkLinkAssetConverter.cpp in Sources */,
+				F957164615CF924400C95573 /* CusDtLnkImportLinkConverter.cpp in Sources */,
+				F957164715CF924400C95573 /* CusDtLnkLinkResourceStatePacket.cpp in Sources */,
+				F957164815CF924400C95573 /* CusDtLnkLinkInfoProvider.cpp in Sources */,
+				F957164915CF924400C95573 /* CusDtLnkLinkResourceStateUpdaterIdleTask.cpp in Sources */,
+				F957164A15CF924400C95573 /* CusDtLnkStartupShutdown.cpp in Sources */,
+				F957164B15CF924400C95573 /* CusDtLnkStateUpdateProcessor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957165615CF924700C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957165715CF924700C95573 /* CusDtLnk.fr in Sources */,
+				F957165815CF924700C95573 /* CusDtLnkNoStrip.cpp in Sources */,
+				F957165915CF924700C95573 /* CusDtLnkID.cpp in Sources */,
+				F957165A15CF924700C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957165B15CF924700C95573 /* CusDtLnkFacade.cpp in Sources */,
+				F957165C15CF924700C95573 /* CusDtLnkChangeOptionsCmd.cpp in Sources */,
+				F957165D15CF924700C95573 /* CusDtLnkScriptProvider.cpp in Sources */,
+				F957165E15CF924700C95573 /* CusDtLnkRespServiceProvider.cpp in Sources */,
+				F957165F15CF924700C95573 /* CusDtLnkOptions.cpp in Sources */,
+				F957166015CF924700C95573 /* CusDtLnkLinkResponder.cpp in Sources */,
+				F957166115CF924700C95573 /* SDKFileHelper.cpp in Sources */,
+				F957166215CF924700C95573 /* CusDtLnkDocRespServiceProvider.cpp in Sources */,
+				6832FB39210F23700008A4E5 /* CusDtLnkLinkResourceHelperHandler.cpp in Sources */,
+				F957166315CF924700C95573 /* CusDtLnkDelimTextReader.cpp in Sources */,
+				F957166415CF924700C95573 /* CusDtLnkDocResponder.cpp in Sources */,
+				F957166515CF924700C95573 /* CusDtLnkAdornmentShape.cpp in Sources */,
+				F957166615CF924700C95573 /* CusDtLnkDocObserver.cpp in Sources */,
+				F957166715CF924700C95573 /* CusDtLnkOptionScriptProvider.cpp in Sources */,
+				F957166815CF924700C95573 /* CusDtLnkLinkResourceHandler.cpp in Sources */,
+				F957166915CF924700C95573 /* CusDtLnkLinkResourceFactory.cpp in Sources */,
+				F957166A15CF924700C95573 /* CusDtLnkLinkResourceStateUpdater.cpp in Sources */,
+				F957166B15CF924700C95573 /* CusDtLnkAliasedDataLink.cpp in Sources */,
+				F957166C15CF924700C95573 /* CusDtLnkAliasedLinkedStream.cpp in Sources */,
+				F957166D15CF924700C95573 /* CusDtLnkAliasedDataLinkAction.cpp in Sources */,
+				F957166E15CF924700C95573 /* CusDtLnkScript.cpp in Sources */,
+				F957166F15CF924700C95573 /* CusDtLnkPhase2Conversion.cpp in Sources */,
+				F957167015CF924700C95573 /* CusDtLnkNewLinkConverter.cpp in Sources */,
+				F957167115CF924700C95573 /* CusDtLnkLinkAssetConverter.cpp in Sources */,
+				F957167215CF924700C95573 /* CusDtLnkImportLinkConverter.cpp in Sources */,
+				F957167315CF924700C95573 /* CusDtLnkLinkResourceStatePacket.cpp in Sources */,
+				F957167415CF924700C95573 /* CusDtLnkLinkInfoProvider.cpp in Sources */,
+				F957167515CF924700C95573 /* CusDtLnkLinkResourceStateUpdaterIdleTask.cpp in Sources */,
+				F957167615CF924700C95573 /* CusDtLnkStartupShutdown.cpp in Sources */,
+				F957167715CF924700C95573 /* CusDtLnkStateUpdateProcessor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F6AB088413F600D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				GCC_WARN_SHADOW = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = CustomDataLink.sdk;
+			};
+			name = Default;
+		};
+		F957165215CF924400C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F957167E15CF924700C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F6AA088413F600D809E1 /* Build configuration list for PBXProject "CustomDataLink.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F6AB088413F600D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957165115CF924400C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957165215CF924400C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957167D15CF924700C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957167E15CF924700C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F6A9088413F600D809E1 /* Project object */;
+}

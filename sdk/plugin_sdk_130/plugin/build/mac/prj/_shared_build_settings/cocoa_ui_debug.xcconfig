@@ -1,0 +1,11 @@
+// Common InDesign build settings for ui targets (Cocoa version)
+ID_BUILD_CONFIG_BASE_DEBUG_COCOA = YES
+
+#include "cocoa_common_debug.xcconfig"
+#include "cocoa_common.xcconfig"
+
+//Override the build folder sub path so all debug targets, use the debug build folder. (important for projects with extra targets PMRuntime, or the Apps)
+ID_BUILDFOLDER_SUBPATH = debug_cocoa
+
+// In general, ui projects will need to be compiled with objc++ compiler, because of NSView in OWL, Drover, etc.
+GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp 

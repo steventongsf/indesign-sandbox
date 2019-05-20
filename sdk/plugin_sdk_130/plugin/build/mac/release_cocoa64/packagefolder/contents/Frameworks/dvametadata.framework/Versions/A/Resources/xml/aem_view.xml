@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views xmlns="http://ns.adobe.com/metadata/ui/1.0/"> 
+
+	<view
+		xmlns:cq="http://www.day.com/jcr/cq/1.0" 
+		name="com.adobe.xmp.view.aem"
+		label="$$$/metadataui/view/aem_label=AEM Properties"
+		description="$$$/metadataui/view/aem_description=Contains AEM properties">
+		
+		<property name="cq:tags" widget="array" type="noDetailsOnlyDelete" multiItems="22" />		
+		
+	</view>	
+	
+</views>

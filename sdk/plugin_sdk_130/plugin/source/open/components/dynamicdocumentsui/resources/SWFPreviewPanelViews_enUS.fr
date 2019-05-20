@@ -1,0 +1,170 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/open/components/dynamicdocumentsui/resources/SWFPreviewPanelViews_enUS.fr $
+//  
+//  Owner: Yeming Liu
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "InterfaceColorDefines.h"
+#include "DynamicDocumentsUIDefs.h"
+#include "ApplDefs.h"
+
+#ifdef __ODFRC__
+
+const uint32 kPreviewCurrentPageWidth = 30;
+
+//========================================================================================
+// SWFPreviewPanelView resource
+//========================================================================================
+
+resource SWFPreviewPanelWidget (kSWFPreviewPaletteRsrcID + index_enUS)
+{
+	__FILE__, __LINE__,
+	kSWFPreviewPanelWidgetID, kPMRsrcID_None, // WidgetId, RsrcId
+	kBindNone,					// Frame binding
+	Frame(0,0,kMinSWFPreviewPanelWidth,kMinSWFPreviewPanelHeight)			// Frame
+	kTrue, kTrue,				// Visible, Enabled
+	kTrue,						// EraseBeforeDraw
+	kInterfacePaletteFill,		// Erase to color
+	kFalse,						// DrawDropShadow
+	"kSWFPreviewPanelName",		// Panel name	
+	{	
+		// Preview Proxy
+		AnimationPreviewPanelWidget
+		(
+			0, kPMRsrcID_None,
+			kBindAll,
+			Frame(kCC2016StandardGapBetweenWidgets, kCC2016StandardGapBetweenWidgets,kMinSWFPreviewPanelWidth-kCC2016StandardGapBetweenWidgets,kMinSWFPreviewPanelHeight-kCC2016PanelIconHeight-kCC2016StandardGapBetweenWidgets)		// Frame
+			kTrue, kTrue,
+			kTrue,											// EraseBackground
+			kInterfacePaletteFill,							// Erase to color
+			"",
+			{
+				// ----- Preview Proxy ----- 
+				SWFPreviewOWLFlashPlayerWidget 
+				(
+					kSWFPreviewProxyWidgetID, 
+					kPMRsrcID_None,
+					kBindAll,
+					Frame(0,0,kMinSWFPreviewPanelWidth-kCC2016StandardGapBetweenWidgets,kMinSWFPreviewPanelHeight-kCC2016PanelIconHeight-2*kCC2016StandardGapBetweenWidgets)	// Frame
+					kTrue, kTrue,
+				)	
+			}
+		)		
+
+
+		// ----- The control strip ----- //
+		GenericPanelWidget
+		(
+			kSWFPreviewPanelControlStripWidgetID, kPMRsrcID_None,
+			kBindBottom | kBindLeft | kBindRight,
+			Frame(0,kMinSWFPreviewPanelHeight-kCC2016PanelIconHeight,kMinSWFPreviewPanelWidth,kMinSWFPreviewPanelHeight)  						// Frame
+			kTrue, kTrue,
+			""
+			{	
+				// Play Button
+				SWFPreviewButtonWidget
+				(
+					kSWFPreviewButtonWidgetID, kSWFPreviewPlayIconRsrcID, kDynamicDocumentsUIPluginID,	// WidgetId, RsrcId, PluginId				
+					kBindLeft,
+					Frame(0, 0, kCC2016PanelIconWidth, kCC2016PanelIconHeight)					// Frame
+					kTrue, kTrue,						// Visible, Enabled
+					kADBEIconSuiteButtonType,
+				),	
+				// stop Button
+				SWFStopButtonWidget
+				(
+					kSWFStopButtonWidgetID, kSWFPreviewStopIconRsrcID, kDynamicDocumentsUIPluginID,	// WidgetId, RsrcId, PluginId				
+					kBindLeft,
+					Frame(kCC2016PanelIconWidth, 0, (2*kCC2016PanelIconWidth), kCC2016PanelIconHeight)					// Frame
+					kTrue, kFalse,						// Visible, Enabled
+					kADBEIconSuiteButtonType,
+				),	
+				// Go To Previous Page
+				PreviousSpreadButtonWidget
+				(
+					kSWFPreviewPreviousButtonWidgetID, kSWFPreviousIconRsrcID, kDynamicDocumentsUIPluginID,	// WidgetId, RsrcId, PluginId	
+					kBindLeft,	// Frame binding
+					Frame((2*kCC2016PanelIconWidth), 0, (3*kCC2016PanelIconWidth), kCC2016PanelIconHeight)		// Frame
+					kTrue, kFalse,			// Visible, Enabled
+					kADBEIconSuiteButtonType,
+				),
+				// Current page static text widget
+				SWFPreviewCurrentPageWidget 
+                (             
+                    kSWFPreviewCurrentPageWidgetID, kSysStaticTextPMRsrcId,	// WidgetId, RsrcId
+					kBindLeft,
+					Frame((3*kCC2016PanelIconWidth), 0, (3*kCC2016PanelIconWidth) + kPreviewCurrentPageWidth, kCC2016PanelIconHeight)				// Frame
+					kTrue, kTrue, kAlignCenter,		// Visible, Enabled, alignment
+  					kEllipsizeEnd, kFalse,			// Ellipsize style, Convert ampersands
+  					"",								// Text
+  					0	                                       
+                ), 
+				// Go To Next Page
+				NextSpreadButtonWidget
+				(
+					kSWFPreviewNextButtonWidgetID, kSWFNextIconRsrcID, kDynamicDocumentsUIPluginID,	// WidgetId, RsrcId, PluginId	
+					kBindLeft,				// Frame binding
+					Frame((3*kCC2016PanelIconWidth)+kPreviewCurrentPageWidth, 0, (4*kCC2016PanelIconWidth) + kPreviewCurrentPageWidth, kCC2016PanelIconHeight)		// Frame
+					kTrue, kFalse,			// Visible, Enabled
+					kADBEIconSuiteButtonType,
+				),
+				// Warning icon
+				SWFPreviewWarningButtonWidget 
+                ( 
+                    kSWFPreviewWarningButtonWidgetID, kSWFPreviewWarningIconRsrcID, kDynamicDocumentsUIPluginID,	// WidgetId, RsrcId, PluginId	
+                    kBindRight,				// Frame binding
+                    Frame(kCC2016ResizablePanelBottomBottomBarWidth - (4*kCC2016PanelPushIconWidth), 0, kCC2016ResizablePanelBottomBottomBarWidth-(3*kCC2016PanelPushIconWidth), kCC2016PanelIconHeight)			// Frame
+                    kFalse, kTrue, 
+                    kADBEIconSuiteButtonType, 
+                ),
+				// Preview Selection Button
+				RollOverIconPushButtonWidget
+				(
+					kSWFPreviewSelectionButtonWidgetID, kSWFPreviewSelectionIconRsrcID, kDynamicDocumentsUIPluginID,	// WidgetId, RsrcId, PluginId	
+					kBindRight,
+					Frame(kCC2016ResizablePanelBottomBottomBarWidth - (3*kCC2016PanelPushIconWidth), 0, kCC2016ResizablePanelBottomBottomBarWidth-(2*kCC2016PanelPushIconWidth), kCC2016PanelIconHeight)					// Frame
+					kTrue, kTrue,						// Visible, Enabled
+					kADBEIconSuiteButtonType,
+				),
+				// Preview Spread Button
+				RollOverIconPushButtonWidget
+				(
+					kSWFPreviewSpreadButtonWidgetID, kSWFPreviewSpreadIconRsrcID, kDynamicDocumentsUIPluginID, // WidgetId, RsrcId, PluginId	
+					kBindRight,
+					Frame(kCC2016ResizablePanelBottomBottomBarWidth - (2*kCC2016PanelPushIconWidth), 0, kCC2016ResizablePanelBottomBottomBarWidth-kCC2016PanelPushIconWidth, kCC2016PanelIconHeight)					// Frame
+					kTrue, kTrue,						// Visible, Enabled
+					kADBEIconSuiteButtonType,
+				),
+				// Preview Document Button
+				RollOverIconPushButtonWidget
+				(
+					kSWFPreviewDocumentButtonWidgetID, kSWFPreviewDocumentIconRsrcID, kDynamicDocumentsUIPluginID, // WidgetId, RsrcId, PluginId	
+					kBindRight,
+					Frame(kCC2016ResizablePanelBottomBottomBarWidth-kCC2016PanelPushIconWidth,0, kCC2016ResizablePanelBottomBottomBarWidth, kCC2016PanelIconHeight)					// Frame
+					kTrue, kTrue,						// Visible, Enabled
+					kADBEIconSuiteButtonType,
+				),
+			}
+		),
+	},
+	"kSWFPreviewPanelPopup",				// Panel popup menu name
+}
+
+#endif

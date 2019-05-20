@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9571A7715CFBB1700C95573 /* GTTxtEdt.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EED108840E9500D809E1 /* GTTxtEdt.fr */; };
+		F9571A7815CFBB1700C95573 /* GTTxtEdtNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECD08840E9300D809E1 /* GTTxtEdtNoStrip.cpp */; };
+		F9571A7915CFBB1700C95573 /* GTTxtEdtID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECE08840E9400D809E1 /* GTTxtEdtID.cpp */; };
+		F9571A7A15CFBB1700C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571A7B15CFBB1700C95573 /* GTTxtEdtNewDeleteStoryObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153609CB2CF5001CD3F8 /* GTTxtEdtNewDeleteStoryObserver.cpp */; };
+		F9571A7C15CFBB1700C95573 /* GTTxtEdtResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153709CB2CF5001CD3F8 /* GTTxtEdtResponder.cpp */; };
+		F9571A7D15CFBB1700C95573 /* GTTxtEdtStoryObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153809CB2CF5001CD3F8 /* GTTxtEdtStoryObserver.cpp */; };
+		F9571A7E15CFBB1700C95573 /* GTTxtEdtSnapshotInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153909CB2CF5001CD3F8 /* GTTxtEdtSnapshotInterface.cpp */; };
+		F9571A7F15CFBB1700C95573 /* GTTxtEdtUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153A09CB2CF5001CD3F8 /* GTTxtEdtUtils.cpp */; };
+		F9571A8015CFBB1700C95573 /* GTTxtEdtActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156409CB3046001CD3F8 /* GTTxtEdtActionComponent.cpp */; };
+		F9571A8115CFBB1700C95573 /* GTTxtEdtControlStripRegister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156509CB3046001CD3F8 /* GTTxtEdtControlStripRegister.cpp */; };
+		F9571A8215CFBB1700C95573 /* GTTxtEdtControlStripSuite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156609CB3046001CD3F8 /* GTTxtEdtControlStripSuite.cpp */; };
+		F9571A8315CFBB1700C95573 /* GTTxtEdtGoToTextButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156809CB3046001CD3F8 /* GTTxtEdtGoToTextButtonObserver.cpp */; };
+		F9571A8415CFBB1700C95573 /* GTTxtEdtInvalHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156909CB3046001CD3F8 /* GTTxtEdtInvalHandler.cpp */; };
+		F9571A8515CFBB1700C95573 /* GTTxtEdtResponderServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156C09CB3046001CD3F8 /* GTTxtEdtResponderServiceProvider.cpp */; };
+		F9571A8615CFBB1700C95573 /* TriggerResourceDeps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156F09CB3046001CD3F8 /* TriggerResourceDeps.cpp */; };
+		F9571A8A15CFBB1700C95573 /* gototext_i.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 760F155F09CB3046001CD3F8 /* gototext_i.PNG */; };
+		F9571A8B15CFBB1700C95573 /* gototext.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 760F156009CB3046001CD3F8 /* gototext.PNG */; };
+		F9571A8C15CFBB1700C95573 /* GTTxtEdt.rc in Resources */ = {isa = PBXBuildFile; fileRef = 760F156309CB3046001CD3F8 /* GTTxtEdt.rc */; };
+		F9571A9515CFBB1900C95573 /* GTTxtEdt.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EED108840E9500D809E1 /* GTTxtEdt.fr */; };
+		F9571A9615CFBB1900C95573 /* GTTxtEdtNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECD08840E9300D809E1 /* GTTxtEdtNoStrip.cpp */; };
+		F9571A9715CFBB1900C95573 /* GTTxtEdtID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECE08840E9400D809E1 /* GTTxtEdtID.cpp */; };
+		F9571A9815CFBB1900C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571A9915CFBB1900C95573 /* GTTxtEdtNewDeleteStoryObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153609CB2CF5001CD3F8 /* GTTxtEdtNewDeleteStoryObserver.cpp */; };
+		F9571A9A15CFBB1900C95573 /* GTTxtEdtResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153709CB2CF5001CD3F8 /* GTTxtEdtResponder.cpp */; };
+		F9571A9B15CFBB1900C95573 /* GTTxtEdtStoryObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153809CB2CF5001CD3F8 /* GTTxtEdtStoryObserver.cpp */; };
+		F9571A9C15CFBB1900C95573 /* GTTxtEdtSnapshotInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153909CB2CF5001CD3F8 /* GTTxtEdtSnapshotInterface.cpp */; };
+		F9571A9D15CFBB1900C95573 /* GTTxtEdtUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F153A09CB2CF5001CD3F8 /* GTTxtEdtUtils.cpp */; };
+		F9571A9E15CFBB1900C95573 /* GTTxtEdtActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156409CB3046001CD3F8 /* GTTxtEdtActionComponent.cpp */; };
+		F9571A9F15CFBB1900C95573 /* GTTxtEdtControlStripRegister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156509CB3046001CD3F8 /* GTTxtEdtControlStripRegister.cpp */; };
+		F9571AA015CFBB1900C95573 /* GTTxtEdtControlStripSuite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156609CB3046001CD3F8 /* GTTxtEdtControlStripSuite.cpp */; };
+		F9571AA115CFBB1900C95573 /* GTTxtEdtGoToTextButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156809CB3046001CD3F8 /* GTTxtEdtGoToTextButtonObserver.cpp */; };
+		F9571AA215CFBB1900C95573 /* GTTxtEdtInvalHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156909CB3046001CD3F8 /* GTTxtEdtInvalHandler.cpp */; };
+		F9571AA315CFBB1900C95573 /* GTTxtEdtResponderServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156C09CB3046001CD3F8 /* GTTxtEdtResponderServiceProvider.cpp */; };
+		F9571AA415CFBB1900C95573 /* TriggerResourceDeps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 760F156F09CB3046001CD3F8 /* TriggerResourceDeps.cpp */; };
+		F9571AA815CFBB1900C95573 /* gototext_i.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 760F155F09CB3046001CD3F8 /* gototext_i.PNG */; };
+		F9571AA915CFBB1900C95573 /* gototext.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 760F156009CB3046001CD3F8 /* gototext.PNG */; };
+		F9571AAA15CFBB1900C95573 /* GTTxtEdt.rc in Resources */ = {isa = PBXBuildFile; fileRef = 760F156309CB3046001CD3F8 /* GTTxtEdt.rc */; };
+		F9571AB315CFBBE500C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571A7215CFBB1000C95573 /* InDesignModelAndUI.framework */; };
+		F9571AB415CFBBE500C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571A7315CFBB1000C95573 /* libPublicPlugIn.a */; };
+		F9571AB515CFBBE900C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571A7015CFBB1000C95573 /* InDesignModelAndUI.framework */; };
+		F9571AB615CFBBE900C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571A7115CFBB1000C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9571A8E15CFBB1700C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9571AAC15CFBB1900C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		3227F80E175DF0CA00A71E17 /* GTTxtEdt_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = GTTxtEdt_enUS.fr; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdt_enUS.fr; sourceTree = "<group>"; };
+		3227F80F175DF0CA00A71E17 /* GTTxtEdt_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = GTTxtEdt_jaJP.fr; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdt_jaJP.fr; sourceTree = "<group>"; };
+		4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECD08840E9300D809E1 /* GTTxtEdtNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtNoStrip.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECE08840E9400D809E1 /* GTTxtEdtID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtID.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECF08840E9400D809E1 /* GTTxtEdtID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GTTxtEdtID.h; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtID.h; sourceTree = SOURCE_ROOT; };
+		4B05EED108840E9500D809E1 /* GTTxtEdt.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = GTTxtEdt.fr; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdt.fr; sourceTree = SOURCE_ROOT; };
+		760F153609CB2CF5001CD3F8 /* GTTxtEdtNewDeleteStoryObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtNewDeleteStoryObserver.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtNewDeleteStoryObserver.cpp; sourceTree = SOURCE_ROOT; };
+		760F153709CB2CF5001CD3F8 /* GTTxtEdtResponder.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtResponder.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtResponder.cpp; sourceTree = SOURCE_ROOT; };
+		760F153809CB2CF5001CD3F8 /* GTTxtEdtStoryObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtStoryObserver.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtStoryObserver.cpp; sourceTree = SOURCE_ROOT; };
+		760F153909CB2CF5001CD3F8 /* GTTxtEdtSnapshotInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtSnapshotInterface.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtSnapshotInterface.cpp; sourceTree = SOURCE_ROOT; };
+		760F153A09CB2CF5001CD3F8 /* GTTxtEdtUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtUtils.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtUtils.cpp; sourceTree = SOURCE_ROOT; };
+		760F155F09CB3046001CD3F8 /* gototext_i.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gototext_i.PNG; path = ../../../source/sdksamples/gotolasttextedit/gototext_i.PNG; sourceTree = SOURCE_ROOT; };
+		760F156009CB3046001CD3F8 /* gototext.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gototext.PNG; path = ../../../source/sdksamples/gotolasttextedit/gototext.PNG; sourceTree = SOURCE_ROOT; };
+		760F156309CB3046001CD3F8 /* GTTxtEdt.rc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = GTTxtEdt.rc; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdt.rc; sourceTree = SOURCE_ROOT; };
+		760F156409CB3046001CD3F8 /* GTTxtEdtActionComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtActionComponent.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		760F156509CB3046001CD3F8 /* GTTxtEdtControlStripRegister.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtControlStripRegister.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtControlStripRegister.cpp; sourceTree = SOURCE_ROOT; };
+		760F156609CB3046001CD3F8 /* GTTxtEdtControlStripSuite.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtControlStripSuite.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtControlStripSuite.cpp; sourceTree = SOURCE_ROOT; };
+		760F156709CB3046001CD3F8 /* GTTxtEdtFactoryList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GTTxtEdtFactoryList.h; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtFactoryList.h; sourceTree = SOURCE_ROOT; };
+		760F156809CB3046001CD3F8 /* GTTxtEdtGoToTextButtonObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtGoToTextButtonObserver.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtGoToTextButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		760F156909CB3046001CD3F8 /* GTTxtEdtInvalHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtInvalHandler.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtInvalHandler.cpp; sourceTree = SOURCE_ROOT; };
+		760F156A09CB3046001CD3F8 /* GTTxtEdtInvalHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GTTxtEdtInvalHandler.h; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtInvalHandler.h; sourceTree = SOURCE_ROOT; };
+		760F156B09CB3046001CD3F8 /* GTTxtEdtResDefs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GTTxtEdtResDefs.h; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtResDefs.h; sourceTree = SOURCE_ROOT; };
+		760F156C09CB3046001CD3F8 /* GTTxtEdtResponderServiceProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GTTxtEdtResponderServiceProvider.cpp; path = ../../../source/sdksamples/gotolasttextedit/GTTxtEdtResponderServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		760F156D09CB3046001CD3F8 /* IGTTxtEdtSnapshotInterface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IGTTxtEdtSnapshotInterface.h; path = ../../../source/sdksamples/gotolasttextedit/IGTTxtEdtSnapshotInterface.h; sourceTree = SOURCE_ROOT; };
+		760F156E09CB3046001CD3F8 /* IGTTxtEdtUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IGTTxtEdtUtils.h; path = ../../../source/sdksamples/gotolasttextedit/IGTTxtEdtUtils.h; sourceTree = SOURCE_ROOT; };
+		760F156F09CB3046001CD3F8 /* TriggerResourceDeps.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TriggerResourceDeps.cpp; path = ../../../source/sdksamples/gotolasttextedit/TriggerResourceDeps.cpp; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F9571A7015CFBB1000C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9571A7115CFBB1000C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9571A7215CFBB1000C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9571A7315CFBB1000C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9571A8715CFBB1700C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571AB515CFBBE900C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9571AB615CFBBE900C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571AA515CFBB1900C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571AB315CFBBE500C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9571AB415CFBBE500C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05EEAD08840E8D00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05EEC708840E8D00D809E1 /* Source */,
+				4B05EED008840E9400D809E1 /* Resources */,
+				F9571A6715CFBB1000C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05EEC708840E8D00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05EECF08840E9400D809E1 /* GTTxtEdtID.h */,
+				760F156409CB3046001CD3F8 /* GTTxtEdtActionComponent.cpp */,
+				760F153609CB2CF5001CD3F8 /* GTTxtEdtNewDeleteStoryObserver.cpp */,
+				760F153709CB2CF5001CD3F8 /* GTTxtEdtResponder.cpp */,
+				760F153809CB2CF5001CD3F8 /* GTTxtEdtStoryObserver.cpp */,
+				760F156D09CB3046001CD3F8 /* IGTTxtEdtSnapshotInterface.h */,
+				760F153909CB2CF5001CD3F8 /* GTTxtEdtSnapshotInterface.cpp */,
+				760F156E09CB3046001CD3F8 /* IGTTxtEdtUtils.h */,
+				760F153A09CB2CF5001CD3F8 /* GTTxtEdtUtils.cpp */,
+				760F156609CB3046001CD3F8 /* GTTxtEdtControlStripSuite.cpp */,
+				760F156809CB3046001CD3F8 /* GTTxtEdtGoToTextButtonObserver.cpp */,
+				760F156509CB3046001CD3F8 /* GTTxtEdtControlStripRegister.cpp */,
+				760F156A09CB3046001CD3F8 /* GTTxtEdtInvalHandler.h */,
+				760F156909CB3046001CD3F8 /* GTTxtEdtInvalHandler.cpp */,
+				760F156C09CB3046001CD3F8 /* GTTxtEdtResponderServiceProvider.cpp */,
+				4B05EECB08840E9100D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05EECB08840E9100D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */,
+				4B05EECD08840E9300D809E1 /* GTTxtEdtNoStrip.cpp */,
+				4B05EECE08840E9400D809E1 /* GTTxtEdtID.cpp */,
+				760F156709CB3046001CD3F8 /* GTTxtEdtFactoryList.h */,
+				760F156F09CB3046001CD3F8 /* TriggerResourceDeps.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05EED008840E9400D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F80E175DF0CA00A71E17 /* GTTxtEdt_enUS.fr */,
+				3227F80F175DF0CA00A71E17 /* GTTxtEdt_jaJP.fr */,
+				760F156B09CB3046001CD3F8 /* GTTxtEdtResDefs.h */,
+				760F156309CB3046001CD3F8 /* GTTxtEdt.rc */,
+				760F156009CB3046001CD3F8 /* gototext.PNG */,
+				760F155F09CB3046001CD3F8 /* gototext_i.PNG */,
+				4B05EED108840E9500D809E1 /* GTTxtEdt.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9571A6715CFBB1000C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9571A6E15CFBB1000C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9571A6E15CFBB1000C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9571A7215CFBB1000C95573 /* InDesignModelAndUI.framework */,
+				F9571A7315CFBB1000C95573 /* libPublicPlugIn.a */,
+				F9571A6F15CFBB1000C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9571A6F15CFBB1000C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9571A7015CFBB1000C95573 /* InDesignModelAndUI.framework */,
+				F9571A7115CFBB1000C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9571A7515CFBB1700C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571A8F15CFBB1700C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9571A7615CFBB1700C95573 /* Sources */,
+				F9571A8715CFBB1700C95573 /* Frameworks */,
+				F9571A8815CFBB1700C95573 /* Rez */,
+				F9571A8915CFBB1700C95573 /* Resources */,
+				F9571A8D15CFBB1700C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571A8E15CFBB1700C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9571A9315CFBB1900C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571AAD15CFBB1900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9571A9415CFBB1900C95573 /* Sources */,
+				F9571AA515CFBB1900C95573 /* Frameworks */,
+				F9571AA615CFBB1900C95573 /* Rez */,
+				F9571AA715CFBB1900C95573 /* Resources */,
+				F9571AAB15CFBB1900C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571AAC15CFBB1900C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05EEAF08840E8D00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05EEB008840E8D00D809E1 /* Build configuration list for PBXProject "GoToLastTextEdit.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05EEAD08840E8D00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9571A7515CFBB1700C95573 /* Debug_Cocoa64 */,
+				F9571A9315CFBB1900C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9571A8915CFBB1700C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571A8A15CFBB1700C95573 /* gototext_i.PNG in Resources */,
+				F9571A8B15CFBB1700C95573 /* gototext.PNG in Resources */,
+				F9571A8C15CFBB1700C95573 /* GTTxtEdt.rc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571AA715CFBB1900C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571AA815CFBB1900C95573 /* gototext_i.PNG in Resources */,
+				F9571AA915CFBB1900C95573 /* gototext.PNG in Resources */,
+				F9571AAA15CFBB1900C95573 /* GTTxtEdt.rc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9571A8815CFBB1700C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571AA615CFBB1900C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9571A8D15CFBB1700C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9571AAB15CFBB1900C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9571A7615CFBB1700C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571A7715CFBB1700C95573 /* GTTxtEdt.fr in Sources */,
+				F9571A7815CFBB1700C95573 /* GTTxtEdtNoStrip.cpp in Sources */,
+				F9571A7915CFBB1700C95573 /* GTTxtEdtID.cpp in Sources */,
+				F9571A7A15CFBB1700C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571A7B15CFBB1700C95573 /* GTTxtEdtNewDeleteStoryObserver.cpp in Sources */,
+				F9571A7C15CFBB1700C95573 /* GTTxtEdtResponder.cpp in Sources */,
+				F9571A7D15CFBB1700C95573 /* GTTxtEdtStoryObserver.cpp in Sources */,
+				F9571A7E15CFBB1700C95573 /* GTTxtEdtSnapshotInterface.cpp in Sources */,
+				F9571A7F15CFBB1700C95573 /* GTTxtEdtUtils.cpp in Sources */,
+				F9571A8015CFBB1700C95573 /* GTTxtEdtActionComponent.cpp in Sources */,
+				F9571A8115CFBB1700C95573 /* GTTxtEdtControlStripRegister.cpp in Sources */,
+				F9571A8215CFBB1700C95573 /* GTTxtEdtControlStripSuite.cpp in Sources */,
+				F9571A8315CFBB1700C95573 /* GTTxtEdtGoToTextButtonObserver.cpp in Sources */,
+				F9571A8415CFBB1700C95573 /* GTTxtEdtInvalHandler.cpp in Sources */,
+				F9571A8515CFBB1700C95573 /* GTTxtEdtResponderServiceProvider.cpp in Sources */,
+				F9571A8615CFBB1700C95573 /* TriggerResourceDeps.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571A9415CFBB1900C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571A9515CFBB1900C95573 /* GTTxtEdt.fr in Sources */,
+				F9571A9615CFBB1900C95573 /* GTTxtEdtNoStrip.cpp in Sources */,
+				F9571A9715CFBB1900C95573 /* GTTxtEdtID.cpp in Sources */,
+				F9571A9815CFBB1900C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571A9915CFBB1900C95573 /* GTTxtEdtNewDeleteStoryObserver.cpp in Sources */,
+				F9571A9A15CFBB1900C95573 /* GTTxtEdtResponder.cpp in Sources */,
+				F9571A9B15CFBB1900C95573 /* GTTxtEdtStoryObserver.cpp in Sources */,
+				F9571A9C15CFBB1900C95573 /* GTTxtEdtSnapshotInterface.cpp in Sources */,
+				F9571A9D15CFBB1900C95573 /* GTTxtEdtUtils.cpp in Sources */,
+				F9571A9E15CFBB1900C95573 /* GTTxtEdtActionComponent.cpp in Sources */,
+				F9571A9F15CFBB1900C95573 /* GTTxtEdtControlStripRegister.cpp in Sources */,
+				F9571AA015CFBB1900C95573 /* GTTxtEdtControlStripSuite.cpp in Sources */,
+				F9571AA115CFBB1900C95573 /* GTTxtEdtGoToTextButtonObserver.cpp in Sources */,
+				F9571AA215CFBB1900C95573 /* GTTxtEdtInvalHandler.cpp in Sources */,
+				F9571AA315CFBB1900C95573 /* GTTxtEdtResponderServiceProvider.cpp in Sources */,
+				F9571AA415CFBB1900C95573 /* TriggerResourceDeps.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05EEB108840E8D00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/external/boost,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = GoToLastTextEdit.sdk;
+			};
+			name = Default;
+		};
+		F9571A9015CFBB1700C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F9571AAE15CFBB1900C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05EEB008840E8D00D809E1 /* Build configuration list for PBXProject "GoToLastTextEdit.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05EEB108840E8D00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9571A8F15CFBB1700C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571A9015CFBB1700C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9571AAD15CFBB1900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571AAE15CFBB1900C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05EEAF08840E8D00D809E1 /* Project object */;
+}

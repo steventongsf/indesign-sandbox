@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F957110415CF7B3200C95573 /* CdlChtUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EED108840E9500D809E1 /* CdlChtUI.fr */; };
+		F957110515CF7B3200C95573 /* CdlChtUIActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000FFFF /* CdlChtUIActionComponent.cpp */; };
+		F957110615CF7B3200C95573 /* CdlChtUINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECD08840E9300D809E1 /* CdlChtUINoStrip.cpp */; };
+		F957110715CF7B3200C95573 /* CdlChtUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECE08840E9400D809E1 /* CdlChtUIID.cpp */; };
+		F957110815CF7B3200C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957110915CF7B3200C95573 /* CdlChtUIWidgetObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6C90C0638E500F2CD32 /* CdlChtUIWidgetObserver.cpp */; };
+		F957110A15CF7B3200C95573 /* CdlChtUISelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6CC0C0638F000F2CD32 /* CdlChtUISelectionObserver.cpp */; };
+		F957110B15CF7B3200C95573 /* ChartUIBrowseCSVFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6CF0C06391A00F2CD32 /* ChartUIBrowseCSVFile.cpp */; };
+		F957110C15CF7B3200C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6F20C063D9500F2CD32 /* SDKFileHelper.cpp */; };
+		F957111815CF7B3500C95573 /* CdlChtUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EED108840E9500D809E1 /* CdlChtUI.fr */; };
+		F957111915CF7B3500C95573 /* CdlChtUIActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000FFFF /* CdlChtUIActionComponent.cpp */; };
+		F957111A15CF7B3500C95573 /* CdlChtUINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECD08840E9300D809E1 /* CdlChtUINoStrip.cpp */; };
+		F957111B15CF7B3500C95573 /* CdlChtUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECE08840E9400D809E1 /* CdlChtUIID.cpp */; };
+		F957111C15CF7B3500C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957111D15CF7B3500C95573 /* CdlChtUIWidgetObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6C90C0638E500F2CD32 /* CdlChtUIWidgetObserver.cpp */; };
+		F957111E15CF7B3500C95573 /* CdlChtUISelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6CC0C0638F000F2CD32 /* CdlChtUISelectionObserver.cpp */; };
+		F957111F15CF7B3500C95573 /* ChartUIBrowseCSVFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6CF0C06391A00F2CD32 /* ChartUIBrowseCSVFile.cpp */; };
+		F957112015CF7B3500C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6F20C063D9500F2CD32 /* SDKFileHelper.cpp */; };
+		F957113915CF7D4C00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957113715CF7D3A00C95573 /* InDesignModelAndUI.framework */; };
+		F957113A15CF7D4C00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957113815CF7D3A00C95573 /* libPublicPlugIn.a */; };
+		F957113B15CF7D4F00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957113515CF7D3A00C95573 /* InDesignModelAndUI.framework */; };
+		F957113C15CF7D4F00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957113615CF7D3A00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957111115CF7B3200C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "\"$ID_SDK_ROOT/devtools/bin/odfrc-cmd\" -d DEBUG -d MACINTOSH -d __GNUC__ -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957112515CF7B3500C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "\"$ID_SDK_ROOT/devtools/bin/odfrc-cmd\" -d RELEASE -d MACINTOSH -d __GNUC__ -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		00000000000000000000FFFF /* CdlChtUIActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChtUIActionComponent.cpp; path = ../../../source/sdksamples/candlechartui/CdlChtUIActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		3227F7EC175DEE1600A71E17 /* CdlChtUI_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CdlChtUI_enUS.fr; path = ../../../source/sdksamples/candlechartui/CdlChtUI_enUS.fr; sourceTree = "<group>"; };
+		3227F7ED175DEE1600A71E17 /* CdlChtUI_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CdlChtUI_jaJP.fr; path = ../../../source/sdksamples/candlechartui/CdlChtUI_jaJP.fr; sourceTree = "<group>"; };
+		4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECD08840E9300D809E1 /* CdlChtUINoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChtUINoStrip.cpp; path = ../../../source/sdksamples/candlechartui/CdlChtUINoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECE08840E9400D809E1 /* CdlChtUIID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChtUIID.cpp; path = ../../../source/sdksamples/candlechartui/CdlChtUIID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECF08840E9400D809E1 /* CdlChtUIID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CdlChtUIID.h; path = ../../../source/sdksamples/candlechartui/CdlChtUIID.h; sourceTree = SOURCE_ROOT; };
+		4B05EED108840E9500D809E1 /* CdlChtUI.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CdlChtUI.fr; path = ../../../source/sdksamples/candlechartui/CdlChtUI.fr; sourceTree = SOURCE_ROOT; };
+		773555EF120336D900E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		9A56D6C90C0638E500F2CD32 /* CdlChtUIWidgetObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChtUIWidgetObserver.cpp; path = ../../../source/sdksamples/candlechartui/CdlChtUIWidgetObserver.cpp; sourceTree = SOURCE_ROOT; };
+		9A56D6CC0C0638F000F2CD32 /* CdlChtUISelectionObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChtUISelectionObserver.cpp; path = ../../../source/sdksamples/candlechartui/CdlChtUISelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		9A56D6CF0C06391A00F2CD32 /* ChartUIBrowseCSVFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ChartUIBrowseCSVFile.cpp; path = ../../../source/sdksamples/candlechartui/ChartUIBrowseCSVFile.cpp; sourceTree = SOURCE_ROOT; };
+		9A56D6F10C063D9500F2CD32 /* SDKFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDKFileHelper.h; path = ../../../source/sdksamples/common/SDKFileHelper.h; sourceTree = SOURCE_ROOT; };
+		9A56D6F20C063D9500F2CD32 /* SDKFileHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SDKFileHelper.cpp; path = ../../../source/sdksamples/common/SDKFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		F957113515CF7D3A00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957113615CF7D3A00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957113715CF7D3A00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957113815CF7D3A00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957110D15CF7B3200C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957113B15CF7D4F00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957113C15CF7D4F00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957112115CF7B3500C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957113915CF7D4C00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957113A15CF7D4C00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05EEAD08840E8D00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05EEC708840E8D00D809E1 /* Source */,
+				4B05EED008840E9400D809E1 /* Resources */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				F957112C15CF7D3A00C95573 /* InDesign Libraries */,
+				773555EF120336D900E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05EEC708840E8D00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05EECF08840E9400D809E1 /* CdlChtUIID.h */,
+				9A56D6C40C06389300F2CD32 /* Controller */,
+				4B05EECB08840E9100D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05EECB08840E9100D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				9A56D6F10C063D9500F2CD32 /* SDKFileHelper.h */,
+				9A56D6F20C063D9500F2CD32 /* SDKFileHelper.cpp */,
+				4B05EECD08840E9300D809E1 /* CdlChtUINoStrip.cpp */,
+				4B05EECE08840E9400D809E1 /* CdlChtUIID.cpp */,
+				4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05EED008840E9400D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F7EC175DEE1600A71E17 /* CdlChtUI_enUS.fr */,
+				3227F7ED175DEE1600A71E17 /* CdlChtUI_jaJP.fr */,
+				4B05EED108840E9500D809E1 /* CdlChtUI.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		9A56D6C40C06389300F2CD32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000FFFF /* CdlChtUIActionComponent.cpp */,
+				9A56D6CC0C0638F000F2CD32 /* CdlChtUISelectionObserver.cpp */,
+				9A56D6C90C0638E500F2CD32 /* CdlChtUIWidgetObserver.cpp */,
+				9A56D6CF0C06391A00F2CD32 /* ChartUIBrowseCSVFile.cpp */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F957112C15CF7D3A00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957113315CF7D3A00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957113315CF7D3A00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957113715CF7D3A00C95573 /* InDesignModelAndUI.framework */,
+				F957113815CF7D3A00C95573 /* libPublicPlugIn.a */,
+				F957113415CF7D3A00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957113415CF7D3A00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957113515CF7D3A00C95573 /* InDesignModelAndUI.framework */,
+				F957113615CF7D3A00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957110215CF7B3200C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957111215CF7B3200C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957110315CF7B3200C95573 /* Sources */,
+				F957110D15CF7B3200C95573 /* Frameworks */,
+				F957110E15CF7B3200C95573 /* Rez */,
+				F957110F15CF7B3200C95573 /* Resources */,
+				F957111015CF7B3200C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957111115CF7B3200C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F957111615CF7B3500C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957112615CF7B3500C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957111715CF7B3500C95573 /* Sources */,
+				F957112115CF7B3500C95573 /* Frameworks */,
+				F957112215CF7B3500C95573 /* Rez */,
+				F957112315CF7B3500C95573 /* Resources */,
+				F957112415CF7B3500C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957112515CF7B3500C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05EEAF08840E8D00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05EEB008840E8D00D809E1 /* Build configuration list for PBXProject "CandleChartUI.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05EEAD08840E8D00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957110215CF7B3200C95573 /* Debug_Cocoa64 */,
+				F957111615CF7B3500C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957110F15CF7B3200C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957112315CF7B3500C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957110E15CF7B3200C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957112215CF7B3500C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957111015CF7B3200C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957112415CF7B3500C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957110315CF7B3200C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957110415CF7B3200C95573 /* CdlChtUI.fr in Sources */,
+				F957110515CF7B3200C95573 /* CdlChtUIActionComponent.cpp in Sources */,
+				F957110615CF7B3200C95573 /* CdlChtUINoStrip.cpp in Sources */,
+				F957110715CF7B3200C95573 /* CdlChtUIID.cpp in Sources */,
+				F957110815CF7B3200C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957110915CF7B3200C95573 /* CdlChtUIWidgetObserver.cpp in Sources */,
+				F957110A15CF7B3200C95573 /* CdlChtUISelectionObserver.cpp in Sources */,
+				F957110B15CF7B3200C95573 /* ChartUIBrowseCSVFile.cpp in Sources */,
+				F957110C15CF7B3200C95573 /* SDKFileHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957111715CF7B3500C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957111815CF7B3500C95573 /* CdlChtUI.fr in Sources */,
+				F957111915CF7B3500C95573 /* CdlChtUIActionComponent.cpp in Sources */,
+				F957111A15CF7B3500C95573 /* CdlChtUINoStrip.cpp in Sources */,
+				F957111B15CF7B3500C95573 /* CdlChtUIID.cpp in Sources */,
+				F957111C15CF7B3500C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957111D15CF7B3500C95573 /* CdlChtUIWidgetObserver.cpp in Sources */,
+				F957111E15CF7B3500C95573 /* CdlChtUISelectionObserver.cpp in Sources */,
+				F957111F15CF7B3500C95573 /* ChartUIBrowseCSVFile.cpp in Sources */,
+				F957112015CF7B3500C95573 /* SDKFileHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05EEB108840E8D00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/external/boost,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+					$ID_SDK_ROOT/source/sdksamples/candlechartui,
+					$ID_SDK_ROOT/source/sdksamples/candlechart,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PRODUCT_NAME = CandleChartUI.sdk;
+			};
+			name = Default;
+		};
+		F957111315CF7B3200C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				INFOPLIST_PREPROCESS = YES;
+			};
+			name = Default;
+		};
+		F957112715CF7B3500C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				INFOPLIST_PREPROCESS = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05EEB008840E8D00D809E1 /* Build configuration list for PBXProject "CandleChartUI.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05EEB108840E8D00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957111215CF7B3200C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957111315CF7B3200C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957112615CF7B3500C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957112715CF7B3500C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05EEAF08840E8D00D809E1 /* Project object */;
+}

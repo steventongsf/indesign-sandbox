@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95725C015D0C03F00C95573 /* SLC.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFBA088417FA00D809E1 /* SLC.fr */; };
+		F95725C115D0C03F00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB8088417F900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95725C215D0C03F00C95573 /* SLCNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB5088417F800D809E1 /* SLCNoStrip.cpp */; };
+		F95725C315D0C03F00C95573 /* SLCID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB6088417F900D809E1 /* SLCID.cpp */; };
+		F95725C415D0C03F00C95573 /* SLCDiagnostics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF9F088417EE00D809E1 /* SLCDiagnostics.cpp */; };
+		F95725C515D0C03F00C95573 /* SLCGlyphNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFA2088417F000D809E1 /* SLCGlyphNode.cpp */; };
+		F95725C615D0C03F00C95573 /* SLCGlyphNodeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFA4088417F100D809E1 /* SLCGlyphNodeList.cpp */; };
+		F95725C715D0C03F00C95573 /* SLCInlineGraphicGlyphNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFA6088417F200D809E1 /* SLCInlineGraphicGlyphNode.cpp */; };
+		F95725C815D0C03F00C95573 /* SLCLineBreaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFA8088417F200D809E1 /* SLCLineBreaker.cpp */; };
+		F95725C915D0C03F00C95573 /* SLCLineFitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFAA088417F300D809E1 /* SLCLineFitter.cpp */; };
+		F95725CA15D0C03F00C95573 /* SLCParagraphComposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFAC088417F400D809E1 /* SLCParagraphComposer.cpp */; };
+		F95725CB15D0C03F00C95573 /* SLCServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFAD088417F500D809E1 /* SLCServiceProvider.cpp */; };
+		F95725CC15D0C03F00C95573 /* SLCTextGlyphNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFAE088417F500D809E1 /* SLCTextGlyphNode.cpp */; };
+		F95725CD15D0C03F00C95573 /* SLCTileComposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB0088417F600D809E1 /* SLCTileComposer.cpp */; };
+		F95725CE15D0C03F00C95573 /* SLCTileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB2088417F700D809E1 /* SLCTileManager.cpp */; };
+		F95725D115D0C03F00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FFBC088417FB00D809E1 /* SDKResources.r */; };
+		F95725DB15D0C04200C95573 /* SLC.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFBA088417FA00D809E1 /* SLC.fr */; };
+		F95725DC15D0C04200C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB8088417F900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95725DD15D0C04200C95573 /* SLCNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB5088417F800D809E1 /* SLCNoStrip.cpp */; };
+		F95725DE15D0C04200C95573 /* SLCID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB6088417F900D809E1 /* SLCID.cpp */; };
+		F95725DF15D0C04200C95573 /* SLCDiagnostics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF9F088417EE00D809E1 /* SLCDiagnostics.cpp */; };
+		F95725E015D0C04200C95573 /* SLCGlyphNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFA2088417F000D809E1 /* SLCGlyphNode.cpp */; };
+		F95725E115D0C04200C95573 /* SLCGlyphNodeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFA4088417F100D809E1 /* SLCGlyphNodeList.cpp */; };
+		F95725E215D0C04200C95573 /* SLCInlineGraphicGlyphNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFA6088417F200D809E1 /* SLCInlineGraphicGlyphNode.cpp */; };
+		F95725E315D0C04200C95573 /* SLCLineBreaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFA8088417F200D809E1 /* SLCLineBreaker.cpp */; };
+		F95725E415D0C04200C95573 /* SLCLineFitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFAA088417F300D809E1 /* SLCLineFitter.cpp */; };
+		F95725E515D0C04200C95573 /* SLCParagraphComposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFAC088417F400D809E1 /* SLCParagraphComposer.cpp */; };
+		F95725E615D0C04200C95573 /* SLCServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFAD088417F500D809E1 /* SLCServiceProvider.cpp */; };
+		F95725E715D0C04200C95573 /* SLCTextGlyphNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFAE088417F500D809E1 /* SLCTextGlyphNode.cpp */; };
+		F95725E815D0C04200C95573 /* SLCTileComposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB0088417F600D809E1 /* SLCTileComposer.cpp */; };
+		F95725E915D0C04200C95573 /* SLCTileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FFB2088417F700D809E1 /* SLCTileManager.cpp */; };
+		F95725EC15D0C04200C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FFBC088417FB00D809E1 /* SDKResources.r */; };
+		F95725F615D0C05B00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95725BB15D0C03A00C95573 /* InDesignModel.framework */; };
+		F95725F715D0C05C00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95725BC15D0C03A00C95573 /* libPublicPlugIn.a */; };
+		F95725F815D0C06000C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95725B915D0C03A00C95573 /* InDesignModel.framework */; };
+		F95725F915D0C06000C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95725BA15D0C03A00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95725D415D0C03F00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95725EF15D0C04200C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73FBF094F8F5700AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73FC0094F8F5700AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F830175DF27300A71E17 /* SLC_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = SLC_enUS.fr; path = ../../../source/sdksamples/singlelinecomposer/SLC_enUS.fr; sourceTree = "<group>"; };
+		3227F831175DF27300A71E17 /* SLC_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = SLC_jaJP.fr; path = ../../../source/sdksamples/singlelinecomposer/SLC_jaJP.fr; sourceTree = "<group>"; };
+		4B05FF9F088417EE00D809E1 /* SLCDiagnostics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCDiagnostics.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCDiagnostics.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFA0088417EE00D809E1 /* SLCDiagnostics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCDiagnostics.h; path = ../../../source/sdksamples/singlelinecomposer/SLCDiagnostics.h; sourceTree = SOURCE_ROOT; };
+		4B05FFA2088417F000D809E1 /* SLCGlyphNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCGlyphNode.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCGlyphNode.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFA3088417F000D809E1 /* SLCGlyphNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCGlyphNode.h; path = ../../../source/sdksamples/singlelinecomposer/SLCGlyphNode.h; sourceTree = SOURCE_ROOT; };
+		4B05FFA4088417F100D809E1 /* SLCGlyphNodeList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCGlyphNodeList.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCGlyphNodeList.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFA5088417F100D809E1 /* SLCGlyphNodeList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCGlyphNodeList.h; path = ../../../source/sdksamples/singlelinecomposer/SLCGlyphNodeList.h; sourceTree = SOURCE_ROOT; };
+		4B05FFA6088417F200D809E1 /* SLCInlineGraphicGlyphNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCInlineGraphicGlyphNode.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCInlineGraphicGlyphNode.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFA7088417F200D809E1 /* SLCInlineGraphicGlyphNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCInlineGraphicGlyphNode.h; path = ../../../source/sdksamples/singlelinecomposer/SLCInlineGraphicGlyphNode.h; sourceTree = SOURCE_ROOT; };
+		4B05FFA8088417F200D809E1 /* SLCLineBreaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCLineBreaker.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCLineBreaker.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFA9088417F200D809E1 /* SLCLineBreaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCLineBreaker.h; path = ../../../source/sdksamples/singlelinecomposer/SLCLineBreaker.h; sourceTree = SOURCE_ROOT; };
+		4B05FFAA088417F300D809E1 /* SLCLineFitter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCLineFitter.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCLineFitter.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFAB088417F300D809E1 /* SLCLineFitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCLineFitter.h; path = ../../../source/sdksamples/singlelinecomposer/SLCLineFitter.h; sourceTree = SOURCE_ROOT; };
+		4B05FFAC088417F400D809E1 /* SLCParagraphComposer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCParagraphComposer.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCParagraphComposer.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFAD088417F500D809E1 /* SLCServiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCServiceProvider.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFAE088417F500D809E1 /* SLCTextGlyphNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCTextGlyphNode.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCTextGlyphNode.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFAF088417F500D809E1 /* SLCTextGlyphNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCTextGlyphNode.h; path = ../../../source/sdksamples/singlelinecomposer/SLCTextGlyphNode.h; sourceTree = SOURCE_ROOT; };
+		4B05FFB0088417F600D809E1 /* SLCTileComposer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCTileComposer.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCTileComposer.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFB1088417F600D809E1 /* SLCTileComposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCTileComposer.h; path = ../../../source/sdksamples/singlelinecomposer/SLCTileComposer.h; sourceTree = SOURCE_ROOT; };
+		4B05FFB2088417F700D809E1 /* SLCTileManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCTileManager.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCTileManager.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFB3088417F700D809E1 /* SLCTileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCTileManager.h; path = ../../../source/sdksamples/singlelinecomposer/SLCTileManager.h; sourceTree = SOURCE_ROOT; };
+		4B05FFB5088417F800D809E1 /* SLCNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCNoStrip.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFB6088417F900D809E1 /* SLCID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SLCID.cpp; path = ../../../source/sdksamples/singlelinecomposer/SLCID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFB7088417F900D809E1 /* SLCID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLCID.h; path = ../../../source/sdksamples/singlelinecomposer/SLCID.h; sourceTree = SOURCE_ROOT; };
+		4B05FFB8088417F900D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FFBA088417FA00D809E1 /* SLC.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = SLC.fr; path = ../../../source/sdksamples/singlelinecomposer/SLC.fr; sourceTree = SOURCE_ROOT; };
+		4B05FFBB088417FA00D809E1 /* SLC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SLC.h; path = ../../../source/sdksamples/singlelinecomposer/SLC.h; sourceTree = SOURCE_ROOT; };
+		4B05FFBC088417FB00D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F95725B915D0C03A00C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F95725BA15D0C03A00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95725BB15D0C03A00C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F95725BC15D0C03A00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95725CF15D0C03F00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95725F815D0C06000C95573 /* InDesignModel.framework in Frameworks */,
+				F95725F915D0C06000C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95725EA15D0C04200C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95725F615D0C05B00C95573 /* InDesignModel.framework in Frameworks */,
+				F95725F715D0C05C00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05FF84088417EC00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05FF9E088417EC00D809E1 /* Source */,
+				4B05FFB9088417F900D809E1 /* Resources */,
+				F95725B015D0C03A00C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05FF9E088417EC00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FFBB088417FA00D809E1 /* SLC.h */,
+				4B05FFA0088417EE00D809E1 /* SLCDiagnostics.h */,
+				4B05FF9F088417EE00D809E1 /* SLCDiagnostics.cpp */,
+				4B05FFA3088417F000D809E1 /* SLCGlyphNode.h */,
+				4B05FFA2088417F000D809E1 /* SLCGlyphNode.cpp */,
+				4B05FFA5088417F100D809E1 /* SLCGlyphNodeList.h */,
+				4B05FFA4088417F100D809E1 /* SLCGlyphNodeList.cpp */,
+				4B05FFA7088417F200D809E1 /* SLCInlineGraphicGlyphNode.h */,
+				4B05FFA6088417F200D809E1 /* SLCInlineGraphicGlyphNode.cpp */,
+				4B05FFA9088417F200D809E1 /* SLCLineBreaker.h */,
+				4B05FFA8088417F200D809E1 /* SLCLineBreaker.cpp */,
+				4B05FFAB088417F300D809E1 /* SLCLineFitter.h */,
+				4B05FFAA088417F300D809E1 /* SLCLineFitter.cpp */,
+				4B05FFAC088417F400D809E1 /* SLCParagraphComposer.cpp */,
+				4B05FFAD088417F500D809E1 /* SLCServiceProvider.cpp */,
+				4B05FFAF088417F500D809E1 /* SLCTextGlyphNode.h */,
+				4B05FFAE088417F500D809E1 /* SLCTextGlyphNode.cpp */,
+				4B05FFB1088417F600D809E1 /* SLCTileComposer.h */,
+				4B05FFB0088417F600D809E1 /* SLCTileComposer.cpp */,
+				4B05FFB3088417F700D809E1 /* SLCTileManager.h */,
+				4B05FFB2088417F700D809E1 /* SLCTileManager.cpp */,
+				4B05FFB4088417F700D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05FFB4088417F700D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FFB5088417F800D809E1 /* SLCNoStrip.cpp */,
+				4B05FFB7088417F900D809E1 /* SLCID.h */,
+				4B05FFB6088417F900D809E1 /* SLCID.cpp */,
+				4B05FFB8088417F900D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05FFB9088417F900D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F830175DF27300A71E17 /* SLC_enUS.fr */,
+				3227F831175DF27300A71E17 /* SLC_jaJP.fr */,
+				4B05FFBA088417FA00D809E1 /* SLC.fr */,
+				4B05FFBC088417FB00D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73FBF094F8F5700AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73FC0094F8F5700AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F95725B015D0C03A00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F95725B715D0C03A00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F95725B715D0C03A00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F95725BB15D0C03A00C95573 /* InDesignModel.framework */,
+				F95725BC15D0C03A00C95573 /* libPublicPlugIn.a */,
+				F95725B815D0C03A00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F95725B815D0C03A00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F95725B915D0C03A00C95573 /* InDesignModel.framework */,
+				F95725BA15D0C03A00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95725BE15D0C03F00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95725D515D0C03F00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95725BF15D0C03F00C95573 /* Sources */,
+				F95725CF15D0C03F00C95573 /* Frameworks */,
+				F95725D015D0C03F00C95573 /* Rez */,
+				F95725D215D0C03F00C95573 /* Resources */,
+				F95725D315D0C03F00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95725D415D0C03F00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95725D915D0C04200C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95725F015D0C04200C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95725DA15D0C04200C95573 /* Sources */,
+				F95725EA15D0C04200C95573 /* Frameworks */,
+				F95725EB15D0C04200C95573 /* Rez */,
+				F95725ED15D0C04200C95573 /* Resources */,
+				F95725EE15D0C04200C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95725EF15D0C04200C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05FF86088417EC00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05FF87088417EC00D809E1 /* Build configuration list for PBXProject "SingleLineComposer.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05FF84088417EC00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95725BE15D0C03F00C95573 /* Debug_Cocoa64 */,
+				F95725D915D0C04200C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95725D215D0C03F00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95725ED15D0C04200C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95725D015D0C03F00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95725D115D0C03F00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95725EB15D0C04200C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95725EC15D0C04200C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95725D315D0C03F00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95725EE15D0C04200C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95725BF15D0C03F00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95725C015D0C03F00C95573 /* SLC.fr in Sources */,
+				F95725C115D0C03F00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95725C215D0C03F00C95573 /* SLCNoStrip.cpp in Sources */,
+				F95725C315D0C03F00C95573 /* SLCID.cpp in Sources */,
+				F95725C415D0C03F00C95573 /* SLCDiagnostics.cpp in Sources */,
+				F95725C515D0C03F00C95573 /* SLCGlyphNode.cpp in Sources */,
+				F95725C615D0C03F00C95573 /* SLCGlyphNodeList.cpp in Sources */,
+				F95725C715D0C03F00C95573 /* SLCInlineGraphicGlyphNode.cpp in Sources */,
+				F95725C815D0C03F00C95573 /* SLCLineBreaker.cpp in Sources */,
+				F95725C915D0C03F00C95573 /* SLCLineFitter.cpp in Sources */,
+				F95725CA15D0C03F00C95573 /* SLCParagraphComposer.cpp in Sources */,
+				F95725CB15D0C03F00C95573 /* SLCServiceProvider.cpp in Sources */,
+				F95725CC15D0C03F00C95573 /* SLCTextGlyphNode.cpp in Sources */,
+				F95725CD15D0C03F00C95573 /* SLCTileComposer.cpp in Sources */,
+				F95725CE15D0C03F00C95573 /* SLCTileManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95725DA15D0C04200C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95725DB15D0C04200C95573 /* SLC.fr in Sources */,
+				F95725DC15D0C04200C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95725DD15D0C04200C95573 /* SLCNoStrip.cpp in Sources */,
+				F95725DE15D0C04200C95573 /* SLCID.cpp in Sources */,
+				F95725DF15D0C04200C95573 /* SLCDiagnostics.cpp in Sources */,
+				F95725E015D0C04200C95573 /* SLCGlyphNode.cpp in Sources */,
+				F95725E115D0C04200C95573 /* SLCGlyphNodeList.cpp in Sources */,
+				F95725E215D0C04200C95573 /* SLCInlineGraphicGlyphNode.cpp in Sources */,
+				F95725E315D0C04200C95573 /* SLCLineBreaker.cpp in Sources */,
+				F95725E415D0C04200C95573 /* SLCLineFitter.cpp in Sources */,
+				F95725E515D0C04200C95573 /* SLCParagraphComposer.cpp in Sources */,
+				F95725E615D0C04200C95573 /* SLCServiceProvider.cpp in Sources */,
+				F95725E715D0C04200C95573 /* SLCTextGlyphNode.cpp in Sources */,
+				F95725E815D0C04200C95573 /* SLCTileComposer.cpp in Sources */,
+				F95725E915D0C04200C95573 /* SLCTileManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05FF88088417EC00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = SingleLineComposer.sdk;
+			};
+			name = Default;
+		};
+		F95725D615D0C03F00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F95725F115D0C04200C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05FF87088417EC00D809E1 /* Build configuration list for PBXProject "SingleLineComposer.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05FF88088417EC00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95725D515D0C03F00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95725D615D0C03F00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95725F015D0C04200C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95725F115D0C04200C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05FF86088417EC00D809E1 /* Project object */;
+}

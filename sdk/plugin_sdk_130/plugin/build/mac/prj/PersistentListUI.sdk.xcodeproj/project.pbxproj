@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9571F9D15CFE1AC00C95573 /* PstLstUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE5A0884176400D809E1 /* PstLstUI.fr */; };
+		F9571F9E15CFE1AC00C95573 /* PstLstUIActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE4B0884175B00D809E1 /* PstLstUIActionComponent.cpp */; };
+		F9571F9F15CFE1AC00C95573 /* PstLstUINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE570884176200D809E1 /* PstLstUINoStrip.cpp */; };
+		F9571FA015CFE1AC00C95573 /* PstLstUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE580884176300D809E1 /* PstLstUIID.cpp */; };
+		F9571FA115CFE1AC00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE560884176200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571FA215CFE1AC00C95573 /* PstLstUIDlgController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE4C0884175C00D809E1 /* PstLstUIDlgController.cpp */; };
+		F9571FA315CFE1AC00C95573 /* PstLstUISelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE4D0884175D00D809E1 /* PstLstUISelectionObserver.cpp */; };
+		F9571FA415CFE1AC00C95573 /* PstLstUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE4E0884175E00D809E1 /* PstLstUIUtils.cpp */; };
+		F9571FA515CFE1AC00C95573 /* PstLstUINodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 767135850B27702700DBCB49 /* PstLstUINodeID.cpp */; };
+		F9571FA615CFE1AC00C95573 /* PstLstUITVHierarchyAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 767135860B27702700DBCB49 /* PstLstUITVHierarchyAdapter.cpp */; };
+		F9571FA715CFE1AC00C95573 /* PstLstUITVWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 767135870B27702700DBCB49 /* PstLstUITVWidgetMgr.cpp */; };
+		F9571FAA15CFE1AC00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FE5B0884176500D809E1 /* SDKResources.r */; };
+		F9571FB415CFE1B900C95573 /* PstLstUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE5A0884176400D809E1 /* PstLstUI.fr */; };
+		F9571FB515CFE1B900C95573 /* PstLstUIActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE4B0884175B00D809E1 /* PstLstUIActionComponent.cpp */; };
+		F9571FB615CFE1B900C95573 /* PstLstUINoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE570884176200D809E1 /* PstLstUINoStrip.cpp */; };
+		F9571FB715CFE1B900C95573 /* PstLstUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE580884176300D809E1 /* PstLstUIID.cpp */; };
+		F9571FB815CFE1B900C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE560884176200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571FB915CFE1B900C95573 /* PstLstUIDlgController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE4C0884175C00D809E1 /* PstLstUIDlgController.cpp */; };
+		F9571FBA15CFE1B900C95573 /* PstLstUISelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE4D0884175D00D809E1 /* PstLstUISelectionObserver.cpp */; };
+		F9571FBB15CFE1B900C95573 /* PstLstUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FE4E0884175E00D809E1 /* PstLstUIUtils.cpp */; };
+		F9571FBC15CFE1B900C95573 /* PstLstUINodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 767135850B27702700DBCB49 /* PstLstUINodeID.cpp */; };
+		F9571FBD15CFE1B900C95573 /* PstLstUITVHierarchyAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 767135860B27702700DBCB49 /* PstLstUITVHierarchyAdapter.cpp */; };
+		F9571FBE15CFE1B900C95573 /* PstLstUITVWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 767135870B27702700DBCB49 /* PstLstUITVWidgetMgr.cpp */; };
+		F9571FC115CFE1B900C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FE5B0884176500D809E1 /* SDKResources.r */; };
+		F9571FD615CFE1D100C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571FD415CFE1CA00C95573 /* InDesignModelAndUI.framework */; };
+		F9571FD715CFE1D100C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571FD515CFE1CA00C95573 /* libPublicPlugIn.a */; };
+		F9571FD815CFE1D500C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571FD215CFE1CA00C95573 /* InDesignModelAndUI.framework */; };
+		F9571FD915CFE1D500C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571FD315CFE1CA00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9571FAD15CFE1AC00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9571FC415CFE1B900C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73F3E094F8D9D00AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73F3F094F8D9D00AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F824175DF22500A71E17 /* PstLstUI_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PstLstUI_enUS.fr; path = ../../../source/sdksamples/persistentlistui/PstLstUI_enUS.fr; sourceTree = "<group>"; };
+		3227F825175DF22500A71E17 /* PstLstUI_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PstLstUI_jaJP.fr; path = ../../../source/sdksamples/persistentlistui/PstLstUI_jaJP.fr; sourceTree = "<group>"; };
+		4B05FE4B0884175B00D809E1 /* PstLstUIActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUIActionComponent.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUIActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FE4C0884175C00D809E1 /* PstLstUIDlgController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUIDlgController.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUIDlgController.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FE4D0884175D00D809E1 /* PstLstUISelectionObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUISelectionObserver.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUISelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FE4E0884175E00D809E1 /* PstLstUIUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUIUtils.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUIUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FE4F0884175E00D809E1 /* PstLstUIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PstLstUIUtils.h; path = ../../../source/sdksamples/persistentlistui/PstLstUIUtils.h; sourceTree = SOURCE_ROOT; };
+		4B05FE530884176000D809E1 /* PstLstUIID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PstLstUIID.h; path = ../../../source/sdksamples/persistentlistui/PstLstUIID.h; sourceTree = SOURCE_ROOT; };
+		4B05FE540884176000D809E1 /* PstLstID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PstLstID.h; path = ../../../source/sdksamples/persistentlist/PstLstID.h; sourceTree = SOURCE_ROOT; };
+		4B05FE560884176200D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FE570884176200D809E1 /* PstLstUINoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUINoStrip.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUINoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FE580884176300D809E1 /* PstLstUIID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUIID.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUIID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FE5A0884176400D809E1 /* PstLstUI.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PstLstUI.fr; path = ../../../source/sdksamples/persistentlistui/PstLstUI.fr; sourceTree = SOURCE_ROOT; };
+		4B05FE5B0884176500D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		767135850B27702700DBCB49 /* PstLstUINodeID.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUINodeID.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUINodeID.cpp; sourceTree = SOURCE_ROOT; };
+		767135860B27702700DBCB49 /* PstLstUITVHierarchyAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUITVHierarchyAdapter.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUITVHierarchyAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		767135870B27702700DBCB49 /* PstLstUITVWidgetMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUITVWidgetMgr.cpp; path = ../../../source/sdksamples/persistentlistui/PstLstUITVWidgetMgr.cpp; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F9571FD215CFE1CA00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9571FD315CFE1CA00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9571FD415CFE1CA00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9571FD515CFE1CA00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9571FA815CFE1AC00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571FD815CFE1D500C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9571FD915CFE1D500C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571FBF15CFE1B900C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571FD615CFE1D100C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9571FD715CFE1D100C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05FE300884175900D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05FE4A0884175900D809E1 /* Source */,
+				4B05FE590884176300D809E1 /* Resources */,
+				F9571FC915CFE1CA00C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05FE4A0884175900D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				767135850B27702700DBCB49 /* PstLstUINodeID.cpp */,
+				767135860B27702700DBCB49 /* PstLstUITVHierarchyAdapter.cpp */,
+				767135870B27702700DBCB49 /* PstLstUITVWidgetMgr.cpp */,
+				4B05FE4B0884175B00D809E1 /* PstLstUIActionComponent.cpp */,
+				4B05FE4C0884175C00D809E1 /* PstLstUIDlgController.cpp */,
+				4B05FE4D0884175D00D809E1 /* PstLstUISelectionObserver.cpp */,
+				4B05FE4F0884175E00D809E1 /* PstLstUIUtils.h */,
+				4B05FE4E0884175E00D809E1 /* PstLstUIUtils.cpp */,
+				4B05FE520884175E00D809E1 /* Headers */,
+				4B05FE550884176100D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05FE520884175E00D809E1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FE530884176000D809E1 /* PstLstUIID.h */,
+				4B05FE540884176000D809E1 /* PstLstID.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		4B05FE550884176100D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FE560884176200D809E1 /* SDKPlugInEntrypoint.cpp */,
+				4B05FE570884176200D809E1 /* PstLstUINoStrip.cpp */,
+				4B05FE580884176300D809E1 /* PstLstUIID.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05FE590884176300D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F824175DF22500A71E17 /* PstLstUI_enUS.fr */,
+				3227F825175DF22500A71E17 /* PstLstUI_jaJP.fr */,
+				4B05FE5A0884176400D809E1 /* PstLstUI.fr */,
+				4B05FE5B0884176500D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73F3E094F8D9D00AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73F3F094F8D9D00AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9571FC915CFE1CA00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9571FD015CFE1CA00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9571FD015CFE1CA00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9571FD415CFE1CA00C95573 /* InDesignModelAndUI.framework */,
+				F9571FD515CFE1CA00C95573 /* libPublicPlugIn.a */,
+				F9571FD115CFE1CA00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9571FD115CFE1CA00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9571FD215CFE1CA00C95573 /* InDesignModelAndUI.framework */,
+				F9571FD315CFE1CA00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9571F9B15CFE1AC00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571FAE15CFE1AC00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9571F9C15CFE1AC00C95573 /* Sources */,
+				F9571FA815CFE1AC00C95573 /* Frameworks */,
+				F9571FA915CFE1AC00C95573 /* Rez */,
+				F9571FAB15CFE1AC00C95573 /* Resources */,
+				F9571FAC15CFE1AC00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571FAD15CFE1AC00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9571FB215CFE1B900C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571FC515CFE1B900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9571FB315CFE1B900C95573 /* Sources */,
+				F9571FBF15CFE1B900C95573 /* Frameworks */,
+				F9571FC015CFE1B900C95573 /* Rez */,
+				F9571FC215CFE1B900C95573 /* Resources */,
+				F9571FC315CFE1B900C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571FC415CFE1B900C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05FE320884175900D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05FE330884175900D809E1 /* Build configuration list for PBXProject "PersistentListUI.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05FE300884175900D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9571F9B15CFE1AC00C95573 /* Debug_Cocoa64 */,
+				F9571FB215CFE1B900C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9571FAB15CFE1AC00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571FC215CFE1B900C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9571FA915CFE1AC00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571FAA15CFE1AC00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571FC015CFE1B900C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571FC115CFE1B900C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9571FAC15CFE1AC00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9571FC315CFE1B900C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9571F9C15CFE1AC00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571F9D15CFE1AC00C95573 /* PstLstUI.fr in Sources */,
+				F9571F9E15CFE1AC00C95573 /* PstLstUIActionComponent.cpp in Sources */,
+				F9571F9F15CFE1AC00C95573 /* PstLstUINoStrip.cpp in Sources */,
+				F9571FA015CFE1AC00C95573 /* PstLstUIID.cpp in Sources */,
+				F9571FA115CFE1AC00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571FA215CFE1AC00C95573 /* PstLstUIDlgController.cpp in Sources */,
+				F9571FA315CFE1AC00C95573 /* PstLstUISelectionObserver.cpp in Sources */,
+				F9571FA415CFE1AC00C95573 /* PstLstUIUtils.cpp in Sources */,
+				F9571FA515CFE1AC00C95573 /* PstLstUINodeID.cpp in Sources */,
+				F9571FA615CFE1AC00C95573 /* PstLstUITVHierarchyAdapter.cpp in Sources */,
+				F9571FA715CFE1AC00C95573 /* PstLstUITVWidgetMgr.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571FB315CFE1B900C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571FB415CFE1B900C95573 /* PstLstUI.fr in Sources */,
+				F9571FB515CFE1B900C95573 /* PstLstUIActionComponent.cpp in Sources */,
+				F9571FB615CFE1B900C95573 /* PstLstUINoStrip.cpp in Sources */,
+				F9571FB715CFE1B900C95573 /* PstLstUIID.cpp in Sources */,
+				F9571FB815CFE1B900C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571FB915CFE1B900C95573 /* PstLstUIDlgController.cpp in Sources */,
+				F9571FBA15CFE1B900C95573 /* PstLstUISelectionObserver.cpp in Sources */,
+				F9571FBB15CFE1B900C95573 /* PstLstUIUtils.cpp in Sources */,
+				F9571FBC15CFE1B900C95573 /* PstLstUINodeID.cpp in Sources */,
+				F9571FBD15CFE1B900C95573 /* PstLstUITVHierarchyAdapter.cpp in Sources */,
+				F9571FBE15CFE1B900C95573 /* PstLstUITVWidgetMgr.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05FE340884175900D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+					$ID_SDK_ROOT/source/sdksamples/persistentlist,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = PersistentListUI.sdk;
+			};
+			name = Default;
+		};
+		F9571FAF15CFE1AC00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F9571FC615CFE1B900C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05FE330884175900D809E1 /* Build configuration list for PBXProject "PersistentListUI.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05FE340884175900D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9571FAE15CFE1AC00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571FAF15CFE1AC00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9571FC515CFE1B900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571FC615CFE1B900C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05FE320884175900D809E1 /* Project object */;
+}

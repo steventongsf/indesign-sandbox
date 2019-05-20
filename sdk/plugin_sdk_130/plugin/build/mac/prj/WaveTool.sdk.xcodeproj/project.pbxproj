@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9572B0F15D0CAA500C95573 /* WavTl.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505AC08841A8700D809E1 /* WavTl.fr */; };
+		F9572B1015D0CAA500C95573 /* WavTlActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A408841A8200D809E1 /* WavTlActionComponent.cpp */; };
+		F9572B1115D0CAA500C95573 /* WavTlNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A808841A8400D809E1 /* WavTlNoStrip.cpp */; };
+		F9572B1215D0CAA500C95573 /* WavTlID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A908841A8500D809E1 /* WavTlID.cpp */; };
+		F9572B1315D0CAA500C95573 /* WaveTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05059E08841A7E00D809E1 /* WaveTracker.cpp */; };
+		F9572B1415D0CAA500C95573 /* WaveTrackerRegister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05059D08841A7D00D809E1 /* WaveTrackerRegister.cpp */; };
+		F9572B1515D0CAA500C95573 /* SawWaveTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A008841A7F00D809E1 /* SawWaveTool.cpp */; };
+		F9572B1615D0CAA500C95573 /* SawWaveTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A108841A7F00D809E1 /* SawWaveTracker.cpp */; };
+		F9572B1715D0CAA500C95573 /* SineWaveTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A208841A8000D809E1 /* SineWaveTool.cpp */; };
+		F9572B1815D0CAA500C95573 /* SineWaveTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A308841A8100D809E1 /* SineWaveTracker.cpp */; };
+		F9572B1915D0CAA500C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505AA08841A8600D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9572B1C15D0CAA500C95573 /* WavTlResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B0505AD08841A8800D809E1 /* WavTlResources.r */; };
+		F9572B2615D0CAA700C95573 /* WavTl.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505AC08841A8700D809E1 /* WavTl.fr */; };
+		F9572B2715D0CAA700C95573 /* WavTlActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A408841A8200D809E1 /* WavTlActionComponent.cpp */; };
+		F9572B2815D0CAA700C95573 /* WavTlNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A808841A8400D809E1 /* WavTlNoStrip.cpp */; };
+		F9572B2915D0CAA700C95573 /* WavTlID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A908841A8500D809E1 /* WavTlID.cpp */; };
+		F9572B2A15D0CAA700C95573 /* WaveTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05059E08841A7E00D809E1 /* WaveTracker.cpp */; };
+		F9572B2B15D0CAA700C95573 /* WaveTrackerRegister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05059D08841A7D00D809E1 /* WaveTrackerRegister.cpp */; };
+		F9572B2C15D0CAA700C95573 /* SawWaveTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A008841A7F00D809E1 /* SawWaveTool.cpp */; };
+		F9572B2D15D0CAA700C95573 /* SawWaveTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A108841A7F00D809E1 /* SawWaveTracker.cpp */; };
+		F9572B2E15D0CAA700C95573 /* SineWaveTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A208841A8000D809E1 /* SineWaveTool.cpp */; };
+		F9572B2F15D0CAA700C95573 /* SineWaveTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505A308841A8100D809E1 /* SineWaveTracker.cpp */; };
+		F9572B3015D0CAA700C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0505AA08841A8600D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9572B3315D0CAA700C95573 /* WavTlResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B0505AD08841A8800D809E1 /* WavTlResources.r */; };
+		F9572B3B15D0CAD000C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9572B0A15D0CA9F00C95573 /* InDesignModelAndUI.framework */; };
+		F9572B3C15D0CAD000C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9572B0B15D0CA9F00C95573 /* libPublicPlugIn.a */; };
+		F9572B3D15D0CAD600C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9572B0815D0CA9F00C95573 /* InDesignModelAndUI.framework */; };
+		F9572B3E15D0CAD600C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9572B0915D0CA9F00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9572B1F15D0CAA500C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9572B3615D0CAA700C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE740EC094F927000AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE740ED094F927000AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		322327421626D9660084D0B6 /* ico135_dark_hidpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico135_dark_hidpi.png; path = ../../../source/sdksamples/wavetool/ico135_dark_hidpi.png; sourceTree = SOURCE_ROOT; };
+		322327431626D9660084D0B6 /* ico135_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico135_dark.png; path = ../../../source/sdksamples/wavetool/ico135_dark.png; sourceTree = SOURCE_ROOT; };
+		322327441626D9660084D0B6 /* ico135_hidpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico135_hidpi.png; path = ../../../source/sdksamples/wavetool/ico135_hidpi.png; sourceTree = SOURCE_ROOT; };
+		322327451626D9660084D0B6 /* ico135.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico135.png; path = ../../../source/sdksamples/wavetool/ico135.png; sourceTree = SOURCE_ROOT; };
+		322327461626D9660084D0B6 /* ico136_dark_hidpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico136_dark_hidpi.png; path = ../../../source/sdksamples/wavetool/ico136_dark_hidpi.png; sourceTree = SOURCE_ROOT; };
+		322327471626D9660084D0B6 /* ico136_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico136_dark.png; path = ../../../source/sdksamples/wavetool/ico136_dark.png; sourceTree = SOURCE_ROOT; };
+		322327481626D9660084D0B6 /* ico136_hidpi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico136_hidpi.png; path = ../../../source/sdksamples/wavetool/ico136_hidpi.png; sourceTree = SOURCE_ROOT; };
+		322327491626D9660084D0B6 /* ico136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico136.png; path = ../../../source/sdksamples/wavetool/ico136.png; sourceTree = SOURCE_ROOT; };
+		3227F846175DF31B00A71E17 /* WavTl_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = WavTl_enUS.fr; path = ../../../source/sdksamples/wavetool/WavTl_enUS.fr; sourceTree = "<group>"; };
+		3227F847175DF31B00A71E17 /* WavTl_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = WavTl_jaJP.fr; path = ../../../source/sdksamples/wavetool/WavTl_jaJP.fr; sourceTree = "<group>"; };
+		32C4CE221949BEB300DC1115 /* WavTlIcons.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = WavTlIcons.fr; path = ../../../source/sdksamples/wavetool/WavTlIcons.fr; sourceTree = "<group>"; };
+		4B05059D08841A7D00D809E1 /* WaveTrackerRegister.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WaveTrackerRegister.cpp; path = ../../../source/sdksamples/wavetool/WaveTrackerRegister.cpp; sourceTree = SOURCE_ROOT; };
+		4B05059E08841A7E00D809E1 /* WaveTracker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WaveTracker.cpp; path = ../../../source/sdksamples/wavetool/WaveTracker.cpp; sourceTree = SOURCE_ROOT; };
+		4B05059F08841A7E00D809E1 /* WaveTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WaveTracker.h; path = ../../../source/sdksamples/wavetool/WaveTracker.h; sourceTree = SOURCE_ROOT; };
+		4B0505A008841A7F00D809E1 /* SawWaveTool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SawWaveTool.cpp; path = ../../../source/sdksamples/wavetool/SawWaveTool.cpp; sourceTree = SOURCE_ROOT; };
+		4B0505A108841A7F00D809E1 /* SawWaveTracker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SawWaveTracker.cpp; path = ../../../source/sdksamples/wavetool/SawWaveTracker.cpp; sourceTree = SOURCE_ROOT; };
+		4B0505A208841A8000D809E1 /* SineWaveTool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SineWaveTool.cpp; path = ../../../source/sdksamples/wavetool/SineWaveTool.cpp; sourceTree = SOURCE_ROOT; };
+		4B0505A308841A8100D809E1 /* SineWaveTracker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SineWaveTracker.cpp; path = ../../../source/sdksamples/wavetool/SineWaveTracker.cpp; sourceTree = SOURCE_ROOT; };
+		4B0505A408841A8200D809E1 /* WavTlActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WavTlActionComponent.cpp; path = ../../../source/sdksamples/wavetool/WavTlActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B0505A508841A8300D809E1 /* WavTlID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WavTlID.h; path = ../../../source/sdksamples/wavetool/WavTlID.h; sourceTree = SOURCE_ROOT; };
+		4B0505A608841A8400D809E1 /* WavTlRezDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WavTlRezDefs.h; path = ../../../source/sdksamples/wavetool/WavTlRezDefs.h; sourceTree = SOURCE_ROOT; };
+		4B0505A808841A8400D809E1 /* WavTlNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WavTlNoStrip.cpp; path = ../../../source/sdksamples/wavetool/WavTlNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B0505A908841A8500D809E1 /* WavTlID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = WavTlID.cpp; path = ../../../source/sdksamples/wavetool/WavTlID.cpp; sourceTree = SOURCE_ROOT; };
+		4B0505AA08841A8600D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B0505AC08841A8700D809E1 /* WavTl.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = WavTl.fr; path = ../../../source/sdksamples/wavetool/WavTl.fr; sourceTree = SOURCE_ROOT; };
+		4B0505AD08841A8800D809E1 /* WavTlResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = WavTlResources.r; path = ../../../source/sdksamples/wavetool/WavTlResources.r; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F9572B0815D0CA9F00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9572B0915D0CA9F00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9572B0A15D0CA9F00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9572B0B15D0CA9F00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9572B2215D0CAA500C95573 /* WaveTool.sdk.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaveTool.sdk.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9572B3915D0CAA700C95573 /* WaveTool.sdk.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaveTool.sdk.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9572B1A15D0CAA500C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572B3D15D0CAD600C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9572B3E15D0CAD600C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9572B3115D0CAA700C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572B3B15D0CAD000C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9572B3C15D0CAD000C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05058208841A7B00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05059C08841A7B00D809E1 /* Source */,
+				4B0505AB08841A8600D809E1 /* Resources */,
+				F9572AFF15D0CA9F00C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B05059008841A7B00D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05059008841A7B00D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9572B2215D0CAA500C95573 /* WaveTool.sdk.InDesignPlugin */,
+				F9572B3915D0CAA700C95573 /* WaveTool.sdk.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B05059C08841A7B00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05059D08841A7D00D809E1 /* WaveTrackerRegister.cpp */,
+				4B05059F08841A7E00D809E1 /* WaveTracker.h */,
+				4B05059E08841A7E00D809E1 /* WaveTracker.cpp */,
+				4B0505A008841A7F00D809E1 /* SawWaveTool.cpp */,
+				4B0505A108841A7F00D809E1 /* SawWaveTracker.cpp */,
+				4B0505A208841A8000D809E1 /* SineWaveTool.cpp */,
+				4B0505A308841A8100D809E1 /* SineWaveTracker.cpp */,
+				4B0505A408841A8200D809E1 /* WavTlActionComponent.cpp */,
+				4B0505A508841A8300D809E1 /* WavTlID.h */,
+				4B0505A608841A8400D809E1 /* WavTlRezDefs.h */,
+				4B0505A708841A8400D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B0505A708841A8400D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B0505A808841A8400D809E1 /* WavTlNoStrip.cpp */,
+				4B0505A908841A8500D809E1 /* WavTlID.cpp */,
+				4B0505AA08841A8600D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B0505AB08841A8600D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32C4CE221949BEB300DC1115 /* WavTlIcons.fr */,
+				3227F846175DF31B00A71E17 /* WavTl_enUS.fr */,
+				3227F847175DF31B00A71E17 /* WavTl_jaJP.fr */,
+				322327421626D9660084D0B6 /* ico135_dark_hidpi.png */,
+				322327431626D9660084D0B6 /* ico135_dark.png */,
+				322327441626D9660084D0B6 /* ico135_hidpi.png */,
+				322327451626D9660084D0B6 /* ico135.png */,
+				322327461626D9660084D0B6 /* ico136_dark_hidpi.png */,
+				322327471626D9660084D0B6 /* ico136_dark.png */,
+				322327481626D9660084D0B6 /* ico136_hidpi.png */,
+				322327491626D9660084D0B6 /* ico136.png */,
+				4B0505AC08841A8700D809E1 /* WavTl.fr */,
+				4B0505AD08841A8800D809E1 /* WavTlResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE740EC094F927000AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE740ED094F927000AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9572AFF15D0CA9F00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9572B0615D0CA9F00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9572B0615D0CA9F00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9572B0A15D0CA9F00C95573 /* InDesignModelAndUI.framework */,
+				F9572B0B15D0CA9F00C95573 /* libPublicPlugIn.a */,
+				F9572B0715D0CA9F00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9572B0715D0CA9F00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9572B0815D0CA9F00C95573 /* InDesignModelAndUI.framework */,
+				F9572B0915D0CA9F00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9572B0D15D0CAA500C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9572B2015D0CAA500C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9572B0E15D0CAA500C95573 /* Sources */,
+				F9572B1A15D0CAA500C95573 /* Frameworks */,
+				F9572B1B15D0CAA500C95573 /* Rez */,
+				F9572B1D15D0CAA500C95573 /* Resources */,
+				F9572B1E15D0CAA500C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9572B1F15D0CAA500C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = F9572B2215D0CAA500C95573 /* WaveTool.sdk.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9572B2415D0CAA700C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9572B3715D0CAA700C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9572B2515D0CAA700C95573 /* Sources */,
+				F9572B3115D0CAA700C95573 /* Frameworks */,
+				F9572B3215D0CAA700C95573 /* Rez */,
+				F9572B3415D0CAA700C95573 /* Resources */,
+				F9572B3515D0CAA700C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9572B3615D0CAA700C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = F9572B3915D0CAA700C95573 /* WaveTool.sdk.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05058408841A7B00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B05058508841A7B00D809E1 /* Build configuration list for PBXProject "WaveTool.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05058208841A7B00D809E1;
+			productRefGroup = 4B05059008841A7B00D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9572B0D15D0CAA500C95573 /* Debug_Cocoa64 */,
+				F9572B2415D0CAA700C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9572B1D15D0CAA500C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9572B3415D0CAA700C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9572B1B15D0CAA500C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572B1C15D0CAA500C95573 /* WavTlResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9572B3215D0CAA700C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572B3315D0CAA700C95573 /* WavTlResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9572B1E15D0CAA500C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9572B3515D0CAA700C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9572B0E15D0CAA500C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572B0F15D0CAA500C95573 /* WavTl.fr in Sources */,
+				F9572B1015D0CAA500C95573 /* WavTlActionComponent.cpp in Sources */,
+				F9572B1115D0CAA500C95573 /* WavTlNoStrip.cpp in Sources */,
+				F9572B1215D0CAA500C95573 /* WavTlID.cpp in Sources */,
+				F9572B1315D0CAA500C95573 /* WaveTracker.cpp in Sources */,
+				F9572B1415D0CAA500C95573 /* WaveTrackerRegister.cpp in Sources */,
+				F9572B1515D0CAA500C95573 /* SawWaveTool.cpp in Sources */,
+				F9572B1615D0CAA500C95573 /* SawWaveTracker.cpp in Sources */,
+				F9572B1715D0CAA500C95573 /* SineWaveTool.cpp in Sources */,
+				F9572B1815D0CAA500C95573 /* SineWaveTracker.cpp in Sources */,
+				F9572B1915D0CAA500C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9572B2515D0CAA700C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572B2615D0CAA700C95573 /* WavTl.fr in Sources */,
+				F9572B2715D0CAA700C95573 /* WavTlActionComponent.cpp in Sources */,
+				F9572B2815D0CAA700C95573 /* WavTlNoStrip.cpp in Sources */,
+				F9572B2915D0CAA700C95573 /* WavTlID.cpp in Sources */,
+				F9572B2A15D0CAA700C95573 /* WaveTracker.cpp in Sources */,
+				F9572B2B15D0CAA700C95573 /* WaveTrackerRegister.cpp in Sources */,
+				F9572B2C15D0CAA700C95573 /* SawWaveTool.cpp in Sources */,
+				F9572B2D15D0CAA700C95573 /* SawWaveTracker.cpp in Sources */,
+				F9572B2E15D0CAA700C95573 /* SineWaveTool.cpp in Sources */,
+				F9572B2F15D0CAA700C95573 /* SineWaveTracker.cpp in Sources */,
+				F9572B3015D0CAA700C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05058608841A7B00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = WaveTool.sdk;
+				REZ_SEARCH_PATHS = (
+					../../../source/sdksamples/wavetool,
+					"$(ID_COMMON_REZ_SEARCH_PATHS)",
+				);
+			};
+			name = Default;
+		};
+		F9572B2115D0CAA500C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F9572B3815D0CAA700C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05058508841A7B00D809E1 /* Build configuration list for PBXProject "WaveTool.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05058608841A7B00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9572B2015D0CAA500C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9572B2115D0CAA500C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9572B3715D0CAA700C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9572B3815D0CAA700C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05058408841A7B00D809E1 /* Project object */;
+}

@@ -1,0 +1,8 @@
+// Common InDesign build settings for model targets (Cocoa version)
+ID_BUILD_CONFIG_BASE_RELEASE_COCOA = YES
+
+//Override the build folder sub path so all release targets, use the release build folder. (important for projects with extra targets like the App projects)
+ID_BUILDFOLDER_SUBPATH = release_cocoa
+
+#include "cocoa_common_release.xcconfig"
+#include "cocoa_common.xcconfig"

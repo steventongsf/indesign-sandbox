@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F957103C15CF793200C95573 /* CdlChart.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F38E0884111D00D809E1 /* CdlChart.fr */; };
+		F957103D15CF793200C95573 /* CdlChartNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F38A0884111A00D809E1 /* CdlChartNoStrip.cpp */; };
+		F957103E15CF793200C95573 /* CdlChartID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F38B0884111B00D809E1 /* CdlChartID.cpp */; };
+		F957103F15CF793200C95573 /* SDKPluginEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F38C0884111C00D809E1 /* SDKPluginEntrypoint.cpp */; };
+		F957104015CF793200C95573 /* CdlChartData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3770884110F00D809E1 /* CdlChartData.cpp */; };
+		F957104115CF793200C95573 /* NewCdlChartCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F37D0884111100D809E1 /* NewCdlChartCmd.cpp */; };
+		F957104215CF793200C95573 /* CdlChartShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F37B0884111100D809E1 /* CdlChartShape.cpp */; };
+		F957104315CF793200C95573 /* ChartCSVFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3780884111000D809E1 /* ChartCSVFile.cpp */; };
+		F957104415CF793200C95573 /* CdlChartSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3830884111600D809E1 /* CdlChartSuiteASB.cpp */; };
+		F957104515CF793200C95573 /* CdlChartSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3860884111800D809E1 /* CdlChartSuiteLayoutCSB.cpp */; };
+		F957104615CF793200C95573 /* CdlChartSuiteCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3850884111700D809E1 /* CdlChartSuiteCSB.cpp */; };
+		F957104715CF793200C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3880884111900D809E1 /* SDKFileHelper.cpp */; };
+		F957104815CF793200C95573 /* CdlChartScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF20E08D23680005B86FF /* CdlChartScript.cpp */; };
+		F957104915CF793200C95573 /* CdlChartScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF20F08D23680005B86FF /* CdlChartScriptProvider.cpp */; };
+		F957104A15CF793200C95573 /* CdlStockScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF21008D23680005B86FF /* CdlStockScript.cpp */; };
+		F957104B15CF793200C95573 /* CdlStockScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF21108D23680005B86FF /* CdlStockScriptProvider.cpp */; };
+		F957104C15CF793200C95573 /* CdlChartErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF21A08D236BA005B86FF /* CdlChartErrorStringService.cpp */; };
+		F957104D15CF793200C95573 /* ModifyCdlChartCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF21C08D236BA005B86FF /* ModifyCdlChartCmd.cpp */; };
+		F957104E15CF793200C95573 /* CdlChartFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6E80C063CD000F2CD32 /* CdlChartFacade.cpp */; };
+		F957105A15CF793500C95573 /* CdlChart.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F38E0884111D00D809E1 /* CdlChart.fr */; };
+		F957105B15CF793500C95573 /* CdlChartNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F38A0884111A00D809E1 /* CdlChartNoStrip.cpp */; };
+		F957105C15CF793500C95573 /* CdlChartID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F38B0884111B00D809E1 /* CdlChartID.cpp */; };
+		F957105D15CF793500C95573 /* SDKPluginEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F38C0884111C00D809E1 /* SDKPluginEntrypoint.cpp */; };
+		F957105E15CF793500C95573 /* CdlChartData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3770884110F00D809E1 /* CdlChartData.cpp */; };
+		F957105F15CF793500C95573 /* NewCdlChartCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F37D0884111100D809E1 /* NewCdlChartCmd.cpp */; };
+		F957106015CF793500C95573 /* CdlChartShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F37B0884111100D809E1 /* CdlChartShape.cpp */; };
+		F957106115CF793500C95573 /* ChartCSVFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3780884111000D809E1 /* ChartCSVFile.cpp */; };
+		F957106215CF793500C95573 /* CdlChartSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3830884111600D809E1 /* CdlChartSuiteASB.cpp */; };
+		F957106315CF793500C95573 /* CdlChartSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3860884111800D809E1 /* CdlChartSuiteLayoutCSB.cpp */; };
+		F957106415CF793500C95573 /* CdlChartSuiteCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3850884111700D809E1 /* CdlChartSuiteCSB.cpp */; };
+		F957106515CF793500C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3880884111900D809E1 /* SDKFileHelper.cpp */; };
+		F957106615CF793500C95573 /* CdlChartScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF20E08D23680005B86FF /* CdlChartScript.cpp */; };
+		F957106715CF793500C95573 /* CdlChartScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF20F08D23680005B86FF /* CdlChartScriptProvider.cpp */; };
+		F957106815CF793500C95573 /* CdlStockScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF21008D23680005B86FF /* CdlStockScript.cpp */; };
+		F957106915CF793500C95573 /* CdlStockScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF21108D23680005B86FF /* CdlStockScriptProvider.cpp */; };
+		F957106A15CF793500C95573 /* CdlChartErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF21A08D236BA005B86FF /* CdlChartErrorStringService.cpp */; };
+		F957106B15CF793500C95573 /* ModifyCdlChartCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BDF21C08D236BA005B86FF /* ModifyCdlChartCmd.cpp */; };
+		F957106C15CF793500C95573 /* CdlChartFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A56D6E80C063CD000F2CD32 /* CdlChartFacade.cpp */; };
+		F957107A15CF795B00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957103815CF791D00C95573 /* libPublicPlugIn.a */; };
+		F957107B15CF795B00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957103915CF791D00C95573 /* InDesignModel.framework */; };
+		F957107E15CF796400C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957103615CF791D00C95573 /* libPublicPlugIn.a */; };
+		F957107F15CF796400C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957103715CF791D00C95573 /* InDesignModel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957105315CF793200C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957107115CF793500C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73CA0094F885200AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73CA1094F885200AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F7EA175DEE0A00A71E17 /* CdlChart_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CdlChart_enUS.fr; path = ../../../source/sdksamples/candlechart/CdlChart_enUS.fr; sourceTree = "<group>"; };
+		3227F7EB175DEE0A00A71E17 /* CdlChart_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CdlChart_jaJP.fr; path = ../../../source/sdksamples/candlechart/CdlChart_jaJP.fr; sourceTree = "<group>"; };
+		4B05F3750884110E00D809E1 /* CdlChartID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CdlChartID.h; path = ../../../source/sdksamples/candlechart/CdlChartID.h; sourceTree = SOURCE_ROOT; };
+		4B05F3770884110F00D809E1 /* CdlChartData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartData.cpp; path = ../../../source/sdksamples/candlechart/CdlChartData.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3780884111000D809E1 /* ChartCSVFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ChartCSVFile.cpp; path = ../../../source/sdksamples/candlechart/ChartCSVFile.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3790884111000D809E1 /* ChartCSVFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChartCSVFile.h; path = ../../../source/sdksamples/candlechart/ChartCSVFile.h; sourceTree = SOURCE_ROOT; };
+		4B05F37B0884111100D809E1 /* CdlChartShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartShape.cpp; path = ../../../source/sdksamples/candlechart/CdlChartShape.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F37D0884111100D809E1 /* NewCdlChartCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = NewCdlChartCmd.cpp; path = ../../../source/sdksamples/candlechart/NewCdlChartCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3820884111500D809E1 /* ICdlChartSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ICdlChartSuite.h; path = ../../../source/sdksamples/candlechart/ICdlChartSuite.h; sourceTree = SOURCE_ROOT; };
+		4B05F3830884111600D809E1 /* CdlChartSuiteASB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartSuiteASB.cpp; path = ../../../source/sdksamples/candlechart/CdlChartSuiteASB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3840884111700D809E1 /* CdlChartSuiteCSB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CdlChartSuiteCSB.h; path = ../../../source/sdksamples/candlechart/CdlChartSuiteCSB.h; sourceTree = SOURCE_ROOT; };
+		4B05F3850884111700D809E1 /* CdlChartSuiteCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartSuiteCSB.cpp; path = ../../../source/sdksamples/candlechart/CdlChartSuiteCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3860884111800D809E1 /* CdlChartSuiteLayoutCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartSuiteLayoutCSB.cpp; path = ../../../source/sdksamples/candlechart/CdlChartSuiteLayoutCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3880884111900D809E1 /* SDKFileHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKFileHelper.cpp; path = ../../../source/sdksamples/common/SDKFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3890884111900D809E1 /* SDKFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKFileHelper.h; path = ../../../source/sdksamples/common/SDKFileHelper.h; sourceTree = SOURCE_ROOT; };
+		4B05F38A0884111A00D809E1 /* CdlChartNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartNoStrip.cpp; path = ../../../source/sdksamples/candlechart/CdlChartNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F38B0884111B00D809E1 /* CdlChartID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartID.cpp; path = ../../../source/sdksamples/candlechart/CdlChartID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F38C0884111C00D809E1 /* SDKPluginEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPluginEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F38E0884111D00D809E1 /* CdlChart.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CdlChart.fr; path = ../../../source/sdksamples/candlechart/CdlChart.fr; sourceTree = SOURCE_ROOT; };
+		67BDF20E08D23680005B86FF /* CdlChartScript.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartScript.cpp; path = ../../../source/sdksamples/candlechart/CdlChartScript.cpp; sourceTree = SOURCE_ROOT; };
+		67BDF20F08D23680005B86FF /* CdlChartScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartScriptProvider.cpp; path = ../../../source/sdksamples/candlechart/CdlChartScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		67BDF21008D23680005B86FF /* CdlStockScript.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CdlStockScript.cpp; path = ../../../source/sdksamples/candlechart/CdlStockScript.cpp; sourceTree = SOURCE_ROOT; };
+		67BDF21108D23680005B86FF /* CdlStockScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CdlStockScriptProvider.cpp; path = ../../../source/sdksamples/candlechart/CdlStockScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		67BDF21A08D236BA005B86FF /* CdlChartErrorStringService.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartErrorStringService.cpp; path = ../../../source/sdksamples/candlechart/CdlChartErrorStringService.cpp; sourceTree = SOURCE_ROOT; };
+		67BDF21B08D236BA005B86FF /* ICdlChartData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ICdlChartData.h; path = ../../../source/sdksamples/candlechart/ICdlChartData.h; sourceTree = SOURCE_ROOT; };
+		67BDF21C08D236BA005B86FF /* ModifyCdlChartCmd.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ModifyCdlChartCmd.cpp; path = ../../../source/sdksamples/candlechart/ModifyCdlChartCmd.cpp; sourceTree = SOURCE_ROOT; };
+		773555F41203370400E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		9A56D6E80C063CD000F2CD32 /* CdlChartFacade.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CdlChartFacade.cpp; path = ../../../source/sdksamples/candlechart/CdlChartFacade.cpp; sourceTree = SOURCE_ROOT; };
+		F957103615CF791D00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957103715CF791D00C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957103815CF791D00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957103915CF791D00C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957104F15CF793200C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957107E15CF796400C95573 /* libPublicPlugIn.a in Frameworks */,
+				F957107F15CF796400C95573 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957106D15CF793500C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957107A15CF795B00C95573 /* libPublicPlugIn.a in Frameworks */,
+				F957107B15CF795B00C95573 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F35A0884110B00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F3740884110C00D809E1 /* Source */,
+				4B05F38D0884111C00D809E1 /* Resources */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				F957102D15CF791D00C95573 /* InDesign Libraries */,
+				773555F41203370400E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F3740884110C00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				67BDF20B08D23650005B86FF /* Scripting */,
+				4B05F3750884110E00D809E1 /* CdlChartID.h */,
+				4B05F3760884110E00D809E1 /* Model */,
+				4B05F37A0884111000D809E1 /* View */,
+				4B05F37C0884111100D809E1 /* Controller */,
+				4B05F3810884111400D809E1 /* Suite */,
+				4B05F3870884111800D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F3760884110E00D809E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67BDF21B08D236BA005B86FF /* ICdlChartData.h */,
+				67BDF21C08D236BA005B86FF /* ModifyCdlChartCmd.cpp */,
+				4B05F3770884110F00D809E1 /* CdlChartData.cpp */,
+				4B05F3790884111000D809E1 /* ChartCSVFile.h */,
+				4B05F3780884111000D809E1 /* ChartCSVFile.cpp */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4B05F37A0884111000D809E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F37B0884111100D809E1 /* CdlChartShape.cpp */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4B05F37C0884111100D809E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F37D0884111100D809E1 /* NewCdlChartCmd.cpp */,
+				67BDF21A08D236BA005B86FF /* CdlChartErrorStringService.cpp */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4B05F3810884111400D809E1 /* Suite */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F3820884111500D809E1 /* ICdlChartSuite.h */,
+				4B05F3830884111600D809E1 /* CdlChartSuiteASB.cpp */,
+				4B05F3840884111700D809E1 /* CdlChartSuiteCSB.h */,
+				4B05F3850884111700D809E1 /* CdlChartSuiteCSB.cpp */,
+				4B05F3860884111800D809E1 /* CdlChartSuiteLayoutCSB.cpp */,
+			);
+			name = Suite;
+			sourceTree = "<group>";
+		};
+		4B05F3870884111800D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F3890884111900D809E1 /* SDKFileHelper.h */,
+				4B05F3880884111900D809E1 /* SDKFileHelper.cpp */,
+				9A56D6E80C063CD000F2CD32 /* CdlChartFacade.cpp */,
+				4B05F38A0884111A00D809E1 /* CdlChartNoStrip.cpp */,
+				4B05F38B0884111B00D809E1 /* CdlChartID.cpp */,
+				4B05F38C0884111C00D809E1 /* SDKPluginEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F38D0884111C00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F7EA175DEE0A00A71E17 /* CdlChart_enUS.fr */,
+				3227F7EB175DEE0A00A71E17 /* CdlChart_jaJP.fr */,
+				4B05F38E0884111D00D809E1 /* CdlChart.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		67BDF20B08D23650005B86FF /* Scripting */ = {
+			isa = PBXGroup;
+			children = (
+				67BDF20E08D23680005B86FF /* CdlChartScript.cpp */,
+				67BDF20F08D23680005B86FF /* CdlChartScriptProvider.cpp */,
+				67BDF21008D23680005B86FF /* CdlStockScript.cpp */,
+				67BDF21108D23680005B86FF /* CdlStockScriptProvider.cpp */,
+			);
+			name = Scripting;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73CA0094F885200AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73CA1094F885200AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957102D15CF791D00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957103415CF791D00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957103415CF791D00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957103815CF791D00C95573 /* libPublicPlugIn.a */,
+				F957103915CF791D00C95573 /* InDesignModel.framework */,
+				F957103515CF791D00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957103515CF791D00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957103615CF791D00C95573 /* libPublicPlugIn.a */,
+				F957103715CF791D00C95573 /* InDesignModel.framework */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957103A15CF793200C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957105415CF793200C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957103B15CF793200C95573 /* Sources */,
+				F957104F15CF793200C95573 /* Frameworks */,
+				F957105015CF793200C95573 /* Rez */,
+				F957105115CF793200C95573 /* Resources */,
+				F957105215CF793200C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957105315CF793200C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F957105815CF793500C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957107215CF793500C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957105915CF793500C95573 /* Sources */,
+				F957106D15CF793500C95573 /* Frameworks */,
+				F957106E15CF793500C95573 /* Rez */,
+				F957106F15CF793500C95573 /* Resources */,
+				F957107015CF793500C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957107115CF793500C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F35C0884110B00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05F35D0884110B00D809E1 /* Build configuration list for PBXProject "CandleChart.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F35A0884110B00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957103A15CF793200C95573 /* Debug_Cocoa64 */,
+				F957105815CF793500C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957105115CF793200C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957106F15CF793500C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957105015CF793200C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957106E15CF793500C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957105215CF793200C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957107015CF793500C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957103B15CF793200C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957103C15CF793200C95573 /* CdlChart.fr in Sources */,
+				F957103D15CF793200C95573 /* CdlChartNoStrip.cpp in Sources */,
+				F957103E15CF793200C95573 /* CdlChartID.cpp in Sources */,
+				F957103F15CF793200C95573 /* SDKPluginEntrypoint.cpp in Sources */,
+				F957104015CF793200C95573 /* CdlChartData.cpp in Sources */,
+				F957104115CF793200C95573 /* NewCdlChartCmd.cpp in Sources */,
+				F957104215CF793200C95573 /* CdlChartShape.cpp in Sources */,
+				F957104315CF793200C95573 /* ChartCSVFile.cpp in Sources */,
+				F957104415CF793200C95573 /* CdlChartSuiteASB.cpp in Sources */,
+				F957104515CF793200C95573 /* CdlChartSuiteLayoutCSB.cpp in Sources */,
+				F957104615CF793200C95573 /* CdlChartSuiteCSB.cpp in Sources */,
+				F957104715CF793200C95573 /* SDKFileHelper.cpp in Sources */,
+				F957104815CF793200C95573 /* CdlChartScript.cpp in Sources */,
+				F957104915CF793200C95573 /* CdlChartScriptProvider.cpp in Sources */,
+				F957104A15CF793200C95573 /* CdlStockScript.cpp in Sources */,
+				F957104B15CF793200C95573 /* CdlStockScriptProvider.cpp in Sources */,
+				F957104C15CF793200C95573 /* CdlChartErrorStringService.cpp in Sources */,
+				F957104D15CF793200C95573 /* ModifyCdlChartCmd.cpp in Sources */,
+				F957104E15CF793200C95573 /* CdlChartFacade.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957105915CF793500C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957105A15CF793500C95573 /* CdlChart.fr in Sources */,
+				F957105B15CF793500C95573 /* CdlChartNoStrip.cpp in Sources */,
+				F957105C15CF793500C95573 /* CdlChartID.cpp in Sources */,
+				F957105D15CF793500C95573 /* SDKPluginEntrypoint.cpp in Sources */,
+				F957105E15CF793500C95573 /* CdlChartData.cpp in Sources */,
+				F957105F15CF793500C95573 /* NewCdlChartCmd.cpp in Sources */,
+				F957106015CF793500C95573 /* CdlChartShape.cpp in Sources */,
+				F957106115CF793500C95573 /* ChartCSVFile.cpp in Sources */,
+				F957106215CF793500C95573 /* CdlChartSuiteASB.cpp in Sources */,
+				F957106315CF793500C95573 /* CdlChartSuiteLayoutCSB.cpp in Sources */,
+				F957106415CF793500C95573 /* CdlChartSuiteCSB.cpp in Sources */,
+				F957106515CF793500C95573 /* SDKFileHelper.cpp in Sources */,
+				F957106615CF793500C95573 /* CdlChartScript.cpp in Sources */,
+				F957106715CF793500C95573 /* CdlChartScriptProvider.cpp in Sources */,
+				F957106815CF793500C95573 /* CdlStockScript.cpp in Sources */,
+				F957106915CF793500C95573 /* CdlStockScriptProvider.cpp in Sources */,
+				F957106A15CF793500C95573 /* CdlChartErrorStringService.cpp in Sources */,
+				F957106B15CF793500C95573 /* ModifyCdlChartCmd.cpp in Sources */,
+				F957106C15CF793500C95573 /* CdlChartFacade.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F35E0884110B00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = CandleChart.sdk;
+			};
+			name = Default;
+		};
+		F957105515CF793200C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F957107315CF793500C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F35D0884110B00D809E1 /* Build configuration list for PBXProject "CandleChart.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F35E0884110B00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957105415CF793200C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957105515CF793200C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957107215CF793500C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957107315CF793500C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F35C0884110B00D809E1 /* Project object */;
+}

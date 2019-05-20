@@ -1,0 +1,11 @@
+
+// Common InDesign build settings based on private folders or settings that should not be exposed to SDK users
+ID_BUILD_CONFIG_COMMON_PRIVATE = YES
+
+
+// Private headers - this came from plugin.xcconfig
+ID_PRIVATE_HEADER_SEARCH_PATHS = $(ID_SDK_ROOT)/source/private/includes/architecture $(ID_SDK_ROOT)/source/private/interfaces/architecture $(DVA_HEADER_SEARCH_PATHS) $(ID_SDK_ROOT)/source/private/includes/ui
+
+// Wildcarded Private interfaces. 
+// Here for completeness - not sure anyone should use this macro
+ID_ALLPRIVATE_HEADER_SEARCH_PATHS = $(ID_SDK_ROOT)/source/private/includes/** $(ID_SDK_ROOT)/source/private/interfaces/** $(DVA_HEADER_SEARCH_PATHS)

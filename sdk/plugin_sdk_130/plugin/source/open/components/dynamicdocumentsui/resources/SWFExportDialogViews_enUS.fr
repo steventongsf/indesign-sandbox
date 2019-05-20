@@ -1,0 +1,281 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/open/components/dynamicdocumentsui/resources/SWFExportDialogViews_enUS.fr $
+//  
+//  Owner: DBerggren
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "InterfaceColorDefines.h"
+#include "TreeViewDefs.h"
+
+#ifdef __ODFRC__
+
+//========================================================================================
+// SWF export dialog resource
+//========================================================================================
+
+resource SWFExportDialog (kSWFExportDialogRsrcID + index_enUS)
+{
+	__FILE__, __LINE__,
+	kSWFExportDialogWidgetID,		// WidgetId
+	kPMRsrcID_None,							// RsrcId
+	kBindNone,								// Frame binding
+	Frame(0,0,0,0)					// Frame
+	kTrue,									// Visible
+	kTrue,									// Enabled
+	"kSWFExport",							// Panel name
+	{
+		EVEGenericPanelWidget
+		(
+			kInvalidWidgetID,	// WidgetId
+			0			// RsrcId
+			0,			// Widget EVE Info
+			kBindNone,		// Frame binding
+			Frame(0,0,0,0)		// Frame
+			kTrue,			// Visible
+			kTrue,			// Enabled
+			kEVEAlignFill | kEVENoSpaceAfter | kEVEArrangeChildrenInColumn | kEVENoMargin,
+			
+			{
+					EVETabsWidget
+					(
+						kSelectDialogSelectionWidgetID,			// WidgetId
+						kPMRsrcID_None,					// RsrcId
+						kBindNone,						// Frame binding
+						Frame(0,0,0,0)		// Frame
+						kTrue,							// Visible
+						kTrue,							// Enabled
+						kEVEAlignFill | kEVEExtraLargeSpaceAfter | kEVEArrangeChildrenInRow | kEVERegularMargin,
+						{
+					
+					
+						}
+					),
+				}
+			),
+
+		// Font Embedding
+		EVEGenericPanelWidget
+		(
+			kGenericPanelWidgetID,			// WID
+			0,0,							// RsrcId
+			kBindNone,						// Frame binding
+			Frame(0,0,0,0)				// Frame
+			kTrue,							// Visible
+			kTrue,							// Enabled
+			kEVEAlignLeft|kEVEExtraLargeSpaceAfter|kEVEArrangeChildrenInColumn,  // EVE info
+			{
+				EVEStaticTextWidget
+				(
+					kStaticTextWidgetID,	// WidgetId
+					kSysStaticTextPMRsrcId, // RsrcId
+					kBindNone,              // Frame binding
+					Frame(0,0,0,0)       // Frame
+					kTrue,kTrue, kAlignLeft,  // Visible, Enabled, Alignment
+					kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+					"kEmbeddedFontsTitle",       // Initial text
+					0,  // Associated widget
+					kEVEAlignLeft|kEVESmallSpaceAfter,    // EVE info
+				),
+
+				// font list and description box
+				EVEGenericPanelWidget
+				(
+					kGenericPanel1WidgetID,				// WID
+					0,0,							// RsrcId
+					kBindNone,						// Frame binding
+					Frame(0,0,0,0)					// Frame
+					kTrue,							// Visible
+					kTrue,							// Enabled
+					kEVEAlignLeft|kEVERegularSpaceAfter|kEVEArrangeChildrenInRow,  // EVE info
+					{
+						// font list
+						EVEGenericPanelWidget
+						(
+							kGenericPanel2WidgetID,				// WID
+							0,0,							// RsrcId
+							kBindNone,						// Frame binding
+							Frame(0,0,0,0)				// Frame
+							kTrue,							// Visible
+							kTrue,							// Enabled
+							kEVEAlignLeft|kEVERegularSpaceAfter|kEVEArrangeChildrenInColumn,  // EVE info
+							{
+								EVEWidgetTreeBasedListBoxWidget 
+								( 
+									kEmbeddedFontsListBoxWidgetID, kSysOwnerDrawListBoxPMRsrcId,    // WidgetId, RsrcId 
+									kBindNone, 
+									Frame(0,0,250,110)        // Frame 
+									kTrue, kTrue,                                    // Visible, Enabled 
+									kTrue,                                                // EraseBeforeDraw 
+									kInterfacePaletteFill,                                // InterfaceColor 
+									1,0,                                            // List dimensions 
+									18,                                                // Cell height 
+									1,                                                // Border width 
+									kFalse,kTrue,                                    // Has scroll bar (v,h) 
+									kFalse,                                            // Multiselection 
+									kFalse,                                            // List items can be reordered 
+									kFalse,                                            // Draggable to new/delete buttons 
+									kFalse,                                            // Drag/Dropable to other windows 
+									kFalse,                                            // An item always has to be selected 
+									kFalse,                                            // Don't notify on reselect 
+									0, 
+									kHideRootNode,                    //Options
+									kFalse,                        //Use H Scroll bar 
+									kTrue,                        //Use V scroll bar 
+									18,                            // Vertical Scroll Button Increment 
+									18,                            // Vertical Thumb Scroll Increment 
+									0,                            // Horizontal Scroll Button Increment - Not Used 
+									0,                            // Horizontal Thumb Scroll Increment - Not Used 
+									2,                            // Items selectable, 0 = No Selection, 1 = Single Selection, 2 = Multiple Selection 
+									kFalse,                        // Allow children from multiple parents to be selected 
+									kTrue,                        // Allow discontiguous selection 
+									kEVEAlignFill|kEVERegularSpaceAfter,        // EVE info 
+								), 
+								EVEStaticTextWidget
+								(
+									kTotalEmbeddedFontsWidgetID,    // WidgetId
+									kSysStaticTextPMRsrcId, // RsrcId
+									kBindNone,              // Frame binding
+									Frame(0,0,150,0)       // Frame
+									kTrue,kTrue, kAlignLeft,  // Visible, Enabled, Alignment
+									kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+									"kTotalFonts",       // Initial text
+									0,  // Associated widget
+									kEVEAlignLeft,    // EVE info
+								)
+							}
+						)
+						// font description
+						EVEGenericPanelWidget
+						(
+							kGenericPanel3WidgetID,			// WID
+							0,0,							// RsrcId
+							kBindNone,						// Frame binding
+							Frame(0,0,0,0)				// Frame
+							kTrue,							// Visible
+							kTrue,							// Enabled
+							kEVEAlignLeft|kEVERegularSpaceAfter|kEVEArrangeChildrenInColumn,  // EVE info
+							{
+								EVEGenericPanelWithBorderWidget
+								(
+									kDescriptionGroupWidgetId,            // WID
+									kPMRsrcID_None,                    // RsrcId
+									kBindNone,
+									Frame(0,0,0,0)                    // Frame
+									kTrue,                                // Visible
+									kTrue,                                // Enabled
+									"",
+									{
+										EVEStaticMultiLineTextWidget
+										(
+											kEmbeddedFontDescWidgetID,// WidgetId
+											kSysStaticTextPMRsrcId,         // RsrcId
+											kBindNone,                        // Frame binding
+											Frame(0,0,250,110)                    // Frame. we want 8 pixels of space before and after so remove them then add back the 3 pixel inset. 
+											kTrue, kTrue,                    // Visible, Enabled
+											kAlignLeft,                    // Alignment
+											kDontEllipsize, kTrue,                 // Ellipsize style, Convert ampersands
+											0,                                            // fScrollBarWidgetID
+											kDialogWindowSmallFontId;                    // fFontID
+											3,                                            // fNumPixelsBetweenLines
+											5,5,                                        // fInset. already a 5 pixel inset so this gives us 8 pixel inset
+											"",                // Initial text
+											kEVENoSpaceAfter,
+										),
+									}
+									kEVEAlignFill|kEVENoMargin|kEVERegularSpaceAfter,    // EVE info
+								)
+								EVEButtonWidget
+								(
+									kFontInfoWidgetID, kSysButtonPMRsrcId,		// WID, RsrcId
+									kBindNone,
+									Frame(0,0,0,0)		// Frame
+									kTrue, kTrue,			// Visible, Enabled
+									"kFontLicensingInfo"
+									kEVEAlignLeft		// Text
+								)
+							}
+						)
+					}
+				)
+			}
+		)
+
+
+		// OK / Cancel buttons
+		EVEGenericPanelWidget
+		(
+			kOKCancelWID,				// WID
+			0,0,							// RsrcId
+			kBindNone,						// Frame binding
+			Frame(0,0,0,0)				// Frame
+			kTrue,							// Visible
+			kTrue,							// Enabled
+			kEVEAlignRight|kEVENoSpaceAfter|kEVEArrangeChildrenInRow|kEVENoMargin,  // EVE info
+			{
+				// ----- ok/cancel buttons
+#ifdef MACINTOSH // make the button bigger since we will dynamically change OK as Save Settings if the dialog is triggered from preview panel.
+				EVECancelButtonWidget
+				(
+					kCancelButton_WidgetID, kSysButtonPMRsrcId,	// WID, RsrcId
+					kBindNone,
+					Frame(0,0,0,0)		// Frame						
+					kTrue, kTrue,			// Visible, Enabled
+					"Cancel",				// Initial text
+					kTrue,					// cancel change to reset when hold alt key
+					kEVELargeSpaceAfter
+				)
+				EVEDefaultButtonWidget
+				(
+					kOKButtonWidgetID, kSysButtonPMRsrcId,		// WID, RsrcId
+					kBindNone,
+					Frame(0,0,0,0)		// Frame
+					kTrue, kTrue,			// Visible, Enabled
+					"OK"
+					kEVENoSpaceAfter		// Text
+				)
+#else
+				EVEDefaultButtonWidget
+				(
+					kOKButtonWidgetID, kSysButtonPMRsrcId,		// WID, RsrcId
+					kBindNone,
+					Frame(0,0,0,0)		// Frame
+					kTrue, kTrue,			// Visible, Enabled
+					"OK"
+					kEVELargeSpaceAfter		// Text
+				)
+				EVECancelButtonWidget
+				(
+					kCancelButton_WidgetID, kSysButtonPMRsrcId,	// WID, RsrcId
+					kBindNone,
+					Frame(0,0,0,0)		// Frame						
+					kTrue, kTrue,			// Visible, Enabled
+					"Cancel",				// Initial text
+					kTrue,					// cancel change to reset when hold alt key
+					kEVENoSpaceAfter
+				)
+#endif
+			}
+		)
+	}
+	kEVEArrangeChildrenInColumn|kEVEChildAlignFill|kEVELargeMargin,	// EVE info
+};
+
+
+#endif

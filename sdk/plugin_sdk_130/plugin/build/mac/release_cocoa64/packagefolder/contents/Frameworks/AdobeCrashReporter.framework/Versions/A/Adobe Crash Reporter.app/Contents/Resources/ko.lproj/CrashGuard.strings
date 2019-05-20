@@ -1,0 +1,51 @@
+
+/* Class = "NSButtonCell"; title = "Send Report"; ObjectID = "30F-pc-NFE"; */
+"30F-pc-NFE.title" = "보고서 전송";
+
+/* Class = "NSTextFieldCell"; title = "Adobe can contact me to receive additional information and notify me of fixes and workarounds."; ObjectID = "5gB-hm-Dqe"; */
+"5gB-hm-Dqe.title" = "추가 정보를 요청하거나 수정 및 해결 방법을 알리기 위해 Adobe가 본인에게 연락하는 것을 허용합니다.";
+
+/* Class = "NSTextFieldCell"; title = "A crash report has been generated. Adobe may use this report to try to find a solution to the problem."; ObjectID = "8ep-F2-TcM"; */
+"8ep-F2-TcM.title" = "충돌 보고서가 생성되었습니다. 이 보고서는 Adobe가 해당 문제에 대한 솔루션을 찾기 위한 정보로 활용될 수 있습니다.";
+
+/* Class = "NSTextFieldCell"; title = "Close this dialog if no solution is available"; ObjectID = "AlT-fW-Nh9"; */
+"AlT-fW-Nh9.title" = "사용 가능한 해결 방법이 없는 경우 이 대화 상자 닫음";
+
+/* Class = "NSTextFieldCell"; title = "from you."; ObjectID = "E7I-81-RqA"; */
+"E7I-81-RqA.title" = "가 Adobe로 전송됩니다.";
+
+/* Class = "NSButtonCell"; title = "crash report"; ObjectID = "GsT-1s-bLh"; */
+"GsT-1s-bLh.title" = "충돌 보고서";
+
+/* Class = "NSTextFieldCell"; title = "Please tell us more"; ObjectID = "KTt-ch-3sn"; */
+"KTt-ch-3sn.title" = "세부 설명";
+
+/* Class = "NSTextFieldCell"; title = "Include my application usage related data to help Adobe diagnose the crash. "; ObjectID = "NJP-x3-0ge"; */
+"NJP-x3-0ge.title" = "Adobe에서 충돌 문제를 진단할 수 있도록 내 애플리케이션 사용 관련 데이터를 포함시킵니다.";
+
+/* Class = "NSTextFieldCell"; title = "Always send crash reports automatically to Adobe. See our privacy policy for more details or to change your mind at any time."; ObjectID = "NXj-XP-8Ep"; */
+"NXj-XP-8Ep.title" = "Always send crash reports automatically to Adobe. See our privacy policy for more details or to change your mind at any time.";
+
+/* Class = "NSTextFieldCell"; title = "Adobe is searching for solutions and workarounds for issues in the application."; ObjectID = "Pt1-Oh-XrW"; */
+"Pt1-Oh-XrW.title" = "Adobe is searching for solutions and workarounds for issues in the application.";
+
+/* Class = "NSButtonCell"; title = "Don't Send"; ObjectID = "US9-ah-XOb"; */
+"US9-ah-XOb.title" = "보내지 않음";
+
+/* Class = "NSButtonCell"; title = "Don't Send - Don't Ask Me Again"; ObjectID = "WvQ-Ix-6iF"; */
+"WvQ-Ix-6iF.title" = "보내지 않음 - 다시 묻지 않음";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "YPn-k9-Q0X"; */
+"YPn-k9-Q0X.title" = "닫기";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "ZFe-gR-gQ3"; */
+"ZFe-gR-gQ3.title" = "취소";
+
+/* Class = "NSTextFieldCell"; title = "See privacy policy for more information."; ObjectID = "aKA-i6-69o"; */
+"aKA-i6-69o.title" = "See privacy policy for more information.";
+
+/* Class = "NSTextFieldCell"; title = "By clicking 'Send Report', Adobe will receive"; ObjectID = "c5u-cz-9q1"; */
+"c5u-cz-9q1.title" = "“보고서 전송”을 클릭하면";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Insert Email Address"; ObjectID = "ksp-4Y-MPp"; */
+"ksp-4Y-MPp.placeholderString" = "이메일 주소 삽입";

@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682D459415CFE6020021E3E3 /* stdsoap2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050A3308841CC000D809E1 /* stdsoap2.cpp */; };
+		682D459515CFE6020021E3E3 /* NamespaceDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABEC0B0516D4003E5A96 /* NamespaceDef.cpp */; };
+		682D459615CFE6020021E3E3 /* soapC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABED0B0516D4003E5A96 /* soapC.cpp */; };
+		682D459715CFE6020021E3E3 /* soapClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABEE0B0516D4003E5A96 /* soapClient.cpp */; };
+		682D459815CFE6020021E3E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABF50B0516F9003E5A96 /* main.cpp */; };
+		682D459915CFE6020021E3E3 /* MReadScriptText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABFA0B05174A003E5A96 /* MReadScriptText.cpp */; };
+		682D459A15CFE6020021E3E3 /* SoapClientUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABFC0B05174A003E5A96 /* SoapClientUtils.cpp */; };
+		682D459C15CFE6020021E3E3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9ECF5908AACA3700EDA933 /* CoreServices.framework */; };
+		682D459D15CFE6020021E3E3 /* System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9ECF5A08AACA3700EDA933 /* System.framework */; };
+		682D45A915CFE6040021E3E3 /* stdsoap2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050A3308841CC000D809E1 /* stdsoap2.cpp */; };
+		682D45AA15CFE6040021E3E3 /* NamespaceDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABEC0B0516D4003E5A96 /* NamespaceDef.cpp */; };
+		682D45AB15CFE6040021E3E3 /* soapC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABED0B0516D4003E5A96 /* soapC.cpp */; };
+		682D45AC15CFE6040021E3E3 /* soapClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABEE0B0516D4003E5A96 /* soapClient.cpp */; };
+		682D45AD15CFE6040021E3E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABF50B0516F9003E5A96 /* main.cpp */; };
+		682D45AE15CFE6040021E3E3 /* MReadScriptText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABFA0B05174A003E5A96 /* MReadScriptText.cpp */; };
+		682D45AF15CFE6040021E3E3 /* SoapClientUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119ABFC0B05174A003E5A96 /* SoapClientUtils.cpp */; };
+		682D45B115CFE6040021E3E3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9ECF5908AACA3700EDA933 /* CoreServices.framework */; };
+		682D45B215CFE6040021E3E3 /* System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9ECF5A08AACA3700EDA933 /* System.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		682D45A115CFE6020021E3E3 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		682D45A215CFE6020021E3E3 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+		682D45B615CFE6040021E3E3 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		682D45B715CFE6040021E3E3 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		3119ABEC0B0516D4003E5A96 /* NamespaceDef.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = NamespaceDef.cpp; path = ../../../source/public/components/server/gsoap/NamespaceDef.cpp; sourceTree = SOURCE_ROOT; };
+		3119ABED0B0516D4003E5A96 /* soapC.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = soapC.cpp; path = ../../../source/public/components/server/gsoap/soapC.cpp; sourceTree = SOURCE_ROOT; };
+		3119ABEE0B0516D4003E5A96 /* soapClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = soapClient.cpp; path = ../../../source/public/components/server/gsoap/soapClient.cpp; sourceTree = SOURCE_ROOT; };
+		3119ABF50B0516F9003E5A96 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../source/public/components/server/sampleclient/main.cpp; sourceTree = SOURCE_ROOT; };
+		3119ABFA0B05174A003E5A96 /* MReadScriptText.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MReadScriptText.cpp; path = ../../../source/public/components/server/sampleclient/MReadScriptText.cpp; sourceTree = SOURCE_ROOT; };
+		3119ABFC0B05174A003E5A96 /* SoapClientUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SoapClientUtils.cpp; path = ../../../source/public/components/server/sampleclient/SoapClientUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B050A3308841CC000D809E1 /* stdsoap2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stdsoap2.cpp; path = ../../../external/gsoap/stdsoap2.cpp; sourceTree = SOURCE_ROOT; };
+		4B050A3408841CC000D809E1 /* stdsoap2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdsoap2.h; path = ../../../external/gsoap/stdsoap2.h; sourceTree = SOURCE_ROOT; };
+		4B9ECF5908AACA3700EDA933 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		4B9ECF5A08AACA3700EDA933 /* System.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = System.framework; path = /System/Library/Frameworks/System.framework; sourceTree = "<absolute>"; };
+		682D45A515CFE6020021E3E3 /* sampleclient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sampleclient; sourceTree = BUILT_PRODUCTS_DIR; };
+		682D45BA15CFE6040021E3E3 /* sampleclient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sampleclient; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682D459B15CFE6020021E3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D459C15CFE6020021E3E3 /* CoreServices.framework in Frameworks */,
+				682D459D15CFE6020021E3E3 /* System.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D45B015CFE6040021E3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D45B115CFE6040021E3E3 /* CoreServices.framework in Frameworks */,
+				682D45B215CFE6040021E3E3 /* System.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B050A1208841CB800D809E1 = {
+			isa = PBXGroup;
+			children = (
+				3119ABFA0B05174A003E5A96 /* MReadScriptText.cpp */,
+				3119ABFC0B05174A003E5A96 /* SoapClientUtils.cpp */,
+				3119ABF50B0516F9003E5A96 /* main.cpp */,
+				3119ABEC0B0516D4003E5A96 /* NamespaceDef.cpp */,
+				3119ABED0B0516D4003E5A96 /* soapC.cpp */,
+				3119ABEE0B0516D4003E5A96 /* soapClient.cpp */,
+				4B050A2E08841CB800D809E1 /* Sources */,
+				4B050A5708841CCC00D809E1 /* Frameworks */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B050A2008841CB800D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B050A2008841CB800D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682D45A515CFE6020021E3E3 /* sampleclient */,
+				682D45BA15CFE6040021E3E3 /* sampleclient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B050A2E08841CB800D809E1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B050A3408841CC000D809E1 /* stdsoap2.h */,
+				4B050A3308841CC000D809E1 /* stdsoap2.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		4B050A5708841CCC00D809E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B9ECF5908AACA3700EDA933 /* CoreServices.framework */,
+				4B9ECF5A08AACA3700EDA933 /* System.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		682D459215CFE6020021E3E3 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682D45A315CFE6020021E3E3 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				682D459315CFE6020021E3E3 /* Sources */,
+				682D459B15CFE6020021E3E3 /* Frameworks */,
+				682D459E15CFE6020021E3E3 /* Rez */,
+				682D459F15CFE6020021E3E3 /* Resources */,
+				682D45A015CFE6020021E3E3 /* ShellScript */,
+			);
+			buildRules = (
+				682D45A115CFE6020021E3E3 /* PBXBuildRule */,
+				682D45A215CFE6020021E3E3 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = 682D45A515CFE6020021E3E3 /* sampleclient */;
+			productType = "com.apple.product-type.tool";
+		};
+		682D45A715CFE6040021E3E3 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682D45B815CFE6040021E3E3 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				682D45A815CFE6040021E3E3 /* Sources */,
+				682D45B015CFE6040021E3E3 /* Frameworks */,
+				682D45B315CFE6040021E3E3 /* Rez */,
+				682D45B415CFE6040021E3E3 /* Resources */,
+				682D45B515CFE6040021E3E3 /* ShellScript */,
+			);
+			buildRules = (
+				682D45B615CFE6040021E3E3 /* PBXBuildRule */,
+				682D45B715CFE6040021E3E3 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = 682D45BA15CFE6040021E3E3 /* sampleclient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B050A1408841CB800D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B050A1508841CB800D809E1 /* Build configuration list for PBXProject "SampleClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B050A1208841CB800D809E1;
+			productRefGroup = 4B050A2008841CB800D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682D459215CFE6020021E3E3 /* Debug_Cocoa64 */,
+				682D45A715CFE6040021E3E3 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		682D459F15CFE6020021E3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D45B415CFE6040021E3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		682D459E15CFE6020021E3E3 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D45B315CFE6040021E3E3 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		682D45A015CFE6020021E3E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		682D45B515CFE6040021E3E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682D459315CFE6020021E3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D459415CFE6020021E3E3 /* stdsoap2.cpp in Sources */,
+				682D459515CFE6020021E3E3 /* NamespaceDef.cpp in Sources */,
+				682D459615CFE6020021E3E3 /* soapC.cpp in Sources */,
+				682D459715CFE6020021E3E3 /* soapClient.cpp in Sources */,
+				682D459815CFE6020021E3E3 /* main.cpp in Sources */,
+				682D459915CFE6020021E3E3 /* MReadScriptText.cpp in Sources */,
+				682D459A15CFE6020021E3E3 /* SoapClientUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D45A815CFE6040021E3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D45A915CFE6040021E3E3 /* stdsoap2.cpp in Sources */,
+				682D45AA15CFE6040021E3E3 /* NamespaceDef.cpp in Sources */,
+				682D45AB15CFE6040021E3E3 /* soapC.cpp in Sources */,
+				682D45AC15CFE6040021E3E3 /* soapClient.cpp in Sources */,
+				682D45AD15CFE6040021E3E3 /* main.cpp in Sources */,
+				682D45AE15CFE6040021E3E3 /* MReadScriptText.cpp in Sources */,
+				682D45AF15CFE6040021E3E3 /* SoapClientUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B050A1608841CB800D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.xcconfig */;
+			buildSettings = {
+				BUILT_APPLICATION_DIR = "$(ID_BUILDFOLDER_RELPATH)/";
+				BUILT_PRODUCTS_DIR = $BUILT_APPLICATION_DIR;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(GCC_PREPROCESSOR_DEFINITIONS)",
+					MACINTOSH,
+					"$(BIB_THROW)",
+					WITH_IPV6,
+				);
+				GCC_WARN_SHADOW = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OS_HEADER_SEARCH_PATHS)",
+					"$(ID_PUBLIC_HEADER_SEARCH_PATHS)",
+					"$(ID_OPEN_HEADER_SEARCH_PATHS)",
+					"$(ID_PRIVATE_HEADER_SEARCH_PATHS)",
+					"$(ASL_HEADER_SEARCH_PATHS)",
+					"$(ID_SDK_ROOT)/external/afl/includes",
+					"$(ID_SDK_ROOT)/external/bibxmp/include",
+					../../../external/gsoap,
+					../../../source/public/components/server/gsoap,
+				);
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = sampleclient;
+			};
+			name = Default;
+		};
+		682D45A415CFE6020021E3E3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		682D45B915CFE6040021E3E3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-bind_at_load",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B050A1508841CB800D809E1 /* Build configuration list for PBXProject "SampleClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B050A1608841CB800D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		682D45A315CFE6020021E3E3 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682D45A415CFE6020021E3E3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		682D45B815CFE6040021E3E3 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682D45B915CFE6040021E3E3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B050A1408841CB800D809E1 /* Project object */;
+}

@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F957218C15CFE94B00C95573 /* PrnSel.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF32088417C800D809E1 /* PrnSel.fr */; };
+		F957218D15CFE94B00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF2C088417C400D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957218E15CFE94B00C95573 /* PrnSelActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1A088417B800D809E1 /* PrnSelActionComponent.cpp */; };
+		F957218F15CFE94B00C95573 /* PrnSelData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1B088417B900D809E1 /* PrnSelData.cpp */; };
+		F957219015CFE94B00C95573 /* PrnSelDrawHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1C088417BA00D809E1 /* PrnSelDrawHandler.cpp */; };
+		F957219115CFE94B00C95573 /* PrnSelPrintSetupProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1D088417BA00D809E1 /* PrnSelPrintSetupProvider.cpp */; };
+		F957219215CFE94B00C95573 /* PrnSelSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1F088417BC00D809E1 /* PrnSelSuiteASB.cpp */; };
+		F957219315CFE94B00C95573 /* PrnSelSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF22088417BE00D809E1 /* PrnSelSuiteLayoutCSB.cpp */; };
+		F957219415CFE94B00C95573 /* PrnSelSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF23088417BE00D809E1 /* PrnSelSuiteTextCSB.cpp */; };
+		F957219515CFE94B00C95573 /* PrnSelSuiteTableCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF24088417BF00D809E1 /* PrnSelSuiteTableCSB.cpp */; };
+		F957219615CFE94B00C95573 /* PrnSelID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF28088417C200D809E1 /* PrnSelID.cpp */; };
+		F957219715CFE94B00C95573 /* PrnSelNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF2A088417C300D809E1 /* PrnSelNoStrip.cpp */; };
+		F957219815CFE94B00C95573 /* TriggerResourceDeps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF2B088417C400D809E1 /* TriggerResourceDeps.cpp */; };
+		F957219915CFE94B00C95573 /* PrnSelScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF25088417C000D809E1 /* PrnSelScriptProvider.cpp */; };
+		F957219A15CFE94B00C95573 /* PrnSelUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF26088417C100D809E1 /* PrnSelUtils.cpp */; };
+		F957219B15CFE94B00C95573 /* PrnSelSuiteCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF20088417BD00D809E1 /* PrnSelSuiteCSB.cpp */; };
+		F95721A715CFE94D00C95573 /* PrnSel.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF32088417C800D809E1 /* PrnSel.fr */; };
+		F95721A815CFE94D00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF2C088417C400D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95721A915CFE94D00C95573 /* PrnSelActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1A088417B800D809E1 /* PrnSelActionComponent.cpp */; };
+		F95721AA15CFE94D00C95573 /* PrnSelData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1B088417B900D809E1 /* PrnSelData.cpp */; };
+		F95721AB15CFE94D00C95573 /* PrnSelDrawHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1C088417BA00D809E1 /* PrnSelDrawHandler.cpp */; };
+		F95721AC15CFE94D00C95573 /* PrnSelPrintSetupProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1D088417BA00D809E1 /* PrnSelPrintSetupProvider.cpp */; };
+		F95721AD15CFE94D00C95573 /* PrnSelSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF1F088417BC00D809E1 /* PrnSelSuiteASB.cpp */; };
+		F95721AE15CFE94D00C95573 /* PrnSelSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF22088417BE00D809E1 /* PrnSelSuiteLayoutCSB.cpp */; };
+		F95721AF15CFE94D00C95573 /* PrnSelSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF23088417BE00D809E1 /* PrnSelSuiteTextCSB.cpp */; };
+		F95721B015CFE94D00C95573 /* PrnSelSuiteTableCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF24088417BF00D809E1 /* PrnSelSuiteTableCSB.cpp */; };
+		F95721B115CFE94D00C95573 /* PrnSelID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF28088417C200D809E1 /* PrnSelID.cpp */; };
+		F95721B215CFE94D00C95573 /* PrnSelNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF2A088417C300D809E1 /* PrnSelNoStrip.cpp */; };
+		F95721B315CFE94D00C95573 /* TriggerResourceDeps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF2B088417C400D809E1 /* TriggerResourceDeps.cpp */; };
+		F95721B415CFE94D00C95573 /* PrnSelScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF25088417C000D809E1 /* PrnSelScriptProvider.cpp */; };
+		F95721B515CFE94D00C95573 /* PrnSelUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF26088417C100D809E1 /* PrnSelUtils.cpp */; };
+		F95721B615CFE94D00C95573 /* PrnSelSuiteCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FF20088417BD00D809E1 /* PrnSelSuiteCSB.cpp */; };
+		F95721C015CFE96300C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957218715CFE94700C95573 /* InDesignModelAndUI.framework */; };
+		F95721C115CFE96300C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957218815CFE94700C95573 /* libPublicPlugIn.a */; };
+		F95721C215CFE96700C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957218515CFE94700C95573 /* InDesignModelAndUI.framework */; };
+		F95721C315CFE96700C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957218615CFE94700C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95721A015CFE94B00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95721BB15CFE94D00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73FA4094F8F1D00AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73FA5094F8F1D00AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F82E175DF26700A71E17 /* PrnSel_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PrnSel_enUS.fr; path = ../../../source/sdksamples/printselection/PrnSel_enUS.fr; sourceTree = "<group>"; };
+		3227F82F175DF26700A71E17 /* PrnSel_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PrnSel_jaJP.fr; path = ../../../source/sdksamples/printselection/PrnSel_jaJP.fr; sourceTree = "<group>"; };
+		4B05FF1A088417B800D809E1 /* PrnSelActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelActionComponent.cpp; path = ../../../source/sdksamples/printselection/PrnSelActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF1B088417B900D809E1 /* PrnSelData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelData.cpp; path = ../../../source/sdksamples/printselection/PrnSelData.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF1C088417BA00D809E1 /* PrnSelDrawHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelDrawHandler.cpp; path = ../../../source/sdksamples/printselection/PrnSelDrawHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF1D088417BA00D809E1 /* PrnSelPrintSetupProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelPrintSetupProvider.cpp; path = ../../../source/sdksamples/printselection/PrnSelPrintSetupProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF1F088417BC00D809E1 /* PrnSelSuiteASB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelSuiteASB.cpp; path = ../../../source/sdksamples/printselection/PrnSelSuiteASB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF20088417BD00D809E1 /* PrnSelSuiteCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelSuiteCSB.cpp; path = ../../../source/sdksamples/printselection/PrnSelSuiteCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF21088417BD00D809E1 /* PrnSelSuiteCSB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrnSelSuiteCSB.h; path = ../../../source/sdksamples/printselection/PrnSelSuiteCSB.h; sourceTree = SOURCE_ROOT; };
+		4B05FF22088417BE00D809E1 /* PrnSelSuiteLayoutCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelSuiteLayoutCSB.cpp; path = ../../../source/sdksamples/printselection/PrnSelSuiteLayoutCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF23088417BE00D809E1 /* PrnSelSuiteTextCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelSuiteTextCSB.cpp; path = ../../../source/sdksamples/printselection/PrnSelSuiteTextCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF24088417BF00D809E1 /* PrnSelSuiteTableCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelSuiteTableCSB.cpp; path = ../../../source/sdksamples/printselection/PrnSelSuiteTableCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF25088417C000D809E1 /* PrnSelScriptProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelScriptProvider.cpp; path = ../../../source/sdksamples/printselection/PrnSelScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF26088417C100D809E1 /* PrnSelUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelUtils.cpp; path = ../../../source/sdksamples/printselection/PrnSelUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF28088417C200D809E1 /* PrnSelID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelID.cpp; path = ../../../source/sdksamples/printselection/PrnSelID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF29088417C200D809E1 /* PrnSelID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrnSelID.h; path = ../../../source/sdksamples/printselection/PrnSelID.h; sourceTree = SOURCE_ROOT; };
+		4B05FF2A088417C300D809E1 /* PrnSelNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrnSelNoStrip.cpp; path = ../../../source/sdksamples/printselection/PrnSelNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF2B088417C400D809E1 /* TriggerResourceDeps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TriggerResourceDeps.cpp; path = ../../../source/sdksamples/printselection/TriggerResourceDeps.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF2C088417C400D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FF2E088417C500D809E1 /* PrnSelFactoryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrnSelFactoryList.h; path = ../../../source/sdksamples/printselection/PrnSelFactoryList.h; sourceTree = SOURCE_ROOT; };
+		4B05FF2F088417C600D809E1 /* IPrnSelData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IPrnSelData.h; path = ../../../source/sdksamples/printselection/IPrnSelData.h; sourceTree = SOURCE_ROOT; };
+		4B05FF30088417C800D809E1 /* IPrnSelSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IPrnSelSuite.h; path = ../../../source/sdksamples/printselection/IPrnSelSuite.h; sourceTree = SOURCE_ROOT; };
+		4B05FF32088417C800D809E1 /* PrnSel.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PrnSel.fr; path = ../../../source/sdksamples/printselection/PrnSel.fr; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F957218515CFE94700C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957218615CFE94700C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957218715CFE94700C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957218815CFE94700C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957219C15CFE94B00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95721C215CFE96700C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F95721C315CFE96700C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95721B715CFE94D00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95721C015CFE96300C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F95721C115CFE96300C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05FEFF088417B600D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05FF19088417B600D809E1 /* Source */,
+				4B05FF2D088417C400D809E1 /* Header File */,
+				4B05FF31088417C800D809E1 /* Resources */,
+				F957217C15CFE94600C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05FF19088417B600D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FF1A088417B800D809E1 /* PrnSelActionComponent.cpp */,
+				4B05FF1B088417B900D809E1 /* PrnSelData.cpp */,
+				4B05FF1C088417BA00D809E1 /* PrnSelDrawHandler.cpp */,
+				4B05FF1D088417BA00D809E1 /* PrnSelPrintSetupProvider.cpp */,
+				4B05FF1F088417BC00D809E1 /* PrnSelSuiteASB.cpp */,
+				4B05FF21088417BD00D809E1 /* PrnSelSuiteCSB.h */,
+				4B05FF20088417BD00D809E1 /* PrnSelSuiteCSB.cpp */,
+				4B05FF22088417BE00D809E1 /* PrnSelSuiteLayoutCSB.cpp */,
+				4B05FF23088417BE00D809E1 /* PrnSelSuiteTextCSB.cpp */,
+				4B05FF24088417BF00D809E1 /* PrnSelSuiteTableCSB.cpp */,
+				4B05FF25088417C000D809E1 /* PrnSelScriptProvider.cpp */,
+				4B05FF26088417C100D809E1 /* PrnSelUtils.cpp */,
+				4B05FF27088417C100D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05FF27088417C100D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FF29088417C200D809E1 /* PrnSelID.h */,
+				4B05FF28088417C200D809E1 /* PrnSelID.cpp */,
+				4B05FF2A088417C300D809E1 /* PrnSelNoStrip.cpp */,
+				4B05FF2B088417C400D809E1 /* TriggerResourceDeps.cpp */,
+				4B05FF2C088417C400D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05FF2D088417C400D809E1 /* Header File */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FF2E088417C500D809E1 /* PrnSelFactoryList.h */,
+				4B05FF2F088417C600D809E1 /* IPrnSelData.h */,
+				4B05FF30088417C800D809E1 /* IPrnSelSuite.h */,
+			);
+			name = "Header File";
+			sourceTree = "<group>";
+		};
+		4B05FF31088417C800D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F82E175DF26700A71E17 /* PrnSel_enUS.fr */,
+				3227F82F175DF26700A71E17 /* PrnSel_jaJP.fr */,
+				4B05FF32088417C800D809E1 /* PrnSel.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73FA4094F8F1D00AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73FA5094F8F1D00AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957217C15CFE94600C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957218315CFE94700C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957218315CFE94700C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957218715CFE94700C95573 /* InDesignModelAndUI.framework */,
+				F957218815CFE94700C95573 /* libPublicPlugIn.a */,
+				F957218415CFE94700C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957218415CFE94700C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957218515CFE94700C95573 /* InDesignModelAndUI.framework */,
+				F957218615CFE94700C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957218A15CFE94B00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95721A115CFE94B00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957218B15CFE94B00C95573 /* Sources */,
+				F957219C15CFE94B00C95573 /* Frameworks */,
+				F957219D15CFE94B00C95573 /* Rez */,
+				F957219E15CFE94B00C95573 /* Resources */,
+				F957219F15CFE94B00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95721A015CFE94B00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95721A515CFE94D00C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95721BC15CFE94D00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95721A615CFE94D00C95573 /* Sources */,
+				F95721B715CFE94D00C95573 /* Frameworks */,
+				F95721B815CFE94D00C95573 /* Rez */,
+				F95721B915CFE94D00C95573 /* Resources */,
+				F95721BA15CFE94D00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95721BB15CFE94D00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05FF01088417B600D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05FF02088417B600D809E1 /* Build configuration list for PBXProject "PrintSelection.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05FEFF088417B600D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957218A15CFE94B00C95573 /* Debug_Cocoa64 */,
+				F95721A515CFE94D00C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957219E15CFE94B00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95721B915CFE94D00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957219D15CFE94B00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95721B815CFE94D00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957219F15CFE94B00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95721BA15CFE94D00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957218B15CFE94B00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957218C15CFE94B00C95573 /* PrnSel.fr in Sources */,
+				F957218D15CFE94B00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957218E15CFE94B00C95573 /* PrnSelActionComponent.cpp in Sources */,
+				F957218F15CFE94B00C95573 /* PrnSelData.cpp in Sources */,
+				F957219015CFE94B00C95573 /* PrnSelDrawHandler.cpp in Sources */,
+				F957219115CFE94B00C95573 /* PrnSelPrintSetupProvider.cpp in Sources */,
+				F957219215CFE94B00C95573 /* PrnSelSuiteASB.cpp in Sources */,
+				F957219315CFE94B00C95573 /* PrnSelSuiteLayoutCSB.cpp in Sources */,
+				F957219415CFE94B00C95573 /* PrnSelSuiteTextCSB.cpp in Sources */,
+				F957219515CFE94B00C95573 /* PrnSelSuiteTableCSB.cpp in Sources */,
+				F957219615CFE94B00C95573 /* PrnSelID.cpp in Sources */,
+				F957219715CFE94B00C95573 /* PrnSelNoStrip.cpp in Sources */,
+				F957219815CFE94B00C95573 /* TriggerResourceDeps.cpp in Sources */,
+				F957219915CFE94B00C95573 /* PrnSelScriptProvider.cpp in Sources */,
+				F957219A15CFE94B00C95573 /* PrnSelUtils.cpp in Sources */,
+				F957219B15CFE94B00C95573 /* PrnSelSuiteCSB.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95721A615CFE94D00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95721A715CFE94D00C95573 /* PrnSel.fr in Sources */,
+				F95721A815CFE94D00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95721A915CFE94D00C95573 /* PrnSelActionComponent.cpp in Sources */,
+				F95721AA15CFE94D00C95573 /* PrnSelData.cpp in Sources */,
+				F95721AB15CFE94D00C95573 /* PrnSelDrawHandler.cpp in Sources */,
+				F95721AC15CFE94D00C95573 /* PrnSelPrintSetupProvider.cpp in Sources */,
+				F95721AD15CFE94D00C95573 /* PrnSelSuiteASB.cpp in Sources */,
+				F95721AE15CFE94D00C95573 /* PrnSelSuiteLayoutCSB.cpp in Sources */,
+				F95721AF15CFE94D00C95573 /* PrnSelSuiteTextCSB.cpp in Sources */,
+				F95721B015CFE94D00C95573 /* PrnSelSuiteTableCSB.cpp in Sources */,
+				F95721B115CFE94D00C95573 /* PrnSelID.cpp in Sources */,
+				F95721B215CFE94D00C95573 /* PrnSelNoStrip.cpp in Sources */,
+				F95721B315CFE94D00C95573 /* TriggerResourceDeps.cpp in Sources */,
+				F95721B415CFE94D00C95573 /* PrnSelScriptProvider.cpp in Sources */,
+				F95721B515CFE94D00C95573 /* PrnSelUtils.cpp in Sources */,
+				F95721B615CFE94D00C95573 /* PrnSelSuiteCSB.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05FF03088417B600D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = PrintSelection.sdk;
+			};
+			name = Default;
+		};
+		F95721A215CFE94B00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F95721BD15CFE94D00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05FF02088417B600D809E1 /* Build configuration list for PBXProject "PrintSelection.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05FF03088417B600D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95721A115CFE94B00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95721A215CFE94B00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95721BC15CFE94D00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95721BD15CFE94D00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05FF01088417B600D809E1 /* Project object */;
+}

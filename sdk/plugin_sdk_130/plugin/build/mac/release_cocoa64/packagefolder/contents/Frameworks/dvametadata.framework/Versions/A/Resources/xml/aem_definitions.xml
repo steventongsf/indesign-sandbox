@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmp_definitions>
+	<xmp_schema prefix='cq' namespace='http://www.day.com/jcr/cq/1.0' label='$$$/xmp/aem_label=AEM Properties' description='$$$/xmp/aem_description=Properties used by Adobe Experience Manager'>
+		<xmp_property name='tags' category='internal' type='bag' element_type="text" label="$$$/xmp/aem/tag_label=AEM Tags"  description='$$$/xmp/aem/tag_description=Tags added through Adobe Experience Manager'/>
+	</xmp_schema> 
+</xmp_definitions>

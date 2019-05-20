@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E748B9B41C282EB2006EEC68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E748B9B31C282EB2006EEC68 /* Cocoa.framework */; };
+		E748B9B51C282EB2006EEC68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E748B9B31C282EB2006EEC68 /* Cocoa.framework */; };
+		F957282615D0C3D900C95573 /* TranFx.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504CE08841A2B00D809E1 /* TranFx.fr */; };
+		F957282715D0C3D900C95573 /* TranFxNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504CA08841A2900D809E1 /* TranFxNoStrip.cpp */; };
+		F957282815D0C3D900C95573 /* TranFxID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504CB08841A2900D809E1 /* TranFxID.cpp */; };
+		F957282915D0C3D900C95573 /* TranFxGraphicAttributeInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C508841A2500D809E1 /* TranFxGraphicAttributeInfo.cpp */; };
+		F957282A15D0C3D900C95573 /* TranFxAdornment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504BF08841A2100D809E1 /* TranFxAdornment.cpp */; };
+		F957282B15D0C3D900C95573 /* TranFxResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C608841A2600D809E1 /* TranFxResponder.cpp */; };
+		F957282C15D0C3D900C95573 /* TranFxFlattenerUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C408841A2500D809E1 /* TranFxFlattenerUsage.cpp */; };
+		F957282D15D0C3D900C95573 /* TranFxUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504BE08841A2000D809E1 /* TranFxUtils.cpp */; };
+		F957282E15D0C3D900C95573 /* TranFxSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504BC08841A1E00D809E1 /* TranFxSuiteLayoutCSB.cpp */; };
+		F957282F15D0C3D900C95573 /* TranFxSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504BB08841A1E00D809E1 /* TranFxSuiteASB.cpp */; };
+		F957283015D0C3D900C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504CC08841A2A00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957283115D0C3D900C95573 /* TranFxConvolutionFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C308841A2400D809E1 /* TranFxConvolutionFilter.cpp */; };
+		F957283215D0C3D900C95573 /* TranFxMatteFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C108841A2200D809E1 /* TranFxMatteFactory.cpp */; };
+		F957283315D0C3D900C95573 /* TranFxErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EC143E0906F0A600871BE7 /* TranFxErrorStringService.cpp */; };
+		F957283415D0C3D900C95573 /* TranFxScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EC143F0906F0A600871BE7 /* TranFxScriptProvider.cpp */; };
+		F957283715D0C3D900C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B0504CF08841A2C00D809E1 /* SDKResources.r */; };
+		F957284115D0C3DB00C95573 /* TranFx.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504CE08841A2B00D809E1 /* TranFx.fr */; };
+		F957284215D0C3DB00C95573 /* TranFxNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504CA08841A2900D809E1 /* TranFxNoStrip.cpp */; };
+		F957284315D0C3DB00C95573 /* TranFxID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504CB08841A2900D809E1 /* TranFxID.cpp */; };
+		F957284415D0C3DB00C95573 /* TranFxGraphicAttributeInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C508841A2500D809E1 /* TranFxGraphicAttributeInfo.cpp */; };
+		F957284515D0C3DB00C95573 /* TranFxAdornment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504BF08841A2100D809E1 /* TranFxAdornment.cpp */; };
+		F957284615D0C3DB00C95573 /* TranFxResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C608841A2600D809E1 /* TranFxResponder.cpp */; };
+		F957284715D0C3DB00C95573 /* TranFxFlattenerUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C408841A2500D809E1 /* TranFxFlattenerUsage.cpp */; };
+		F957284815D0C3DB00C95573 /* TranFxUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504BE08841A2000D809E1 /* TranFxUtils.cpp */; };
+		F957284915D0C3DB00C95573 /* TranFxSuiteLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504BC08841A1E00D809E1 /* TranFxSuiteLayoutCSB.cpp */; };
+		F957284A15D0C3DB00C95573 /* TranFxSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504BB08841A1E00D809E1 /* TranFxSuiteASB.cpp */; };
+		F957284B15D0C3DB00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504CC08841A2A00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957284C15D0C3DB00C95573 /* TranFxConvolutionFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C308841A2400D809E1 /* TranFxConvolutionFilter.cpp */; };
+		F957284D15D0C3DB00C95573 /* TranFxMatteFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0504C108841A2200D809E1 /* TranFxMatteFactory.cpp */; };
+		F957284E15D0C3DB00C95573 /* TranFxErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EC143E0906F0A600871BE7 /* TranFxErrorStringService.cpp */; };
+		F957284F15D0C3DB00C95573 /* TranFxScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EC143F0906F0A600871BE7 /* TranFxScriptProvider.cpp */; };
+		F957285215D0C3DB00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B0504CF08841A2C00D809E1 /* SDKResources.r */; };
+		F957286715D0C3FB00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957286515D0C3F500C95573 /* InDesignModel.framework */; };
+		F957286815D0C3FB00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957286615D0C3F500C95573 /* libPublicPlugIn.a */; };
+		F957286915D0C40000C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957286315D0C3F500C95573 /* InDesignModel.framework */; };
+		F957286A15D0C40000C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957286415D0C3F500C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957283A15D0C3D900C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957285515D0C3DB00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE740B6094F91FD00AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE740B7094F91FD00AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F840175DF2E400A71E17 /* TranFx_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TranFx_enUS.fr; path = ../../../source/sdksamples/transparencyeffect/TranFx_enUS.fr; sourceTree = "<group>"; };
+		3227F841175DF2E400A71E17 /* TranFx_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TranFx_jaJP.fr; path = ../../../source/sdksamples/transparencyeffect/TranFx_jaJP.fr; sourceTree = "<group>"; };
+		4B0504BA08841A1D00D809E1 /* ITranFxSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ITranFxSuite.h; path = ../../../source/sdksamples/transparencyeffect/ITranFxSuite.h; sourceTree = SOURCE_ROOT; };
+		4B0504BB08841A1E00D809E1 /* TranFxSuiteASB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxSuiteASB.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxSuiteASB.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504BC08841A1E00D809E1 /* TranFxSuiteLayoutCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxSuiteLayoutCSB.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxSuiteLayoutCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504BD08841A1F00D809E1 /* TranFxUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TranFxUtils.h; path = ../../../source/sdksamples/transparencyeffect/TranFxUtils.h; sourceTree = SOURCE_ROOT; };
+		4B0504BE08841A2000D809E1 /* TranFxUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxUtils.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504BF08841A2100D809E1 /* TranFxAdornment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxAdornment.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxAdornment.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504C008841A2100D809E1 /* TranFxMatteFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TranFxMatteFactory.h; path = ../../../source/sdksamples/transparencyeffect/TranFxMatteFactory.h; sourceTree = SOURCE_ROOT; };
+		4B0504C108841A2200D809E1 /* TranFxMatteFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxMatteFactory.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxMatteFactory.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504C208841A2300D809E1 /* TranFxConvolutionFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TranFxConvolutionFilter.h; path = ../../../source/sdksamples/transparencyeffect/TranFxConvolutionFilter.h; sourceTree = SOURCE_ROOT; };
+		4B0504C308841A2400D809E1 /* TranFxConvolutionFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxConvolutionFilter.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxConvolutionFilter.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504C408841A2500D809E1 /* TranFxFlattenerUsage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxFlattenerUsage.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxFlattenerUsage.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504C508841A2500D809E1 /* TranFxGraphicAttributeInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxGraphicAttributeInfo.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxGraphicAttributeInfo.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504C608841A2600D809E1 /* TranFxResponder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxResponder.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxResponder.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504C708841A2700D809E1 /* TranFxID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TranFxID.h; path = ../../../source/sdksamples/transparencyeffect/TranFxID.h; sourceTree = SOURCE_ROOT; };
+		4B0504C808841A2800D809E1 /* TranFxFactoryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TranFxFactoryList.h; path = ../../../source/sdksamples/transparencyeffect/TranFxFactoryList.h; sourceTree = SOURCE_ROOT; };
+		4B0504CA08841A2900D809E1 /* TranFxNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxNoStrip.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504CB08841A2900D809E1 /* TranFxID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxID.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxID.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504CC08841A2A00D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B0504CE08841A2B00D809E1 /* TranFx.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TranFx.fr; path = ../../../source/sdksamples/transparencyeffect/TranFx.fr; sourceTree = SOURCE_ROOT; };
+		4B0504CF08841A2C00D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		67EC143E0906F0A600871BE7 /* TranFxErrorStringService.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxErrorStringService.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxErrorStringService.cpp; sourceTree = SOURCE_ROOT; };
+		67EC143F0906F0A600871BE7 /* TranFxScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TranFxScriptProvider.cpp; path = ../../../source/sdksamples/transparencyeffect/TranFxScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		E748B9B31C282EB2006EEC68 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F957286315D0C3F500C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957286415D0C3F500C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957286515D0C3F500C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957286615D0C3F500C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957283515D0C3D900C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957286915D0C40000C95573 /* InDesignModel.framework in Frameworks */,
+				F957286A15D0C40000C95573 /* libPublicPlugIn.a in Frameworks */,
+				E748B9B41C282EB2006EEC68 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957285015D0C3DB00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957286715D0C3FB00C95573 /* InDesignModel.framework in Frameworks */,
+				F957286815D0C3FB00C95573 /* libPublicPlugIn.a in Frameworks */,
+				E748B9B51C282EB2006EEC68 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05049F08841A1A00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B0504B908841A1B00D809E1 /* Source */,
+				4B0504CD08841A2A00D809E1 /* Resources */,
+				F957285A15D0C3F500C95573 /* InDesign Libs */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B0504B908841A1B00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				67EC143E0906F0A600871BE7 /* TranFxErrorStringService.cpp */,
+				67EC143F0906F0A600871BE7 /* TranFxScriptProvider.cpp */,
+				4B0504BA08841A1D00D809E1 /* ITranFxSuite.h */,
+				4B0504BB08841A1E00D809E1 /* TranFxSuiteASB.cpp */,
+				4B0504BC08841A1E00D809E1 /* TranFxSuiteLayoutCSB.cpp */,
+				4B0504BD08841A1F00D809E1 /* TranFxUtils.h */,
+				4B0504BE08841A2000D809E1 /* TranFxUtils.cpp */,
+				4B0504BF08841A2100D809E1 /* TranFxAdornment.cpp */,
+				4B0504C008841A2100D809E1 /* TranFxMatteFactory.h */,
+				4B0504C108841A2200D809E1 /* TranFxMatteFactory.cpp */,
+				4B0504C208841A2300D809E1 /* TranFxConvolutionFilter.h */,
+				4B0504C308841A2400D809E1 /* TranFxConvolutionFilter.cpp */,
+				4B0504C408841A2500D809E1 /* TranFxFlattenerUsage.cpp */,
+				4B0504C508841A2500D809E1 /* TranFxGraphicAttributeInfo.cpp */,
+				4B0504C608841A2600D809E1 /* TranFxResponder.cpp */,
+				4B0504C708841A2700D809E1 /* TranFxID.h */,
+				4B0504C808841A2800D809E1 /* TranFxFactoryList.h */,
+				4B0504C908841A2800D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B0504C908841A2800D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B0504CA08841A2900D809E1 /* TranFxNoStrip.cpp */,
+				4B0504CB08841A2900D809E1 /* TranFxID.cpp */,
+				4B0504CC08841A2A00D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B0504CD08841A2A00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F840175DF2E400A71E17 /* TranFx_enUS.fr */,
+				3227F841175DF2E400A71E17 /* TranFx_jaJP.fr */,
+				4B0504CE08841A2B00D809E1 /* TranFx.fr */,
+				4B0504CF08841A2C00D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE740B6094F91FD00AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE740B7094F91FD00AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957285A15D0C3F500C95573 /* InDesign Libs */ = {
+			isa = PBXGroup;
+			children = (
+				E748B9B31C282EB2006EEC68 /* Cocoa.framework */,
+				F957286115D0C3F500C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libs";
+			sourceTree = "<group>";
+		};
+		F957286115D0C3F500C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957286515D0C3F500C95573 /* InDesignModel.framework */,
+				F957286615D0C3F500C95573 /* libPublicPlugIn.a */,
+				F957286215D0C3F500C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957286215D0C3F500C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957286315D0C3F500C95573 /* InDesignModel.framework */,
+				F957286415D0C3F500C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957282415D0C3D900C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957283B15D0C3D900C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957282515D0C3D900C95573 /* Sources */,
+				F957283515D0C3D900C95573 /* Frameworks */,
+				F957283615D0C3D900C95573 /* Rez */,
+				F957283815D0C3D900C95573 /* Resources */,
+				F957283915D0C3D900C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957283A15D0C3D900C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F957283F15D0C3DB00C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957285615D0C3DB00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957284015D0C3DB00C95573 /* Sources */,
+				F957285015D0C3DB00C95573 /* Frameworks */,
+				F957285115D0C3DB00C95573 /* Rez */,
+				F957285315D0C3DB00C95573 /* Resources */,
+				F957285415D0C3DB00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957285515D0C3DB00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B0504A108841A1A00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B0504A208841A1A00D809E1 /* Build configuration list for PBXProject "TransparencyEffect.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05049F08841A1A00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957282415D0C3D900C95573 /* Debug_Cocoa64 */,
+				F957283F15D0C3DB00C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957283815D0C3D900C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957285315D0C3DB00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957283615D0C3D900C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957283715D0C3D900C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957285115D0C3DB00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957285215D0C3DB00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957283915D0C3D900C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957285415D0C3DB00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957282515D0C3D900C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957282615D0C3D900C95573 /* TranFx.fr in Sources */,
+				F957282715D0C3D900C95573 /* TranFxNoStrip.cpp in Sources */,
+				F957282815D0C3D900C95573 /* TranFxID.cpp in Sources */,
+				F957282915D0C3D900C95573 /* TranFxGraphicAttributeInfo.cpp in Sources */,
+				F957282A15D0C3D900C95573 /* TranFxAdornment.cpp in Sources */,
+				F957282B15D0C3D900C95573 /* TranFxResponder.cpp in Sources */,
+				F957282C15D0C3D900C95573 /* TranFxFlattenerUsage.cpp in Sources */,
+				F957282D15D0C3D900C95573 /* TranFxUtils.cpp in Sources */,
+				F957282E15D0C3D900C95573 /* TranFxSuiteLayoutCSB.cpp in Sources */,
+				F957282F15D0C3D900C95573 /* TranFxSuiteASB.cpp in Sources */,
+				F957283015D0C3D900C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957283115D0C3D900C95573 /* TranFxConvolutionFilter.cpp in Sources */,
+				F957283215D0C3D900C95573 /* TranFxMatteFactory.cpp in Sources */,
+				F957283315D0C3D900C95573 /* TranFxErrorStringService.cpp in Sources */,
+				F957283415D0C3D900C95573 /* TranFxScriptProvider.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957284015D0C3DB00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957284115D0C3DB00C95573 /* TranFx.fr in Sources */,
+				F957284215D0C3DB00C95573 /* TranFxNoStrip.cpp in Sources */,
+				F957284315D0C3DB00C95573 /* TranFxID.cpp in Sources */,
+				F957284415D0C3DB00C95573 /* TranFxGraphicAttributeInfo.cpp in Sources */,
+				F957284515D0C3DB00C95573 /* TranFxAdornment.cpp in Sources */,
+				F957284615D0C3DB00C95573 /* TranFxResponder.cpp in Sources */,
+				F957284715D0C3DB00C95573 /* TranFxFlattenerUsage.cpp in Sources */,
+				F957284815D0C3DB00C95573 /* TranFxUtils.cpp in Sources */,
+				F957284915D0C3DB00C95573 /* TranFxSuiteLayoutCSB.cpp in Sources */,
+				F957284A15D0C3DB00C95573 /* TranFxSuiteASB.cpp in Sources */,
+				F957284B15D0C3DB00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957284C15D0C3DB00C95573 /* TranFxConvolutionFilter.cpp in Sources */,
+				F957284D15D0C3DB00C95573 /* TranFxMatteFactory.cpp in Sources */,
+				F957284E15D0C3DB00C95573 /* TranFxErrorStringService.cpp in Sources */,
+				F957284F15D0C3DB00C95573 /* TranFxScriptProvider.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B0504A308841A1A00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = TransparencyEffect.sdk;
+			};
+			name = Default;
+		};
+		F957283C15D0C3D900C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F957285715D0C3DB00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0504A208841A1A00D809E1 /* Build configuration list for PBXProject "TransparencyEffect.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0504A308841A1A00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957283B15D0C3D900C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957283C15D0C3D900C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957285615D0C3DB00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957285715D0C3DB00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B0504A108841A1A00D809E1 /* Project object */;
+}

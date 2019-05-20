@@ -1,0 +1,1086 @@
+<DIALOG_TRANSFORMATION>
+	<TESTLETTE_FILE_FORMAT FORMAT="2">
+	</TESTLETTE_FILE_FORMAT>
+	<XFORM>
+		<INST_NAME>Any</INST_NAME>
+		<XFORM_BUILD>
+			<BUILD_NUMBER>222</BUILD_NUMBER> 
+			<PRODUCT_VERS>5.0</PRODUCT_VERS>
+		</XFORM_BUILD>
+		<KEY>Any</KEY>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu: Position Marker:Set Position Marker</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Edit menu: Position Marker:EHMenu_Set Position Marker</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu: Position Marker:Goto Position Marker</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Edit menu: Position Marker:EHMenu_Goto Position Marker</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu: Position Marker:Clear Position Marker</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Edit menu: Position Marker:EHMenu_Clear Position Marker</RESPONSE>
+		</WIDGET_XFORM>
+	</XFORM>
+	<XFORM>
+		<INST_NAME>Any</INST_NAME>
+		<XFORM_BUILD>
+			<BUILD_NUMBER>244</BUILD_NUMBER> 
+			<PRODUCT_VERS>5.0</PRODUCT_VERS>
+		</XFORM_BUILD>
+		<KEY>Any</KEY>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Align_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Object &amp; Layout:Align_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Transform_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Object &amp; Layout:Transform_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Table_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:Table_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:SepPrv_Submenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Output:SepPrv_Submenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Index_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:Index_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:WindowsMenuScriptsPanelItem</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Automation:WindowsMenuScriptsPanelItem</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Bookmark_WinNam</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Interactive:Bookmark_WinName</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:DataMergePanelName</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Automation:DataMergePanelName</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Script Label</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Automation:Script Label</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Hyperlinks_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Interactive:Hyperlinks_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:$$$/Menu/States</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Interactive:$$$/Menu/States</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Pathfinder_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Object &amp; Layout:Pathfinder_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:FlatPrv_Submenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Output:FlatPrv_Submenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:TrapStyles_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Output:TrapStyles_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:CharStyles_Menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:CharStyles_Menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:ParaStyles_Menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:ParaStyles_Menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:&amp;Character_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:&amp;Character_menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:&amp;Insert Glyphs_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:&amp;Insert Glyphs_menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:&amp;Paragraph_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:&amp;Paragraph_menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:Na&amp;med Grids</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:Na&amp;med Grids</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:&amp;Story</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:&amp;Story</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:Tabs_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Type &amp; Tables:Tabs_menu</RESPONSE>
+		</WIDGET_XFORM>
+	</XFORM>
+	<XFORM>
+		<INST_NAME>Any</INST_NAME>
+		<XFORM_BUILD>
+			<BUILD_NUMBER>244</BUILD_NUMBER> 
+			<PRODUCT_VERS>5.0</PRODUCT_VERS>
+		</XFORM_BUILD>
+		<KEY>Any</KEY>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Align_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Object &amp; Layout:Align_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Transform_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Object &amp; Layout:Transform_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Table_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:Table_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:SepPrv_Submenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Output:SepPrv_Submenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Index_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:Index_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:WindowsMenuScriptsPanelItem</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Automation:WindowsMenuScriptsPanelItem</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Bookmark_WinNam</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Interactive:Bookmark_WinName</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:DataMergePanelName</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Automation:DataMergePanelName</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Script Label</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Automation:Script Label</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Hyperlinks_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Interactive:Hyperlinks_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:$$$/Menu/States</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Interactive:$$$/Menu/States</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Pathfinder_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Object &amp; Layout:Pathfinder_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:FlatPrv_Submenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Output:FlatPrv_Submenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:TrapStyles_WinMenu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu: Output:TrapStyles_WinMenu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:CharStyles_Menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:CharStyles_Menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:ParaStyles_Menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:ParaStyles_Menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:&amp;Character_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:&amp;Character_menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:&amp;Insert Glyphs_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:&amp;Insert Glyphs_menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:&amp;Paragraph_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:Paragraph_menu</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:Na&amp;med Grids</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:Na&amp;med Grids</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:&amp;Story</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:&amp;Story</RESPONSE>
+		</WIDGET_XFORM>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Type menu:Tabs_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:Tabs_menu</RESPONSE>
+		</WIDGET_XFORM>
+	</XFORM>
+	<XFORM>
+		<INST_NAME>Any</INST_NAME>
+		<XFORM_BUILD>
+			<BUILD_NUMBER>245</BUILD_NUMBER> 
+			<PRODUCT_VERS>5.0</PRODUCT_VERS>
+		</XFORM_BUILD>
+		<KEY>Any</KEY>
+		<WIDGET_XFORM TYPE="DATA_CHANGE">
+			<SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+			<LOGIC>
+				<DATA_TYPE>String</DATA_TYPE>
+				<EVALUATION TYPE="EQUALS">KBSCE Window menu:Paragraph_menu</EVALUATION>
+			</LOGIC>
+			<RESPONSE TYPE="REPLACE">KBSCE Window menu:&amp;Paragraph_menu</RESPONSE>
+		</WIDGET_XFORM>
+	</XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>241</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Palette Menus: Color:Lab</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Color:LAB</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Palette Menus: Color:Mixed Ink</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Color:kNChannel</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Palette Menus: Color:Lab</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Color:LAB</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Palette Menus: Color:Mixed Ink</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Color:kNChannel</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>283</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Palette Menus: Paragraph Styles:Convert Style's Bullets and Numbering to Text</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Paragraph Styles:Cmd_ConvertStyleBNToText</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>PAL_MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Palette Menus: Paragraph Styles:Convert Style's Bullets and Numbering to Text</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Paragraph Styles:Cmd_ConvertStyleBNToText</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Add new index entry</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Index::Add new index entry</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Add new index entry (reversed)</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Index::Add new index entry (reversed)</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Add new topic</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Palette Menus: Index::Add new topic</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Create outlines without deleting text</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu:Create outlines without deleting text</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Create outlines without deleting text</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu:Create outlines without deleting text</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Lock Zero Point</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Views, Navigation:Lock Zero Point</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Unlock Zero Point</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Views, Navigation:Unlock Zero Point</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Close all</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Views, Navigation:Close all</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Save all</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Views, Navigation:Save all</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:New default document</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Views, Navigation:New default document</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>366</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Other:Close document</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Views, Navigation:Close document</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>380</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Any</KEY>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:InsertSpecial Page Number</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Markers:InsertSpecial Page Number</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert bullet</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Symbols:Insert bullet</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert copyright symbol</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Symbols:Insert copyright symbol</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert discretionary hyphen</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Hyphens and Dashes:Insert discretionary hyphen</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert ellipsis</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Symbols:Insert ellipsis</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert break run-in style</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Other:Insert break run-in style</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert paragraph symbol</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Symbols:Insert paragraph symbol</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert section marker</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Markers:Insert section marker</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert Tab</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Other:Insert Tab</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert LDQ</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Quotation Marks:Insert LDQ</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert RDQ</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Quotation Marks:Insert RDQ</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert em dash</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Hyphens and Dashes:Insert em dash</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert en dash</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Hyphens and Dashes:Insert en dash</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:InsertSpecial FootnoteNum</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Markers:InsertSpecial FootnoteNum</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Indent to here</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Other:Indent to here</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert non-breaking hyphen</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Hyphens and Dashes:Insert non-breaking hyphen</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert next page number</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Markers:Insert next page number</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert previous page number</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Markers:Insert previous page number</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert registered trademark mark</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Symbols:Insert registered trademark mark</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Right margin tab</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Other:Right margin tab</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert section symbol</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Symbols:Insert section symbol</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert LSQ</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Quotation Marks:Insert LSQ</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert RSQ</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Quotation Marks:Insert RSQ</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert trademark mark</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert Special Character: Symbols:Insert trademark mark</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Type menu: Insert Special Character:Insert punctuation space</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Type menu: Insert White Space:Insert punctuation space</RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="DATA_CHANGE">
+      <SUBJECT>MENU_COMMAND</SUBJECT>
+      <LOGIC>
+        <DATA_TYPE>String</DATA_TYPE>
+        <EVALUATION TYPE="EQUALS">KBSCE Object menu: Transform Again:Transform Again</EVALUATION>
+      </LOGIC>
+      <RESPONSE TYPE="REPLACE">KBSCE Object menu: Transform Again:&amp;Transform Again</RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+      <INST_NAME>Any</INST_NAME>
+      <XFORM_BUILD>
+        <BUILD_NUMBER>219</BUILD_NUMBER>
+        <PRODUCT_VERS>6.0</PRODUCT_VERS>
+      </XFORM_BUILD>
+      <KEY>Any</KEY>
+      <WIDGET_XFORM TYPE="DATA_CHANGE">
+        <SUBJECT>MENU_COMMAND</SUBJECT>
+        <LOGIC>
+          <DATA_TYPE>String</DATA_TYPE>
+          <EVALUATION TYPE="EQUALS">KBSCE Edit menu: InCopy: Add Selection to Assignment:New...</EVALUATION>
+        </LOGIC>
+        <RESPONSE TYPE="REPLACE">KBSCE Edit menu: InCopy: Add Selection to Assignment:ASSMNTUI New...</RESPONSE>
+      </WIDGET_XFORM>
+      <WIDGET_XFORM TYPE="DATA_CHANGE">
+        <SUBJECT>MENU_COMMAND</SUBJECT>
+        <LOGIC>
+	  <DATA_TYPE>String</DATA_TYPE>
+	  <EVALUATION TYPE="EQUALS">KBSCE Edit menu: InCopy: Add All Graphics to Assignment:New...</EVALUATION>
+        </LOGIC>
+        <RESPONSE TYPE="REPLACE">KBSCE Edit menu: InCopy: Add All Graphics to Assignment:ASSMNTUI New...</RESPONSE>
+      </WIDGET_XFORM>
+      <WIDGET_XFORM TYPE="DATA_CHANGE">
+        <SUBJECT>MENU_COMMAND</SUBJECT>
+          <LOGIC>
+      	    <DATA_TYPE>String</DATA_TYPE>
+      	    <EVALUATION TYPE="EQUALS">KBSCE Edit menu: InCopy: Add All Stories to Assignment:New...</EVALUATION>
+          </LOGIC>
+          <RESPONSE TYPE="REPLACE">KBSCE Edit menu: InCopy: Add All Stories to Assignment:ASSMNTUI New...</RESPONSE>
+      </WIDGET_XFORM>
+      <WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Edit menu: InCopy: Add Layer to Assignment:New...</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Edit menu: InCopy: Add Layer to Assignment:ASSMNTUI New...</RESPONSE>
+      </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+      <INST_NAME>Any</INST_NAME>
+      <XFORM_BUILD>
+        <BUILD_NUMBER>270</BUILD_NUMBER>
+        <PRODUCT_VERS>7.0</PRODUCT_VERS>
+      </XFORM_BUILD>
+      <KEY>Any</KEY>
+      <WIDGET_XFORM TYPE="DATA_CHANGE">
+        <SUBJECT>MENU_COMMAND</SUBJECT>
+        <LOGIC>
+          <DATA_TYPE>String</DATA_TYPE>
+          <EVALUATION TYPE="EQUALS">KBSCE Window menu: Type &amp; Tables:CharStyles_Menu</EVALUATION>
+        </LOGIC>
+        <RESPONSE TYPE="REPLACE">KBSCE Window menu: Styles:CharStyles_Menu</RESPONSE>
+      </WIDGET_XFORM>
+      <WIDGET_XFORM TYPE="DATA_CHANGE">
+        <SUBJECT>MENU_COMMAND</SUBJECT>
+        <LOGIC>
+	  <DATA_TYPE>String</DATA_TYPE>
+	  <EVALUATION TYPE="EQUALS">KBSCE Window menu: Type &amp; Tables:ParaStyles_Menu</EVALUATION>
+        </LOGIC>
+        <RESPONSE TYPE="REPLACE">KBSCE Window menu: Styles:ParaStyles_Menu</RESPONSE>
+      </WIDGET_XFORM>
+      <WIDGET_XFORM TYPE="DATA_CHANGE">
+        <SUBJECT>MENU_COMMAND</SUBJECT>
+          <LOGIC>
+      	    <DATA_TYPE>String</DATA_TYPE>
+      	    <EVALUATION TYPE="EQUALS">KBSCE Window menu:Gradient_WinMenu</EVALUATION>
+          </LOGIC>
+          <RESPONSE TYPE="REPLACE">KBSCE Window menu: Color:Gradient_WinMenu</RESPONSE>
+      </WIDGET_XFORM>
+      <WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu:Swatches_WinMenu</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Color:Swatches_WinMenu</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu:Color_WinMenu</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Color:Color_WinMenu</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu: Automation:DataMergeMenuNameKey</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Utilities:DataMergeMenuNameKey</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu: Automation:WindowsMenuScriptsPanelItem</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Utilities:WindowsMenuScriptsPanelItem</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu: Automation:Script Label</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Utilities:Script Label</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu: Type &amp; Tables:CellStyleMenu</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Styles:CellStyleMenu</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu: Type &amp; Tables:TableStyleMenu</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Styles:TableStyleMenu</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu:Object Styles</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Styles:Object Styles</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu:Attributes_WinMenu</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Output:Attributes_WinMenu</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu:Tag_PanelMenu</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Utilities:Tag_PanelMenu</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu:Track Changes</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Editorial:WinMenu_TrackChanges</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu:WindowMenu_Assignments</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Editorial:WindowMenu_Assignments</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu:kBGUISubMenu</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Utilities:kBGUISubMenu</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="EQUALS">KBSCE Window menu: Type &amp; Tables:WindowMenu_Notes</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="REPLACE">KBSCE Window menu: Editorial:WindowMenu_Notes</RESPONSE>
+      </WIDGET_XFORM>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+         <SUBJECT>MENU_COMMAND</SUBJECT>
+           <LOGIC>
+             <DATA_TYPE>String</DATA_TYPE>
+             <EVALUATION TYPE="CONTAINS">KBSCE Tables menu:</EVALUATION>
+           </LOGIC>
+           <RESPONSE TYPE="SUBSTITUTE">KBSCE Table menu:</RESPONSE>
+      </WIDGET_XFORM>
+  </XFORM>
+  <XFORM>
+  	<!-- This xform is due to a change in AAT behavior and will always be applied to all versions of ID/IC -->
+	<INST_NAME>Any</INST_NAME>
+	<XFORM_BUILD>
+		<BUILD_NUMBER>-1</BUILD_NUMBER> 
+		<PRODUCT_VERS>-1</PRODUCT_VERS>
+	</XFORM_BUILD>
+	<KEY>Any</KEY>
+	<WIDGET_XFORM TYPE="DATA_CHANGE">
+		<SUBJECT>MENU_COMMAND</SUBJECT>
+		<LOGIC>
+			<DATA_TYPE>String</DATA_TYPE>
+			<EVALUATION TYPE="CONTAINS">Bulleted  Numbered Lists:</EVALUATION>
+		</LOGIC>
+		<RESPONSE TYPE="SUBSTITUTE">Bulleted &amp; Numbered Lists:</RESPONSE>
+	</WIDGET_XFORM>
+  </XFORM>
+</DIALOG_TRANSFORMATION>
+

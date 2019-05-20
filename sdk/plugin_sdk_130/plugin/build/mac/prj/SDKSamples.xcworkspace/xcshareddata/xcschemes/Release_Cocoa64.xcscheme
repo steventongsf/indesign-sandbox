@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0460"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "NO">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957086215C90B3E00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicDialog.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957093E15C918B100C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicDragDrop.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95709EA15C91CBE00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicDrwEvtHandler.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570A1D15C91D5600C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicKit.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570B0115C91EE700C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicLocalization.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570ABB15C91E3400C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicME.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570B5215C91FA700C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicMenu.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570C9815C9323300C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicPanel.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570BFA15C9304600C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicPersistInterface.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570C4E15C9311E00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicPersistInterfaceUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570D9515C933B800C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicSelectableDialog.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570D4315C9332100C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicShape.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570DE815C9345800C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:BasicTextAdornment.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957132715CF829800C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CHLinguistic.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95711C015CF7F0600C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CHMLFilter.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957105815CF793500C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CandleChart.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957111615CF7B3500C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CandleChartUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95710D415CF7A6900C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CellPanel.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95713ED15CF859900C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CustomActionFilter.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957145A15CF869300C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CustomConditionalText.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957152515CF897A00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CustomConditionalTextUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95716E315CF975A00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CustomScriptEvents.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95715DA15CF918400C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CustomUnits.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957176315CF995400C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:DetailControlListSize.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95717BE15CF9B1C00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:DocWatch.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957186615CFAF2D00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:DynamicMenu.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95718BA15CFB06F00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:DynamicPanel.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95719C215CFB6D900C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:FrameLabel.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571A1C15CFB88900C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:FrameLabelUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571A9315CFBB1900C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:GoToLastTextEdit.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571B5115CFC6BD00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:HiddenText.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571BB315CFCAF300C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:HiddenTextEditor.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571C2D15CFCE1400C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:Hyphenator.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571CC615CFD1DB00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:INXErrorLogging.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571D1615CFD2E400C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:INXErrorLoggingUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571D9B15CFDD7A00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:LinkWatcher.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957231115CFEAD200C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PDFVT.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957238D15CFEC7B00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PDFVTUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9873FE915D10A3900C084CE"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PanelTreeView.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571F6215CFE10B00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PersistentList.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571FB215CFE1B900C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PersistentListUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571EEF15CFE06000C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PictureIcon.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957213D15CFE7D300C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PreflightRule.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95720DA15CFE6C700C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PreflightRuleUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95721E715CFE9BB00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PrintMemoryStream.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95721A515CFE94D00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:PrintSelection.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95725D915D0C04200C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:SingleLineComposer.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957257615D0BF8F00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:SnapShot.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957269615D0C0CE00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:SnippetRunner.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95724F715D0BEA600C95573"
+               BuildableName = "StrokeWeightMutator.sdk.InDesignPlugin"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:StrokeWeightMutator.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95724A115D0BDEC00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:SuppUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957290B15D0C5FF00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:TableAttributes.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95729C015D0C73E00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:TableBasics.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957297715D0C6B400C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:TextExportFilter.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95728B515D0C53D00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:TextImportFilter.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957283F15D0C3DB00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:TransparencyEffect.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95727EB15D0C27200C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:TransparencyEffectUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572B7D15D0CC9D00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:WListBoxComposite.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570DE815C9345800C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:WRCComposer.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572AD915D0C9E500C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:WatermarkUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572B2415D0CAA700C95573"
+               BuildableName = "WaveTool.sdk.InDesignPlugin"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:WaveTool.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572A8C15D0C94500C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:WriteFishPrice.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572C6F15D0CDCE00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:XDocBookWorkflow.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572D9415D0DB5B00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:XDocBookWorkflowUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572D4715D0DAA900C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:XMLCatalogHandler.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572CE515D0D43600C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:XMLDataUpdater.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572DDC15D0DBD000C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:XMLDataUpdaterUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572E3F15D0DD0D00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:XMLMarkupInjector.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957086215C90B3E00C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:CSXSDemo.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570C9815C9323300C95573"
+               BuildableName = "Release_Cocoa64"
+               BlueprintName = "Release_Cocoa64"
+               ReferencedContainer = "container:HiDPI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

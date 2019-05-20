@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>2018/08/14-01:11:25</string>
+	<key>BuildVersion</key>
+	<string>79.600623</string>
+	<key>CFBundleExecutable</key>
+	<string>AdobeSVGExport</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AdobeSVGExport 6.0, ï¿½ 1998-2013 Adobe Systems Incorporated</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.SVGExport</string>
+	<key>CFBundleName</key>
+	<string>AdobeSVGExport</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>AdobeSVGExport 6.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>6.0</string>
+	<key>Configuration</key>
+	<string>Release</string>
+</dict>
+</plist>

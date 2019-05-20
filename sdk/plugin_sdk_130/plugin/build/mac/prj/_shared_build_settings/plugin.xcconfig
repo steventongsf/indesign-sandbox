@@ -1,0 +1,13 @@
+ID_BUILD_CONFIG_PLUGIN = YES
+
+// InDesign plugin build settings (based on common build settings)
+#include "model_plugin.xcconfig"
+
+// InDesign ui plugin specific build settings
+
+
+
+// Uncomment these two lines to see which deprecated API's we are using in our ui plugins
+// You can control model plugins separately - see model_plugin.xcconfig
+//GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES
+//GCC_TREAT_WARNINGS_AS_ERRORS = NO  

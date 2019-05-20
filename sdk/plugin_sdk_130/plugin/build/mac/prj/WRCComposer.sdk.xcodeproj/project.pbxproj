@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8856767E1611BB0900E8AA0F /* WRCParagraphComposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885676781611BB0900E8AA0F /* WRCParagraphComposer.cpp */; };
+		8856767F1611BB0900E8AA0F /* WRCParagraphComposerServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885676791611BB0900E8AA0F /* WRCParagraphComposerServiceProvider.cpp */; };
+		885676801611BB0900E8AA0F /* WRCParagraphComposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885676781611BB0900E8AA0F /* WRCParagraphComposer.cpp */; };
+		885676811611BB0900E8AA0F /* WRCParagraphComposerServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885676791611BB0900E8AA0F /* WRCParagraphComposerServiceProvider.cpp */; };
+		885676891611BB2700E8AA0F /* wrcID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885676821611BB2700E8AA0F /* wrcID.cpp */; };
+		8856768A1611BB2700E8AA0F /* wrcNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885676841611BB2700E8AA0F /* wrcNoStrip.cpp */; };
+		8856768B1611BB2700E8AA0F /* wrcID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885676821611BB2700E8AA0F /* wrcID.cpp */; };
+		8856768C1611BB2700E8AA0F /* wrcNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 885676841611BB2700E8AA0F /* wrcNoStrip.cpp */; };
+		885676901611BB4400E8AA0F /* wrc.fr in Sources */ = {isa = PBXBuildFile; fileRef = 8856768D1611BB4400E8AA0F /* wrc.fr */; };
+		885676911611BB4400E8AA0F /* wrc.fr in Sources */ = {isa = PBXBuildFile; fileRef = 8856768D1611BB4400E8AA0F /* wrc.fr */; };
+		885676D51611BDCA00E8AA0F /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885676D41611BDCA00E8AA0F /* InDesignModel.framework */; };
+		887892861611CF0C009F04E8 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887892831611CEE1009F04E8 /* InDesignModel.framework */; };
+		F9570DDB15C9345500C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F2B1088410B400D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9570DF015C9345800C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F2B1088410B400D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9570E1215C9350900C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9570E1015C9350200C95573 /* libPublicPlugIn.a */; };
+		F9570E1415C9350E00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9570E0E15C9350200C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9570DE315C9345500C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9570DF815C9345800C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73C6C094F86B400AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73C6D094F86B400AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F84A175DF33800A71E17 /* wrc_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = wrc_enUS.fr; path = ../../../source/sdksamples/wrccomposer/wrc_enUS.fr; sourceTree = "<group>"; };
+		3227F84B175DF33800A71E17 /* wrc_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = wrc_jaJP.fr; path = ../../../source/sdksamples/wrccomposer/wrc_jaJP.fr; sourceTree = "<group>"; };
+		4B05F2B1088410B400D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		7735559F120251D900E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		885676781611BB0900E8AA0F /* WRCParagraphComposer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WRCParagraphComposer.cpp; path = ../../../source/sdksamples/wrccomposer/WRCParagraphComposer.cpp; sourceTree = SOURCE_ROOT; };
+		885676791611BB0900E8AA0F /* WRCParagraphComposerServiceProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WRCParagraphComposerServiceProvider.cpp; path = ../../../source/sdksamples/wrccomposer/WRCParagraphComposerServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		885676821611BB2700E8AA0F /* wrcID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wrcID.cpp; path = ../../../source/sdksamples/wrccomposer/wrcID.cpp; sourceTree = SOURCE_ROOT; };
+		885676831611BB2700E8AA0F /* wrcID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wrcID.h; path = ../../../source/sdksamples/wrccomposer/wrcID.h; sourceTree = SOURCE_ROOT; };
+		885676841611BB2700E8AA0F /* wrcNoStrip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wrcNoStrip.cpp; path = ../../../source/sdksamples/wrccomposer/wrcNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		8856768D1611BB4400E8AA0F /* wrc.fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wrc.fr; path = ../../../source/sdksamples/wrccomposer/wrc.fr; sourceTree = SOURCE_ROOT; };
+		885676D41611BDCA00E8AA0F /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		885676DC1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		885676DD1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		885676DE1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		885676DF1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		887892831611CEE1009F04E8 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9570E0E15C9350200C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9570E1015C9350200C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9570DDF15C9345500C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570E1415C9350E00C95573 /* libPublicPlugIn.a in Frameworks */,
+				887892861611CF0C009F04E8 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570DF415C9345800C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570E1215C9350900C95573 /* libPublicPlugIn.a in Frameworks */,
+				885676D51611BDCA00E8AA0F /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F28C088410AB00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F2A6088410AB00D809E1 /* Source */,
+				4B05F2B2088410B400D809E1 /* Resources */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				F9570E0415C9350200C95573 /* InDesign Libraries */,
+				7735559F120251D900E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F2A6088410AB00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				885676781611BB0900E8AA0F /* WRCParagraphComposer.cpp */,
+				885676791611BB0900E8AA0F /* WRCParagraphComposerServiceProvider.cpp */,
+				4B05F2AD088410B200D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F2AD088410B200D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				885676821611BB2700E8AA0F /* wrcID.cpp */,
+				885676831611BB2700E8AA0F /* wrcID.h */,
+				885676841611BB2700E8AA0F /* wrcNoStrip.cpp */,
+				4B05F2B1088410B400D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F2B2088410B400D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F84A175DF33800A71E17 /* wrc_enUS.fr */,
+				3227F84B175DF33800A71E17 /* wrc_jaJP.fr */,
+				8856768D1611BB4400E8AA0F /* wrc.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				885676DC1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				885676DD1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				885676DE1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				885676DF1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+				2AE73C6C094F86B400AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73C6D094F86B400AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9570E0415C9350200C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9570E0B15C9350200C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9570E0B15C9350200C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				885676D41611BDCA00E8AA0F /* InDesignModel.framework */,
+				F9570E1015C9350200C95573 /* libPublicPlugIn.a */,
+				F9570E0C15C9350200C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9570E0C15C9350200C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				887892831611CEE1009F04E8 /* InDesignModel.framework */,
+				F9570E0E15C9350200C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9570DD315C9345500C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9570DE415C9345500C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9570DD415C9345500C95573 /* Sources */,
+				F9570DDF15C9345500C95573 /* Frameworks */,
+				F9570DE015C9345500C95573 /* Rez */,
+				F9570DE115C9345500C95573 /* Resources */,
+				F9570DE215C9345500C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9570DE315C9345500C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9570DE815C9345800C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9570DF915C9345800C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9570DE915C9345800C95573 /* Sources */,
+				F9570DF415C9345800C95573 /* Frameworks */,
+				F9570DF515C9345800C95573 /* Rez */,
+				F9570DF615C9345800C95573 /* Resources */,
+				F9570DF715C9345800C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9570DF815C9345800C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F28E088410AB00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05F28F088410AB00D809E1 /* Build configuration list for PBXProject "WRCComposer.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F28C088410AB00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9570DD315C9345500C95573 /* Debug_Cocoa64 */,
+				F9570DE815C9345800C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9570DE115C9345500C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570DF615C9345800C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9570DE015C9345500C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570DF515C9345800C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9570DE215C9345500C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+		};
+		F9570DF715C9345800C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9570DD415C9345500C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570DDB15C9345500C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				8856767E1611BB0900E8AA0F /* WRCParagraphComposer.cpp in Sources */,
+				8856767F1611BB0900E8AA0F /* WRCParagraphComposerServiceProvider.cpp in Sources */,
+				885676891611BB2700E8AA0F /* wrcID.cpp in Sources */,
+				8856768A1611BB2700E8AA0F /* wrcNoStrip.cpp in Sources */,
+				885676901611BB4400E8AA0F /* wrc.fr in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9570DE915C9345800C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9570DF015C9345800C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				885676801611BB0900E8AA0F /* WRCParagraphComposer.cpp in Sources */,
+				885676811611BB0900E8AA0F /* WRCParagraphComposerServiceProvider.cpp in Sources */,
+				8856768B1611BB2700E8AA0F /* wrcID.cpp in Sources */,
+				8856768C1611BB2700E8AA0F /* wrcNoStrip.cpp in Sources */,
+				885676911611BB4400E8AA0F /* wrc.fr in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F290088410AB00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = WRCComposer.sdk;
+			};
+			name = Default;
+		};
+		F9570DE515C9345500C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885676DE1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../debug_cocoa64/packagefolder/contents/macos\"",
+				);
+			};
+			name = Default;
+		};
+		F9570DFA15C9345800C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885676DF1611BEAE00E8AA0F /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../release_cocoa64/packagefolder/contents/macos\"",
+					"\"$(SRCROOT)/../debug_cocoa64/packagefolder/contents/macos\"",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F28F088410AB00D809E1 /* Build configuration list for PBXProject "WRCComposer.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F290088410AB00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9570DE415C9345500C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9570DE515C9345500C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9570DF915C9345800C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9570DFA15C9345800C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F28E088410AB00D809E1 /* Project object */;
+}

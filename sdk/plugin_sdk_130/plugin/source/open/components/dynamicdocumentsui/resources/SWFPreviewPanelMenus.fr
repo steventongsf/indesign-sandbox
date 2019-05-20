@@ -1,0 +1,58 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/open/components/dynamicdocumentsui/resources/SWFPreviewPanelMenus.fr $
+//  
+//  Owner: Yeming Liu
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "MenuDef.fh"
+#include "ActionDef.fh"
+#include "ActionDefs.h"
+#include "AdobeMenuPositions.h"
+#include "DynamicDocumentsUIID.h"
+
+#ifdef __ODFRC__
+
+resource MenuDef(kMenuDef_SWFPreviewPanelRsrcID)
+{	
+	{ 
+		//ActionID,									menupath,						menuposition,						isDynamic	
+		kSWFPreviewSelectionActionID,			"kSWFPreviewPanelPopup",	kSWFPreviewSelectionMenuPosition,			kFalse,
+		kSWFPreviewSpreadActionID,				"kSWFPreviewPanelPopup",	kSWFPreviewSpreadMenuPosition,				kFalse,
+		kSWFPreviewDocumentActionID,			"kSWFPreviewPanelPopup",	kSWFPreviewDocumentMenuPosition,			kFalse,
+		kSWFPreviewSepActionID,					"kSWFPreviewPanelPopup:-",	kSWFPreviewSepMenuPosition,					kFalse,
+		
+		kSWFPreviewSaveSettingsActionID,		"kSWFPreviewPanelPopup",	kSWFPreviewSaveSettingsMenuPosition,		kFalse,
+		kSWFTestInBrowserActionID,				"kSWFPreviewPanelPopup",	kSWFTestInBrowserMenuPosition,				kFalse,
+	}
+}
+
+resource ActionDef (kSWFPreviewPanelActionsRsrcID)
+{
+	{ 			
+		kSWFPreviewPanelMenuBoss, kSWFPreviewSelectionActionID,				"kSWFPreviewSelection",			kPaletteMenusSWFPreviewActionArea, kNormalAction,kCustomEnabling|kDisableIfNoFrontLayoutView|kDisableIfLowMem,0,kTrue,
+		kSWFPreviewPanelMenuBoss, kSWFPreviewSpreadActionID,				"kSWFPreviewSpread",			kPaletteMenusSWFPreviewActionArea, kNormalAction,kDisableIfNoFrontLayoutView|kDisableIfLowMem,0,kTrue,
+		kSWFPreviewPanelMenuBoss, kSWFPreviewDocumentActionID,				"kSWFPreviewDocument",			kPaletteMenusSWFPreviewActionArea, kNormalAction,kDisableIfNoFrontLayoutView|kDisableIfLowMem,0,kTrue,
+
+		kSWFPreviewPanelMenuBoss, kSWFPreviewSaveSettingsActionID,			"kSWFPreviewPanelSaveSettings",	kPaletteMenusSWFPreviewActionArea, kNormalAction,kCustomEnabling|kDisableIfNoFrontLayoutView|kDisableIfLowMem,0,kTrue,
+		kSWFPreviewPanelMenuBoss, kSWFTestInBrowserActionID,				"kSWFTestInBrowser",			kPaletteMenusSWFPreviewActionArea, kNormalAction,kCustomEnabling|kDisableIfNoFrontLayoutView|kDisableIfLowMem,0,kTrue,		
+	}
+}
+
+#endif //__ODFRC__

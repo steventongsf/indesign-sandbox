@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CustomDataLinkUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomDataLink.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HiDPI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicDialog.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicDragDrop.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicDrwEvtHandler.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicKit.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicLocalization.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicME.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicMenu.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicPanel.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicPersistInterface.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicPersistInterfaceUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicSelectableDialog.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicShape.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BasicTextAdornment.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CandleChart.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CandleChartUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CellPanel.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CSXSDemo.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CHLinguistic.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CHMLFilter.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomActionFilter.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomConditionalText.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomConditionalTextUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomScriptEvents.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomUnits.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DetailControlListSize.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DocWatch.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DynamicMenu.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DynamicPanel.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FrameLabel.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FrameLabelUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GoToLastTextEdit.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HiddenText.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HiddenTextEditor.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Hyphenator.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:INXErrorLogging.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:INXErrorLoggingUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LinkWatcher.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PanelTreeView.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PDFVT.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PDFVTUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PersistentList.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PersistentListUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PictureIcon.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PreflightRule.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PreflightRuleUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrintMemoryStream.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PrintSelection.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SingleLineComposer.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SnapShot.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SnippetRunner.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StrokeWeightMutator.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SuppUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableAttributes.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableBasics.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TextExportFilter.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TextImportFilter.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TransparencyEffect.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TransparencyEffectUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WatermarkUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WaveTool.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WListBoxComposite.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WRCComposer.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WriteFishPrice.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XDocBookWorkflow.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XDocBookWorkflowUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XMLCatalogHandler.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XMLDataUpdater.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XMLDataUpdaterUI.sdk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XMLMarkupInjector.sdk.xcodeproj">
+   </FileRef>
+</Workspace>

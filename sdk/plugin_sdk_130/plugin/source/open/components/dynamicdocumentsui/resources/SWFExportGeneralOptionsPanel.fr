@@ -1,0 +1,72 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/open/components/dynamicdocumentsui/resources/SWFExportGeneralOptionsPanel.fr $
+//  
+//  Owner: DBerggren
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  ADOBE CONFIDENTIAL
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "Widgets.fh"
+#include "SysControlIds.h"
+#include "DynamicDocumentsUIID.h"
+#include "DynamicDocumentsUIDefs.h"
+#include "EveInfo.fh"
+#include "IControlViewDefs.h"
+#include "IDList.fh"
+#include "IDListPair.fh"
+#include "LocaleIndex.h"
+#include "PMLocaleIds.h"
+
+#ifdef __ODFRC__
+
+resource IDList(kSWFExportGeneralPanelCreatorRsrcID) // kSWFExportGeneralPanelCreatorRsrcID will return from PanelCreator::GetPanelRsrcID().
+{
+	{
+		kSWFExportSelectableDialogService,
+	},
+};
+
+//
+// This resource specifies which resource to use in creating the
+// panel, depending upon which dialog the panel is going into
+//
+resource IDListPair (kSWFExportGeneralPanelCreatorRsrcID)    
+{                                            
+    {
+        kSWFExportSelectableDialogService, kSWFExportGeneralPanelRsrcID, kDynamicDocumentsUIPluginID
+    },
+};
+
+//========================================================================================
+// RESOURCES Local Index
+//========================================================================================
+
+resource LocaleIndex (kSWFExportGeneralPanelRsrcID)
+{
+	kViewRsrcType,
+	{
+		kWildFS, k_Wild, 	kSWFExportGeneralPanelRsrcID + index_enUS
+	}
+}
+
+
+#endif // __ODFRC__
+
+#include "SWFExportGeneralOptionsPanel_enUS.fr"

@@ -1,0 +1,51 @@
+
+/* Class = "NSButtonCell"; title = "Send Report"; ObjectID = "30F-pc-NFE"; */
+"30F-pc-NFE.title" = "Wyślij raport";
+
+/* Class = "NSTextFieldCell"; title = "Adobe can contact me to receive additional information and notify me of fixes and workarounds."; ObjectID = "5gB-hm-Dqe"; */
+"5gB-hm-Dqe.title" = "Adobe może się ze mną kontaktować w celu uzyskania dodatkowych informacji i powiadamiania mnie o pojawieniu się nowych poprawek i rozwiązań";
+
+/* Class = "NSTextFieldCell"; title = "A crash report has been generated. Adobe may use this report to try to find a solution to the problem."; ObjectID = "8ep-F2-TcM"; */
+"8ep-F2-TcM.title" = "Wygenerowano raport o awarii, który może pomóc Adobe w znalezieniu rozwiązania problemu.";
+
+/* Class = "NSTextFieldCell"; title = "Close this dialog if no solution is available"; ObjectID = "AlT-fW-Nh9"; */
+"AlT-fW-Nh9.title" = "Zamknij to okno dialogowe w przypadku nieznalezienia żadnego rozwiązania";
+
+/* Class = "NSTextFieldCell"; title = "from you."; ObjectID = "E7I-81-RqA"; */
+"E7I-81-RqA.title" = ".";
+
+/* Class = "NSButtonCell"; title = "crash report"; ObjectID = "GsT-1s-bLh"; */
+"GsT-1s-bLh.title" = "raport dotyczący awarii";
+
+/* Class = "NSTextFieldCell"; title = "Please tell us more"; ObjectID = "KTt-ch-3sn"; */
+"KTt-ch-3sn.title" = "Powiedz nam więcej";
+
+/* Class = "NSTextFieldCell"; title = "Include my application usage related data to help Adobe diagnose the crash. "; ObjectID = "NJP-x3-0ge"; */
+"NJP-x3-0ge.title" = "Dołącz statystyki używania aplikacji, aby pomóc Adobe w diagnozowaniu awarii.";
+
+/* Class = "NSTextFieldCell"; title = "Always send crash reports automatically to Adobe. See our privacy policy for more details or to change your mind at any time."; ObjectID = "NXj-XP-8Ep"; */
+"NXj-XP-8Ep.title" = "Always send crash reports automatically to Adobe. See our privacy policy for more details or to change your mind at any time.";
+
+/* Class = "NSTextFieldCell"; title = "Adobe is searching for solutions and workarounds for issues in the application."; ObjectID = "Pt1-Oh-XrW"; */
+"Pt1-Oh-XrW.title" = "Adobe is searching for solutions and workarounds for issues in the application.";
+
+/* Class = "NSButtonCell"; title = "Don't Send"; ObjectID = "US9-ah-XOb"; */
+"US9-ah-XOb.title" = "Nie wysyłaj";
+
+/* Class = "NSButtonCell"; title = "Don't Send - Don't Ask Me Again"; ObjectID = "WvQ-Ix-6iF"; */
+"WvQ-Ix-6iF.title" = "Nie wysyłaj – nie pytaj mnie ponownie";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "YPn-k9-Q0X"; */
+"YPn-k9-Q0X.title" = "Zamknij";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "ZFe-gR-gQ3"; */
+"ZFe-gR-gQ3.title" = "Anuluj";
+
+/* Class = "NSTextFieldCell"; title = "See privacy policy for more information."; ObjectID = "aKA-i6-69o"; */
+"aKA-i6-69o.title" = "See privacy policy for more information.";
+
+/* Class = "NSTextFieldCell"; title = "By clicking 'Send Report', Adobe will receive"; ObjectID = "c5u-cz-9q1"; */
+"c5u-cz-9q1.title" = "Jeśli klikniesz przycisk „Wyślij raport”, Adobe otrzyma od Ciebie ";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Insert Email Address"; ObjectID = "ksp-4Y-MPp"; */
+"ksp-4Y-MPp.placeholderString" = "Wstaw adres e-mail";

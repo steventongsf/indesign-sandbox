@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F957289F15D0C53B00C95573 /* TxtImp.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B050455088419BA00D809E1 /* TxtImp.fr */; };
+		F95728A015D0C53B00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050453088419B900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95728A115D0C53B00C95573 /* ASCIIFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050444088419B100D809E1 /* ASCIIFileReader.cpp */; };
+		F95728A215D0C53B00C95573 /* UNICODEFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050445088419B200D809E1 /* UNICODEFileReader.cpp */; };
+		F95728A315D0C53B00C95573 /* ShiftJISFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050446088419B300D809E1 /* ShiftJISFileReader.cpp */; };
+		F95728A415D0C53B00C95573 /* JISFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050447088419B300D809E1 /* JISFileReader.cpp */; };
+		F95728A515D0C53B00C95573 /* CTxtImpFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050448088419B400D809E1 /* CTxtImpFileReader.cpp */; };
+		F95728A615D0C53B00C95573 /* TxtImpFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05044A088419B500D809E1 /* TxtImpFilter.cpp */; };
+		F95728A715D0C53B00C95573 /* TxtImpUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05044B088419B600D809E1 /* TxtImpUtils.cpp */; };
+		F95728A815D0C53B00C95573 /* TxtImpNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05044E088419B700D809E1 /* TxtImpNoStrip.cpp */; };
+		F95728A915D0C53B00C95573 /* TxtImpID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05044F088419B700D809E1 /* TxtImpID.cpp */; };
+		F95728AA15D0C53B00C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050451088419B800D809E1 /* SDKFileHelper.cpp */; };
+		F95728AD15D0C53B00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B050456088419BB00D809E1 /* SDKResources.r */; };
+		F95728B715D0C53D00C95573 /* TxtImp.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B050455088419BA00D809E1 /* TxtImp.fr */; };
+		F95728B815D0C53D00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050453088419B900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95728B915D0C53D00C95573 /* ASCIIFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050444088419B100D809E1 /* ASCIIFileReader.cpp */; };
+		F95728BA15D0C53D00C95573 /* UNICODEFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050445088419B200D809E1 /* UNICODEFileReader.cpp */; };
+		F95728BB15D0C53D00C95573 /* ShiftJISFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050446088419B300D809E1 /* ShiftJISFileReader.cpp */; };
+		F95728BC15D0C53D00C95573 /* JISFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050447088419B300D809E1 /* JISFileReader.cpp */; };
+		F95728BD15D0C53D00C95573 /* CTxtImpFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050448088419B400D809E1 /* CTxtImpFileReader.cpp */; };
+		F95728BE15D0C53D00C95573 /* TxtImpFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05044A088419B500D809E1 /* TxtImpFilter.cpp */; };
+		F95728BF15D0C53D00C95573 /* TxtImpUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05044B088419B600D809E1 /* TxtImpUtils.cpp */; };
+		F95728C015D0C53D00C95573 /* TxtImpNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05044E088419B700D809E1 /* TxtImpNoStrip.cpp */; };
+		F95728C115D0C53D00C95573 /* TxtImpID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05044F088419B700D809E1 /* TxtImpID.cpp */; };
+		F95728C215D0C53D00C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050451088419B800D809E1 /* SDKFileHelper.cpp */; };
+		F95728C515D0C53D00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B050456088419BB00D809E1 /* SDKResources.r */; };
+		F95728CD15D0C55300C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957289A15D0C53700C95573 /* InDesignModel.framework */; };
+		F95728CE15D0C55300C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957289B15D0C53700C95573 /* libPublicPlugIn.a */; };
+		F95728CF15D0C55600C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957289815D0C53700C95573 /* InDesignModel.framework */; };
+		F95728D015D0C55600C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957289915D0C53700C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95728B015D0C53B00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95728C815D0C53D00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE7409B094F91D300AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE7409C094F91D300AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F83E175DF2D800A71E17 /* TxtImp_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TxtImp_enUS.fr; path = ../../../source/sdksamples/textimportfilter/TxtImp_enUS.fr; sourceTree = "<group>"; };
+		3227F83F175DF2D800A71E17 /* TxtImp_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TxtImp_jaJP.fr; path = ../../../source/sdksamples/textimportfilter/TxtImp_jaJP.fr; sourceTree = "<group>"; };
+		4B050444088419B100D809E1 /* ASCIIFileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ASCIIFileReader.cpp; path = ../../../source/sdksamples/textimportfilter/ASCIIFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		4B050445088419B200D809E1 /* UNICODEFileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UNICODEFileReader.cpp; path = ../../../source/sdksamples/textimportfilter/UNICODEFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		4B050446088419B300D809E1 /* ShiftJISFileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ShiftJISFileReader.cpp; path = ../../../source/sdksamples/textimportfilter/ShiftJISFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		4B050447088419B300D809E1 /* JISFileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = JISFileReader.cpp; path = ../../../source/sdksamples/textimportfilter/JISFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		4B050448088419B400D809E1 /* CTxtImpFileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CTxtImpFileReader.cpp; path = ../../../source/sdksamples/textimportfilter/CTxtImpFileReader.cpp; sourceTree = SOURCE_ROOT; };
+		4B050449088419B400D809E1 /* CTxtImpFileReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CTxtImpFileReader.h; path = ../../../source/sdksamples/textimportfilter/CTxtImpFileReader.h; sourceTree = SOURCE_ROOT; };
+		4B05044A088419B500D809E1 /* TxtImpFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TxtImpFilter.cpp; path = ../../../source/sdksamples/textimportfilter/TxtImpFilter.cpp; sourceTree = SOURCE_ROOT; };
+		4B05044B088419B600D809E1 /* TxtImpUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TxtImpUtils.cpp; path = ../../../source/sdksamples/textimportfilter/TxtImpUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B05044C088419B600D809E1 /* TxtImpUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TxtImpUtils.h; path = ../../../source/sdksamples/textimportfilter/TxtImpUtils.h; sourceTree = SOURCE_ROOT; };
+		4B05044E088419B700D809E1 /* TxtImpNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TxtImpNoStrip.cpp; path = ../../../source/sdksamples/textimportfilter/TxtImpNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05044F088419B700D809E1 /* TxtImpID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TxtImpID.cpp; path = ../../../source/sdksamples/textimportfilter/TxtImpID.cpp; sourceTree = SOURCE_ROOT; };
+		4B050450088419B700D809E1 /* TxtImpID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TxtImpID.h; path = ../../../source/sdksamples/textimportfilter/TxtImpID.h; sourceTree = SOURCE_ROOT; };
+		4B050451088419B800D809E1 /* SDKFileHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKFileHelper.cpp; path = ../../../source/sdksamples/common/SDKFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B050452088419B800D809E1 /* SDKFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKFileHelper.h; path = ../../../source/sdksamples/common/SDKFileHelper.h; sourceTree = SOURCE_ROOT; };
+		4B050453088419B900D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B050455088419BA00D809E1 /* TxtImp.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = TxtImp.fr; path = ../../../source/sdksamples/textimportfilter/TxtImp.fr; sourceTree = SOURCE_ROOT; };
+		4B050456088419BB00D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F957289815D0C53700C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957289915D0C53700C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957289A15D0C53700C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957289B15D0C53700C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95728AB15D0C53B00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95728CF15D0C55600C95573 /* InDesignModel.framework in Frameworks */,
+				F95728D015D0C55600C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95728C315D0C53D00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95728CD15D0C55300C95573 /* InDesignModel.framework in Frameworks */,
+				F95728CE15D0C55300C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B050429088419AF00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B050443088419AF00D809E1 /* Source */,
+				4B050454088419B900D809E1 /* Resources */,
+				F957288F15D0C53700C95573 /* InDesign Libs */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B050443088419AF00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B050444088419B100D809E1 /* ASCIIFileReader.cpp */,
+				4B050445088419B200D809E1 /* UNICODEFileReader.cpp */,
+				4B050446088419B300D809E1 /* ShiftJISFileReader.cpp */,
+				4B050447088419B300D809E1 /* JISFileReader.cpp */,
+				4B050449088419B400D809E1 /* CTxtImpFileReader.h */,
+				4B050448088419B400D809E1 /* CTxtImpFileReader.cpp */,
+				4B05044A088419B500D809E1 /* TxtImpFilter.cpp */,
+				4B05044C088419B600D809E1 /* TxtImpUtils.h */,
+				4B05044B088419B600D809E1 /* TxtImpUtils.cpp */,
+				4B05044D088419B600D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05044D088419B600D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05044E088419B700D809E1 /* TxtImpNoStrip.cpp */,
+				4B050450088419B700D809E1 /* TxtImpID.h */,
+				4B05044F088419B700D809E1 /* TxtImpID.cpp */,
+				4B050452088419B800D809E1 /* SDKFileHelper.h */,
+				4B050451088419B800D809E1 /* SDKFileHelper.cpp */,
+				4B050453088419B900D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B050454088419B900D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F83E175DF2D800A71E17 /* TxtImp_enUS.fr */,
+				3227F83F175DF2D800A71E17 /* TxtImp_jaJP.fr */,
+				4B050455088419BA00D809E1 /* TxtImp.fr */,
+				4B050456088419BB00D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7409B094F91D300AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE7409C094F91D300AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957288F15D0C53700C95573 /* InDesign Libs */ = {
+			isa = PBXGroup;
+			children = (
+				F957289615D0C53700C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libs";
+			sourceTree = "<group>";
+		};
+		F957289615D0C53700C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957289A15D0C53700C95573 /* InDesignModel.framework */,
+				F957289B15D0C53700C95573 /* libPublicPlugIn.a */,
+				F957289715D0C53700C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957289715D0C53700C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957289815D0C53700C95573 /* InDesignModel.framework */,
+				F957289915D0C53700C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957289D15D0C53B00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95728B115D0C53B00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957289E15D0C53B00C95573 /* Sources */,
+				F95728AB15D0C53B00C95573 /* Frameworks */,
+				F95728AC15D0C53B00C95573 /* Rez */,
+				F95728AE15D0C53B00C95573 /* Resources */,
+				F95728AF15D0C53B00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95728B015D0C53B00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95728B515D0C53D00C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95728C915D0C53D00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95728B615D0C53D00C95573 /* Sources */,
+				F95728C315D0C53D00C95573 /* Frameworks */,
+				F95728C415D0C53D00C95573 /* Rez */,
+				F95728C615D0C53D00C95573 /* Resources */,
+				F95728C715D0C53D00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95728C815D0C53D00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05042B088419AF00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05042C088419AF00D809E1 /* Build configuration list for PBXProject "TextImportFilter.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B050429088419AF00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957289D15D0C53B00C95573 /* Debug_Cocoa64 */,
+				F95728B515D0C53D00C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95728AE15D0C53B00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95728C615D0C53D00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95728AC15D0C53B00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95728AD15D0C53B00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95728C415D0C53D00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95728C515D0C53D00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95728AF15D0C53B00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95728C715D0C53D00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957289E15D0C53B00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957289F15D0C53B00C95573 /* TxtImp.fr in Sources */,
+				F95728A015D0C53B00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95728A115D0C53B00C95573 /* ASCIIFileReader.cpp in Sources */,
+				F95728A215D0C53B00C95573 /* UNICODEFileReader.cpp in Sources */,
+				F95728A315D0C53B00C95573 /* ShiftJISFileReader.cpp in Sources */,
+				F95728A415D0C53B00C95573 /* JISFileReader.cpp in Sources */,
+				F95728A515D0C53B00C95573 /* CTxtImpFileReader.cpp in Sources */,
+				F95728A615D0C53B00C95573 /* TxtImpFilter.cpp in Sources */,
+				F95728A715D0C53B00C95573 /* TxtImpUtils.cpp in Sources */,
+				F95728A815D0C53B00C95573 /* TxtImpNoStrip.cpp in Sources */,
+				F95728A915D0C53B00C95573 /* TxtImpID.cpp in Sources */,
+				F95728AA15D0C53B00C95573 /* SDKFileHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95728B615D0C53D00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95728B715D0C53D00C95573 /* TxtImp.fr in Sources */,
+				F95728B815D0C53D00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95728B915D0C53D00C95573 /* ASCIIFileReader.cpp in Sources */,
+				F95728BA15D0C53D00C95573 /* UNICODEFileReader.cpp in Sources */,
+				F95728BB15D0C53D00C95573 /* ShiftJISFileReader.cpp in Sources */,
+				F95728BC15D0C53D00C95573 /* JISFileReader.cpp in Sources */,
+				F95728BD15D0C53D00C95573 /* CTxtImpFileReader.cpp in Sources */,
+				F95728BE15D0C53D00C95573 /* TxtImpFilter.cpp in Sources */,
+				F95728BF15D0C53D00C95573 /* TxtImpUtils.cpp in Sources */,
+				F95728C015D0C53D00C95573 /* TxtImpNoStrip.cpp in Sources */,
+				F95728C115D0C53D00C95573 /* TxtImpID.cpp in Sources */,
+				F95728C215D0C53D00C95573 /* SDKFileHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05042D088419AF00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = TextImportFilter.sdk;
+			};
+			name = Default;
+		};
+		F95728B215D0C53B00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F95728CA15D0C53D00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05042C088419AF00D809E1 /* Build configuration list for PBXProject "TextImportFilter.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05042D088419AF00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95728B115D0C53B00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95728B215D0C53B00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95728C915D0C53D00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95728CA15D0C53D00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05042B088419AF00D809E1 /* Project object */;
+}

@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AF372017ED993900CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = E1F9D6910CD2965F00FB8F9E /* PluginPList.plc */; };
+		32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = E1F9D6910CD2965F00FB8F9E /* PluginPList.plc */; };
+		45BF2C4315C903B100AED3D6 /* DynamicDocumentsUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = B325A77A0D09DB5000469807 /* DynamicDocumentsUI.fr */; };
+		45BF2C4515C903B100AED3D6 /* DynamicDocumentsUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7620D09DB0500469807 /* DynamicDocumentsUIID.cpp */; };
+		45BF2C4615C903B100AED3D6 /* DynamicDocumentsUIMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7630D09DB0500469807 /* DynamicDocumentsUIMWHacks.cpp */; };
+		45BF2C4715C903B100AED3D6 /* DynamicDocumentsUIPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7640D09DB0500469807 /* DynamicDocumentsUIPlugIn.cpp */; };
+		45BF2C4815C903B100AED3D6 /* TriggerResourceDeps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7650D09DB0500469807 /* TriggerResourceDeps.cpp */; };
+		45BF2C4915C903B100AED3D6 /* SWFExportDlgObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A76F0D09DB2800469807 /* SWFExportDlgObserver.cpp */; };
+		45BF2C4A15C903B100AED3D6 /* XFLExportDlgController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7700D09DB2800469807 /* XFLExportDlgController.cpp */; };
+		45BF2C4B15C903B100AED3D6 /* XFLExportDlgObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7710D09DB2800469807 /* XFLExportDlgObserver.cpp */; };
+		45BF2C4C15C903B100AED3D6 /* DynamicDocumentsUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A8340D0A31FB00469807 /* DynamicDocumentsUIUtils.cpp */; };
+		45BF2C4D15C903B100AED3D6 /* PageTransitionsMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1334EE40D2D9DCB004D22D5 /* PageTransitionsMenuComponent.cpp */; };
+		45BF2C4E15C903B100AED3D6 /* PageTransitionsPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1334EE50D2D9DCB004D22D5 /* PageTransitionsPanelObserver.cpp */; };
+		45BF2C4F15C903B100AED3D6 /* PageTransitionsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1334FA40D35CF11004D22D5 /* PageTransitionsDialogController.cpp */; };
+		45BF2C5015C903B100AED3D6 /* PageTransitionsDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1334FA70D35CF26004D22D5 /* PageTransitionsDialogObserver.cpp */; };
+		45BF2C5115C903B100AED3D6 /* PageTransitionStaticTextToolTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F114277C0DF0877300C559EB /* PageTransitionStaticTextToolTips.cpp */; };
+		45BF2C5215C903B100AED3D6 /* SWFPreviewPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19786D50E92D89F0079B6BD /* SWFPreviewPanelObserver.cpp */; };
+		45BF2C5315C903B100AED3D6 /* SWFPreviewPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19786D60E92D89F0079B6BD /* SWFPreviewPanelView.cpp */; };
+		45BF2C5415C903B100AED3D6 /* SWFPreviewPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19787210E92E5D10079B6BD /* SWFPreviewPanelMenuComponent.cpp */; };
+		45BF2C5515C903B100AED3D6 /* MotionTestMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904E5F850EEDAC1F008C668B /* MotionTestMenu.cpp */; };
+		45BF2C5615C903B100AED3D6 /* AnimationUIPanelMenuAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906ADE0F0EFB189E009207B5 /* AnimationUIPanelMenuAction.cpp */; };
+		45BF2C5715C903B100AED3D6 /* AnimationUIPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906ADE100EFB189E009207B5 /* AnimationUIPanelView.cpp */; };
+		45BF2C5815C903B100AED3D6 /* SWFPreviewCurrentPageTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1477EF20F7C5605007DBF09 /* SWFPreviewCurrentPageTip.cpp */; };
+		45BF2C5915C903B100AED3D6 /* TimingPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FBC0F8FF0C20051057B /* TimingPanelMenuComponent.cpp */; };
+		45BF2C5A15C903B100AED3D6 /* TimingPanelTreeNodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FBD0F8FF0C20051057B /* TimingPanelTreeNodeID.cpp */; };
+		45BF2C5B15C903B100AED3D6 /* TimingPanelTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FC20F8FF0DB0051057B /* TimingPanelTreeViewAdapter.cpp */; };
+		45BF2C5C15C903B100AED3D6 /* TimingPanelTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FC30F8FF0DB0051057B /* TimingPanelTreeViewWidgetMgr.cpp */; };
+		45BF2C5D15C903B100AED3D6 /* TimingPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FC40F8FF0DB0051057B /* TimingPanelView.cpp */; };
+		45BF2C5E15C903B100AED3D6 /* TimingPanelDataExchangeHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FF50F90207B0051057B /* TimingPanelDataExchangeHandler.cpp */; };
+		45BF2C5F15C903B100AED3D6 /* TimingPanelGroupUngroupButtonDDTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FF60F90207B0051057B /* TimingPanelGroupUngroupButtonDDTarget.cpp */; };
+		45BF2C6015C903B100AED3D6 /* TimingPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FF70F90207B0051057B /* TimingPanelObserver.cpp */; };
+		45BF2C6115C903B100AED3D6 /* TimingPanelTreeNodeDDSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FF80F90207B0051057B /* TimingPanelTreeNodeDDSource.cpp */; };
+		45BF2C6215C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DA29DC0FA15033009FC6FE /* TimingPanelTreeNodeGroupWidgetView.cpp */; };
+		45BF2C6315C903B100AED3D6 /* TimingPanelTreeNodeView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DA29DF0FA15050009FC6FE /* TimingPanelTreeNodeView.cpp */; };
+		45BF2C6415C903B100AED3D6 /* TimingPanelTreeDDTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1C83DC30FAA80E30096CA81 /* TimingPanelTreeDDTarget.cpp */; };
+		45BF2C6515C903B100AED3D6 /* TimingPanelTreeNodeEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1C83DC40FAA80E30096CA81 /* TimingPanelTreeNodeEH.cpp */; };
+		45BF2C6615C903B100AED3D6 /* TimingPanelEventDDListTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1C83F620FB8F14F0096CA81 /* TimingPanelEventDDListTips.cpp */; };
+		45BF2C6715C903B100AED3D6 /* AnimationPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BD24B0FDF154C00D6D4EE /* AnimationPanelObserver.cpp */; };
+		45BF2C6815C903B100AED3D6 /* AnimationUISavePresetDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BD24E0FDF156200D6D4EE /* AnimationUISavePresetDialogController.cpp */; };
+		45BF2C6915C903B100AED3D6 /* DynamicTargetListData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FC3DBA0FE85142000FD10E /* DynamicTargetListData.cpp */; };
+		45BF2C6A15C903B100AED3D6 /* MotionPathAdornmentTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118490FEC668E0041AFFF /* MotionPathAdornmentTips.cpp */; };
+		45BF2C6B15C903B100AED3D6 /* AnimationUIEventMenuAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A751B80FF578EE0097A4FC /* AnimationUIEventMenuAction.cpp */; };
+		45BF2C6C15C903B100AED3D6 /* AnimationUIEventInfoTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A751BB0FF578FF0097A4FC /* AnimationUIEventInfoTip.cpp */; };
+		45BF2C6D15C903B100AED3D6 /* SWFExportAdvancedPanelController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220A101A747E00BFFE54 /* SWFExportAdvancedPanelController.cpp */; };
+		45BF2C6E15C903B100AED3D6 /* SWFExportAdvancedPanelEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220B101A747E00BFFE54 /* SWFExportAdvancedPanelEvents.cpp */; };
+		45BF2C6F15C903B100AED3D6 /* SWFExportAdvancedPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220C101A747E00BFFE54 /* SWFExportAdvancedPanelObserver.cpp */; };
+		45BF2C7015C903B100AED3D6 /* SWFExportDlgCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220D101A747E00BFFE54 /* SWFExportDlgCreator.cpp */; };
+		45BF2C7115C903B100AED3D6 /* SWFExportGeneralPanelController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220E101A747E00BFFE54 /* SWFExportGeneralPanelController.cpp */; };
+		45BF2C7215C903B100AED3D6 /* SWFExportGeneralPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220F101A747E00BFFE54 /* SWFExportGeneralPanelObserver.cpp */; };
+		45BF2C7315C903B100AED3D6 /* AnimationUIAnimateOptionTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCB1103B24C200F589DA /* AnimationUIAnimateOptionTip.cpp */; };
+		45BF2C7415C903B100AED3D6 /* AnimationUIButtonTriggerEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCB2103B24C200F589DA /* AnimationUIButtonTriggerEH.cpp */; };
+		45BF2C7515C903B100AED3D6 /* AnimationUIButtonTriggerToolImpls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCB3103B24C200F589DA /* AnimationUIButtonTriggerToolImpls.cpp */; };
+		45BF2C7615C903B100AED3D6 /* AnimationUIPanelDetailController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCE1103D292700F589DA /* AnimationUIPanelDetailController.cpp */; };
+		45BF2C7715C903B100AED3D6 /* AnimationAdormentDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCF2103F1D6C00F589DA /* AnimationAdormentDrawer.cpp */; };
+		45BF2C7815C903B100AED3D6 /* SWFPreviewWarningIconTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D2037E104DC83E006BA817 /* SWFPreviewWarningIconTip.cpp */; };
+		45BF2C7915C903B100AED3D6 /* TimingPanelNameILEEditingAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1454B75106073D400D4F55D /* TimingPanelNameILEEditingAttributes.cpp */; };
+		45BF2C7A15C903B100AED3D6 /* TimingPanelPageItemNameObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1454B76106073D400D4F55D /* TimingPanelPageItemNameObserver.cpp */; };
+		45BF2C7B15C903B100AED3D6 /* DDPreviewSpreadButtonWidgetTip.cc in Sources */ = {isa = PBXBuildFile; fileRef = F1A5B3C11063285F009CD353 /* DDPreviewSpreadButtonWidgetTip.cc */; };
+		45BF2C7C15C903B100AED3D6 /* AnimationUIXFProxyEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D0D50C106A0B9B00BF470E /* AnimationUIXFProxyEH.cpp */; };
+		45BF2C7D15C903B100AED3D6 /* AnimationUIManagePresetItemListBoxCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF8650106C38C400D1E6C3 /* AnimationUIManagePresetItemListBoxCtrl.cpp */; };
+		45BF2C7E15C903B100AED3D6 /* AnimationUIManagePresetsDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF8652106C38C400D1E6C3 /* AnimationUIManagePresetsDialogObserver.cpp */; };
+		45BF2C7F15C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF86991071595E00D1E6C3 /* TimingPanelTreeNodeGroupWidgetEH.cpp */; };
+		45BF2C8015C903B100AED3D6 /* TimingPanelCursorProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF869C1071598000D1E6C3 /* TimingPanelCursorProvider.cpp */; };
+		45BF2C8115C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF86B11072D59C00D1E6C3 /* TimingPanelTreeNodeGroupWidgetTip.cpp */; };
+		45BF2C8215C903B100AED3D6 /* SWFPreviewButtonWidgetTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A89FBB107A650A00058090 /* SWFPreviewButtonWidgetTip.cpp */; };
+		45BF2C8315C903B100AED3D6 /* AnimationUIManagePresetsDialogListNodeView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A89FDD107BAADD00058090 /* AnimationUIManagePresetsDialogListNodeView.cpp */; };
+		45BF2C8415C903B100AED3D6 /* AnimationUIManagePresetListBoxWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A89FE5107BAB5D00058090 /* AnimationUIManagePresetListBoxWidgetMgr.cpp */; };
+		45BF2C8615C903B100AED3D6 /* LiquidLayoutPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98CB7DF813F5E5280033487C /* LiquidLayoutPanelMenuComponent.cpp */; };
+		45BF2C8715C903B100AED3D6 /* LiquidLayoutPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98CB7DF913F5E5280033487C /* LiquidLayoutPanelObserver.cpp */; };
+		45BF2C9315C903B100AED3D6 /* DynamicDocumentsUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = B325A77A0D09DB5000469807 /* DynamicDocumentsUI.fr */; };
+		45BF2C9515C903B100AED3D6 /* DynamicDocumentsUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7620D09DB0500469807 /* DynamicDocumentsUIID.cpp */; };
+		45BF2C9615C903B100AED3D6 /* DynamicDocumentsUIMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7630D09DB0500469807 /* DynamicDocumentsUIMWHacks.cpp */; };
+		45BF2C9715C903B100AED3D6 /* DynamicDocumentsUIPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7640D09DB0500469807 /* DynamicDocumentsUIPlugIn.cpp */; };
+		45BF2C9815C903B100AED3D6 /* TriggerResourceDeps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7650D09DB0500469807 /* TriggerResourceDeps.cpp */; };
+		45BF2C9915C903B100AED3D6 /* SWFExportDlgObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A76F0D09DB2800469807 /* SWFExportDlgObserver.cpp */; };
+		45BF2C9A15C903B100AED3D6 /* XFLExportDlgController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7700D09DB2800469807 /* XFLExportDlgController.cpp */; };
+		45BF2C9B15C903B100AED3D6 /* XFLExportDlgObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A7710D09DB2800469807 /* XFLExportDlgObserver.cpp */; };
+		45BF2C9C15C903B100AED3D6 /* DynamicDocumentsUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B325A8340D0A31FB00469807 /* DynamicDocumentsUIUtils.cpp */; };
+		45BF2C9D15C903B100AED3D6 /* PageTransitionsMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1334EE40D2D9DCB004D22D5 /* PageTransitionsMenuComponent.cpp */; };
+		45BF2C9E15C903B100AED3D6 /* PageTransitionsPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1334EE50D2D9DCB004D22D5 /* PageTransitionsPanelObserver.cpp */; };
+		45BF2C9F15C903B100AED3D6 /* PageTransitionsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1334FA40D35CF11004D22D5 /* PageTransitionsDialogController.cpp */; };
+		45BF2CA015C903B100AED3D6 /* PageTransitionsDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1334FA70D35CF26004D22D5 /* PageTransitionsDialogObserver.cpp */; };
+		45BF2CA115C903B100AED3D6 /* PageTransitionStaticTextToolTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F114277C0DF0877300C559EB /* PageTransitionStaticTextToolTips.cpp */; };
+		45BF2CA215C903B100AED3D6 /* SWFPreviewPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19786D50E92D89F0079B6BD /* SWFPreviewPanelObserver.cpp */; };
+		45BF2CA315C903B100AED3D6 /* SWFPreviewPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19786D60E92D89F0079B6BD /* SWFPreviewPanelView.cpp */; };
+		45BF2CA415C903B100AED3D6 /* SWFPreviewPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F19787210E92E5D10079B6BD /* SWFPreviewPanelMenuComponent.cpp */; };
+		45BF2CA515C903B100AED3D6 /* MotionTestMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 904E5F850EEDAC1F008C668B /* MotionTestMenu.cpp */; };
+		45BF2CA615C903B100AED3D6 /* AnimationUIPanelMenuAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906ADE0F0EFB189E009207B5 /* AnimationUIPanelMenuAction.cpp */; };
+		45BF2CA715C903B100AED3D6 /* AnimationUIPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 906ADE100EFB189E009207B5 /* AnimationUIPanelView.cpp */; };
+		45BF2CA815C903B100AED3D6 /* SWFPreviewCurrentPageTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1477EF20F7C5605007DBF09 /* SWFPreviewCurrentPageTip.cpp */; };
+		45BF2CA915C903B100AED3D6 /* TimingPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FBC0F8FF0C20051057B /* TimingPanelMenuComponent.cpp */; };
+		45BF2CAA15C903B100AED3D6 /* TimingPanelTreeNodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FBD0F8FF0C20051057B /* TimingPanelTreeNodeID.cpp */; };
+		45BF2CAB15C903B100AED3D6 /* TimingPanelTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FC20F8FF0DB0051057B /* TimingPanelTreeViewAdapter.cpp */; };
+		45BF2CAC15C903B100AED3D6 /* TimingPanelTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FC30F8FF0DB0051057B /* TimingPanelTreeViewWidgetMgr.cpp */; };
+		45BF2CAD15C903B100AED3D6 /* TimingPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FC40F8FF0DB0051057B /* TimingPanelView.cpp */; };
+		45BF2CAE15C903B100AED3D6 /* TimingPanelDataExchangeHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FF50F90207B0051057B /* TimingPanelDataExchangeHandler.cpp */; };
+		45BF2CAF15C903B100AED3D6 /* TimingPanelGroupUngroupButtonDDTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FF60F90207B0051057B /* TimingPanelGroupUngroupButtonDDTarget.cpp */; };
+		45BF2CB015C903B100AED3D6 /* TimingPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FF70F90207B0051057B /* TimingPanelObserver.cpp */; };
+		45BF2CB115C903B100AED3D6 /* TimingPanelTreeNodeDDSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FA7FF80F90207B0051057B /* TimingPanelTreeNodeDDSource.cpp */; };
+		45BF2CB215C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DA29DC0FA15033009FC6FE /* TimingPanelTreeNodeGroupWidgetView.cpp */; };
+		45BF2CB315C903B100AED3D6 /* TimingPanelTreeNodeView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DA29DF0FA15050009FC6FE /* TimingPanelTreeNodeView.cpp */; };
+		45BF2CB415C903B100AED3D6 /* TimingPanelTreeDDTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1C83DC30FAA80E30096CA81 /* TimingPanelTreeDDTarget.cpp */; };
+		45BF2CB515C903B100AED3D6 /* TimingPanelTreeNodeEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1C83DC40FAA80E30096CA81 /* TimingPanelTreeNodeEH.cpp */; };
+		45BF2CB615C903B100AED3D6 /* TimingPanelEventDDListTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1C83F620FB8F14F0096CA81 /* TimingPanelEventDDListTips.cpp */; };
+		45BF2CB715C903B100AED3D6 /* AnimationPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BD24B0FDF154C00D6D4EE /* AnimationPanelObserver.cpp */; };
+		45BF2CB815C903B100AED3D6 /* AnimationUISavePresetDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18BD24E0FDF156200D6D4EE /* AnimationUISavePresetDialogController.cpp */; };
+		45BF2CB915C903B100AED3D6 /* DynamicTargetListData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FC3DBA0FE85142000FD10E /* DynamicTargetListData.cpp */; };
+		45BF2CBA15C903B100AED3D6 /* MotionPathAdornmentTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118490FEC668E0041AFFF /* MotionPathAdornmentTips.cpp */; };
+		45BF2CBB15C903B100AED3D6 /* AnimationUIEventMenuAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A751B80FF578EE0097A4FC /* AnimationUIEventMenuAction.cpp */; };
+		45BF2CBC15C903B100AED3D6 /* AnimationUIEventInfoTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A751BB0FF578FF0097A4FC /* AnimationUIEventInfoTip.cpp */; };
+		45BF2CBD15C903B100AED3D6 /* SWFExportAdvancedPanelController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220A101A747E00BFFE54 /* SWFExportAdvancedPanelController.cpp */; };
+		45BF2CBE15C903B100AED3D6 /* SWFExportAdvancedPanelEvents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220B101A747E00BFFE54 /* SWFExportAdvancedPanelEvents.cpp */; };
+		45BF2CBF15C903B100AED3D6 /* SWFExportAdvancedPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220C101A747E00BFFE54 /* SWFExportAdvancedPanelObserver.cpp */; };
+		45BF2CC015C903B100AED3D6 /* SWFExportDlgCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220D101A747E00BFFE54 /* SWFExportDlgCreator.cpp */; };
+		45BF2CC115C903B100AED3D6 /* SWFExportGeneralPanelController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220E101A747E00BFFE54 /* SWFExportGeneralPanelController.cpp */; };
+		45BF2CC215C903B100AED3D6 /* SWFExportGeneralPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B37C220F101A747E00BFFE54 /* SWFExportGeneralPanelObserver.cpp */; };
+		45BF2CC315C903B100AED3D6 /* AnimationUIAnimateOptionTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCB1103B24C200F589DA /* AnimationUIAnimateOptionTip.cpp */; };
+		45BF2CC415C903B100AED3D6 /* AnimationUIButtonTriggerEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCB2103B24C200F589DA /* AnimationUIButtonTriggerEH.cpp */; };
+		45BF2CC515C903B100AED3D6 /* AnimationUIButtonTriggerToolImpls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCB3103B24C200F589DA /* AnimationUIButtonTriggerToolImpls.cpp */; };
+		45BF2CC615C903B100AED3D6 /* AnimationUIPanelDetailController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCE1103D292700F589DA /* AnimationUIPanelDetailController.cpp */; };
+		45BF2CC715C903B100AED3D6 /* AnimationAdormentDrawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F0CCF2103F1D6C00F589DA /* AnimationAdormentDrawer.cpp */; };
+		45BF2CC815C903B100AED3D6 /* SWFPreviewWarningIconTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1D2037E104DC83E006BA817 /* SWFPreviewWarningIconTip.cpp */; };
+		45BF2CC915C903B100AED3D6 /* TimingPanelNameILEEditingAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1454B75106073D400D4F55D /* TimingPanelNameILEEditingAttributes.cpp */; };
+		45BF2CCA15C903B100AED3D6 /* TimingPanelPageItemNameObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1454B76106073D400D4F55D /* TimingPanelPageItemNameObserver.cpp */; };
+		45BF2CCB15C903B100AED3D6 /* DDPreviewSpreadButtonWidgetTip.cc in Sources */ = {isa = PBXBuildFile; fileRef = F1A5B3C11063285F009CD353 /* DDPreviewSpreadButtonWidgetTip.cc */; };
+		45BF2CCC15C903B100AED3D6 /* AnimationUIXFProxyEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D0D50C106A0B9B00BF470E /* AnimationUIXFProxyEH.cpp */; };
+		45BF2CCD15C903B100AED3D6 /* AnimationUIManagePresetItemListBoxCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF8650106C38C400D1E6C3 /* AnimationUIManagePresetItemListBoxCtrl.cpp */; };
+		45BF2CCE15C903B100AED3D6 /* AnimationUIManagePresetsDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF8652106C38C400D1E6C3 /* AnimationUIManagePresetsDialogObserver.cpp */; };
+		45BF2CCF15C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF86991071595E00D1E6C3 /* TimingPanelTreeNodeGroupWidgetEH.cpp */; };
+		45BF2CD015C903B100AED3D6 /* TimingPanelCursorProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF869C1071598000D1E6C3 /* TimingPanelCursorProvider.cpp */; };
+		45BF2CD115C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1CF86B11072D59C00D1E6C3 /* TimingPanelTreeNodeGroupWidgetTip.cpp */; };
+		45BF2CD215C903B100AED3D6 /* SWFPreviewButtonWidgetTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A89FBB107A650A00058090 /* SWFPreviewButtonWidgetTip.cpp */; };
+		45BF2CD315C903B100AED3D6 /* AnimationUIManagePresetsDialogListNodeView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A89FDD107BAADD00058090 /* AnimationUIManagePresetsDialogListNodeView.cpp */; };
+		45BF2CD415C903B100AED3D6 /* AnimationUIManagePresetListBoxWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1A89FE5107BAB5D00058090 /* AnimationUIManagePresetListBoxWidgetMgr.cpp */; };
+		45BF2CD615C903B100AED3D6 /* LiquidLayoutPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98CB7DF813F5E5280033487C /* LiquidLayoutPanelMenuComponent.cpp */; };
+		45BF2CD715C903B100AED3D6 /* LiquidLayoutPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98CB7DF913F5E5280033487C /* LiquidLayoutPanelObserver.cpp */; };
+		45BF2CF915C903DB00AED3D6 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF2CE715C903CD00AED3D6 /* InDesignModelAndUI.framework */; };
+		45BF2CFA15C903DB00AED3D6 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF2CE815C903CD00AED3D6 /* libPublicPlugIn.a */; };
+		45BF2CFB15C903E100AED3D6 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF2CE515C903CD00AED3D6 /* InDesignModelAndUI.framework */; };
+		45BF2CFC15C903E100AED3D6 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF2CE615C903CD00AED3D6 /* libPublicPlugIn.a */; };
+		4985746016A687EA002A87F0 /* AnimationUIPresetPopupDynamicMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4985745E16A687EA002A87F0 /* AnimationUIPresetPopupDynamicMenu.cpp */; };
+		4985746116A687EA002A87F0 /* AnimationUIPresetPopupDynamicMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4985745E16A687EA002A87F0 /* AnimationUIPresetPopupDynamicMenu.cpp */; };
+		4985746216A687EA002A87F0 /* AnimationUIPresetPopupMenuAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4985745F16A687EA002A87F0 /* AnimationUIPresetPopupMenuAction.cpp */; };
+		4985746316A687EA002A87F0 /* AnimationUIPresetPopupMenuAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4985745F16A687EA002A87F0 /* AnimationUIPresetPopupMenuAction.cpp */; };
+		D3EE8F73199B4F9B005EED5F /* HTMLPreviewPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3EE8F72199B4F9B005EED5F /* HTMLPreviewPanelMenuComponent.cpp */; };
+		D3EE8F74199B4F9B005EED5F /* HTMLPreviewPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3EE8F72199B4F9B005EED5F /* HTMLPreviewPanelMenuComponent.cpp */; };
+		E74DA8D01C282BB80047943B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74DA8CF1C282BB80047943B /* Cocoa.framework */; };
+		E74DA8D11C282BB80047943B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74DA8CF1C282BB80047943B /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		45BF2C8C15C903B100AED3D6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		45BF2C8D15C903B100AED3D6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+		45BF2CDC15C903B100AED3D6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		45BF2CDD15C903B100AED3D6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2CD118490FEC668E0041AFFF /* MotionPathAdornmentTips.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MotionPathAdornmentTips.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/MotionPathAdornmentTips.cpp; sourceTree = SOURCE_ROOT; };
+		45BF2C9015C903B100AED3D6 /* DynamicDocumentsUI.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicDocumentsUI.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF2CE015C903B100AED3D6 /* DynamicDocumentsUI.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicDocumentsUI.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF2CE515C903CD00AED3D6 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		45BF2CE615C903CD00AED3D6 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		45BF2CE715C903CD00AED3D6 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		45BF2CE815C903CD00AED3D6 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		4985745E16A687EA002A87F0 /* AnimationUIPresetPopupDynamicMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIPresetPopupDynamicMenu.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIPresetPopupDynamicMenu.cpp; sourceTree = "<group>"; };
+		4985745F16A687EA002A87F0 /* AnimationUIPresetPopupMenuAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIPresetPopupMenuAction.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIPresetPopupMenuAction.cpp; sourceTree = "<group>"; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/pluginOpen.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/pluginOpen.xcconfig; sourceTree = SOURCE_ROOT; };
+		904E5F850EEDAC1F008C668B /* MotionTestMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MotionTestMenu.cpp; path = ../../../source/open/components/dynamicdocumentsui/plugin/MotionTestMenu.cpp; sourceTree = SOURCE_ROOT; };
+		906ADE0F0EFB189E009207B5 /* AnimationUIPanelMenuAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIPanelMenuAction.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIPanelMenuAction.cpp; sourceTree = SOURCE_ROOT; };
+		906ADE100EFB189E009207B5 /* AnimationUIPanelView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIPanelView.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIPanelView.cpp; sourceTree = SOURCE_ROOT; };
+		90D0D50C106A0B9B00BF470E /* AnimationUIXFProxyEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIXFProxyEH.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIXFProxyEH.cpp; sourceTree = SOURCE_ROOT; };
+		90F0CCB1103B24C200F589DA /* AnimationUIAnimateOptionTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIAnimateOptionTip.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIAnimateOptionTip.cpp; sourceTree = SOURCE_ROOT; };
+		90F0CCB2103B24C200F589DA /* AnimationUIButtonTriggerEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIButtonTriggerEH.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIButtonTriggerEH.cpp; sourceTree = SOURCE_ROOT; };
+		90F0CCB3103B24C200F589DA /* AnimationUIButtonTriggerToolImpls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIButtonTriggerToolImpls.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIButtonTriggerToolImpls.cpp; sourceTree = SOURCE_ROOT; };
+		90F0CCE1103D292700F589DA /* AnimationUIPanelDetailController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIPanelDetailController.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIPanelDetailController.cpp; sourceTree = SOURCE_ROOT; };
+		90F0CCF2103F1D6C00F589DA /* AnimationAdormentDrawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationAdormentDrawer.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationAdormentDrawer.cpp; sourceTree = SOURCE_ROOT; };
+		98CB7DF813F5E5280033487C /* LiquidLayoutPanelMenuComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LiquidLayoutPanelMenuComponent.cpp; path = ../../../source/open/components/dynamicdocumentsui/LiquidLayoutPanelMenuComponent.cpp; sourceTree = SOURCE_ROOT; };
+		98CB7DF913F5E5280033487C /* LiquidLayoutPanelObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LiquidLayoutPanelObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/LiquidLayoutPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		B325A7620D09DB0500469807 /* DynamicDocumentsUIID.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicDocumentsUIID.cpp; path = ../../../source/open/components/dynamicdocumentsui/plugin/DynamicDocumentsUIID.cpp; sourceTree = SOURCE_ROOT; };
+		B325A7630D09DB0500469807 /* DynamicDocumentsUIMWHacks.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicDocumentsUIMWHacks.cpp; path = ../../../source/open/components/dynamicdocumentsui/plugin/DynamicDocumentsUIMWHacks.cpp; sourceTree = SOURCE_ROOT; };
+		B325A7640D09DB0500469807 /* DynamicDocumentsUIPlugIn.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicDocumentsUIPlugIn.cpp; path = ../../../source/open/components/dynamicdocumentsui/plugin/DynamicDocumentsUIPlugIn.cpp; sourceTree = SOURCE_ROOT; };
+		B325A7650D09DB0500469807 /* TriggerResourceDeps.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TriggerResourceDeps.cpp; path = ../../../source/open/components/dynamicdocumentsui/plugin/TriggerResourceDeps.cpp; sourceTree = SOURCE_ROOT; };
+		B325A76F0D09DB2800469807 /* SWFExportDlgObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SWFExportDlgObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFExportDlgObserver.cpp; sourceTree = SOURCE_ROOT; };
+		B325A7700D09DB2800469807 /* XFLExportDlgController.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = XFLExportDlgController.cpp; path = ../../../source/open/components/dynamicdocumentsui/XFLExportDlgController.cpp; sourceTree = SOURCE_ROOT; };
+		B325A7710D09DB2800469807 /* XFLExportDlgObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = XFLExportDlgObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/XFLExportDlgObserver.cpp; sourceTree = SOURCE_ROOT; };
+		B325A77A0D09DB5000469807 /* DynamicDocumentsUI.fr */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = DynamicDocumentsUI.fr; path = ../../../source/open/components/dynamicdocumentsui/resources/DynamicDocumentsUI.fr; sourceTree = SOURCE_ROOT; };
+		B325A78B0D09DB8D00469807 /* DynamicDocumentsUIDefs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DynamicDocumentsUIDefs.h; path = ../../../source/open/components/dynamicdocumentsui/includes/DynamicDocumentsUIDefs.h; sourceTree = SOURCE_ROOT; };
+		B325A78C0D09DB8D00469807 /* DynamicDocumentsUIFactoryList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DynamicDocumentsUIFactoryList.h; path = ../../../source/open/components/dynamicdocumentsui/includes/DynamicDocumentsUIFactoryList.h; sourceTree = SOURCE_ROOT; };
+		B325A78D0D09DB8D00469807 /* DynamicDocumentsUIFormatNumber.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = DynamicDocumentsUIFormatNumber.h; path = ../../../source/open/components/dynamicdocumentsui/includes/DynamicDocumentsUIFormatNumber.h; sourceTree = SOURCE_ROOT; };
+		B325A8340D0A31FB00469807 /* DynamicDocumentsUIUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicDocumentsUIUtils.cpp; path = ../../../source/open/components/dynamicdocumentsui/DynamicDocumentsUIUtils.cpp; sourceTree = SOURCE_ROOT; };
+		B37C220A101A747E00BFFE54 /* SWFExportAdvancedPanelController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFExportAdvancedPanelController.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFExportAdvancedPanelController.cpp; sourceTree = SOURCE_ROOT; };
+		B37C220B101A747E00BFFE54 /* SWFExportAdvancedPanelEvents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFExportAdvancedPanelEvents.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFExportAdvancedPanelEvents.cpp; sourceTree = SOURCE_ROOT; };
+		B37C220C101A747E00BFFE54 /* SWFExportAdvancedPanelObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFExportAdvancedPanelObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFExportAdvancedPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		B37C220D101A747E00BFFE54 /* SWFExportDlgCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFExportDlgCreator.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFExportDlgCreator.cpp; sourceTree = SOURCE_ROOT; };
+		B37C220E101A747E00BFFE54 /* SWFExportGeneralPanelController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFExportGeneralPanelController.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFExportGeneralPanelController.cpp; sourceTree = SOURCE_ROOT; };
+		B37C220F101A747E00BFFE54 /* SWFExportGeneralPanelObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFExportGeneralPanelObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFExportGeneralPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		D3EE8F72199B4F9B005EED5F /* HTMLPreviewPanelMenuComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HTMLPreviewPanelMenuComponent.cpp; path = ../../../source/open/components/dynamicdocumentsui/HTMLPreviewPanelMenuComponent.cpp; sourceTree = "<group>"; };
+		E1F9D6910CD2965F00FB8F9E /* PluginPList.plc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = PluginPList.plc; path = ../../../source/open/components/resourcedefs/PluginPList.plc; sourceTree = SOURCE_ROOT; };
+		E74DA8CF1C282BB80047943B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F114277C0DF0877300C559EB /* PageTransitionStaticTextToolTips.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PageTransitionStaticTextToolTips.cpp; path = ../../../source/open/components/dynamicdocumentsui/PageTransitionStaticTextToolTips.cpp; sourceTree = SOURCE_ROOT; };
+		F1334EE40D2D9DCB004D22D5 /* PageTransitionsMenuComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PageTransitionsMenuComponent.cpp; path = ../../../source/open/components/dynamicdocumentsui/PageTransitionsMenuComponent.cpp; sourceTree = SOURCE_ROOT; };
+		F1334EE50D2D9DCB004D22D5 /* PageTransitionsPanelObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PageTransitionsPanelObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/PageTransitionsPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		F1334FA40D35CF11004D22D5 /* PageTransitionsDialogController.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PageTransitionsDialogController.cpp; path = ../../../source/open/components/dynamicdocumentsui/PageTransitionsDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		F1334FA70D35CF26004D22D5 /* PageTransitionsDialogObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PageTransitionsDialogObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/PageTransitionsDialogObserver.cpp; sourceTree = SOURCE_ROOT; };
+		F1454B75106073D400D4F55D /* TimingPanelNameILEEditingAttributes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelNameILEEditingAttributes.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelNameILEEditingAttributes.cpp; sourceTree = SOURCE_ROOT; };
+		F1454B76106073D400D4F55D /* TimingPanelPageItemNameObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelPageItemNameObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelPageItemNameObserver.cpp; sourceTree = SOURCE_ROOT; };
+		F1477EF20F7C5605007DBF09 /* SWFPreviewCurrentPageTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFPreviewCurrentPageTip.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFPreviewCurrentPageTip.cpp; sourceTree = SOURCE_ROOT; };
+		F18BD24B0FDF154C00D6D4EE /* AnimationPanelObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationPanelObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		F18BD24E0FDF156200D6D4EE /* AnimationUISavePresetDialogController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUISavePresetDialogController.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUISavePresetDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		F19786D50E92D89F0079B6BD /* SWFPreviewPanelObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFPreviewPanelObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFPreviewPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		F19786D60E92D89F0079B6BD /* SWFPreviewPanelView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFPreviewPanelView.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFPreviewPanelView.cpp; sourceTree = SOURCE_ROOT; };
+		F19787210E92E5D10079B6BD /* SWFPreviewPanelMenuComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFPreviewPanelMenuComponent.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFPreviewPanelMenuComponent.cpp; sourceTree = SOURCE_ROOT; };
+		F1A5B3C11063285F009CD353 /* DDPreviewSpreadButtonWidgetTip.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DDPreviewSpreadButtonWidgetTip.cc; path = ../../../source/open/components/dynamicdocumentsui/DDPreviewSpreadButtonWidgetTip.cc; sourceTree = SOURCE_ROOT; };
+		F1A751B80FF578EE0097A4FC /* AnimationUIEventMenuAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIEventMenuAction.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIEventMenuAction.cpp; sourceTree = SOURCE_ROOT; };
+		F1A751BB0FF578FF0097A4FC /* AnimationUIEventInfoTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIEventInfoTip.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIEventInfoTip.cpp; sourceTree = SOURCE_ROOT; };
+		F1A89FBB107A650A00058090 /* SWFPreviewButtonWidgetTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFPreviewButtonWidgetTip.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFPreviewButtonWidgetTip.cpp; sourceTree = SOURCE_ROOT; };
+		F1A89FDD107BAADD00058090 /* AnimationUIManagePresetsDialogListNodeView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIManagePresetsDialogListNodeView.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIManagePresetsDialogListNodeView.cpp; sourceTree = SOURCE_ROOT; };
+		F1A89FE5107BAB5D00058090 /* AnimationUIManagePresetListBoxWidgetMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIManagePresetListBoxWidgetMgr.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIManagePresetListBoxWidgetMgr.cpp; sourceTree = SOURCE_ROOT; };
+		F1C83DC30FAA80E30096CA81 /* TimingPanelTreeDDTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeDDTarget.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeDDTarget.cpp; sourceTree = SOURCE_ROOT; };
+		F1C83DC40FAA80E30096CA81 /* TimingPanelTreeNodeEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeNodeEH.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeNodeEH.cpp; sourceTree = SOURCE_ROOT; };
+		F1C83F620FB8F14F0096CA81 /* TimingPanelEventDDListTips.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelEventDDListTips.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelEventDDListTips.cpp; sourceTree = SOURCE_ROOT; };
+		F1CF8650106C38C400D1E6C3 /* AnimationUIManagePresetItemListBoxCtrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIManagePresetItemListBoxCtrl.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIManagePresetItemListBoxCtrl.cpp; sourceTree = SOURCE_ROOT; };
+		F1CF8652106C38C400D1E6C3 /* AnimationUIManagePresetsDialogObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AnimationUIManagePresetsDialogObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/motion/AnimationUIManagePresetsDialogObserver.cpp; sourceTree = SOURCE_ROOT; };
+		F1CF86991071595E00D1E6C3 /* TimingPanelTreeNodeGroupWidgetEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeNodeGroupWidgetEH.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeNodeGroupWidgetEH.cpp; sourceTree = SOURCE_ROOT; };
+		F1CF869C1071598000D1E6C3 /* TimingPanelCursorProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelCursorProvider.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelCursorProvider.cpp; sourceTree = SOURCE_ROOT; };
+		F1CF86B11072D59C00D1E6C3 /* TimingPanelTreeNodeGroupWidgetTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeNodeGroupWidgetTip.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeNodeGroupWidgetTip.cpp; sourceTree = SOURCE_ROOT; };
+		F1D2037E104DC83E006BA817 /* SWFPreviewWarningIconTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SWFPreviewWarningIconTip.cpp; path = ../../../source/open/components/dynamicdocumentsui/SWFPreviewWarningIconTip.cpp; sourceTree = SOURCE_ROOT; };
+		F1DA29DC0FA15033009FC6FE /* TimingPanelTreeNodeGroupWidgetView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeNodeGroupWidgetView.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeNodeGroupWidgetView.cpp; sourceTree = SOURCE_ROOT; };
+		F1DA29DF0FA15050009FC6FE /* TimingPanelTreeNodeView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeNodeView.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeNodeView.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FBC0F8FF0C20051057B /* TimingPanelMenuComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelMenuComponent.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelMenuComponent.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FBD0F8FF0C20051057B /* TimingPanelTreeNodeID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeNodeID.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeNodeID.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FC20F8FF0DB0051057B /* TimingPanelTreeViewAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeViewAdapter.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeViewAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FC30F8FF0DB0051057B /* TimingPanelTreeViewWidgetMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeViewWidgetMgr.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeViewWidgetMgr.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FC40F8FF0DB0051057B /* TimingPanelView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelView.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelView.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FF50F90207B0051057B /* TimingPanelDataExchangeHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelDataExchangeHandler.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelDataExchangeHandler.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FF60F90207B0051057B /* TimingPanelGroupUngroupButtonDDTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelGroupUngroupButtonDDTarget.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelGroupUngroupButtonDDTarget.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FF70F90207B0051057B /* TimingPanelObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelObserver.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		F1FA7FF80F90207B0051057B /* TimingPanelTreeNodeDDSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimingPanelTreeNodeDDSource.cpp; path = ../../../source/open/components/dynamicdocumentsui/TimingPanelTreeNodeDDSource.cpp; sourceTree = SOURCE_ROOT; };
+		F1FC3DBA0FE85142000FD10E /* DynamicTargetListData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicTargetListData.cpp; path = ../../../source/open/components/dynamicdocumentsui/DynamicTargetListData.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BF2C8815C903B100AED3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF2CFB15C903E100AED3D6 /* InDesignModelAndUI.framework in Frameworks */,
+				45BF2CFC15C903E100AED3D6 /* libPublicPlugIn.a in Frameworks */,
+				E74DA8D01C282BB80047943B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF2CD815C903B100AED3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF2CF915C903DB00AED3D6 /* InDesignModelAndUI.framework in Frameworks */,
+				45BF2CFA15C903DB00AED3D6 /* libPublicPlugIn.a in Frameworks */,
+				E74DA8D11C282BB80047943B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C07B8B50FD71EB600B8B616 /* Motion Path */ = {
+			isa = PBXGroup;
+			children = (
+				2CD118490FEC668E0041AFFF /* MotionPathAdornmentTips.cpp */,
+			);
+			name = "Motion Path";
+			sourceTree = "<group>";
+		};
+		45BF2CE215C903CD00AED3D6 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E74DA8CF1C282BB80047943B /* Cocoa.framework */,
+				45BF2CE315C903CD00AED3D6 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		45BF2CE315C903CD00AED3D6 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				45BF2CE715C903CD00AED3D6 /* InDesignModelAndUI.framework */,
+				45BF2CE815C903CD00AED3D6 /* libPublicPlugIn.a */,
+				45BF2CE415C903CD00AED3D6 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		45BF2CE415C903CD00AED3D6 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				45BF2CE515C903CD00AED3D6 /* InDesignModelAndUI.framework */,
+				45BF2CE615C903CD00AED3D6 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		4B05BBFF0883DD6200D809E1 = {
+			isa = PBXGroup;
+			children = (
+				45BF2CE215C903CD00AED3D6 /* InDesign Libraries */,
+				E1F9D4E30CD2628A00FB8F9E /* Source */,
+				4B05BC7C0883DDC500D809E1 /* Includes */,
+				E1F9D5430CD2825B00FB8F9E /* Resources */,
+				E1F9D4A90CD2602C00FB8F9E /* Plugin */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B05BC0D0883DD6200D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05BC0D0883DD6200D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BF2C9015C903B100AED3D6 /* DynamicDocumentsUI.InDesignPlugin */,
+				45BF2CE015C903B100AED3D6 /* DynamicDocumentsUI.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B05BC7C0883DDC500D809E1 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				B325A78B0D09DB8D00469807 /* DynamicDocumentsUIDefs.h */,
+				B325A78C0D09DB8D00469807 /* DynamicDocumentsUIFactoryList.h */,
+				B325A78D0D09DB8D00469807 /* DynamicDocumentsUIFormatNumber.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/pluginOpen.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		906ADE0E0EFB185B009207B5 /* AnimationPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4985745E16A687EA002A87F0 /* AnimationUIPresetPopupDynamicMenu.cpp */,
+				4985745F16A687EA002A87F0 /* AnimationUIPresetPopupMenuAction.cpp */,
+				F1A89FE5107BAB5D00058090 /* AnimationUIManagePresetListBoxWidgetMgr.cpp */,
+				F1A89FDD107BAADD00058090 /* AnimationUIManagePresetsDialogListNodeView.cpp */,
+				F1CF8650106C38C400D1E6C3 /* AnimationUIManagePresetItemListBoxCtrl.cpp */,
+				F1CF8652106C38C400D1E6C3 /* AnimationUIManagePresetsDialogObserver.cpp */,
+				90D0D50C106A0B9B00BF470E /* AnimationUIXFProxyEH.cpp */,
+				90F0CCF2103F1D6C00F589DA /* AnimationAdormentDrawer.cpp */,
+				90F0CCE1103D292700F589DA /* AnimationUIPanelDetailController.cpp */,
+				90F0CCB1103B24C200F589DA /* AnimationUIAnimateOptionTip.cpp */,
+				90F0CCB2103B24C200F589DA /* AnimationUIButtonTriggerEH.cpp */,
+				90F0CCB3103B24C200F589DA /* AnimationUIButtonTriggerToolImpls.cpp */,
+				F1A751BB0FF578FF0097A4FC /* AnimationUIEventInfoTip.cpp */,
+				F1A751B80FF578EE0097A4FC /* AnimationUIEventMenuAction.cpp */,
+				F18BD24E0FDF156200D6D4EE /* AnimationUISavePresetDialogController.cpp */,
+				F18BD24B0FDF154C00D6D4EE /* AnimationPanelObserver.cpp */,
+				906ADE0F0EFB189E009207B5 /* AnimationUIPanelMenuAction.cpp */,
+				906ADE100EFB189E009207B5 /* AnimationUIPanelView.cpp */,
+			);
+			name = AnimationPanel;
+			sourceTree = "<group>";
+		};
+		98FD154913F1D6BC002EADBC /* LiquidLayoutPanel */ = {
+			isa = PBXGroup;
+			children = (
+				98CB7DF813F5E5280033487C /* LiquidLayoutPanelMenuComponent.cpp */,
+				98CB7DF913F5E5280033487C /* LiquidLayoutPanelObserver.cpp */,
+			);
+			name = LiquidLayoutPanel;
+			sourceTree = "<group>";
+		};
+		B37C2209101A744400BFFE54 /* SWFExportDialog */ = {
+			isa = PBXGroup;
+			children = (
+				B37C220A101A747E00BFFE54 /* SWFExportAdvancedPanelController.cpp */,
+				B37C220B101A747E00BFFE54 /* SWFExportAdvancedPanelEvents.cpp */,
+				B37C220C101A747E00BFFE54 /* SWFExportAdvancedPanelObserver.cpp */,
+				B37C220D101A747E00BFFE54 /* SWFExportDlgCreator.cpp */,
+				B325A76F0D09DB2800469807 /* SWFExportDlgObserver.cpp */,
+				B37C220E101A747E00BFFE54 /* SWFExportGeneralPanelController.cpp */,
+				B37C220F101A747E00BFFE54 /* SWFExportGeneralPanelObserver.cpp */,
+			);
+			name = SWFExportDialog;
+			sourceTree = "<group>";
+		};
+		E1F9D4A90CD2602C00FB8F9E /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				904E5F850EEDAC1F008C668B /* MotionTestMenu.cpp */,
+				B325A7620D09DB0500469807 /* DynamicDocumentsUIID.cpp */,
+				B325A7630D09DB0500469807 /* DynamicDocumentsUIMWHacks.cpp */,
+				B325A7640D09DB0500469807 /* DynamicDocumentsUIPlugIn.cpp */,
+				B325A7650D09DB0500469807 /* TriggerResourceDeps.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		E1F9D4E30CD2628A00FB8F9E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D3EE8F72199B4F9B005EED5F /* HTMLPreviewPanelMenuComponent.cpp */,
+				98FD154913F1D6BC002EADBC /* LiquidLayoutPanel */,
+				B37C2209101A744400BFFE54 /* SWFExportDialog */,
+				2C07B8B50FD71EB600B8B616 /* Motion Path */,
+				F1FA7FBB0F8FF09F0051057B /* TimingPanel */,
+				906ADE0E0EFB185B009207B5 /* AnimationPanel */,
+				F19786CB0E92D85C0079B6BD /* SWFPreviewPanel */,
+				F114277C0DF0877300C559EB /* PageTransitionStaticTextToolTips.cpp */,
+				F1334FA70D35CF26004D22D5 /* PageTransitionsDialogObserver.cpp */,
+				F1334FA40D35CF11004D22D5 /* PageTransitionsDialogController.cpp */,
+				F1334EE40D2D9DCB004D22D5 /* PageTransitionsMenuComponent.cpp */,
+				F1334EE50D2D9DCB004D22D5 /* PageTransitionsPanelObserver.cpp */,
+				F1A5B3C11063285F009CD353 /* DDPreviewSpreadButtonWidgetTip.cc */,
+				B325A8340D0A31FB00469807 /* DynamicDocumentsUIUtils.cpp */,
+				B325A7700D09DB2800469807 /* XFLExportDlgController.cpp */,
+				B325A7710D09DB2800469807 /* XFLExportDlgObserver.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E1F9D5430CD2825B00FB8F9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B325A77A0D09DB5000469807 /* DynamicDocumentsUI.fr */,
+				E1F9D6910CD2965F00FB8F9E /* PluginPList.plc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F19786CB0E92D85C0079B6BD /* SWFPreviewPanel */ = {
+			isa = PBXGroup;
+			children = (
+				F1A89FBB107A650A00058090 /* SWFPreviewButtonWidgetTip.cpp */,
+				F1D2037E104DC83E006BA817 /* SWFPreviewWarningIconTip.cpp */,
+				F1477EF20F7C5605007DBF09 /* SWFPreviewCurrentPageTip.cpp */,
+				F19787210E92E5D10079B6BD /* SWFPreviewPanelMenuComponent.cpp */,
+				F19786D50E92D89F0079B6BD /* SWFPreviewPanelObserver.cpp */,
+				F19786D60E92D89F0079B6BD /* SWFPreviewPanelView.cpp */,
+			);
+			name = SWFPreviewPanel;
+			sourceTree = "<group>";
+		};
+		F1FA7FBB0F8FF09F0051057B /* TimingPanel */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF86B11072D59C00D1E6C3 /* TimingPanelTreeNodeGroupWidgetTip.cpp */,
+				F1CF869C1071598000D1E6C3 /* TimingPanelCursorProvider.cpp */,
+				F1CF86991071595E00D1E6C3 /* TimingPanelTreeNodeGroupWidgetEH.cpp */,
+				F1454B75106073D400D4F55D /* TimingPanelNameILEEditingAttributes.cpp */,
+				F1454B76106073D400D4F55D /* TimingPanelPageItemNameObserver.cpp */,
+				F1FC3DBA0FE85142000FD10E /* DynamicTargetListData.cpp */,
+				F1C83F620FB8F14F0096CA81 /* TimingPanelEventDDListTips.cpp */,
+				F1C83DC30FAA80E30096CA81 /* TimingPanelTreeDDTarget.cpp */,
+				F1C83DC40FAA80E30096CA81 /* TimingPanelTreeNodeEH.cpp */,
+				F1DA29DF0FA15050009FC6FE /* TimingPanelTreeNodeView.cpp */,
+				F1DA29DC0FA15033009FC6FE /* TimingPanelTreeNodeGroupWidgetView.cpp */,
+				F1FA7FF50F90207B0051057B /* TimingPanelDataExchangeHandler.cpp */,
+				F1FA7FF60F90207B0051057B /* TimingPanelGroupUngroupButtonDDTarget.cpp */,
+				F1FA7FF70F90207B0051057B /* TimingPanelObserver.cpp */,
+				F1FA7FF80F90207B0051057B /* TimingPanelTreeNodeDDSource.cpp */,
+				F1FA7FC20F8FF0DB0051057B /* TimingPanelTreeViewAdapter.cpp */,
+				F1FA7FC30F8FF0DB0051057B /* TimingPanelTreeViewWidgetMgr.cpp */,
+				F1FA7FC40F8FF0DB0051057B /* TimingPanelView.cpp */,
+				F1FA7FBC0F8FF0C20051057B /* TimingPanelMenuComponent.cpp */,
+				F1FA7FBD0F8FF0C20051057B /* TimingPanelTreeNodeID.cpp */,
+			);
+			name = TimingPanel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BF2C4115C903B100AED3D6 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BF2C8E15C903B100AED3D6 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				45BF2C4215C903B100AED3D6 /* Sources */,
+				45BF2C8815C903B100AED3D6 /* Frameworks */,
+				45BF2C8915C903B100AED3D6 /* Rez */,
+				45BF2C8A15C903B100AED3D6 /* Resources */,
+				45BF2C8B15C903B100AED3D6 /* ShellScript */,
+			);
+			buildRules = (
+				45BF2C8C15C903B100AED3D6 /* PBXBuildRule */,
+				45BF2C8D15C903B100AED3D6 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = 45BF2C9015C903B100AED3D6 /* DynamicDocumentsUI.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		45BF2C9115C903B100AED3D6 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BF2CDE15C903B100AED3D6 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				45BF2C9215C903B100AED3D6 /* Sources */,
+				45BF2CD815C903B100AED3D6 /* Frameworks */,
+				45BF2CD915C903B100AED3D6 /* Rez */,
+				45BF2CDA15C903B100AED3D6 /* Resources */,
+				45BF2CDB15C903B100AED3D6 /* ShellScript */,
+			);
+			buildRules = (
+				45BF2CDC15C903B100AED3D6 /* PBXBuildRule */,
+				45BF2CDD15C903B100AED3D6 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = 45BF2CE015C903B100AED3D6 /* DynamicDocumentsUI.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05BC010883DD6200D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B05BC020883DD6200D809E1 /* Build configuration list for PBXProject "DynamicDocumentsUI.open" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05BBFF0883DD6200D809E1;
+			productRefGroup = 4B05BC0D0883DD6200D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BF2C4115C903B100AED3D6 /* Debug_Cocoa64 */,
+				45BF2C9115C903B100AED3D6 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BF2C8A15C903B100AED3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF2CDA15C903B100AED3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372017ED993900CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		45BF2C8915C903B100AED3D6 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF2CD915C903B100AED3D6 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45BF2C8B15C903B100AED3D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		45BF2CDB15C903B100AED3D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BF2C4215C903B100AED3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF2C4315C903B100AED3D6 /* DynamicDocumentsUI.fr in Sources */,
+				45BF2C4515C903B100AED3D6 /* DynamicDocumentsUIID.cpp in Sources */,
+				45BF2C4615C903B100AED3D6 /* DynamicDocumentsUIMWHacks.cpp in Sources */,
+				45BF2C4715C903B100AED3D6 /* DynamicDocumentsUIPlugIn.cpp in Sources */,
+				45BF2C4815C903B100AED3D6 /* TriggerResourceDeps.cpp in Sources */,
+				D3EE8F73199B4F9B005EED5F /* HTMLPreviewPanelMenuComponent.cpp in Sources */,
+				45BF2C4915C903B100AED3D6 /* SWFExportDlgObserver.cpp in Sources */,
+				45BF2C4A15C903B100AED3D6 /* XFLExportDlgController.cpp in Sources */,
+				45BF2C4B15C903B100AED3D6 /* XFLExportDlgObserver.cpp in Sources */,
+				45BF2C4C15C903B100AED3D6 /* DynamicDocumentsUIUtils.cpp in Sources */,
+				45BF2C4D15C903B100AED3D6 /* PageTransitionsMenuComponent.cpp in Sources */,
+				45BF2C4E15C903B100AED3D6 /* PageTransitionsPanelObserver.cpp in Sources */,
+				45BF2C4F15C903B100AED3D6 /* PageTransitionsDialogController.cpp in Sources */,
+				45BF2C5015C903B100AED3D6 /* PageTransitionsDialogObserver.cpp in Sources */,
+				45BF2C5115C903B100AED3D6 /* PageTransitionStaticTextToolTips.cpp in Sources */,
+				45BF2C5215C903B100AED3D6 /* SWFPreviewPanelObserver.cpp in Sources */,
+				45BF2C5315C903B100AED3D6 /* SWFPreviewPanelView.cpp in Sources */,
+				45BF2C5415C903B100AED3D6 /* SWFPreviewPanelMenuComponent.cpp in Sources */,
+				45BF2C5515C903B100AED3D6 /* MotionTestMenu.cpp in Sources */,
+				45BF2C5615C903B100AED3D6 /* AnimationUIPanelMenuAction.cpp in Sources */,
+				45BF2C5715C903B100AED3D6 /* AnimationUIPanelView.cpp in Sources */,
+				45BF2C5815C903B100AED3D6 /* SWFPreviewCurrentPageTip.cpp in Sources */,
+				45BF2C5915C903B100AED3D6 /* TimingPanelMenuComponent.cpp in Sources */,
+				45BF2C5A15C903B100AED3D6 /* TimingPanelTreeNodeID.cpp in Sources */,
+				45BF2C5B15C903B100AED3D6 /* TimingPanelTreeViewAdapter.cpp in Sources */,
+				45BF2C5C15C903B100AED3D6 /* TimingPanelTreeViewWidgetMgr.cpp in Sources */,
+				45BF2C5D15C903B100AED3D6 /* TimingPanelView.cpp in Sources */,
+				45BF2C5E15C903B100AED3D6 /* TimingPanelDataExchangeHandler.cpp in Sources */,
+				45BF2C5F15C903B100AED3D6 /* TimingPanelGroupUngroupButtonDDTarget.cpp in Sources */,
+				45BF2C6015C903B100AED3D6 /* TimingPanelObserver.cpp in Sources */,
+				45BF2C6115C903B100AED3D6 /* TimingPanelTreeNodeDDSource.cpp in Sources */,
+				45BF2C6215C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetView.cpp in Sources */,
+				45BF2C6315C903B100AED3D6 /* TimingPanelTreeNodeView.cpp in Sources */,
+				45BF2C6415C903B100AED3D6 /* TimingPanelTreeDDTarget.cpp in Sources */,
+				45BF2C6515C903B100AED3D6 /* TimingPanelTreeNodeEH.cpp in Sources */,
+				45BF2C6615C903B100AED3D6 /* TimingPanelEventDDListTips.cpp in Sources */,
+				45BF2C6715C903B100AED3D6 /* AnimationPanelObserver.cpp in Sources */,
+				45BF2C6815C903B100AED3D6 /* AnimationUISavePresetDialogController.cpp in Sources */,
+				45BF2C6915C903B100AED3D6 /* DynamicTargetListData.cpp in Sources */,
+				45BF2C6A15C903B100AED3D6 /* MotionPathAdornmentTips.cpp in Sources */,
+				45BF2C6B15C903B100AED3D6 /* AnimationUIEventMenuAction.cpp in Sources */,
+				45BF2C6C15C903B100AED3D6 /* AnimationUIEventInfoTip.cpp in Sources */,
+				45BF2C6D15C903B100AED3D6 /* SWFExportAdvancedPanelController.cpp in Sources */,
+				45BF2C6E15C903B100AED3D6 /* SWFExportAdvancedPanelEvents.cpp in Sources */,
+				45BF2C6F15C903B100AED3D6 /* SWFExportAdvancedPanelObserver.cpp in Sources */,
+				45BF2C7015C903B100AED3D6 /* SWFExportDlgCreator.cpp in Sources */,
+				45BF2C7115C903B100AED3D6 /* SWFExportGeneralPanelController.cpp in Sources */,
+				45BF2C7215C903B100AED3D6 /* SWFExportGeneralPanelObserver.cpp in Sources */,
+				45BF2C7315C903B100AED3D6 /* AnimationUIAnimateOptionTip.cpp in Sources */,
+				45BF2C7415C903B100AED3D6 /* AnimationUIButtonTriggerEH.cpp in Sources */,
+				45BF2C7515C903B100AED3D6 /* AnimationUIButtonTriggerToolImpls.cpp in Sources */,
+				45BF2C7615C903B100AED3D6 /* AnimationUIPanelDetailController.cpp in Sources */,
+				45BF2C7715C903B100AED3D6 /* AnimationAdormentDrawer.cpp in Sources */,
+				45BF2C7815C903B100AED3D6 /* SWFPreviewWarningIconTip.cpp in Sources */,
+				45BF2C7915C903B100AED3D6 /* TimingPanelNameILEEditingAttributes.cpp in Sources */,
+				45BF2C7A15C903B100AED3D6 /* TimingPanelPageItemNameObserver.cpp in Sources */,
+				45BF2C7B15C903B100AED3D6 /* DDPreviewSpreadButtonWidgetTip.cc in Sources */,
+				45BF2C7C15C903B100AED3D6 /* AnimationUIXFProxyEH.cpp in Sources */,
+				45BF2C7D15C903B100AED3D6 /* AnimationUIManagePresetItemListBoxCtrl.cpp in Sources */,
+				45BF2C7E15C903B100AED3D6 /* AnimationUIManagePresetsDialogObserver.cpp in Sources */,
+				45BF2C7F15C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetEH.cpp in Sources */,
+				45BF2C8015C903B100AED3D6 /* TimingPanelCursorProvider.cpp in Sources */,
+				45BF2C8115C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetTip.cpp in Sources */,
+				45BF2C8215C903B100AED3D6 /* SWFPreviewButtonWidgetTip.cpp in Sources */,
+				45BF2C8315C903B100AED3D6 /* AnimationUIManagePresetsDialogListNodeView.cpp in Sources */,
+				45BF2C8415C903B100AED3D6 /* AnimationUIManagePresetListBoxWidgetMgr.cpp in Sources */,
+				45BF2C8615C903B100AED3D6 /* LiquidLayoutPanelMenuComponent.cpp in Sources */,
+				45BF2C8715C903B100AED3D6 /* LiquidLayoutPanelObserver.cpp in Sources */,
+				4985746016A687EA002A87F0 /* AnimationUIPresetPopupDynamicMenu.cpp in Sources */,
+				4985746216A687EA002A87F0 /* AnimationUIPresetPopupMenuAction.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF2C9215C903B100AED3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF2C9315C903B100AED3D6 /* DynamicDocumentsUI.fr in Sources */,
+				45BF2C9515C903B100AED3D6 /* DynamicDocumentsUIID.cpp in Sources */,
+				45BF2C9615C903B100AED3D6 /* DynamicDocumentsUIMWHacks.cpp in Sources */,
+				45BF2C9715C903B100AED3D6 /* DynamicDocumentsUIPlugIn.cpp in Sources */,
+				45BF2C9815C903B100AED3D6 /* TriggerResourceDeps.cpp in Sources */,
+				D3EE8F74199B4F9B005EED5F /* HTMLPreviewPanelMenuComponent.cpp in Sources */,
+				45BF2C9915C903B100AED3D6 /* SWFExportDlgObserver.cpp in Sources */,
+				45BF2C9A15C903B100AED3D6 /* XFLExportDlgController.cpp in Sources */,
+				45BF2C9B15C903B100AED3D6 /* XFLExportDlgObserver.cpp in Sources */,
+				45BF2C9C15C903B100AED3D6 /* DynamicDocumentsUIUtils.cpp in Sources */,
+				45BF2C9D15C903B100AED3D6 /* PageTransitionsMenuComponent.cpp in Sources */,
+				45BF2C9E15C903B100AED3D6 /* PageTransitionsPanelObserver.cpp in Sources */,
+				45BF2C9F15C903B100AED3D6 /* PageTransitionsDialogController.cpp in Sources */,
+				45BF2CA015C903B100AED3D6 /* PageTransitionsDialogObserver.cpp in Sources */,
+				45BF2CA115C903B100AED3D6 /* PageTransitionStaticTextToolTips.cpp in Sources */,
+				45BF2CA215C903B100AED3D6 /* SWFPreviewPanelObserver.cpp in Sources */,
+				45BF2CA315C903B100AED3D6 /* SWFPreviewPanelView.cpp in Sources */,
+				45BF2CA415C903B100AED3D6 /* SWFPreviewPanelMenuComponent.cpp in Sources */,
+				45BF2CA515C903B100AED3D6 /* MotionTestMenu.cpp in Sources */,
+				45BF2CA615C903B100AED3D6 /* AnimationUIPanelMenuAction.cpp in Sources */,
+				45BF2CA715C903B100AED3D6 /* AnimationUIPanelView.cpp in Sources */,
+				45BF2CA815C903B100AED3D6 /* SWFPreviewCurrentPageTip.cpp in Sources */,
+				45BF2CA915C903B100AED3D6 /* TimingPanelMenuComponent.cpp in Sources */,
+				45BF2CAA15C903B100AED3D6 /* TimingPanelTreeNodeID.cpp in Sources */,
+				45BF2CAB15C903B100AED3D6 /* TimingPanelTreeViewAdapter.cpp in Sources */,
+				45BF2CAC15C903B100AED3D6 /* TimingPanelTreeViewWidgetMgr.cpp in Sources */,
+				45BF2CAD15C903B100AED3D6 /* TimingPanelView.cpp in Sources */,
+				45BF2CAE15C903B100AED3D6 /* TimingPanelDataExchangeHandler.cpp in Sources */,
+				45BF2CAF15C903B100AED3D6 /* TimingPanelGroupUngroupButtonDDTarget.cpp in Sources */,
+				45BF2CB015C903B100AED3D6 /* TimingPanelObserver.cpp in Sources */,
+				45BF2CB115C903B100AED3D6 /* TimingPanelTreeNodeDDSource.cpp in Sources */,
+				45BF2CB215C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetView.cpp in Sources */,
+				45BF2CB315C903B100AED3D6 /* TimingPanelTreeNodeView.cpp in Sources */,
+				45BF2CB415C903B100AED3D6 /* TimingPanelTreeDDTarget.cpp in Sources */,
+				45BF2CB515C903B100AED3D6 /* TimingPanelTreeNodeEH.cpp in Sources */,
+				45BF2CB615C903B100AED3D6 /* TimingPanelEventDDListTips.cpp in Sources */,
+				45BF2CB715C903B100AED3D6 /* AnimationPanelObserver.cpp in Sources */,
+				45BF2CB815C903B100AED3D6 /* AnimationUISavePresetDialogController.cpp in Sources */,
+				45BF2CB915C903B100AED3D6 /* DynamicTargetListData.cpp in Sources */,
+				45BF2CBA15C903B100AED3D6 /* MotionPathAdornmentTips.cpp in Sources */,
+				45BF2CBB15C903B100AED3D6 /* AnimationUIEventMenuAction.cpp in Sources */,
+				45BF2CBC15C903B100AED3D6 /* AnimationUIEventInfoTip.cpp in Sources */,
+				45BF2CBD15C903B100AED3D6 /* SWFExportAdvancedPanelController.cpp in Sources */,
+				45BF2CBE15C903B100AED3D6 /* SWFExportAdvancedPanelEvents.cpp in Sources */,
+				45BF2CBF15C903B100AED3D6 /* SWFExportAdvancedPanelObserver.cpp in Sources */,
+				45BF2CC015C903B100AED3D6 /* SWFExportDlgCreator.cpp in Sources */,
+				45BF2CC115C903B100AED3D6 /* SWFExportGeneralPanelController.cpp in Sources */,
+				45BF2CC215C903B100AED3D6 /* SWFExportGeneralPanelObserver.cpp in Sources */,
+				45BF2CC315C903B100AED3D6 /* AnimationUIAnimateOptionTip.cpp in Sources */,
+				45BF2CC415C903B100AED3D6 /* AnimationUIButtonTriggerEH.cpp in Sources */,
+				45BF2CC515C903B100AED3D6 /* AnimationUIButtonTriggerToolImpls.cpp in Sources */,
+				45BF2CC615C903B100AED3D6 /* AnimationUIPanelDetailController.cpp in Sources */,
+				45BF2CC715C903B100AED3D6 /* AnimationAdormentDrawer.cpp in Sources */,
+				45BF2CC815C903B100AED3D6 /* SWFPreviewWarningIconTip.cpp in Sources */,
+				45BF2CC915C903B100AED3D6 /* TimingPanelNameILEEditingAttributes.cpp in Sources */,
+				45BF2CCA15C903B100AED3D6 /* TimingPanelPageItemNameObserver.cpp in Sources */,
+				45BF2CCB15C903B100AED3D6 /* DDPreviewSpreadButtonWidgetTip.cc in Sources */,
+				45BF2CCC15C903B100AED3D6 /* AnimationUIXFProxyEH.cpp in Sources */,
+				45BF2CCD15C903B100AED3D6 /* AnimationUIManagePresetItemListBoxCtrl.cpp in Sources */,
+				45BF2CCE15C903B100AED3D6 /* AnimationUIManagePresetsDialogObserver.cpp in Sources */,
+				45BF2CCF15C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetEH.cpp in Sources */,
+				45BF2CD015C903B100AED3D6 /* TimingPanelCursorProvider.cpp in Sources */,
+				45BF2CD115C903B100AED3D6 /* TimingPanelTreeNodeGroupWidgetTip.cpp in Sources */,
+				45BF2CD215C903B100AED3D6 /* SWFPreviewButtonWidgetTip.cpp in Sources */,
+				45BF2CD315C903B100AED3D6 /* AnimationUIManagePresetsDialogListNodeView.cpp in Sources */,
+				45BF2CD415C903B100AED3D6 /* AnimationUIManagePresetListBoxWidgetMgr.cpp in Sources */,
+				45BF2CD615C903B100AED3D6 /* LiquidLayoutPanelMenuComponent.cpp in Sources */,
+				45BF2CD715C903B100AED3D6 /* LiquidLayoutPanelObserver.cpp in Sources */,
+				4985746116A687EA002A87F0 /* AnimationUIPresetPopupDynamicMenu.cpp in Sources */,
+				4985746316A687EA002A87F0 /* AnimationUIPresetPopupMenuAction.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45BF2C8F15C903B100AED3D6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		45BF2CDF15C903B100AED3D6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		4B05BC030883DD6200D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/pluginOpen.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_PLUGINS_DIR)/Graphics";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ../../../source/precomp/gcc/PluginPrefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(GCC_PREPROCESSOR_DEFINITIONS)",
+					MACINTOSH,
+					"$(BIB_THROW)",
+					INDESIGN_BUILD,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					../../../source/open/components/dynamicdocumentsui,
+					../../../source/open/components/dynamicdocumentsui/includes,
+					../../../source/open/components/dynamicdocumentsui/resources,
+					../../../source/public/interfaces/interactive,
+					../../../source/public/interfaces/interactive/ui,
+					../../../source/public/interfaces/tables,
+					../../../source/public/interfaces/incopy,
+					../../../source/public/widgets/includes,
+					../../../source/public/interfaces/interactive,
+                    ../../../source/private/interfaces/ui,
+                    ../../../source/private/libs/widgetbin/includes,
+				);
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = DynamicDocumentsUI;
+				REZ_SEARCH_PATHS = (
+					"$(REZ_SEARCH_PATHS)",
+					"$(ID_CURSOR_ICONS_SEARCH_PATHS)",
+				);
+				TARGET_BUILD_DIR = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BF2C8E15C903B100AED3D6 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF2C8F15C903B100AED3D6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		45BF2CDE15C903B100AED3D6 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF2CDF15C903B100AED3D6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4B05BC020883DD6200D809E1 /* Build configuration list for PBXProject "DynamicDocumentsUI.open" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05BC030883DD6200D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05BC010883DD6200D809E1 /* Project object */;
+}

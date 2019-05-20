@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95710BD15CF7A6700C95573 /* CelPnl.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F40D0884115800D809E1 /* CelPnl.fr */; };
+		F95710BE15CF7A6700C95573 /* CelPnlNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4040884115100D809E1 /* CelPnlNoStrip.cpp */; };
+		F95710BF15CF7A6700C95573 /* CelPnlID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4050884115200D809E1 /* CelPnlID.cpp */; };
+		F95710C015CF7A6700C95573 /* TableCellView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3F90884114900D809E1 /* TableCellView.cpp */; };
+		F95710C115CF7A6700C95573 /* TableCellObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FA0884114A00D809E1 /* TableCellObserver.cpp */; };
+		F95710C215CF7A6700C95573 /* TableCellEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FB0884114B00D809E1 /* TableCellEventHandler.cpp */; };
+		F95710C315CF7A6700C95573 /* TableCellData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FC0884114B00D809E1 /* TableCellData.cpp */; };
+		F95710C415CF7A6700C95573 /* CelPnlActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FD0884114C00D809E1 /* CelPnlActionComponent.cpp */; };
+		F95710C515CF7A6700C95573 /* CelPnlEditBoxObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FE0884114D00D809E1 /* CelPnlEditBoxObserver.cpp */; };
+		F95710C615CF7A6700C95573 /* CellTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FF0884114E00D809E1 /* CellTable.cpp */; };
+		F95710C715CF7A6700C95573 /* CelPnlPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4010884114F00D809E1 /* CelPnlPanelView.cpp */; };
+		F95710C815CF7A6700C95573 /* CelPnlEditBoxEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4020884115000D809E1 /* CelPnlEditBoxEventHandler.cpp */; };
+		F95710C915CF7A6700C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4070884115200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95710CC15CF7A6700C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05F40F0884115900D809E1 /* SDKResources.r */; };
+		F95710D615CF7A6900C95573 /* CelPnl.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F40D0884115800D809E1 /* CelPnl.fr */; };
+		F95710D715CF7A6900C95573 /* CelPnlNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4040884115100D809E1 /* CelPnlNoStrip.cpp */; };
+		F95710D815CF7A6900C95573 /* CelPnlID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4050884115200D809E1 /* CelPnlID.cpp */; };
+		F95710D915CF7A6900C95573 /* TableCellView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3F90884114900D809E1 /* TableCellView.cpp */; };
+		F95710DA15CF7A6900C95573 /* TableCellObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FA0884114A00D809E1 /* TableCellObserver.cpp */; };
+		F95710DB15CF7A6900C95573 /* TableCellEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FB0884114B00D809E1 /* TableCellEventHandler.cpp */; };
+		F95710DC15CF7A6900C95573 /* TableCellData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FC0884114B00D809E1 /* TableCellData.cpp */; };
+		F95710DD15CF7A6900C95573 /* CelPnlActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FD0884114C00D809E1 /* CelPnlActionComponent.cpp */; };
+		F95710DE15CF7A6900C95573 /* CelPnlEditBoxObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FE0884114D00D809E1 /* CelPnlEditBoxObserver.cpp */; };
+		F95710DF15CF7A6900C95573 /* CellTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F3FF0884114E00D809E1 /* CellTable.cpp */; };
+		F95710E015CF7A6900C95573 /* CelPnlPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4010884114F00D809E1 /* CelPnlPanelView.cpp */; };
+		F95710E115CF7A6900C95573 /* CelPnlEditBoxEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4020884115000D809E1 /* CelPnlEditBoxEventHandler.cpp */; };
+		F95710E215CF7A6900C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F4070884115200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95710E515CF7A6900C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05F40F0884115900D809E1 /* SDKResources.r */; };
+		F95710ED15CF7A8900C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95710B915CF7A5A00C95573 /* InDesignModelAndUI.framework */; };
+		F95710EE15CF7A8900C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95710BA15CF7A5A00C95573 /* libPublicPlugIn.a */; };
+		F95710EF15CF7A8C00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95710B715CF7A5A00C95573 /* InDesignModelAndUI.framework */; };
+		F95710F015CF7A8C00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95710B815CF7A5A00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95710CF15CF7A6700C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95710E815CF7A6900C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73CC6094F889700AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73CC7094F889700AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F7EE175DEE5300A71E17 /* CelPnlFactoryList.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CelPnlFactoryList.fr; path = ../../../source/sdksamples/cellpanel/CelPnlFactoryList.fr; sourceTree = "<group>"; };
+		3227F7EF175DEE5300A71E17 /* CelPnlStrings_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CelPnlStrings_enUS.fr; path = ../../../source/sdksamples/cellpanel/CelPnlStrings_enUS.fr; sourceTree = "<group>"; };
+		3227F7F0175DEE5300A71E17 /* CelPnlStrings_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CelPnlStrings_jaJP.fr; path = ../../../source/sdksamples/cellpanel/CelPnlStrings_jaJP.fr; sourceTree = "<group>"; };
+		3227F7F1175DEE5300A71E17 /* CelPnlStrings.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CelPnlStrings.fr; path = ../../../source/sdksamples/cellpanel/CelPnlStrings.fr; sourceTree = "<group>"; };
+		3227F7F2175DEE5300A71E17 /* CelPnlViews_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CelPnlViews_enUS.fr; path = ../../../source/sdksamples/cellpanel/CelPnlViews_enUS.fr; sourceTree = "<group>"; };
+		3227F7F3175DEE5300A71E17 /* CelPnlViews.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CelPnlViews.fr; path = ../../../source/sdksamples/cellpanel/CelPnlViews.fr; sourceTree = "<group>"; };
+		4B05F3F90884114900D809E1 /* TableCellView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TableCellView.cpp; path = ../../../source/sdksamples/cellpanel/TableCellView.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3FA0884114A00D809E1 /* TableCellObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TableCellObserver.cpp; path = ../../../source/sdksamples/cellpanel/TableCellObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3FB0884114B00D809E1 /* TableCellEventHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TableCellEventHandler.cpp; path = ../../../source/sdksamples/cellpanel/TableCellEventHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3FC0884114B00D809E1 /* TableCellData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TableCellData.cpp; path = ../../../source/sdksamples/cellpanel/TableCellData.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3FD0884114C00D809E1 /* CelPnlActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CelPnlActionComponent.cpp; path = ../../../source/sdksamples/cellpanel/CelPnlActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3FE0884114D00D809E1 /* CelPnlEditBoxObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CelPnlEditBoxObserver.cpp; path = ../../../source/sdksamples/cellpanel/CelPnlEditBoxObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F3FF0884114E00D809E1 /* CellTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CellTable.cpp; path = ../../../source/sdksamples/cellpanel/CellTable.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F4000884114E00D809E1 /* CellTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CellTable.h; path = ../../../source/sdksamples/cellpanel/CellTable.h; sourceTree = SOURCE_ROOT; };
+		4B05F4010884114F00D809E1 /* CelPnlPanelView.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CelPnlPanelView.cpp; path = ../../../source/sdksamples/cellpanel/CelPnlPanelView.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F4020884115000D809E1 /* CelPnlEditBoxEventHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CelPnlEditBoxEventHandler.cpp; path = ../../../source/sdksamples/cellpanel/CelPnlEditBoxEventHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F4040884115100D809E1 /* CelPnlNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CelPnlNoStrip.cpp; path = ../../../source/sdksamples/cellpanel/CelPnlNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F4050884115200D809E1 /* CelPnlID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CelPnlID.cpp; path = ../../../source/sdksamples/cellpanel/CelPnlID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F4060884115200D809E1 /* CelPnlID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CelPnlID.h; path = ../../../source/sdksamples/cellpanel/CelPnlID.h; sourceTree = SOURCE_ROOT; };
+		4B05F4070884115200D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F4090884115400D809E1 /* ITableCellData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ITableCellData.h; path = ../../../source/sdksamples/cellpanel/ITableCellData.h; sourceTree = SOURCE_ROOT; };
+		4B05F40A0884115600D809E1 /* CelPnlFactoryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CelPnlFactoryList.h; path = ../../../source/sdksamples/cellpanel/CelPnlFactoryList.h; sourceTree = SOURCE_ROOT; };
+		4B05F40B0884115700D809E1 /* CelPnlDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CelPnlDefines.h; path = ../../../source/sdksamples/cellpanel/CelPnlDefines.h; sourceTree = SOURCE_ROOT; };
+		4B05F40D0884115800D809E1 /* CelPnl.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CelPnl.fr; path = ../../../source/sdksamples/cellpanel/CelPnl.fr; sourceTree = SOURCE_ROOT; };
+		4B05F40E0884115900D809E1 /* CelPnlID.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CelPnlID.fr; path = ../../../source/sdksamples/cellpanel/CelPnlID.fr; sourceTree = SOURCE_ROOT; };
+		4B05F40F0884115900D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		773555EA120336BF00E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F95710B715CF7A5A00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F95710B815CF7A5A00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95710B915CF7A5A00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F95710BA15CF7A5A00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95710CA15CF7A6700C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95710EF15CF7A8C00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F95710F015CF7A8C00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95710E315CF7A6900C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95710ED15CF7A8900C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F95710EE15CF7A8900C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F3DE0884114600D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F3F80884114700D809E1 /* Source */,
+				4B05F40C0884115700D809E1 /* Resources */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				F95710AE15CF7A5A00C95573 /* InDesign Libraries */,
+				773555EA120336BF00E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F3F80884114700D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F3F90884114900D809E1 /* TableCellView.cpp */,
+				4B05F3FA0884114A00D809E1 /* TableCellObserver.cpp */,
+				4B05F3FB0884114B00D809E1 /* TableCellEventHandler.cpp */,
+				4B05F3FC0884114B00D809E1 /* TableCellData.cpp */,
+				4B05F3FD0884114C00D809E1 /* CelPnlActionComponent.cpp */,
+				4B05F3FE0884114D00D809E1 /* CelPnlEditBoxObserver.cpp */,
+				4B05F4000884114E00D809E1 /* CellTable.h */,
+				4B05F3FF0884114E00D809E1 /* CellTable.cpp */,
+				4B05F4010884114F00D809E1 /* CelPnlPanelView.cpp */,
+				4B05F4020884115000D809E1 /* CelPnlEditBoxEventHandler.cpp */,
+				4B05F4030884115000D809E1 /* Plugin */,
+				4B05F4080884115200D809E1 /* Headers */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F4030884115000D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F4040884115100D809E1 /* CelPnlNoStrip.cpp */,
+				4B05F4060884115200D809E1 /* CelPnlID.h */,
+				4B05F4050884115200D809E1 /* CelPnlID.cpp */,
+				4B05F4070884115200D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F4080884115200D809E1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F4090884115400D809E1 /* ITableCellData.h */,
+				4B05F40A0884115600D809E1 /* CelPnlFactoryList.h */,
+				4B05F40B0884115700D809E1 /* CelPnlDefines.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		4B05F40C0884115700D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F7EE175DEE5300A71E17 /* CelPnlFactoryList.fr */,
+				3227F7EF175DEE5300A71E17 /* CelPnlStrings_enUS.fr */,
+				3227F7F0175DEE5300A71E17 /* CelPnlStrings_jaJP.fr */,
+				3227F7F1175DEE5300A71E17 /* CelPnlStrings.fr */,
+				3227F7F2175DEE5300A71E17 /* CelPnlViews_enUS.fr */,
+				3227F7F3175DEE5300A71E17 /* CelPnlViews.fr */,
+				4B05F40D0884115800D809E1 /* CelPnl.fr */,
+				4B05F40E0884115900D809E1 /* CelPnlID.fr */,
+				4B05F40F0884115900D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73CC6094F889700AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73CC7094F889700AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F95710AE15CF7A5A00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F95710B515CF7A5A00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F95710B515CF7A5A00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F95710B915CF7A5A00C95573 /* InDesignModelAndUI.framework */,
+				F95710BA15CF7A5A00C95573 /* libPublicPlugIn.a */,
+				F95710B615CF7A5A00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F95710B615CF7A5A00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F95710B715CF7A5A00C95573 /* InDesignModelAndUI.framework */,
+				F95710B815CF7A5A00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95710BB15CF7A6700C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95710D015CF7A6700C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95710BC15CF7A6700C95573 /* Sources */,
+				F95710CA15CF7A6700C95573 /* Frameworks */,
+				F95710CB15CF7A6700C95573 /* Rez */,
+				F95710CD15CF7A6700C95573 /* Resources */,
+				F95710CE15CF7A6700C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95710CF15CF7A6700C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95710D415CF7A6900C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95710E915CF7A6900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95710D515CF7A6900C95573 /* Sources */,
+				F95710E315CF7A6900C95573 /* Frameworks */,
+				F95710E415CF7A6900C95573 /* Rez */,
+				F95710E615CF7A6900C95573 /* Resources */,
+				F95710E715CF7A6900C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95710E815CF7A6900C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F3E00884114600D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05F3E10884114600D809E1 /* Build configuration list for PBXProject "CellPanel.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F3DE0884114600D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95710BB15CF7A6700C95573 /* Debug_Cocoa64 */,
+				F95710D415CF7A6900C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95710CD15CF7A6700C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95710E615CF7A6900C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95710CB15CF7A6700C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95710CC15CF7A6700C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95710E415CF7A6900C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95710E515CF7A6900C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95710CE15CF7A6700C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95710E715CF7A6900C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95710BC15CF7A6700C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95710BD15CF7A6700C95573 /* CelPnl.fr in Sources */,
+				F95710BE15CF7A6700C95573 /* CelPnlNoStrip.cpp in Sources */,
+				F95710BF15CF7A6700C95573 /* CelPnlID.cpp in Sources */,
+				F95710C015CF7A6700C95573 /* TableCellView.cpp in Sources */,
+				F95710C115CF7A6700C95573 /* TableCellObserver.cpp in Sources */,
+				F95710C215CF7A6700C95573 /* TableCellEventHandler.cpp in Sources */,
+				F95710C315CF7A6700C95573 /* TableCellData.cpp in Sources */,
+				F95710C415CF7A6700C95573 /* CelPnlActionComponent.cpp in Sources */,
+				F95710C515CF7A6700C95573 /* CelPnlEditBoxObserver.cpp in Sources */,
+				F95710C615CF7A6700C95573 /* CellTable.cpp in Sources */,
+				F95710C715CF7A6700C95573 /* CelPnlPanelView.cpp in Sources */,
+				F95710C815CF7A6700C95573 /* CelPnlEditBoxEventHandler.cpp in Sources */,
+				F95710C915CF7A6700C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95710D515CF7A6900C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95710D615CF7A6900C95573 /* CelPnl.fr in Sources */,
+				F95710D715CF7A6900C95573 /* CelPnlNoStrip.cpp in Sources */,
+				F95710D815CF7A6900C95573 /* CelPnlID.cpp in Sources */,
+				F95710D915CF7A6900C95573 /* TableCellView.cpp in Sources */,
+				F95710DA15CF7A6900C95573 /* TableCellObserver.cpp in Sources */,
+				F95710DB15CF7A6900C95573 /* TableCellEventHandler.cpp in Sources */,
+				F95710DC15CF7A6900C95573 /* TableCellData.cpp in Sources */,
+				F95710DD15CF7A6900C95573 /* CelPnlActionComponent.cpp in Sources */,
+				F95710DE15CF7A6900C95573 /* CelPnlEditBoxObserver.cpp in Sources */,
+				F95710DF15CF7A6900C95573 /* CellTable.cpp in Sources */,
+				F95710E015CF7A6900C95573 /* CelPnlPanelView.cpp in Sources */,
+				F95710E115CF7A6900C95573 /* CelPnlEditBoxEventHandler.cpp in Sources */,
+				F95710E215CF7A6900C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F3E20884114600D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(DVA_HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = CellPanel.sdk;
+			};
+			name = Default;
+		};
+		F95710D115CF7A6700C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F95710EA15CF7A6900C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F3E10884114600D809E1 /* Build configuration list for PBXProject "CellPanel.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F3E20884114600D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95710D015CF7A6700C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95710D115CF7A6700C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95710E915CF7A6900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95710EA15CF7A6900C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F3E00884114600D809E1 /* Project object */;
+}

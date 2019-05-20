@@ -1,0 +1,78 @@
+<FILE_LIST>
+<TESTLETTE_FILE_FORMAT FORMAT="1.000000">
+</TESTLETTE_FILE_FORMAT>
+<FILE WHERE="aat:dialogs_and_panels:Align.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Attributes.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Bookmarks.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Character.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Character Styles.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Color.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Control Strip.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Data Merge.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Flattener Preview.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Glyphs.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Gradient.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Hyperlinks.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Index.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Info.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Layers.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Links.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Object Styles.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Pages.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Paragraph.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Paragraph Styles.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Pathfinder.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Plugins.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Script Label.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Scripts.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Separations Preview.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:States.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Story.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Stroke.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Swatches.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Table.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Tabs.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Tags.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Text Wrap.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Tools.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Transform.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Transparency.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:dialogs_and_panels:Trap Presets.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+</FILE_LIST>

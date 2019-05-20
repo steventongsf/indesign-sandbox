@@ -1,0 +1,18 @@
+ID_BUILD_CONFIG_MODEL_BASE = YES
+
+// InDesign core library build settings (based on common build settings)
+#include "common.xcconfig"
+#include "common_private.xcconfig"
+
+// InDesign core model/server library specific build settings
+
+// Include search paths
+HEADER_SEARCH_PATHS = $(ID_COMMON_HEADER_SEARCH_PATHS) $(ID_SDK_ROOT)/external/bibxmp/include $(ID_PRIVATE_HEADER_SEARCH_PATHS)
+
+REZ_SEARCH_PATHS = $(ID_COMMON_REZ_SEARCH_PATHS) $(ID_SDK_ROOT)/source/components/documentui $(ID_SDK_ROOT)/source/components/documentactions $(ID_SDK_ROOT)/source/application/shared $(ID_SDK_ROOT)/source/components/kfkerning/hzincludes $(ID_SDK_ROOT)/source/components/filters/pngfilter $(ID_SDK_ROOT)/external/application\ icons $(ID_ICONS_SEARCH_PATHS)
+
+
+// Uncomment these two lines to see which deprecated API's we are using in our dylibs
+// You can control ui dylibs separately - see base.xcconfig
+//GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES
+//GCC_TREAT_WARNINGS_AS_ERRORS = NO  

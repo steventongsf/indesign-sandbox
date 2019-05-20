@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A8444715CFD032001D87F1 /* InCopyExport.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA2B0883E37200D809E1 /* InCopyExport.fr */; };
+		32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B05CA390883E37900D809E1 /* PluginPList.plc */; };
+		00A8444915CFD032001D87F1 /* InCopyExportMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA280883E37000D809E1 /* InCopyExportMWHacks.cpp */; };
+		00A8444A15CFD032001D87F1 /* InCopyExportPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA260883E36F00D809E1 /* InCopyExportPlugIn.cpp */; };
+		00A8444B15CFD032001D87F1 /* InCopyExportID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA240883E36E00D809E1 /* InCopyExportID.cpp */; };
+		00A8444C15CFD032001D87F1 /* InCopyStoryExportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA1F0883E36A00D809E1 /* InCopyStoryExportProvider.cpp */; };
+		00A8444D15CFD032001D87F1 /* InCopyStoryExportExtras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA200883E36B00D809E1 /* InCopyStoryExportExtras.cpp */; };
+		00A8444E15CFD032001D87F1 /* InCopyStoryExportSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA210883E36C00D809E1 /* InCopyStoryExportSuiteASB.cpp */; };
+		00A8444F15CFD032001D87F1 /* ICExportPrefsScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA220883E36D00D809E1 /* ICExportPrefsScriptProvider.cpp */; };
+		00A8445E15CFD034001D87F1 /* InCopyExport.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA2B0883E37200D809E1 /* InCopyExport.fr */; };
+		32AF372017ED993900CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B05CA390883E37900D809E1 /* PluginPList.plc */; };
+		00A8446015CFD034001D87F1 /* InCopyExportMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA280883E37000D809E1 /* InCopyExportMWHacks.cpp */; };
+		00A8446115CFD034001D87F1 /* InCopyExportPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA260883E36F00D809E1 /* InCopyExportPlugIn.cpp */; };
+		00A8446215CFD034001D87F1 /* InCopyExportID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA240883E36E00D809E1 /* InCopyExportID.cpp */; };
+		00A8446315CFD034001D87F1 /* InCopyStoryExportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA1F0883E36A00D809E1 /* InCopyStoryExportProvider.cpp */; };
+		00A8446415CFD034001D87F1 /* InCopyStoryExportExtras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA200883E36B00D809E1 /* InCopyStoryExportExtras.cpp */; };
+		00A8446515CFD034001D87F1 /* InCopyStoryExportSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA210883E36C00D809E1 /* InCopyStoryExportSuiteASB.cpp */; };
+		00A8446615CFD034001D87F1 /* ICExportPrefsScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05CA220883E36D00D809E1 /* ICExportPrefsScriptProvider.cpp */; };
+		00A8448015CFD06F001D87F1 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8447E15CFD06F001D87F1 /* libPublicPlugIn.a */; };
+		00A8448115CFD06F001D87F1 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8447F15CFD06F001D87F1 /* InDesignModel.framework */; };
+		00A8448615CFD075001D87F1 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8448415CFD075001D87F1 /* libPublicPlugIn.a */; };
+		00A8448715CFD075001D87F1 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8448515CFD075001D87F1 /* InDesignModel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		00A8445415CFD032001D87F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		00A8445515CFD032001D87F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+		00A8446B15CFD034001D87F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		00A8446C15CFD034001D87F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		00A8445815CFD032001D87F1 /* InCopyExport.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InCopyExport.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8446F15CFD034001D87F1 /* InCopyExport.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InCopyExport.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8447E15CFD06F001D87F1 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		00A8447F15CFD06F001D87F1 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		00A8448415CFD075001D87F1 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		00A8448515CFD075001D87F1 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		2A06D8950DA16D71003D6BB9 /* _shared_build_settings/pluginOpen.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/pluginOpen.xcconfig; sourceTree = "<group>"; };
+		4B05CA1F0883E36A00D809E1 /* InCopyStoryExportProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyStoryExportProvider.cpp; path = ../../../source/open/components/incopyexport/export/InCopyStoryExportProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05CA200883E36B00D809E1 /* InCopyStoryExportExtras.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyStoryExportExtras.cpp; path = ../../../source/open/components/incopyexport/export/InCopyStoryExportExtras.cpp; sourceTree = SOURCE_ROOT; };
+		4B05CA210883E36C00D809E1 /* InCopyStoryExportSuiteASB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyStoryExportSuiteASB.cpp; path = ../../../source/open/components/incopyexport/export/InCopyStoryExportSuiteASB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05CA220883E36D00D809E1 /* ICExportPrefsScriptProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ICExportPrefsScriptProvider.cpp; path = ../../../source/open/components/incopyexport/ICExportPrefsScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05CA240883E36E00D809E1 /* InCopyExportID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyExportID.cpp; path = ../../../source/open/components/incopyexport/InCopyExportID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05CA250883E36E00D809E1 /* InCopyExportID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InCopyExportID.h; path = ../../../source/open/components/incopyexport/InCopyExportID.h; sourceTree = SOURCE_ROOT; };
+		4B05CA260883E36F00D809E1 /* InCopyExportPlugIn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyExportPlugIn.cpp; path = ../../../source/open/components/incopyexport/InCopyExportPlugIn.cpp; sourceTree = SOURCE_ROOT; };
+		4B05CA280883E37000D809E1 /* InCopyExportMWHacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = InCopyExportMWHacks.cpp; path = ../../../source/open/components/incopyexport/InCopyExportMWHacks.cpp; sourceTree = SOURCE_ROOT; };
+		4B05CA2B0883E37200D809E1 /* InCopyExport.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = InCopyExport.fr; path = ../../../source/open/components/incopyexport/resources/InCopyExport.fr; sourceTree = SOURCE_ROOT; };
+		4B05CA390883E37900D809E1 /* PluginPList.plc */ = {isa = PBXFileReference; lastKnownFileType = text; name = PluginPList.plc; path = ../../../source/open/components/resourcedefs/PluginPList.plc; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A8445015CFD032001D87F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8448615CFD075001D87F1 /* libPublicPlugIn.a in Frameworks */,
+				00A8448715CFD075001D87F1 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8446715CFD034001D87F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8448015CFD06F001D87F1 /* libPublicPlugIn.a in Frameworks */,
+				00A8448115CFD06F001D87F1 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A8444115CFD02E001D87F1 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				00A8447E15CFD06F001D87F1 /* libPublicPlugIn.a */,
+				00A8447F15CFD06F001D87F1 /* InDesignModel.framework */,
+				00A8444215CFD02E001D87F1 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		00A8444215CFD02E001D87F1 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				00A8448415CFD075001D87F1 /* libPublicPlugIn.a */,
+				00A8448515CFD075001D87F1 /* InDesignModel.framework */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		0B050A610883839D00D809E1 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				00A8444115CFD02E001D87F1 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		4B05CA040883E36600D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05CA1E0883E36600D809E1 /* Export Files */,
+				4B05CA230883E36D00D809E1 /* PlugIn */,
+				4B05CA270883E36F00D809E1 /* MWHacks */,
+				4B05CA290883E37000D809E1 /* Resources */,
+				4B05CA390883E37900D809E1 /* PluginPList.plc */,
+				0B050A610883839D00D809E1 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B05CA120883E36600D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05CA120883E36600D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A8445815CFD032001D87F1 /* InCopyExport.InDesignPlugin */,
+				00A8446F15CFD034001D87F1 /* InCopyExport.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B05CA1E0883E36600D809E1 /* Export Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B05CA1F0883E36A00D809E1 /* InCopyStoryExportProvider.cpp */,
+				4B05CA200883E36B00D809E1 /* InCopyStoryExportExtras.cpp */,
+				4B05CA210883E36C00D809E1 /* InCopyStoryExportSuiteASB.cpp */,
+				4B05CA220883E36D00D809E1 /* ICExportPrefsScriptProvider.cpp */,
+			);
+			name = "Export Files";
+			sourceTree = "<group>";
+		};
+		4B05CA230883E36D00D809E1 /* PlugIn */ = {
+			isa = PBXGroup;
+			children = (
+				4B05CA250883E36E00D809E1 /* InCopyExportID.h */,
+				4B05CA240883E36E00D809E1 /* InCopyExportID.cpp */,
+				4B05CA260883E36F00D809E1 /* InCopyExportPlugIn.cpp */,
+			);
+			name = PlugIn;
+			sourceTree = "<group>";
+		};
+		4B05CA270883E36F00D809E1 /* MWHacks */ = {
+			isa = PBXGroup;
+			children = (
+				4B05CA280883E37000D809E1 /* InCopyExportMWHacks.cpp */,
+			);
+			name = MWHacks;
+			sourceTree = "<group>";
+		};
+		4B05CA290883E37000D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B05CA2B0883E37200D809E1 /* InCopyExport.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2A06D8950DA16D71003D6BB9 /* _shared_build_settings/pluginOpen.xcconfig */,
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A8444515CFD032001D87F1 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A8445615CFD032001D87F1 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				00A8444615CFD032001D87F1 /* Sources */,
+				00A8445015CFD032001D87F1 /* Frameworks */,
+				00A8445115CFD032001D87F1 /* Rez */,
+				00A8445215CFD032001D87F1 /* Resources */,
+				00A8445315CFD032001D87F1 /* ShellScript */,
+			);
+			buildRules = (
+				00A8445415CFD032001D87F1 /* PBXBuildRule */,
+				00A8445515CFD032001D87F1 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = 00A8445815CFD032001D87F1 /* InCopyExport.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		00A8445C15CFD034001D87F1 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A8446D15CFD034001D87F1 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				00A8445D15CFD034001D87F1 /* Sources */,
+				00A8446715CFD034001D87F1 /* Frameworks */,
+				00A8446815CFD034001D87F1 /* Rez */,
+				00A8446915CFD034001D87F1 /* Resources */,
+				00A8446A15CFD034001D87F1 /* ShellScript */,
+			);
+			buildRules = (
+				00A8446B15CFD034001D87F1 /* PBXBuildRule */,
+				00A8446C15CFD034001D87F1 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = 00A8446F15CFD034001D87F1 /* InCopyExport.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05CA060883E36600D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05CA070883E36600D809E1 /* Build configuration list for PBXProject "InCopyExport.open" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05CA040883E36600D809E1;
+			productRefGroup = 4B05CA120883E36600D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A8444515CFD032001D87F1 /* Debug_Cocoa64 */,
+				00A8445C15CFD034001D87F1 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A8445215CFD032001D87F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8446915CFD034001D87F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372017ED993900CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		00A8445115CFD032001D87F1 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8446815CFD034001D87F1 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A8445315CFD032001D87F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		00A8446A15CFD034001D87F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A8444615CFD032001D87F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8444715CFD032001D87F1 /* InCopyExport.fr in Sources */,
+				00A8444915CFD032001D87F1 /* InCopyExportMWHacks.cpp in Sources */,
+				00A8444A15CFD032001D87F1 /* InCopyExportPlugIn.cpp in Sources */,
+				00A8444B15CFD032001D87F1 /* InCopyExportID.cpp in Sources */,
+				00A8444C15CFD032001D87F1 /* InCopyStoryExportProvider.cpp in Sources */,
+				00A8444D15CFD032001D87F1 /* InCopyStoryExportExtras.cpp in Sources */,
+				00A8444E15CFD032001D87F1 /* InCopyStoryExportSuiteASB.cpp in Sources */,
+				00A8444F15CFD032001D87F1 /* ICExportPrefsScriptProvider.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A8445D15CFD034001D87F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A8445E15CFD034001D87F1 /* InCopyExport.fr in Sources */,
+				00A8446015CFD034001D87F1 /* InCopyExportMWHacks.cpp in Sources */,
+				00A8446115CFD034001D87F1 /* InCopyExportPlugIn.cpp in Sources */,
+				00A8446215CFD034001D87F1 /* InCopyExportID.cpp in Sources */,
+				00A8446315CFD034001D87F1 /* InCopyStoryExportProvider.cpp in Sources */,
+				00A8446415CFD034001D87F1 /* InCopyStoryExportExtras.cpp in Sources */,
+				00A8446515CFD034001D87F1 /* InCopyStoryExportSuiteASB.cpp in Sources */,
+				00A8446615CFD034001D87F1 /* ICExportPrefsScriptProvider.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00A8445715CFD032001D87F1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		00A8446E15CFD034001D87F1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		4B05CA080883E36600D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A06D8950DA16D71003D6BB9 /* _shared_build_settings/pluginOpen.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_PLUGINS_DIR)/InCopyWorkflow";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					../../../source/public/components/publiclib/plugins,
+					../../../source/public/components/publiclib/files,
+					../../../source/public/components/publiclib/objectmodel,
+					../../../source/public/interfaces/incopy,
+					../../../source/public/interfaces/interactive,
+					../../../source/public/interfaces/tables,
+					../../../source/public/interfaces/workgroup,
+					../../../source/open/components/incopyexport,
+					../../../source/open/components/incopyimport,
+					../../../source/open/components/incopyexport/commands,
+					../../../source/open/components/incopyexport/includes,
+					../../../source/open/components/incopyexport/resources,
+					../../../source/private/interfaces/text,
+				);
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = InCopyExport;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A8445615CFD032001D87F1 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8445715CFD032001D87F1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		00A8446D15CFD034001D87F1 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A8446E15CFD034001D87F1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4B05CA070883E36600D809E1 /* Build configuration list for PBXProject "InCopyExport.open" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05CA080883E36600D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05CA060883E36600D809E1 /* Project object */;
+}
+

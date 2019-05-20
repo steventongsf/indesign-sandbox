@@ -1,0 +1,119 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/open/components/dynamicdocumentsui/resources/SWFPreviewPanelPng.fr $
+//  
+//  Owner: Yeming Liu
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#ifdef __ODFRC__
+
+#include "IconPNGDefs.h"
+#include "DynamicDocumentsUIDefs.h"
+
+resource PNGA(kSWFPreviewPaletteIconObsoleteRsrcID) "S_PL_Preview_N.png"
+resource PNGAD(kSWFPreviewPaletteIconObsoleteRsrcID) "S_PL_Preview_N_D.png"
+
+resource PNGA(kSWFPreviewPaletteIconRsrcID) "S_PL_PreviewSWF_N.png"
+resource PNGAD(kSWFPreviewPaletteIconRsrcID) "S_PL_PreviewSWF_N_D.png"
+
+resource PNGA(kSWFPreviewPlayIconRsrcID) "S_Play_Wi_N.png"
+resource PNGAD(kSWFPreviewPlayIconRsrcID) "S_Play_Wi_N_D.png"
+
+resource PNGA(kSWFPreviewStopIconRsrcID) "S_Stop_Wi_N.png"
+resource PNGAD(kSWFPreviewStopIconRsrcID) "S_Stop_Wi_N_D.png"
+
+resource PNGA(kSWFPreviousIconRsrcID) "S_SWFPrevious_Wi_N.png"
+resource PNGAD(kSWFPreviousIconRsrcID) "S_SWFPrevious_Wi_N_D.png"
+
+resource PNGA(kSWFNextIconRsrcID) "S_SWFNext_Wi_N.png"
+resource PNGAD(kSWFNextIconRsrcID) "S_SWFNext_Wi_N_D.png"
+
+resource PNGA(kSWFPreviewDocumentIconRsrcID) "S_Document_Wi_N.png"
+resource PNGAD(kSWFPreviewDocumentIconRsrcID) "S_Document_Wi_N_D.png"
+
+resource PNGA(kSWFPreviewSpreadIconRsrcID) "S_Spread_Wi_N.png"
+resource PNGAD(kSWFPreviewSpreadIconRsrcID) "S_Spread_Wi_N_D.png"
+
+resource PNGA(kSWFPreviewSelectionIconRsrcID) "S_PreviewItem_Wi_N.png"
+resource PNGAD(kSWFPreviewSelectionIconRsrcID) "S_PreviewItem_Wi_N_D.png"
+
+resource PNGA(kSWFPreviewWarningIconRsrcID) "S_Alert_Xs_N.png"
+
+// HiDPI
+resource PNGA(kSWFPreviewPaletteIconObsoleteRsrcID + kHIDPIIconOffset) "S_PL_Preview_N@2x.png"
+resource PNGAD(kSWFPreviewPaletteIconObsoleteRsrcID + kHIDPIIconOffset) "S_PL_Preview_N_D@2x.png"
+
+resource PNGA(kSWFPreviewPaletteIconRsrcID + kHIDPIIconOffset) "S_PL_PreviewSWF_N@2x.png"
+resource PNGAD(kSWFPreviewPaletteIconRsrcID + kHIDPIIconOffset) "S_PL_PreviewSWF_N_D@2x.png"
+
+resource PNGA(kSWFPreviewPlayIconRsrcID + kHIDPIIconOffset) "S_Play_Wi_N@2x.png"
+resource PNGAD(kSWFPreviewPlayIconRsrcID + kHIDPIIconOffset) "S_Play_Wi_N_D@2x.png"
+
+resource PNGA(kSWFPreviewStopIconRsrcID + kHIDPIIconOffset) "S_Stop_Wi_N@2x.png"
+resource PNGAD(kSWFPreviewStopIconRsrcID + kHIDPIIconOffset) "S_Stop_Wi_N_D@2x.png"
+
+resource PNGA(kSWFPreviousIconRsrcID + kHIDPIIconOffset) "S_SWFPrevious_Wi_N@2x.png"
+resource PNGAD(kSWFPreviousIconRsrcID + kHIDPIIconOffset) "S_SWFPrevious_Wi_N_D@2x.png"
+
+resource PNGA(kSWFNextIconRsrcID + kHIDPIIconOffset) "S_SWFNext_Wi_N@2x.png"
+resource PNGAD(kSWFNextIconRsrcID + kHIDPIIconOffset) "S_SWFNext_Wi_N_D@2x.png"
+
+resource PNGA(kSWFPreviewDocumentIconRsrcID + kHIDPIIconOffset) "S_Document_Wi_N@2x.png"
+resource PNGAD(kSWFPreviewDocumentIconRsrcID + kHIDPIIconOffset) "S_Document_Wi_N_D@2x.png"
+
+resource PNGA(kSWFPreviewSpreadIconRsrcID + kHIDPIIconOffset) "S_Spread_Wi_N@2x.png"
+resource PNGAD(kSWFPreviewSpreadIconRsrcID + kHIDPIIconOffset) "S_Spread_Wi_N_D@2x.png"
+
+resource PNGA(kSWFPreviewSelectionIconRsrcID + kHIDPIIconOffset) "S_PreviewItem_Wi_N@2x.png"
+resource PNGAD(kSWFPreviewSelectionIconRsrcID + kHIDPIIconOffset) "S_PreviewItem_Wi_N_D@2x.png"
+
+resource PNGA(kSWFPreviewWarningIconRsrcID + kHIDPIIconOffset) "S_Alert_Xs_N@2x.png"
+
+#ifdef WINDOWS
+resource PNGA(kSWFPreviewPaletteIconObsoleteRsrcID + kHIDPIIconOffset150) "S_PL_Preview_N@3to2x.png"
+resource PNGAD(kSWFPreviewPaletteIconObsoleteRsrcID + kHIDPIIconOffset150) "S_PL_Preview_N_D@3to2x.png"
+
+resource PNGA(kSWFPreviewPaletteIconRsrcID + kHIDPIIconOffset150) "S_PL_PreviewSWF_N@3to2x.png"
+resource PNGAD(kSWFPreviewPaletteIconRsrcID + kHIDPIIconOffset150) "S_PL_PreviewSWF_N_D@3to2x.png"
+
+resource PNGA(kSWFPreviewPlayIconRsrcID + kHIDPIIconOffset150) "S_Play_Wi_N@3to2x.png"
+resource PNGAD(kSWFPreviewPlayIconRsrcID + kHIDPIIconOffset150) "S_Play_Wi_N_D@3to2x.png"
+
+resource PNGA(kSWFPreviewStopIconRsrcID + kHIDPIIconOffset150) "S_Stop_Wi_N@3to2x.png"
+resource PNGAD(kSWFPreviewStopIconRsrcID + kHIDPIIconOffset150) "S_Stop_Wi_N_D@3to2x.png"
+
+resource PNGA(kSWFPreviousIconRsrcID + kHIDPIIconOffset150) "S_SWFPrevious_Wi_N@3to2x.png"
+resource PNGAD(kSWFPreviousIconRsrcID + kHIDPIIconOffset150) "S_SWFPrevious_Wi_N_D@3to2x.png"
+
+resource PNGA(kSWFNextIconRsrcID + kHIDPIIconOffset150) "S_SWFNext_Wi_N@3to2x.png"
+resource PNGAD(kSWFNextIconRsrcID + kHIDPIIconOffset150) "S_SWFNext_Wi_N_D@3to2x.png"
+
+resource PNGA(kSWFPreviewDocumentIconRsrcID + kHIDPIIconOffset150) "S_Document_Wi_N@3to2x.png"
+resource PNGAD(kSWFPreviewDocumentIconRsrcID + kHIDPIIconOffset150) "S_Document_Wi_N_D@3to2x.png"
+
+resource PNGA(kSWFPreviewSpreadIconRsrcID + kHIDPIIconOffset150) "S_Spread_Wi_N@3to2x.png"
+resource PNGAD(kSWFPreviewSpreadIconRsrcID + kHIDPIIconOffset150) "S_Spread_Wi_N_D@3to2x.png"
+
+resource PNGA(kSWFPreviewSelectionIconRsrcID + kHIDPIIconOffset150) "S_PreviewItem_Wi_N@3to2x.png"
+resource PNGAD(kSWFPreviewSelectionIconRsrcID + kHIDPIIconOffset150) "S_PreviewItem_Wi_N_D@3to2x.png"
+
+resource PNGA(kSWFPreviewWarningIconRsrcID + kHIDPIIconOffset150) "S_Alert_Xs_N@3to2x.png"
+#endif
+
+#endif

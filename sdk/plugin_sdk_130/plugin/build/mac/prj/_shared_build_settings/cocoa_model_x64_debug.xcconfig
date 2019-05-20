@@ -1,0 +1,10 @@
+// Common InDesign build settings for model targets (Cocoa x64 version)
+ID_BUILD_CONFIG_BASE_DEBUG_COCOA64 = YES
+
+#include "cocoa_common_debug.xcconfig"
+#include "cocoa_common.xcconfig"
+
+//Override the build folder sub path so all debug targets, use the release build folder. (important for projects with extra targets like the App projects)
+ID_BUILDFOLDER_SUBPATH = debug_cocoa64
+
+ARCHS = x86_64

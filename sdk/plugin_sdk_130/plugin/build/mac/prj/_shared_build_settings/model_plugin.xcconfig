@@ -1,0 +1,42 @@
+ID_BUILD_CONFIG_MODEL_PLUGIN = YES
+
+// InDesign plugin build settings (based on common build settings)
+#include "common.xcconfig"
+#include "common_private.xcconfig"
+
+// InDesign model plugin specific build settings
+
+// InDesign Build variables
+BUILT_APPLICATION_DIR = ../$(ID_BUILDFOLDER_SUBPATH)/packagefolder/contents/macos/
+TARGET_BUILD_DIR = $(BUILT_PRODUCTS_DIR)
+WRAPPER_EXTENSION = InDesignPlugin
+
+// Include search paths
+HEADER_SEARCH_PATHS = $(ID_COMMON_HEADER_SEARCH_PATHS) $(ID_PRIVATE_HEADER_SEARCH_PATHS) $(ID_SDK_ROOT)/external/afl/includes $(ID_SDK_ROOT)/external/bibxmp/include
+
+REZ_SEARCH_PATHS = $(ID_COMMON_REZ_SEARCH_PATHS) $(ID_SDK_ROOT)/external/palettes/** $(ID_ICONS_SEARCH_PATHS)
+
+// GCC flags
+GCC_ENABLE_SYMBOL_SEPARATION = YES
+GCC_PREFIX_HEADER = $(ID_SDK_ROOT)/source/precomp/gcc/PluginPrefix.pch
+GCC_WARN_UNUSED_VARIABLE = NO
+GCC_WARN_CHECK_SWITCH_STATEMENTS = NO
+
+// Linker Flags
+DEAD_CODE_STRIPPING = YES
+INSTALL_PATH = ./
+ONLY_LINK_ESSENTIAL_SYMBOLS = YES
+
+// plist compiler flags
+PLC_GENERATE_PKGINFO_FILE = YES
+PLC_OUTPUT_CREATOR = InDn
+PLC_OUTPUT_TYPE = ????
+
+// Misc flags
+ALWAYS_REZ = YES
+
+// Uncomment these two lines to see which deprecated API's we are using in our plugins
+// You can control ui plugins separately - see plugin.xcconfig
+//GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES
+//GCC_TREAT_WARNINGS_AS_ERRORS = NO  
+

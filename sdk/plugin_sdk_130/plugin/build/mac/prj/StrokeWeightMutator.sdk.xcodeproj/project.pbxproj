@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95724E715D0BEA300C95573 /* StrMut.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05025B088418D500D809E1 /* StrMut.fr */; };
+		F95724E815D0BEA300C95573 /* StrMutActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050254088418D200D809E1 /* StrMutActionComponent.cpp */; };
+		F95724E915D0BEA300C95573 /* StrMutNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050256088418D300D809E1 /* StrMutNoStrip.cpp */; };
+		F95724EA15D0BEA300C95573 /* StrMutID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050257088418D400D809E1 /* StrMutID.cpp */; };
+		F95724EB15D0BEA300C95573 /* SDKPluginEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050259088418D400D809E1 /* SDKPluginEntrypoint.cpp */; };
+		F95724EC15D0BEA300C95573 /* StrMutSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050251088418D000D809E1 /* StrMutSelectionObserver.cpp */; };
+		F95724ED15D0BEA300C95573 /* StrMutDiagnosticHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050252088418D000D809E1 /* StrMutDiagnosticHelper.cpp */; };
+		F95724F915D0BEA600C95573 /* StrMut.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05025B088418D500D809E1 /* StrMut.fr */; };
+		F95724FA15D0BEA600C95573 /* StrMutActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050254088418D200D809E1 /* StrMutActionComponent.cpp */; };
+		F95724FB15D0BEA600C95573 /* StrMutNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050256088418D300D809E1 /* StrMutNoStrip.cpp */; };
+		F95724FC15D0BEA600C95573 /* StrMutID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050257088418D400D809E1 /* StrMutID.cpp */; };
+		F95724FD15D0BEA600C95573 /* SDKPluginEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050259088418D400D809E1 /* SDKPluginEntrypoint.cpp */; };
+		F95724FE15D0BEA600C95573 /* StrMutSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050251088418D000D809E1 /* StrMutSelectionObserver.cpp */; };
+		F95724FF15D0BEA600C95573 /* StrMutDiagnosticHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B050252088418D000D809E1 /* StrMutDiagnosticHelper.cpp */; };
+		F957252E15D0BEDA00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957252C15D0BED400C95573 /* InDesignModelAndUI.framework */; };
+		F957252F15D0BEDA00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957252D15D0BED400C95573 /* libPublicPlugIn.a */; };
+		F957253015D0BEDE00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957252A15D0BED400C95573 /* InDesignModelAndUI.framework */; };
+		F957253115D0BEDE00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957252B15D0BED400C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95724F215D0BEA300C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957250415D0BEA600C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE74014094F90F300AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE74015094F90F300AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F834175DF29A00A71E17 /* StrMut_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = StrMut_enUS.fr; path = ../../../source/sdksamples/strokeweightmutator/StrMut_enUS.fr; sourceTree = "<group>"; };
+		3227F835175DF29A00A71E17 /* StrMut_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = StrMut_jaJP.fr; path = ../../../source/sdksamples/strokeweightmutator/StrMut_jaJP.fr; sourceTree = "<group>"; };
+		4B050251088418D000D809E1 /* StrMutSelectionObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StrMutSelectionObserver.cpp; path = ../../../source/sdksamples/strokeweightmutator/StrMutSelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B050252088418D000D809E1 /* StrMutDiagnosticHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StrMutDiagnosticHelper.cpp; path = ../../../source/sdksamples/strokeweightmutator/StrMutDiagnosticHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B050253088418D000D809E1 /* StrMutDiagnosticHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StrMutDiagnosticHelper.h; path = ../../../source/sdksamples/strokeweightmutator/StrMutDiagnosticHelper.h; sourceTree = SOURCE_ROOT; };
+		4B050254088418D200D809E1 /* StrMutActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StrMutActionComponent.cpp; path = ../../../source/sdksamples/strokeweightmutator/StrMutActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B050256088418D300D809E1 /* StrMutNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StrMutNoStrip.cpp; path = ../../../source/sdksamples/strokeweightmutator/StrMutNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B050257088418D400D809E1 /* StrMutID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StrMutID.cpp; path = ../../../source/sdksamples/strokeweightmutator/StrMutID.cpp; sourceTree = SOURCE_ROOT; };
+		4B050258088418D400D809E1 /* StrMutID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StrMutID.h; path = ../../../source/sdksamples/strokeweightmutator/StrMutID.h; sourceTree = SOURCE_ROOT; };
+		4B050259088418D400D809E1 /* SDKPluginEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPluginEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05025B088418D500D809E1 /* StrMut.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = StrMut.fr; path = ../../../source/sdksamples/strokeweightmutator/StrMut.fr; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F95724F515D0BEA300C95573 /* StrokeWeightMutator.sdk.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrokeWeightMutator.sdk.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F957250715D0BEA600C95573 /* StrokeWeightMutator.sdk.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrokeWeightMutator.sdk.InDesignPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F957252A15D0BED400C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957252B15D0BED400C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957252C15D0BED400C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957252D15D0BED400C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95724EE15D0BEA300C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957253015D0BEDE00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957253115D0BEDE00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957250015D0BEA600C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957252E15D0BEDA00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957252F15D0BEDA00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B050236088418CE00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B050250088418CE00D809E1 /* Source */,
+				4B05025A088418D400D809E1 /* Resources */,
+				F957252115D0BED400C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B050244088418CE00D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B050244088418CE00D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F95724F515D0BEA300C95573 /* StrokeWeightMutator.sdk.InDesignPlugin */,
+				F957250715D0BEA600C95573 /* StrokeWeightMutator.sdk.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B050250088418CE00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B050251088418D000D809E1 /* StrMutSelectionObserver.cpp */,
+				4B050253088418D000D809E1 /* StrMutDiagnosticHelper.h */,
+				4B050252088418D000D809E1 /* StrMutDiagnosticHelper.cpp */,
+				4B050254088418D200D809E1 /* StrMutActionComponent.cpp */,
+				4B050255088418D200D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B050255088418D200D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B050256088418D300D809E1 /* StrMutNoStrip.cpp */,
+				4B050258088418D400D809E1 /* StrMutID.h */,
+				4B050257088418D400D809E1 /* StrMutID.cpp */,
+				4B050259088418D400D809E1 /* SDKPluginEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05025A088418D400D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F834175DF29A00A71E17 /* StrMut_enUS.fr */,
+				3227F835175DF29A00A71E17 /* StrMut_jaJP.fr */,
+				4B05025B088418D500D809E1 /* StrMut.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE74014094F90F300AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE74015094F90F300AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957252115D0BED400C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957252815D0BED400C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957252815D0BED400C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957252C15D0BED400C95573 /* InDesignModelAndUI.framework */,
+				F957252D15D0BED400C95573 /* libPublicPlugIn.a */,
+				F957252915D0BED400C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957252915D0BED400C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957252A15D0BED400C95573 /* InDesignModelAndUI.framework */,
+				F957252B15D0BED400C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95724E515D0BEA300C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95724F315D0BEA300C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95724E615D0BEA300C95573 /* Sources */,
+				F95724EE15D0BEA300C95573 /* Frameworks */,
+				F95724EF15D0BEA300C95573 /* Rez */,
+				F95724F015D0BEA300C95573 /* Resources */,
+				F95724F115D0BEA300C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95724F215D0BEA300C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = F95724F515D0BEA300C95573 /* StrokeWeightMutator.sdk.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		F95724F715D0BEA600C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957250515D0BEA600C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95724F815D0BEA600C95573 /* Sources */,
+				F957250015D0BEA600C95573 /* Frameworks */,
+				F957250115D0BEA600C95573 /* Rez */,
+				F957250215D0BEA600C95573 /* Resources */,
+				F957250315D0BEA600C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957250415D0BEA600C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = F957250715D0BEA600C95573 /* StrokeWeightMutator.sdk.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B050238088418CE00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B050239088418CE00D809E1 /* Build configuration list for PBXProject "StrokeWeightMutator.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B050236088418CE00D809E1;
+			productRefGroup = 4B050244088418CE00D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95724E515D0BEA300C95573 /* Debug_Cocoa64 */,
+				F95724F715D0BEA600C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95724F015D0BEA300C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957250215D0BEA600C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95724EF15D0BEA300C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957250115D0BEA600C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95724F115D0BEA300C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957250315D0BEA600C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95724E615D0BEA300C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95724E715D0BEA300C95573 /* StrMut.fr in Sources */,
+				F95724E815D0BEA300C95573 /* StrMutActionComponent.cpp in Sources */,
+				F95724E915D0BEA300C95573 /* StrMutNoStrip.cpp in Sources */,
+				F95724EA15D0BEA300C95573 /* StrMutID.cpp in Sources */,
+				F95724EB15D0BEA300C95573 /* SDKPluginEntrypoint.cpp in Sources */,
+				F95724EC15D0BEA300C95573 /* StrMutSelectionObserver.cpp in Sources */,
+				F95724ED15D0BEA300C95573 /* StrMutDiagnosticHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95724F815D0BEA600C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95724F915D0BEA600C95573 /* StrMut.fr in Sources */,
+				F95724FA15D0BEA600C95573 /* StrMutActionComponent.cpp in Sources */,
+				F95724FB15D0BEA600C95573 /* StrMutNoStrip.cpp in Sources */,
+				F95724FC15D0BEA600C95573 /* StrMutID.cpp in Sources */,
+				F95724FD15D0BEA600C95573 /* SDKPluginEntrypoint.cpp in Sources */,
+				F95724FE15D0BEA600C95573 /* StrMutSelectionObserver.cpp in Sources */,
+				F95724FF15D0BEA600C95573 /* StrMutDiagnosticHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05023A088418CE00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = StrokeWeightMutator.sdk;
+			};
+			name = Default;
+		};
+		F95724F415D0BEA300C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F957250615D0BEA600C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B050239088418CE00D809E1 /* Build configuration list for PBXProject "StrokeWeightMutator.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05023A088418CE00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95724F315D0BEA300C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95724F415D0BEA300C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957250515D0BEA600C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957250615D0BEA600C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B050238088418CE00D809E1 /* Project object */;
+}

@@ -1,0 +1,50 @@
+<DIALOG_TRANSFORMATION>
+	<TESTLETTE_FILE_FORMAT FORMAT="2.000000">
+	</TESTLETTE_FILE_FORMAT>
+  <XFORM>
+    <INST_NAME>Any</INST_NAME>
+    <XFORM_BUILD>
+      <BUILD_NUMBER>270</BUILD_NUMBER>
+      <PRODUCT_VERS>5.0</PRODUCT_VERS>
+    </XFORM_BUILD>
+    <KEY>Dialogs And Panels Actions</KEY>
+    <WIDGET_XFORM TYPE="SOURCED">
+      <ID>
+        <KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+        <KEY_VALUE>113168</KEY_VALUE>
+      </ID>
+      <ID>
+        <KEY_TOKEN>VALUE</KEY_TOKEN>
+        <KEY_VALUE>ObjStylesDropShadowPanelName</KEY_VALUE>
+      </ID>
+      <NEW_INFO FILE="aat:required:xform_sources:ObjStylesOpts.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </NEW_INFO>
+      <OLD_INFO FILE="aat:required:xform_sources:ObjStylesOptsRev.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </OLD_INFO>
+      <RESPONSE>
+        <TYPE>REPLACE</TYPE>
+        <NEW_ID>24</NEW_ID>
+        <OLD_ID>445</OLD_ID>
+      </RESPONSE>
+    </WIDGET_XFORM>
+    <WIDGET_XFORM TYPE="SOURCED">
+      <ID>
+        <KEY_TOKEN>WIDGET_ID</KEY_TOKEN>
+        <KEY_VALUE>113168</KEY_VALUE>
+      </ID>
+      <ID>
+        <KEY_TOKEN>VALUE</KEY_TOKEN>
+        <KEY_VALUE>ObjStylesTransparencyPanelName</KEY_VALUE>
+      </ID>
+      <NEW_INFO FILE="aat:required:xform_sources:ObjStylesOpts.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </NEW_INFO>
+      <OLD_INFO FILE="aat:required:xform_sources:ObjStylesOptsRev.xml" FILE_RELATIVE_TO="qa_folder" TYPE="QAFile">
+      </OLD_INFO>
+      <RESPONSE>
+        <TYPE>REPLACE</TYPE>
+        <NEW_ID>67</NEW_ID>
+        <OLD_ID>537</OLD_ID>
+      </RESPONSE>
+    </WIDGET_XFORM>
+  </XFORM>
+</DIALOG_TRANSFORMATION>

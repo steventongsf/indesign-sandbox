@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9571B3115CFC6BB00C95573 /* HidTxt.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA360884159D00D809E1 /* HidTxt.fr */; };
+		F9571B3215CFC6BB00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA2D0884159600D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571B3315CFC6BB00C95573 /* HidTxtModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA130884158600D809E1 /* HidTxtModel.cpp */; };
+		F9571B3415CFC6BB00C95573 /* HidTxtStoryThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA140884158700D809E1 /* HidTxtStoryThread.cpp */; };
+		F9571B3515CFC6BB00C95573 /* HidTxtStoryThreadDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA150884158700D809E1 /* HidTxtStoryThreadDict.cpp */; };
+		F9571B3615CFC6BB00C95573 /* HidTxtOwnedItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA160884158800D809E1 /* HidTxtOwnedItem.cpp */; };
+		F9571B3715CFC6BB00C95573 /* HidTxtAnchorTextAdornment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA170884158900D809E1 /* HidTxtAnchorTextAdornment.cpp */; };
+		F9571B3815CFC6BB00C95573 /* HidTxtMemento.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA180884158A00D809E1 /* HidTxtMemento.cpp */; };
+		F9571B3915CFC6BB00C95573 /* HidTxtParcelList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA190884158B00D809E1 /* HidTxtParcelList.cpp */; };
+		F9571B3A15CFC6BB00C95573 /* HidTxtParcelListData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1A0884158C00D809E1 /* HidTxtParcelListData.cpp */; };
+		F9571B3B15CFC6BB00C95573 /* HidTxtParcelListComposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1B0884158D00D809E1 /* HidTxtParcelListComposer.cpp */; };
+		F9571B3C15CFC6BB00C95573 /* HidTxtModelCreateCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1D0884158D00D809E1 /* HidTxtModelCreateCmd.cpp */; };
+		F9571B3D15CFC6BB00C95573 /* HidTxtModelModifyTextCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1E0884158E00D809E1 /* HidTxtModelModifyTextCmd.cpp */; };
+		F9571B3E15CFC6BB00C95573 /* HidTxtModelCopyCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1F0884158F00D809E1 /* HidTxtModelCopyCmd.cpp */; };
+		F9571B3F15CFC6BB00C95573 /* HidTxtModelDeleteCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA200884159000D809E1 /* HidTxtModelDeleteCmd.cpp */; };
+		F9571B4015CFC6BB00C95573 /* HidTxtCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA220884159100D809E1 /* HidTxtCommands.cpp */; };
+		F9571B4115CFC6BB00C95573 /* HidTxtFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA240884159200D809E1 /* HidTxtFacade.cpp */; };
+		F9571B4215CFC6BB00C95573 /* HidTxtSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA270884159200D809E1 /* HidTxtSuiteTextCSB.cpp */; };
+		F9571B4315CFC6BB00C95573 /* HidTxtSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA280884159300D809E1 /* HidTxtSuiteASB.cpp */; };
+		F9571B4415CFC6BB00C95573 /* HidTxtNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA2A0884159400D809E1 /* HidTxtNoStrip.cpp */; };
+		F9571B4515CFC6BB00C95573 /* HidTxtID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA2B0884159500D809E1 /* HidTxtID.cpp */; };
+		F9571B4615CFC6BB00C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675BEB4608D2482A00E22277 /* SDKFileHelper.cpp */; };
+		F9571B4915CFC6BB00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FA370884159E00D809E1 /* SDKResources.r */; };
+		F9571B5315CFC6BD00C95573 /* HidTxt.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA360884159D00D809E1 /* HidTxt.fr */; };
+		F9571B5415CFC6BD00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA2D0884159600D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571B5515CFC6BD00C95573 /* HidTxtModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA130884158600D809E1 /* HidTxtModel.cpp */; };
+		F9571B5615CFC6BD00C95573 /* HidTxtStoryThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA140884158700D809E1 /* HidTxtStoryThread.cpp */; };
+		F9571B5715CFC6BD00C95573 /* HidTxtStoryThreadDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA150884158700D809E1 /* HidTxtStoryThreadDict.cpp */; };
+		F9571B5815CFC6BD00C95573 /* HidTxtOwnedItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA160884158800D809E1 /* HidTxtOwnedItem.cpp */; };
+		F9571B5915CFC6BD00C95573 /* HidTxtAnchorTextAdornment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA170884158900D809E1 /* HidTxtAnchorTextAdornment.cpp */; };
+		F9571B5A15CFC6BD00C95573 /* HidTxtMemento.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA180884158A00D809E1 /* HidTxtMemento.cpp */; };
+		F9571B5B15CFC6BD00C95573 /* HidTxtParcelList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA190884158B00D809E1 /* HidTxtParcelList.cpp */; };
+		F9571B5C15CFC6BD00C95573 /* HidTxtParcelListData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1A0884158C00D809E1 /* HidTxtParcelListData.cpp */; };
+		F9571B5D15CFC6BD00C95573 /* HidTxtParcelListComposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1B0884158D00D809E1 /* HidTxtParcelListComposer.cpp */; };
+		F9571B5E15CFC6BD00C95573 /* HidTxtModelCreateCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1D0884158D00D809E1 /* HidTxtModelCreateCmd.cpp */; };
+		F9571B5F15CFC6BD00C95573 /* HidTxtModelModifyTextCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1E0884158E00D809E1 /* HidTxtModelModifyTextCmd.cpp */; };
+		F9571B6015CFC6BD00C95573 /* HidTxtModelCopyCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA1F0884158F00D809E1 /* HidTxtModelCopyCmd.cpp */; };
+		F9571B6115CFC6BD00C95573 /* HidTxtModelDeleteCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA200884159000D809E1 /* HidTxtModelDeleteCmd.cpp */; };
+		F9571B6215CFC6BD00C95573 /* HidTxtCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA220884159100D809E1 /* HidTxtCommands.cpp */; };
+		F9571B6315CFC6BD00C95573 /* HidTxtFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA240884159200D809E1 /* HidTxtFacade.cpp */; };
+		F9571B6415CFC6BD00C95573 /* HidTxtSuiteTextCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA270884159200D809E1 /* HidTxtSuiteTextCSB.cpp */; };
+		F9571B6515CFC6BD00C95573 /* HidTxtSuiteASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA280884159300D809E1 /* HidTxtSuiteASB.cpp */; };
+		F9571B6615CFC6BD00C95573 /* HidTxtNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA2A0884159400D809E1 /* HidTxtNoStrip.cpp */; };
+		F9571B6715CFC6BD00C95573 /* HidTxtID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FA2B0884159500D809E1 /* HidTxtID.cpp */; };
+		F9571B6815CFC6BD00C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675BEB4608D2482A00E22277 /* SDKFileHelper.cpp */; };
+		F9571B6B15CFC6BD00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FA370884159E00D809E1 /* SDKResources.r */; };
+		F9571B7515CFC7A000C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571B2C15CFC6B500C95573 /* InDesignModel.framework */; };
+		F9571B7615CFC7A000C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571B2D15CFC6B500C95573 /* libPublicPlugIn.a */; };
+		F9571B7715CFC7A600C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571B2A15CFC6B500C95573 /* InDesignModel.framework */; };
+		F9571B7815CFC7A600C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571B2B15CFC6B500C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9571B4C15CFC6BB00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9571B6E15CFC6BD00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73E39094F8B8C00AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73E3A094F8B8C00AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F810175DF0E000A71E17 /* HidTxt_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = HidTxt_enUS.fr; path = ../../../source/sdksamples/hiddentext/HidTxt_enUS.fr; sourceTree = "<group>"; };
+		3227F811175DF0E000A71E17 /* HidTxt_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = HidTxt_jaJP.fr; path = ../../../source/sdksamples/hiddentext/HidTxt_jaJP.fr; sourceTree = "<group>"; };
+		4B05FA130884158600D809E1 /* HidTxtModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtModel.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtModel.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA140884158700D809E1 /* HidTxtStoryThread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtStoryThread.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtStoryThread.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA150884158700D809E1 /* HidTxtStoryThreadDict.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtStoryThreadDict.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtStoryThreadDict.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA160884158800D809E1 /* HidTxtOwnedItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtOwnedItem.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtOwnedItem.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA170884158900D809E1 /* HidTxtAnchorTextAdornment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtAnchorTextAdornment.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtAnchorTextAdornment.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA180884158A00D809E1 /* HidTxtMemento.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtMemento.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtMemento.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA190884158B00D809E1 /* HidTxtParcelList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtParcelList.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtParcelList.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA1A0884158C00D809E1 /* HidTxtParcelListData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtParcelListData.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtParcelListData.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA1B0884158D00D809E1 /* HidTxtParcelListComposer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtParcelListComposer.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtParcelListComposer.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA1D0884158D00D809E1 /* HidTxtModelCreateCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtModelCreateCmd.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtModelCreateCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA1E0884158E00D809E1 /* HidTxtModelModifyTextCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtModelModifyTextCmd.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtModelModifyTextCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA1F0884158F00D809E1 /* HidTxtModelCopyCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtModelCopyCmd.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtModelCopyCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA200884159000D809E1 /* HidTxtModelDeleteCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtModelDeleteCmd.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtModelDeleteCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA220884159100D809E1 /* HidTxtCommands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtCommands.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtCommands.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA230884159100D809E1 /* HidTxtCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HidTxtCommands.h; path = ../../../source/sdksamples/hiddentext/HidTxtCommands.h; sourceTree = SOURCE_ROOT; };
+		4B05FA240884159200D809E1 /* HidTxtFacade.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtFacade.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtFacade.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA250884159200D809E1 /* HidTxtFacade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HidTxtFacade.h; path = ../../../source/sdksamples/hiddentext/HidTxtFacade.h; sourceTree = SOURCE_ROOT; };
+		4B05FA270884159200D809E1 /* HidTxtSuiteTextCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtSuiteTextCSB.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtSuiteTextCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA280884159300D809E1 /* HidTxtSuiteASB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtSuiteASB.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtSuiteASB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA2A0884159400D809E1 /* HidTxtNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtNoStrip.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA2B0884159500D809E1 /* HidTxtID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtID.cpp; path = ../../../source/sdksamples/hiddentext/HidTxtID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA2C0884159500D809E1 /* HidTxtID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HidTxtID.h; path = ../../../source/sdksamples/hiddentext/HidTxtID.h; sourceTree = SOURCE_ROOT; };
+		4B05FA2D0884159600D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FA320884159B00D809E1 /* HidTxtFactoryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HidTxtFactoryList.h; path = ../../../source/sdksamples/hiddentext/HidTxtFactoryList.h; sourceTree = SOURCE_ROOT; };
+		4B05FA330884159C00D809E1 /* IHidTxtSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IHidTxtSuite.h; path = ../../../source/sdksamples/hiddentext/IHidTxtSuite.h; sourceTree = SOURCE_ROOT; };
+		4B05FA340884159D00D809E1 /* IHidTxtModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IHidTxtModel.h; path = ../../../source/sdksamples/hiddentext/IHidTxtModel.h; sourceTree = SOURCE_ROOT; };
+		4B05FA360884159D00D809E1 /* HidTxt.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = HidTxt.fr; path = ../../../source/sdksamples/hiddentext/HidTxt.fr; sourceTree = SOURCE_ROOT; };
+		4B05FA370884159E00D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		675BEB4608D2482A00E22277 /* SDKFileHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SDKFileHelper.cpp; path = ../../../source/sdksamples/common/SDKFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		675BEB4708D2482A00E22277 /* SDKFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDKFileHelper.h; path = ../../../source/sdksamples/common/SDKFileHelper.h; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F9571B2A15CFC6B500C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9571B2B15CFC6B500C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9571B2C15CFC6B500C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9571B2D15CFC6B500C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9571B4715CFC6BB00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571B7715CFC7A600C95573 /* InDesignModel.framework in Frameworks */,
+				F9571B7815CFC7A600C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571B6915CFC6BD00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571B7515CFC7A000C95573 /* InDesignModel.framework in Frameworks */,
+				F9571B7615CFC7A000C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F9F70884158300D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05FA110884158400D809E1 /* Source */,
+				4B05FA310884159800D809E1 /* Headers */,
+				4B05FA350884159D00D809E1 /* Resources */,
+				F9571B2115CFC6B500C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05FA110884158400D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FA120884158400D809E1 /* Model */,
+				4B05FA1C0884158D00D809E1 /* Commands */,
+				4B05FA210884159000D809E1 /* Helpers */,
+				4B05FA260884159200D809E1 /* Suite */,
+				4B05FA290884159300D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05FA120884158400D809E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FA130884158600D809E1 /* HidTxtModel.cpp */,
+				4B05FA140884158700D809E1 /* HidTxtStoryThread.cpp */,
+				4B05FA150884158700D809E1 /* HidTxtStoryThreadDict.cpp */,
+				4B05FA160884158800D809E1 /* HidTxtOwnedItem.cpp */,
+				4B05FA170884158900D809E1 /* HidTxtAnchorTextAdornment.cpp */,
+				4B05FA180884158A00D809E1 /* HidTxtMemento.cpp */,
+				4B05FA190884158B00D809E1 /* HidTxtParcelList.cpp */,
+				4B05FA1A0884158C00D809E1 /* HidTxtParcelListData.cpp */,
+				4B05FA1B0884158D00D809E1 /* HidTxtParcelListComposer.cpp */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4B05FA1C0884158D00D809E1 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FA1D0884158D00D809E1 /* HidTxtModelCreateCmd.cpp */,
+				4B05FA1E0884158E00D809E1 /* HidTxtModelModifyTextCmd.cpp */,
+				4B05FA1F0884158F00D809E1 /* HidTxtModelCopyCmd.cpp */,
+				4B05FA200884159000D809E1 /* HidTxtModelDeleteCmd.cpp */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		4B05FA210884159000D809E1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FA230884159100D809E1 /* HidTxtCommands.h */,
+				4B05FA220884159100D809E1 /* HidTxtCommands.cpp */,
+				4B05FA250884159200D809E1 /* HidTxtFacade.h */,
+				4B05FA240884159200D809E1 /* HidTxtFacade.cpp */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		4B05FA260884159200D809E1 /* Suite */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FA270884159200D809E1 /* HidTxtSuiteTextCSB.cpp */,
+				4B05FA280884159300D809E1 /* HidTxtSuiteASB.cpp */,
+			);
+			name = Suite;
+			sourceTree = "<group>";
+		};
+		4B05FA290884159300D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				675BEB4608D2482A00E22277 /* SDKFileHelper.cpp */,
+				675BEB4708D2482A00E22277 /* SDKFileHelper.h */,
+				4B05FA2A0884159400D809E1 /* HidTxtNoStrip.cpp */,
+				4B05FA2C0884159500D809E1 /* HidTxtID.h */,
+				4B05FA2B0884159500D809E1 /* HidTxtID.cpp */,
+				4B05FA2D0884159600D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05FA310884159800D809E1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FA320884159B00D809E1 /* HidTxtFactoryList.h */,
+				4B05FA330884159C00D809E1 /* IHidTxtSuite.h */,
+				4B05FA340884159D00D809E1 /* IHidTxtModel.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		4B05FA350884159D00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F810175DF0E000A71E17 /* HidTxt_enUS.fr */,
+				3227F811175DF0E000A71E17 /* HidTxt_jaJP.fr */,
+				4B05FA360884159D00D809E1 /* HidTxt.fr */,
+				4B05FA370884159E00D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73E39094F8B8C00AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73E3A094F8B8C00AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9571B2115CFC6B500C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9571B2815CFC6B500C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9571B2815CFC6B500C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9571B2C15CFC6B500C95573 /* InDesignModel.framework */,
+				F9571B2D15CFC6B500C95573 /* libPublicPlugIn.a */,
+				F9571B2915CFC6B500C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9571B2915CFC6B500C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9571B2A15CFC6B500C95573 /* InDesignModel.framework */,
+				F9571B2B15CFC6B500C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9571B2F15CFC6BB00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571B4D15CFC6BB00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9571B3015CFC6BB00C95573 /* Sources */,
+				F9571B4715CFC6BB00C95573 /* Frameworks */,
+				F9571B4815CFC6BB00C95573 /* Rez */,
+				F9571B4A15CFC6BB00C95573 /* Resources */,
+				F9571B4B15CFC6BB00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571B4C15CFC6BB00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9571B5115CFC6BD00C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571B6F15CFC6BD00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9571B5215CFC6BD00C95573 /* Sources */,
+				F9571B6915CFC6BD00C95573 /* Frameworks */,
+				F9571B6A15CFC6BD00C95573 /* Rez */,
+				F9571B6C15CFC6BD00C95573 /* Resources */,
+				F9571B6D15CFC6BD00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571B6E15CFC6BD00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F9F90884158400D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05F9FA0884158400D809E1 /* Build configuration list for PBXProject "HiddenText.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F9F70884158300D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9571B2F15CFC6BB00C95573 /* Debug_Cocoa64 */,
+				F9571B5115CFC6BD00C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9571B4A15CFC6BB00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571B6C15CFC6BD00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9571B4815CFC6BB00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571B4915CFC6BB00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571B6A15CFC6BD00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571B6B15CFC6BD00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9571B4B15CFC6BB00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9571B6D15CFC6BD00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9571B3015CFC6BB00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571B3115CFC6BB00C95573 /* HidTxt.fr in Sources */,
+				F9571B3215CFC6BB00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571B3315CFC6BB00C95573 /* HidTxtModel.cpp in Sources */,
+				F9571B3415CFC6BB00C95573 /* HidTxtStoryThread.cpp in Sources */,
+				F9571B3515CFC6BB00C95573 /* HidTxtStoryThreadDict.cpp in Sources */,
+				F9571B3615CFC6BB00C95573 /* HidTxtOwnedItem.cpp in Sources */,
+				F9571B3715CFC6BB00C95573 /* HidTxtAnchorTextAdornment.cpp in Sources */,
+				F9571B3815CFC6BB00C95573 /* HidTxtMemento.cpp in Sources */,
+				F9571B3915CFC6BB00C95573 /* HidTxtParcelList.cpp in Sources */,
+				F9571B3A15CFC6BB00C95573 /* HidTxtParcelListData.cpp in Sources */,
+				F9571B3B15CFC6BB00C95573 /* HidTxtParcelListComposer.cpp in Sources */,
+				F9571B3C15CFC6BB00C95573 /* HidTxtModelCreateCmd.cpp in Sources */,
+				F9571B3D15CFC6BB00C95573 /* HidTxtModelModifyTextCmd.cpp in Sources */,
+				F9571B3E15CFC6BB00C95573 /* HidTxtModelCopyCmd.cpp in Sources */,
+				F9571B3F15CFC6BB00C95573 /* HidTxtModelDeleteCmd.cpp in Sources */,
+				F9571B4015CFC6BB00C95573 /* HidTxtCommands.cpp in Sources */,
+				F9571B4115CFC6BB00C95573 /* HidTxtFacade.cpp in Sources */,
+				F9571B4215CFC6BB00C95573 /* HidTxtSuiteTextCSB.cpp in Sources */,
+				F9571B4315CFC6BB00C95573 /* HidTxtSuiteASB.cpp in Sources */,
+				F9571B4415CFC6BB00C95573 /* HidTxtNoStrip.cpp in Sources */,
+				F9571B4515CFC6BB00C95573 /* HidTxtID.cpp in Sources */,
+				F9571B4615CFC6BB00C95573 /* SDKFileHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571B5215CFC6BD00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571B5315CFC6BD00C95573 /* HidTxt.fr in Sources */,
+				F9571B5415CFC6BD00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571B5515CFC6BD00C95573 /* HidTxtModel.cpp in Sources */,
+				F9571B5615CFC6BD00C95573 /* HidTxtStoryThread.cpp in Sources */,
+				F9571B5715CFC6BD00C95573 /* HidTxtStoryThreadDict.cpp in Sources */,
+				F9571B5815CFC6BD00C95573 /* HidTxtOwnedItem.cpp in Sources */,
+				F9571B5915CFC6BD00C95573 /* HidTxtAnchorTextAdornment.cpp in Sources */,
+				F9571B5A15CFC6BD00C95573 /* HidTxtMemento.cpp in Sources */,
+				F9571B5B15CFC6BD00C95573 /* HidTxtParcelList.cpp in Sources */,
+				F9571B5C15CFC6BD00C95573 /* HidTxtParcelListData.cpp in Sources */,
+				F9571B5D15CFC6BD00C95573 /* HidTxtParcelListComposer.cpp in Sources */,
+				F9571B5E15CFC6BD00C95573 /* HidTxtModelCreateCmd.cpp in Sources */,
+				F9571B5F15CFC6BD00C95573 /* HidTxtModelModifyTextCmd.cpp in Sources */,
+				F9571B6015CFC6BD00C95573 /* HidTxtModelCopyCmd.cpp in Sources */,
+				F9571B6115CFC6BD00C95573 /* HidTxtModelDeleteCmd.cpp in Sources */,
+				F9571B6215CFC6BD00C95573 /* HidTxtCommands.cpp in Sources */,
+				F9571B6315CFC6BD00C95573 /* HidTxtFacade.cpp in Sources */,
+				F9571B6415CFC6BD00C95573 /* HidTxtSuiteTextCSB.cpp in Sources */,
+				F9571B6515CFC6BD00C95573 /* HidTxtSuiteASB.cpp in Sources */,
+				F9571B6615CFC6BD00C95573 /* HidTxtNoStrip.cpp in Sources */,
+				F9571B6715CFC6BD00C95573 /* HidTxtID.cpp in Sources */,
+				F9571B6815CFC6BD00C95573 /* SDKFileHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F9FB0884158400D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = HiddenText.sdk;
+			};
+			name = Default;
+		};
+		F9571B4E15CFC6BB00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F9571B7015CFC6BD00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F9FA0884158400D809E1 /* Build configuration list for PBXProject "HiddenText.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F9FB0884158400D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9571B4D15CFC6BB00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571B4E15CFC6BB00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9571B6F15CFC6BD00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571B7015CFC6BD00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F9F90884158400D809E1 /* Project object */;
+}

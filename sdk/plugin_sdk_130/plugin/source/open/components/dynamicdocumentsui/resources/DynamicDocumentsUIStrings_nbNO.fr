@@ -1,0 +1,347 @@
+//========================================================================================
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "StringTable.fh"
+
+#ifdef __ODFRC__
+
+//========================================================================================
+// English strings
+//========================================================================================
+
+resource StringTable (kDynamicDocumentsUIStringsRsrcID + index_nbNO)
+{
+	k_nbNO,									// Locale Id
+	kResourceUTF8Encoded,		// Character encoding converter
+	
+	{
+		// ----- Command strings
+
+		// ----- Window strings
+
+		// ----- Panel strings
+		"kPageTransitionsPanelPopup",			"Panelmeny for sideoverganger",    
+		"kPageTransitionsSubMenu",				"&Sideoverganger",
+		"kPageTransitionsPanelName",			"Sideoverganger",	   
+		"kPageTransitionStaticText",			"Overgang: ",
+		"kPageDirectionStaticText",				"Retning: ",
+		"kPageSpeedStaticText",					"Hastighet: ",
+        "kPTHorizontal",						"Horisontal",
+        "kPTVertical",							"Vertikal",
+        "kPTIn",								"Innover",
+        "kPTOut",								"Utover",
+        "kPTDown",								"Ned",
+        "kPTLeft",								"Venstre",
+        "kPTLeftDown",							"Venstre ned",
+        "kPTLeftUp",							"Venstre opp",
+        "kPTRight",								"Høyre",
+        "kPTRightDown",							"Høyre ned",
+        "kPTRightUp",							"Høyre opp",
+        "kPTUp",								"Opp",
+        "kPTHorizontalIn",						"Horisontalt inn",
+        "kPTHorizontalOut",						"Horisontalt ut",
+        "kPTVerticalIn",						"Vertikalt inn",
+        "kPTVerticalOut",						"Vertikalt ut",
+        "kPTSlow",								"Langsom",
+		"kPTMedium",							"Middels",
+		"kPTFast",								"Rask",		
+		"kPTNoTransition",						"Ingen",	
+				
+		// ----- SWF preview panel
+		"kSWFPreviewPanelPopup",				"Panelmeny for SWF-forhåndsvisning",    
+		"kSWFPreviewSubMenu",					"SWF-forhånd&svisning",
+		"kSWFPreviewPanelName",					"SWF-forhåndsvisning",	
+		"kSWFPreviewDocumentButtonTip",			"Angi modus for å forhåndsvise dokument",
+		"kSWFPreviewSpreadButtonTip",			"Angi modus for å forhåndsvise oppslag",
+		"kSWFPreviewSelectionButtonTip",		"Angi modus for å forhåndsvise merket område",
+		"kSWFPreviewSelection",					"Forhåndsvis merket område",
+		"kSWFPreviewSpread",					"Forhåndsvis oppslag: SWF",
+		"kSWFPreviewDocument",					"Forhåndsvis dokument",
+		"kSWFPreviewPanelSaveSettings",			"Rediger forhåndsvisningsinnstillinger...",
+		"kSWFTestInBrowser",					"Test i nettleser...",
+		"kSWFPreviewCurrentPageTip",			"Gjeldende side",
+		"kSWFPreviewPreviousButtonTip",			"Gå til forrige side",
+		"kSWFPreviewNextButtonTip",				"Gå til neste side",
+		"kSWFPreviewWarningTip1",				"Kan ikke forhåndsvise interaktivitet. Bare utseende er merket i dialogboksen Forhåndsvisningsinnstillinger.",
+		"kSWFPreviewWarningTip2",				"En koblet fil mangler eller er ikke kompatibel med Flash Player.",
+		"kSWFPreviewPlayButtonTipWin",				"Spill av forhåndsvisning (Alt + klikk for å spille av forhåndsvisning på nytt)",
+		"kSWFPreviewPlayButtonTipMac",				"Spill av forhåndsvisning (Tilvalg + klikk for å spille av forhåndsvisning på nytt)",
+		"kSWFPreviewStopButtonTip",				"Fjern forhåndsvisning",
+        "kSaveButtonString",					"Lagre innst.",
+        "kPreviewSettings",						"Forhåndsvisningsinnstillinger",   
+        "kStatusSeparatorStr",					": ";
+        "kPagePrefixString",					"Side ",    
+        "kMasterPagePrefixString",				"Malside ",
+        "kSWFPreviewSpreadToolTipPrefix",		" (",
+        "kSWFPreviewSpreadToolTipSuffix",		")",
+              		
+		// ----- Liquid Layout panel
+		"kLiquidLayoutMenu",					"F&lytende layout",
+		"kLiquidLayoutPanelPopup",				"Panelmeny for flytende layout ",
+		"kLiquidLayoutPanelName",				"Flytende layout",	
+		"kObjectConstraintsStaticTextLabel",	"Objektbegrensninger:",
+		"kDocumentReflowStaticTextLabel",		"Tilpassing av dokumentflyt",
+		"kFixedSizeStaticTextLabel",			"Endre størrelse med side:",
+		"kHeightCheckBoxLabel",					"Høyde",
+		"kWidthCheckBoxLabel",					"Bredde",
+		"kPinLeftEdgeCheckBoxLabel",			"Venstre",
+		"kPinRightEdgeCheckBoxLabel",			"Høyre",
+		"kPinTopEdgeCheckBoxLabel",				"Topp",
+		"kPinBottomEdgeCheckBoxLabel",			"Bunn",
+		"kPinObjectEdgesStaticTextLabel",		"Fest:",
+		"kContentStaticTextLabel",				"Innhold:",
+		"kLayoutAdjustmentWarningTip",			"Regler for flytende layout gjelder ikke, fordi layoutjustering er aktivert for dokumentet. Klikk for å deaktivere layoutjustering.",
+		"kPageLayoutPolicyDropdownLabel",		"Regel for flytende side:",
+		"kLiquidLayoutPanelPageRange",			"Side: ^1",
+		"kPinEdgeToolTip",						"Kontroller for å feste objekt i forhold til sidekanten.",
+		"kResizeHeightWithPageToolTip",			"Kontroller for å endre størrelse på objektets høyde når sidens høyde endres.",
+		"kResizeWidthWithPageToolTip",			"Kontroller for å endre størrelse på objektets bredde når sidens bredde endres.",
+		
+        // ----- Timing panel
+        "kTimingPanelPopup",					"Tidsberegning-panelmeny",    
+		"kTimingSubMenu",						"Ti&dsberegning",
+		"kTimingPanelName",						"Tidsberegning",	
+		"kTimingPanelEventStaticText",			"Hendelse: ",
+		"kTimingPanelDelayStaticText",			"Forsink.: ",
+        "kTimingPanelDelaySecondStaticText",	"sekund",
+        "kTimingPanelDelaySecondsStaticText",	"sekunder",
+        "kTimingPanelAssignPageLoadEvent",		"Tildel på nytt til Ved sideinnlasting",
+        "kTimingPanelAssignStateLoadEvent",		"Tildel på nytt til Ved tilstandsinnlasting",
+        "kTimingPanelAssignPageClickEvent",		"Tildel på nytt til Ved sideklikk",
+        "kTimingPanelRemoveItem",				"Fjern objekt",
+        "kTimingPanelEventDropDownTip",			"Du må klikke for å fortsette",
+        "kTimingPanelGroupButtonTip",			"Spill sammen",
+        "kTimingPanelUngroupkButtonTip",		"Spill av separat",
+        "kTimingPanelPreviewButtonTip",			"Forhåndsvis oppslag",
+        "kUnassignedEntry",						"Ikke tilordnet",
+        "kTimingPanelLinkedItemStaticText",			"Koblede objekter:",	
+        "kTimingPanelPlayLinkedItemStaticText",		"Spill av: ",
+        "kTimingPanelPlayLinkedItemTimeStaticText",	"gang",
+        "kTimingPanelPlayLinkedItemTimesStaticText","ganger",
+        "kTimingPanelLoopCheckBoxLabel",		"Løkke",
+        "kTimingPanelLinkedItemGroupWidgetTip",	"Objekter spiller sammen (klikk for å markere gruppe)", 
+
+        // HTML Preview menu items
+        "kHTMLFXLPreviewSpread",				"Forhåndsvis oppslag: EPUB",
+		// ----- Menu Strings
+		"kTransitionPanelChooseAction",				"&Velg...",
+		"kTransitionPanelApplyToAllSpreadsAction",	"&Bruk på alle oppslag",
+		"kTransitionPanelClearAllTransitionsAction","Fjern a&lle",
+		
+		// ----- Tips strings
+		"kApplyToAllSpreadsButtonTip",			"Bruk på alle oppslag",
+		"kMotionPathTipStr",					"Bevegelsesbane, klikk for å redigere",
+		"kEasingPathTipStr",					"Bane",
+	#ifdef WINDOWS
+		"kPreviewSpreadButtonToolTip",			"Forhåndsvise oppslag: EPUB.\nAlt-klikk for å forhåndsvise oppslag: SWF.",
+	#else
+		"kPreviewSpreadButtonToolTip",			"Forhåndsvise oppslag: EPUB.\nTilvalg-klikk for å forhåndsvise oppslag: SWF.",			
+	#endif
+				
+		// ----- SWF & XFL Export Dialogs
+
+		"kSWFExport",						"Eksporter SWF",
+		"kXFLExport",						"Eksporter Flash CS6 Professional (FLA)",
+		"kSizePixels",						"Størrelse (bildepunkter):",
+		"kPagesStr",						"Sider:",
+		"kExportStr",						"Eksporter:",
+		"kSpreadsStr",						"Oppsla&g",
+		"kGenerateHTMLStr",					"Generer HTML-fi&l",
+		"kViewSWFAfterExportingStr",		"&Vis SWF etter eksport",
+		"kFlashText",						"Flash klassisk tekst",
+		"kVectorText",						"Konverter til konturer",
+		"kRasterText",						"Konverter til piksler",
+		"kVellumText",						"Flash TLF-tekst",
+		"kInsertHyphensStr",				"Sett i&nn myke orddelingspunkter",
+		"kFitToSize",						"Ti&lpass til:",
+		"kWidthSize",						"Bre&dde:",
+		"kHeightSize",						"&Høyde:",
+		"kSelectionExportedStr",			"Mer&ket område",
+		"kAllPagesExported",				"&Alle",
+		"kAllPagesExportedStr",				"&Alle sider",
+		"kPageRangeExported",				"Områd&e:",
+		"kScaleSize",						"&Skalering:",
+		"kTextStr",							"&Tekst:",
+		"kInteractivityStr",				"Interaktivitet:",
+		"kDynamicMediaStr",					"Interaktivitet og medium:",
+		"kImageCompStr",					"Bilde&komprimering:",
+		"kQualityStr",						"&JPEG-kvalitet:",
+		"kCurveQualityStr",					"Kurve&kvalitet:",
+		"kInclButtonsStr",					"Inkluder &knapper",
+		"kInclHyperLinkStr",				"Inkluder h&yperkoblinger",
+		"kInclPageTrans",					"Inkluder sideoverga&nger",
+		"kIncludePageCurl",					"Inklude&r interaktiv sidekrølling",
+		"kIncludeAllStr",					"&Inkluder alle",
+		"kAppearanceOnlyStr",				"Bare &utseende",
+		"kBackgroundStr",					"Bakgrunn:",
+		"kPaperColorStr",					"Papir&farge",
+		"kTransparentStr",					"&Gjennomsiktig",
+		"kFramesPerSecStr",					"bilder per sekund",
+		"kPageTransitionsStr",				"Side&overganger:",
+		"kNone",							"Ingen",
+		"kFromDocument",					"Fra dokument",
+		"kOptionsStr",						"Alternativer:",
+		"kDescriptionStr",					"Beskrivelse:",
+		"kFrameRateStr",					"&Bildefrekvens:",
+		"kImageCompAuto",					"Automatisk",
+		"kJPG_Lossy",						"JPEG",
+		"kJPG_LossyStr",					"JPEG (med tap)",
+		"kPNG_Lossless",					"Uten tap (ikke gjør noe)",
+		"kPNG_LosslessStr",					"PNG (uten tap)",
+		"kMinimumQual",						"Minimum",
+		"kLowQual",							"Lav",
+		"kMediumQual",						"Middels",
+		"kHighQual",						"Høy",
+		"kMaximumQual",						"Maksimum",
+		"kRasterizeStr",					"&Rastrer sider",
+		"kFlattenXPStr",					"Slå sa&mmen gjennomsiktighet",
+		"k1280x800",						"1280 x 800",
+		"k1024x768",						"1024 x 768",
+		"k800x600",							"800 x 600",
+		"k640x480",							"640 x 480",
+		"k250per",							"250%",
+		"k200per",							"200%",
+		"k150per",							"150%",
+		"k100per",							"100%",
+		"k75per",							"75%",
+		"k50per",							"50%",
+		"k25per",							"25%",
+		
+		// SWF Export Dialog Advanced panel description strings
+		"dtNothing",						"Plasser pekeren over en overskrift for å vise en beskrivelse.",
+		"dtFrameRateMsg",					"Standarden på 24 b/s passer for de fleste SWF-filer, og samsvarer med standard bildefrekvens for Flash Professional. Høyere bildefrekvenser vil opprette mer stabile animasjoner, men kan øke filstørrelsen på den eksporterte SWF-filen. Varigheten på animasjoner vil ikke endres hvis du endrer denne innstillingen.",
+		"dtFlashTextMsg",					"Beholder InDesign-tekst som tekst i SWF-filen. Dette er det beste alternativet for å holde filstørrelsen til et minimum.",
+		"dtConvertOutlinesMsg",				"Konverterer InDesign-tekst til vektorbaner i SWF-filen.",
+		"dtConvertPixelsMsg",				"Konverterer InDesign-tekst til rasterbilder i SWF-filen.",
+		"dtFlattenXPMsg",					"Fjerner live gjennomsiktighetseffekter i SWF-filen, men opprettholder utseendet for de gjennomsiktige objektene. Dette fører til at all interaktivitet utelates fra SWF-filen.",
+		"dtRasterizePagesMsg",				"Gjør om hver eksporterte side til et bilde. Dette fjerner interaktivitet fra SWF-filen og øker filstørrelsen.",
+		"dtJPEGMsg",						"Beste valg for de minste filstørrelsene, eller for bruk av kvalitetsinnstillingen til å kontrollere komprimeringsnivået.",
+		"dtPNGMsg",							"Beste valg for bilder av høy kvalitet (bruker komprimering uten tap av data).",
+		"dtAutoMsg",						"Velger bildekomprimering for hvert bilde.",
+		"dtQualityMsg",						"Kontrollerer avveiningen mellom bildekvalitet og filstørrelse.",
+		"dtResolutionMsg",					"Høyere verdier oppretter større filer, men tillater innzooming av bilder i SWF-filen med mindre visuell forringelse.",
+		"dtRasterizeAlertMsg",				"Rastrering av sider fjerner all interaktivitet fra SWF-filen. Hvis du vil gjenopprette interaktivitet, kan du fjerne merket for dette alternativet og velge Inkluder alle for alternativet Interaktivitet og medium i Generelt-panelet.",
+		"dtFlattenAlertMsg",				"Sammenslåing av gjennomsiktighet fjerner interaktivitet fra SWF-filen. Hvis du vil gjenopprette interaktivitet, kan du fjerne merket for dette alternativet og velge Inkluder alle for alternativet Interaktivitet og medium i Generelt-panelet.",
+
+		// Font Embedding
+		"kEmbeddedFontsTitle",				"Innebygde skrifter (gjelder bare for Flash klassisk tekst)",
+		"kTotalFonts",						"Totalt antall skrifter: ",
+		"kFontLicensingInfo",				"Lisensieringsinformasjon om skrift",
+		"kEmbeddedFontName",				"Skriftnavn: ",
+		"kEmbeddedVendorID",				"Leverandør-ID: ",
+
+		// Add Page Transition dialog
+		"kPageTransitionsDialogTitle",			"Sideoverganger",
+		"kPageTransitionApplyToAllSpreads",		"Bruk på alle oppslag",
+		"kPageTurnSWFOnlyString",				"    (Bare SWF)",	// we have to leave the space to match align the text.
+		"kPageTurnTransitionSWFOnlyString",		"Bla (bare SWF)",
+		"kZoomInOutString",						"Zoom inn/ut", 
+		
+		
+		//	Animation UI
+		"kAnimationUIPanelPopup",				"Animasjonsgrensenitt-panelmeny",
+		"kAnimationUISubMenu",					"Animasjon",
+		"kAnimationUIPresetPopupMenu",			"Meny for forvalg for animasjonsgrensesnitt",
+		"kMotionPresetsNoneTextkey",			"Ingen",
+		"kAnimationUILoadPresetMenuItem",		"Last inn forhåndsinnstilling...",
+		"kAnimationUISaveAsPresetMenuItem",		"Lagre som...",
+		"kAnimationUISavePresetMenuItem",		"Lagre",
+		"kAnimationUIDeletePresetMenuItem",		"Slett",
+		"kAnimationUIPreviewSelectionMenuItem",	"Forhåndsvis merket område: SWF",
+
+		"kAnimationUIConvertToMotionPathMenuItem",	"Konverter til bevegelsesbane",
+		"kAnimationUITestInBrowserMenuItem",	"Test i nettleser...",
+		"kCustomPresetName",					"Forhåndsinnstilling for bevegelse",
+		"kAnimationUIEventSeparator",			", ",
+		
+		"kAnimationUIPanelName",				"Animasjon",
+		"kAnimationUIPreviewStaticTextLabel",	"Forhåndsvisning",
+		"kAnimationUINameStaticTextLabel",		"Navn:",
+		"kAnimationUIPresetStaticTextLabel",	"Forvalg:",
+		"kAnimationUICustomPreset",				"Egendefinert",
+		"kAnimationUIMixed",					"Blandet",
+		"kAnimationUIMixed:",					"Blandet: ",
+		"kAnimationUIChoose",					"Velg",
+		"kAnimationUIEventStaticTextLabel",		"Hendelse(r):",
+		"kAnimationUIDurationStaticTextLabel",	"Varighet:",
+		"kAnimationUISecondStaticTextLabel",	"sekund",
+		"kAnimationUISecondsStaticTextLabel",	"sekunder",
+		"kAnimationUIPlayStaticTextLabel",		"Spill av:",
+		"kAnimationUITimeStaticTextLabel",		"gang",
+		"kAnimationUITimesStaticTextLabel",		"gngr.",
+		"kAnimationUILoopCheckBoxLabel",		"Løkke",
+		"kAnimationUISpeedStaticTextLabel",		"Hastighet:",
+		"kAnimationUIVisibilityStaticTextLabel","Synlighet:",
+		"kAnimationUIPropertyStaticTextLabel",	"Egenskaper",
+		"kAnimationUIHideBeforeAnimateCheckBoxLabel","Skjul til animert",
+		"kAnimationUIHideAfterAnimateCheckBoxLabel","Skjul etter animering",
+		"kAnimationUIOnButtonEvent",			"Ved knappehendelse",
+		"kAnimationUIOnRollOffCheckBoxLabel",	"Reverser ved rull av",
+		"kAnimationUIEaseIn",					"Øk fart inn",
+		"kAnimationUIEaseOut",					"Reduser fart ut",
+		"kAnimationUIEaseInAndOut",				"Øk fart inn og reduser fart ut",
+		"kAnimationUIFadeIn",					"Ton inn",
+		"kAnimationUIFadeOut",					"Ton ut",
+		"kAnimationUINone",						"Ingen",
+		"kAnimationUIFromPreset",				"Fra forvalg",
+		"kAnimationUIPropertyDesignStaticTextLabel",		"Animer:",
+		"kAnimationUIPropertyDesignCheckBoxLabel",			"Slutten på animasjon",
+		"kAnimationFromStaticTextLabel",					"Animer fra",
+		"kAnimationToStaticTextLabel",						"Animer til",
+		"kAnimationUIPropertyDesignScaleStaticTextLabel",	"Skaler",
+		"kAnimationUIPropertyDesignScaleHorzStaticTextLabel",	"B:",
+		"kAnimationUIPropertyDesignScaleVertStaticTextLabel",	"H:",
+		"kAnimationUIPropertyDesignRotateStaticTextLabel",	"Roter:",
+		"kAnimationUIPropertyDesignOpacityStaticTextLabel",	"Tetthet:",
+		"kAnimationUIPropertyDesignProxyStaticTextLabel",	"Oppr.:",
+		
+		"kAnimationUIFrom",						"Fra gjeldende utseende",
+		"kAnimationUITo",						"Til gjeldende utseende",
+		"kAnimationUIOffset",					"Til gjeldende plassering",
+
+		"kAnimationPanelButtonTriggerTip",		"Opprett knappeutløser (klikk ikonet og deretter et objekt for å utløse animasjonen)",
+		"kAnimationPanelShowProxyTip",			"Vis animasjonsforhåndsvisning",
+		"kAnimationPanelLockIconTip",			"Behold skaleringsverdien",
+		"kAnimationPanelEventMenuSelectorTip",	"Velg utløserhendelse ved å klikke pil ned",
+		"kAnimationPanelEventInfoTip",			"Utløserhendelse(r) for animasjonen",
+		"kAnimationPanelEventInfoDefaultTip",	"Standard utløserhendelse for animasjonen",
+		"kAnimationPanelPreviewButtonTip",		"Forhåndsvis gjeldende merket område",
+		"kAnimationPanelConvertToMotionPathTip","Konverter til bevegelsesbane",
+		"kAnimationUIFromTip",					"Bruker gjeldende objekts egenskaper som startutseende for animasjonen ved kjøring.",
+		"kAnimationUIToTip",					"Bruker gjeldende objekts egenskaper som sluttutseende for animasjonen ved kjøring.",
+		"kAnimationUIOffsetTip",				"Bruker gjeldende objekts egenskaper som startutseende, og gjeldende plassering som sluttplassering for animasjonen ved kjøring.",
+		"kAnimationUIAnimationOptionTip",		"Animasjonsalternativ",
+		"kAnimationUITrashTip",					"Fjern animasjon",
+		"kAnimationUIXFPointTip",				"Endre opprinnelsespunkt for å skalere og rotere.",
+		"kAnimationUIShowTimingButtonTip",		"Vis panel for tidsberegning",
+		
+		"kAnimationUISaveAsPresetTitle",		"Lagre valgt forhåndsinnstilling som",
+		"kAnimationUISavePresetTitle",			"Lagre forvalg",
+		"kAnimationUISavePresetNameLabel",		"Navn:",
+
+		"kAnimationUIEventPopupMenu",			"Hurtigmeny for hendelse",
+		"kAnimationUICreateButtonTriggerCmd",	"Opprett knappeutløser",
+		"kAnimationUICreateSelfTriggerCmd",		"Opprett selvutløser",
+		
+		"kAnimationUIManagePresetsDialogTitle",	"Administrer forvalg",
+		"kAnimationUIManagePresetsDoneButton",	"Ferdig",
+		"kAnimationUIManagePresetsDeleteButton","&Slett",
+		"kAnimationUIManagePresetsDuplicateButton","D&upliser",
+		"kAnimationUIManagePresetsLoadButton",	"&Last inn...",
+		"kAnimationUIManagePresetsSaveAsButton","Lagre &som...",
+		"kAnimationUIManagePresetMenuItem",		"Administrer forvalg...",
+		"kAnimationUIManagePresetPresetsSeparator", "--------------------",
+		"kAnimationUIManagePresetNamePrefix",	"[",
+		"kAnimationUIManagePresetNameSuffix",	"]",
+	}
+};
+
+#endif // __ODFRC__

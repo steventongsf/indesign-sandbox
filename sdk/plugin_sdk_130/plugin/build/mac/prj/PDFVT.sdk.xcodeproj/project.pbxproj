@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95722FF15CFEAD000C95573 /* DataSourceData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624CC41282B35C004CD623 /* DataSourceData.cpp */; };
+		F957230015CFEAD000C95573 /* PDFVTExportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624CC61282B35C004CD623 /* PDFVTExportProvider.cpp */; };
+		F957230115CFEAD000C95573 /* WritePDFVTDataSourceInfoCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624CC71282B35C004CD623 /* WritePDFVTDataSourceInfoCmd.cpp */; };
+		F957230215CFEAD000C95573 /* PDFVTID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624D411283AF53004CD623 /* PDFVTID.cpp */; };
+		F957230315CFEAD000C95573 /* PDFVTNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624D431283AF53004CD623 /* PDFVTNoStrip.cpp */; };
+		F957230415CFEAD000C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A19ADC6C1283BAF300279FF6 /* SDKPlugInEntrypoint.cpp */; };
+		F957230515CFEAD000C95573 /* PDFVTUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A16F445C129B579400034AC2 /* PDFVTUtils.cpp */; };
+		F957230A15CFEAD000C95573 /* PDFVT.fr in Resources */ = {isa = PBXBuildFile; fileRef = A1624D481283AF69004CD623 /* PDFVT.fr */; };
+		F957231315CFEAD200C95573 /* DataSourceData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624CC41282B35C004CD623 /* DataSourceData.cpp */; };
+		F957231415CFEAD200C95573 /* PDFVTExportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624CC61282B35C004CD623 /* PDFVTExportProvider.cpp */; };
+		F957231515CFEAD200C95573 /* WritePDFVTDataSourceInfoCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624CC71282B35C004CD623 /* WritePDFVTDataSourceInfoCmd.cpp */; };
+		F957231615CFEAD200C95573 /* PDFVTID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624D411283AF53004CD623 /* PDFVTID.cpp */; };
+		F957231715CFEAD200C95573 /* PDFVTNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1624D431283AF53004CD623 /* PDFVTNoStrip.cpp */; };
+		F957231815CFEAD200C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A19ADC6C1283BAF300279FF6 /* SDKPlugInEntrypoint.cpp */; };
+		F957231915CFEAD200C95573 /* PDFVTUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A16F445C129B579400034AC2 /* PDFVTUtils.cpp */; };
+		F957232215CFEAD200C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957222F15CFEA6B00C95573 /* InDesignModel.framework */; };
+		F957232315CFEAD200C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957223015CFEA6B00C95573 /* libPublicPlugIn.a */; };
+		F957232615CFEAD200C95573 /* PDFVT.fr in Resources */ = {isa = PBXBuildFile; fileRef = A1624D481283AF69004CD623 /* PDFVT.fr */; };
+		F957233015CFEAF700C95573 /* ICUInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957232F15CFEAF700C95573 /* ICUInternationalization.framework */; };
+		F957233215CFEAFD00C95573 /* ICUInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95722FB15CFEAC500C95573 /* ICUInternationalization.framework */; };
+		F957233915CFEB5E00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957222D15CFEA6B00C95573 /* InDesignModel.framework */; };
+		F957233A15CFEB5E00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957222E15CFEA6B00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957230C15CFEAD000C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG -d MACINTOSH -d __GNUC__ -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957232815CFEAD200C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE -d MACINTOSH -d __GNUC__ -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73E1E094F8B4300AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73E1F094F8B4300AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F81E175DF1F900A71E17 /* PDFVT_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PDFVT_enUS.fr; path = ../../../source/sdksamples/pdfvt/PDFVT_enUS.fr; sourceTree = "<group>"; };
+		3227F81F175DF1F900A71E17 /* PDFVT_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PDFVT_jaJP.fr; path = ../../../source/sdksamples/pdfvt/PDFVT_jaJP.fr; sourceTree = "<group>"; };
+		775BC81D12F4A24B006C2225 /* cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = cocoa_model_debug.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		775BC81E12F4A24B006C2225 /* cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = cocoa_model_release.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		775BC81F12F4A24B006C2225 /* cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = cocoa_model_x64_debug.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		775BC82012F4A24B006C2225 /* cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = cocoa_model_x64_release.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		A1624CC41282B35C004CD623 /* DataSourceData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataSourceData.cpp; path = ../../../source/sdksamples/pdfvt/DataSourceData.cpp; sourceTree = "<group>"; };
+		A1624CC51282B35C004CD623 /* IDataSourceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDataSourceData.h; path = ../../../source/sdksamples/pdfvt/IDataSourceData.h; sourceTree = "<group>"; };
+		A1624CC61282B35C004CD623 /* PDFVTExportProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PDFVTExportProvider.cpp; path = ../../../source/sdksamples/pdfvt/PDFVTExportProvider.cpp; sourceTree = "<group>"; };
+		A1624CC71282B35C004CD623 /* WritePDFVTDataSourceInfoCmd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WritePDFVTDataSourceInfoCmd.cpp; path = ../../../source/sdksamples/pdfvt/WritePDFVTDataSourceInfoCmd.cpp; sourceTree = "<group>"; };
+		A1624D411283AF53004CD623 /* PDFVTID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PDFVTID.cpp; path = ../../../source/sdksamples/pdfvt/PDFVTID.cpp; sourceTree = "<group>"; };
+		A1624D421283AF53004CD623 /* PDFVTID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFVTID.h; path = ../../../source/sdksamples/pdfvt/PDFVTID.h; sourceTree = "<group>"; };
+		A1624D431283AF53004CD623 /* PDFVTNoStrip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PDFVTNoStrip.cpp; path = ../../../source/sdksamples/pdfvt/PDFVTNoStrip.cpp; sourceTree = "<group>"; };
+		A1624D481283AF69004CD623 /* PDFVT.fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PDFVT.fr; path = ../../../source/sdksamples/pdfvt/PDFVT.fr; sourceTree = "<group>"; };
+		A16F445C129B579400034AC2 /* PDFVTUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PDFVTUtils.cpp; path = ../../../source/sdksamples/pdfvt/PDFVTUtils.cpp; sourceTree = SOURCE_ROOT; };
+		A16F445D129B579400034AC2 /* PDFVTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFVTUtils.h; path = ../../../source/sdksamples/pdfvt/PDFVTUtils.h; sourceTree = SOURCE_ROOT; };
+		A19ADC6C1283BAF300279FF6 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		F957222D15CFEA6B00C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957222E15CFEA6B00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957222F15CFEA6B00C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957223015CFEA6B00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95722FB15CFEAC500C95573 /* ICUInternationalization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICUInternationalization.framework; path = ../release_cocoa64/packagefolder/contents/Frameworks/ICUInternationalization.framework; sourceTree = SOURCE_ROOT; };
+		F957232F15CFEAF700C95573 /* ICUInternationalization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICUInternationalization.framework; path = ../debug_cocoa64/packagefolder/contents/Frameworks/ICUInternationalization.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957230615CFEAD000C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957233015CFEAF700C95573 /* ICUInternationalization.framework in Frameworks */,
+				F957233915CFEB5E00C95573 /* InDesignModel.framework in Frameworks */,
+				F957233A15CFEB5E00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957231A15CFEAD200C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957232215CFEAD200C95573 /* InDesignModel.framework in Frameworks */,
+				F957232315CFEAD200C95573 /* libPublicPlugIn.a in Frameworks */,
+				F957233215CFEAFD00C95573 /* ICUInternationalization.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F98D0884155200D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F9A70884155200D809E1 /* Source */,
+				4B05F9B50884155C00D809E1 /* Resources */,
+				4B05F9EB0884157100D809E1 /* Frameworks */,
+				F957222415CFEA6B00C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F9A70884155200D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A16F445C129B579400034AC2 /* PDFVTUtils.cpp */,
+				A16F445D129B579400034AC2 /* PDFVTUtils.h */,
+				A1624CC41282B35C004CD623 /* DataSourceData.cpp */,
+				A1624CC51282B35C004CD623 /* IDataSourceData.h */,
+				A1624CC61282B35C004CD623 /* PDFVTExportProvider.cpp */,
+				A1624CC71282B35C004CD623 /* WritePDFVTDataSourceInfoCmd.cpp */,
+				4B05F9B00884155A00D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F9B00884155A00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				A19ADC6C1283BAF300279FF6 /* SDKPlugInEntrypoint.cpp */,
+				A1624D411283AF53004CD623 /* PDFVTID.cpp */,
+				A1624D421283AF53004CD623 /* PDFVTID.h */,
+				A1624D431283AF53004CD623 /* PDFVTNoStrip.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F9B50884155C00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F81E175DF1F900A71E17 /* PDFVT_enUS.fr */,
+				3227F81F175DF1F900A71E17 /* PDFVT_jaJP.fr */,
+				A1624D481283AF69004CD623 /* PDFVT.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4B05F9EB0884157100D809E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F95722F815CFEAA000C95573 /* For Cocoa64 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73E1E094F8B4300AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73E1F094F8B4300AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				775BC81D12F4A24B006C2225 /* cocoa_model_debug.xcconfig */,
+				775BC81E12F4A24B006C2225 /* cocoa_model_release.xcconfig */,
+				775BC81F12F4A24B006C2225 /* cocoa_model_x64_debug.xcconfig */,
+				775BC82012F4A24B006C2225 /* cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957222415CFEA6B00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957222B15CFEA6B00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957222B15CFEA6B00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957222F15CFEA6B00C95573 /* InDesignModel.framework */,
+				F957223015CFEA6B00C95573 /* libPublicPlugIn.a */,
+				F957222C15CFEA6B00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957222C15CFEA6B00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957222D15CFEA6B00C95573 /* InDesignModel.framework */,
+				F957222E15CFEA6B00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		F95722F815CFEAA000C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F95722FB15CFEAC500C95573 /* ICUInternationalization.framework */,
+				F95722F915CFEAA000C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F95722F915CFEAA000C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957232F15CFEAF700C95573 /* ICUInternationalization.framework */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95722FD15CFEAD000C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957230D15CFEAD000C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95722FE15CFEAD000C95573 /* Sources */,
+				F957230615CFEAD000C95573 /* Frameworks */,
+				F957230815CFEAD000C95573 /* Rez */,
+				F957230915CFEAD000C95573 /* Resources */,
+				F957230B15CFEAD000C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957230C15CFEAD000C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F957231115CFEAD200C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957232915CFEAD200C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957231215CFEAD200C95573 /* Sources */,
+				F957231A15CFEAD200C95573 /* Frameworks */,
+				F957232415CFEAD200C95573 /* Rez */,
+				F957232515CFEAD200C95573 /* Resources */,
+				F957232715CFEAD200C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957232815CFEAD200C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F98F0884155200D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05F9900884155200D809E1 /* Build configuration list for PBXProject "PDFVT.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F98D0884155200D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95722FD15CFEAD000C95573 /* Debug_Cocoa64 */,
+				F957231115CFEAD200C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957230915CFEAD000C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957230A15CFEAD000C95573 /* PDFVT.fr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957232515CFEAD200C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957232615CFEAD200C95573 /* PDFVT.fr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957230815CFEAD000C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957232415CFEAD200C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957230B15CFEAD000C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957232715CFEAD200C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95722FE15CFEAD000C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95722FF15CFEAD000C95573 /* DataSourceData.cpp in Sources */,
+				F957230015CFEAD000C95573 /* PDFVTExportProvider.cpp in Sources */,
+				F957230115CFEAD000C95573 /* WritePDFVTDataSourceInfoCmd.cpp in Sources */,
+				F957230215CFEAD000C95573 /* PDFVTID.cpp in Sources */,
+				F957230315CFEAD000C95573 /* PDFVTNoStrip.cpp in Sources */,
+				F957230415CFEAD000C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957230515CFEAD000C95573 /* PDFVTUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957231215CFEAD200C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957231315CFEAD200C95573 /* DataSourceData.cpp in Sources */,
+				F957231415CFEAD200C95573 /* PDFVTExportProvider.cpp in Sources */,
+				F957231515CFEAD200C95573 /* WritePDFVTDataSourceInfoCmd.cpp in Sources */,
+				F957231615CFEAD200C95573 /* PDFVTID.cpp in Sources */,
+				F957231715CFEAD200C95573 /* PDFVTNoStrip.cpp in Sources */,
+				F957231815CFEAD200C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957231915CFEAD200C95573 /* PDFVTUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F9910884155200D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/external/icu/include,
+					$ID_SDK_ROOT/source/precomp/msvc,
+					$ID_SDK_ROOT/source/public/interfaces/xmedia,
+					$ID_SDK_ROOT/source/public/interfaces/ui,
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/interfaces/text,
+					$ID_SDK_ROOT/source/public/interfaces/graphics,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/utils,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/layout,
+					$ID_SDK_ROOT/source/public/interfaces/architecture,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/precomp/common,
+					$ID_SDK_ROOT/source/public/includes,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+					$ID_SDK_ROOT/source/sdksamples/pdfvt,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_INCLUDES = "$(REZ_SEARCH_PATHS)";
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = PDFVT.sdk;
+				TARGET_BUILD_DIR = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Default;
+		};
+		F957230E15CFEAD000C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775BC81F12F4A24B006C2225 /* cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+				TARGET_BUILD_DIR = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Default;
+		};
+		F957232A15CFEAD200C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775BC82012F4A24B006C2225 /* cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F9900884155200D809E1 /* Build configuration list for PBXProject "PDFVT.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F9910884155200D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957230D15CFEAD000C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957230E15CFEAD000C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957232915CFEAD200C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957232A15CFEAD200C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F98F0884155200D809E1 /* Project object */;
+}

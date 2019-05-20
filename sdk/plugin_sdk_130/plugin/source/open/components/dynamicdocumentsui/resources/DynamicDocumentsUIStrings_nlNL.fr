@@ -1,0 +1,347 @@
+//========================================================================================
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "StringTable.fh"
+
+#ifdef __ODFRC__
+
+//========================================================================================
+// English strings
+//========================================================================================
+
+resource StringTable (kDynamicDocumentsUIStringsRsrcID + index_nlNL)
+{
+	k_nlNL,									// Locale Id
+	kResourceUTF8Encoded,		// Character encoding converter
+	
+	{
+		// ----- Command strings
+
+		// ----- Window strings
+
+		// ----- Panel strings
+		"kPageTransitionsPanelPopup",			"Menu van deelvenster Paginaovergangen",    
+		"kPageTransitionsSubMenu",				"Pagina&overgangen",
+		"kPageTransitionsPanelName",			"Paginaovergangen",	   
+		"kPageTransitionStaticText",			"Overgang: ",
+		"kPageDirectionStaticText",				"Richting: ",
+		"kPageSpeedStaticText",					"Snelheid: ",
+        "kPTHorizontal",						"Horizontaal",
+        "kPTVertical",							"Verticaal",
+        "kPTIn",								"In",
+        "kPTOut",								"Uit",
+        "kPTDown",								"Omlaag",
+        "kPTLeft",								"Links",
+        "kPTLeftDown",							"Links omlaag",
+        "kPTLeftUp",							"Links omhoog",
+        "kPTRight",								"Rechts",
+        "kPTRightDown",							"Rechts omlaag",
+        "kPTRightUp",							"Rechts omhoog",
+        "kPTUp",								"Omhoog",
+        "kPTHorizontalIn",						"Horizontaal in beeld",
+        "kPTHorizontalOut",						"Horizontaal uit beeld",
+        "kPTVerticalIn",						"Verticaal in beeld",
+        "kPTVerticalOut",						"Verticaal uit beeld",
+        "kPTSlow",								"Langzaam",
+		"kPTMedium",							"Normaal",
+		"kPTFast",								"Snel",		
+		"kPTNoTransition",						"Geen",	
+				
+		// ----- SWF preview panel
+		"kSWFPreviewPanelPopup",				"Menu van deelvenster SWF-voorvertoning",    
+		"kSWFPreviewSubMenu",					"SWF-&voorvertoning",
+		"kSWFPreviewPanelName",					"SWF-voorvertoning",	
+		"kSWFPreviewDocumentButtonTip",			"Modus Voorvertoning document instellen",
+		"kSWFPreviewSpreadButtonTip",			"Modus Voorvertoning spread instellen",
+		"kSWFPreviewSelectionButtonTip",		"Modus Voorvertoning selectie instellen",
+		"kSWFPreviewSelection",					"Voorvertoning selectie",
+		"kSWFPreviewSpread",					"Voorvertoning spread: SWF",
+		"kSWFPreviewDocument",					"Voorvertoning document",
+		"kSWFPreviewPanelSaveSettings",			"Voorvertoningsinstellingen bewerken...",
+		"kSWFTestInBrowser",					"Testen in browser...",
+		"kSWFPreviewCurrentPageTip",			"Huidige pagina",
+		"kSWFPreviewPreviousButtonTip",			"Naar vorige pagina",
+		"kSWFPreviewNextButtonTip",				"Naar volgende pagina",
+		"kSWFPreviewWarningTip1",				"Kan geen voorvertoning van interactiviteit weergeven. Alleen vormgeving is ingeschakeld in het dialoogvenster Voorvertoningsinstellingen.",
+		"kSWFPreviewWarningTip2",				"Een gekoppeld bestand ontbreekt of is niet compatibel met Flash Player.",
+		"kSWFPreviewPlayButtonTipWin",				"Voorvertoning afspelen (houd Alt ingedrukt en klik om voorvertoning nogmaals af te spelen)",
+		"kSWFPreviewPlayButtonTipMac",				"Voorvertoning afspelen (houd Option ingedrukt en klik om voorvertoning nogmaals af te spelen)",
+		"kSWFPreviewStopButtonTip",				"Voorvertoning wissen",
+        "kSaveButtonString",					"Instellingen opslaan",
+        "kPreviewSettings",						"Voorvertoningsinstellingen",   
+        "kStatusSeparatorStr",					": ";
+        "kPagePrefixString",					"Pagina ",    
+        "kMasterPagePrefixString",				"Stramienpagina ",
+        "kSWFPreviewSpreadToolTipPrefix",		" (",
+        "kSWFPreviewSpreadToolTipSuffix",		")",
+              		
+		// ----- Liquid Layout panel
+		"kLiquidLayoutMenu",					"V&loeiende layout",
+		"kLiquidLayoutPanelPopup",				"Deelvenstermenu Vloeiende layout",
+		"kLiquidLayoutPanelName",				"Vloeiende layout",	
+		"kObjectConstraintsStaticTextLabel",	"Objectbeperkingen:",
+		"kDocumentReflowStaticTextLabel",		"Document opnieuw plaatsen",
+		"kFixedSizeStaticTextLabel",			"Formaat aanpassen met pagina:",
+		"kHeightCheckBoxLabel",					"Hoogte",
+		"kWidthCheckBoxLabel",					"Breedte",
+		"kPinLeftEdgeCheckBoxLabel",			"Links",
+		"kPinRightEdgeCheckBoxLabel",			"Rechts",
+		"kPinTopEdgeCheckBoxLabel",				"Boven",
+		"kPinBottomEdgeCheckBoxLabel",			"Onder",
+		"kPinObjectEdgesStaticTextLabel",		"Vastzetten: ",
+		"kContentStaticTextLabel",				"Inhoud:",
+		"kLayoutAdjustmentWarningTip",			"Regels voor vloeiende layout zijn niet van toepassing, omdat de layoutaanpassing is ingeschakeld voor het document. Klik om de layoutaanpassing uit te schakelen.",
+		"kPageLayoutPolicyDropdownLabel",		"Regel vloeiende pagina:",
+		"kLiquidLayoutPanelPageRange",			"Pagina: ^1",
+		"kPinEdgeToolTip",						"Schakel in om het object vast te zetten ten opzichte van de paginarand.",
+		"kResizeHeightWithPageToolTip",			"Schakel in om de hoogte van het object aan te passen wanneer de hoogte van de pagina verandert.",
+		"kResizeWidthWithPageToolTip",			"Schakel in om de breedte van het object aan te passen wanneer de breedte van de pagina verandert.",
+		
+        // ----- Timing panel
+        "kTimingPanelPopup",					"Menu van deelvenster Timing",    
+		"kTimingSubMenu",						"Ti&ming",
+		"kTimingPanelName",						"Timing",	
+		"kTimingPanelEventStaticText",			"Gebeurtenis: ",
+		"kTimingPanelDelayStaticText",			"Vertraging: ",
+        "kTimingPanelDelaySecondStaticText",	"seconde",
+        "kTimingPanelDelaySecondsStaticText",	"seconden",
+        "kTimingPanelAssignPageLoadEvent",		"Opnieuw toewijzen aan Bij laden van pagina",
+        "kTimingPanelAssignStateLoadEvent",		"Opnieuw toewijzen aan Bij laden van status",
+        "kTimingPanelAssignPageClickEvent",		"Opnieuw toewijzen aan Bij klikken op pagina",
+        "kTimingPanelRemoveItem",				"Item verwijderen",
+        "kTimingPanelEventDropDownTip",			"De gebruiker moet klikken om verder te kunnen gaan",
+        "kTimingPanelGroupButtonTip",			"Samen afspelen",
+        "kTimingPanelUngroupkButtonTip",		"Gescheiden afspelen",
+        "kTimingPanelPreviewButtonTip",			"Voorvertoning spread",
+        "kUnassignedEntry",						"Niet toegewezen",
+        "kTimingPanelLinkedItemStaticText",			"Gekoppelde items:",	
+        "kTimingPanelPlayLinkedItemStaticText",		"Afspelen: ",
+        "kTimingPanelPlayLinkedItemTimeStaticText",	"keer",
+        "kTimingPanelPlayLinkedItemTimesStaticText","keer",
+        "kTimingPanelLoopCheckBoxLabel",		"Continu",
+        "kTimingPanelLinkedItemGroupWidgetTip",	"Objecten worden samen afgespeeld (klik om groep te selecteren)", 
+
+        // HTML Preview menu items
+        "kHTMLFXLPreviewSpread",				"Voorvertoning spread: EPUB",
+		// ----- Menu Strings
+		"kTransitionPanelChooseAction",				"&Kiezen...",
+		"kTransitionPanelApplyToAllSpreadsAction",	"&Toepassen op alle spreads",
+		"kTransitionPanelClearAllTransitionsAction","Alles w&issen",
+		
+		// ----- Tips strings
+		"kApplyToAllSpreadsButtonTip",			"Toepassen op alle spreads",
+		"kMotionPathTipStr",					"Bewegingspad, klikken om te bewerken",
+		"kEasingPathTipStr",					"Versnellingspad",
+	#ifdef WINDOWS
+		"kPreviewSpreadButtonToolTip",			"Voorvertoning spread: EPUB.\nHoud Alt ingedrukt en klik om een voorvertoning te maken van de spread: SWF.",
+	#else
+		"kPreviewSpreadButtonToolTip",			"Voorvertoning spread: EPUB.\nHoud Option ingedrukt en klik om een voorvertoning te maken van de spread: SWF.",			
+	#endif
+				
+		// ----- SWF & XFL Export Dialogs
+
+		"kSWFExport",						"SWF exporteren",
+		"kXFLExport",						"Flash CS6 Professional (FLA) exporteren",
+		"kSizePixels",						"Grootte (pixels):",
+		"kPagesStr",						"Pagina's:",
+		"kExportStr",						"Exporteren:",
+		"kSpreadsStr",						"Spread&s",
+		"kGenerateHTMLStr",					"HT&ML-bestand genereren",
+		"kViewSWFAfterExportingStr",		"SWF na exporteren weer&geven",
+		"kFlashText",						"Klassieke Flash-tekst",
+		"kVectorText",						"Omzetten in contouren",
+		"kRasterText",						"Omzetten in pixels",
+		"kVellumText",						"Flash TLF-tekst",
+		"kInsertHyphensStr",				"Punten voor zachte afbreekstreepjes i&nvoegen",
+		"kFitToSize",						"&Aanpassen aan:",
+		"kWidthSize",						"Br&eedte:",
+		"kHeightSize",						"&Hoogte:",
+		"kSelectionExportedStr",			"Sele&ctie",
+		"kAllPagesExported",				"&Alles",
+		"kAllPagesExportedStr",				"&Alle pagina's",
+		"kPageRangeExported",				"Berei&k:",
+		"kScaleSize",						"&Schalen:",
+		"kTextStr",							"Te&kst:",
+		"kInteractivityStr",				"Interactiviteit:",
+		"kDynamicMediaStr",					"Interactiviteit en media:",
+		"kImageCompStr",					"Afbeeldings&compressie:",
+		"kQualityStr",						"&JPEG-kwaliteit:",
+		"kCurveQualityStr",					"Curve&kwaliteit:",
+		"kInclButtonsStr",					"Inclusief k&noppen",
+		"kInclHyperLinkStr",				"Inclusief h&yperlinks",
+		"kInclPageTrans",					"Inclusief paginaov&ergangen",
+		"kIncludePageCurl",					"Incl&usief interactief Pagina omslaan en krullen",
+		"kIncludeAllStr",					"Alles &opnemen",
+		"kAppearanceOnlyStr",				"Alleen &vormgeving",
+		"kBackgroundStr",					"Achtergrond:",
+		"kPaperColorStr",					"Papier&kleur",
+		"kTransparentStr",					"&Transparant",
+		"kFramesPerSecStr",					"frames per seconde",
+		"kPageTransitionsStr",				"Paginaov&ergangen:",
+		"kNone",							"Geen",
+		"kFromDocument",					"Op basis van document",
+		"kOptionsStr",						"Opties:",
+		"kDescriptionStr",					"Beschrijving:",
+		"kFrameRateStr",					"&Framesnelheid:",
+		"kImageCompAuto",					"Automatisch",
+		"kJPG_Lossy",						"JPEG",
+		"kJPG_LossyStr",					"JPEG (met gegevensverlies)",
+		"kPNG_Lossless",					"Met verlies (niets doen)",
+		"kPNG_LosslessStr",					"PNG (zonder gegevensverlies)",
+		"kMinimumQual",						"Minimaal",
+		"kLowQual",							"Laag",
+		"kMediumQual",						"Normaal",
+		"kHighQual",						"Hoog",
+		"kMaximumQual",						"Maximaal",
+		"kRasterizeStr",					"Pagina's rastere&n",
+		"kFlattenXPStr",					"Transparantie afvla&kken",
+		"k1280x800",						"1280 x 800",
+		"k1024x768",						"1024 x 768",
+		"k800x600",							"800 x 600",
+		"k640x480",							"640 x 480",
+		"k250per",							"250%",
+		"k200per",							"200%",
+		"k150per",							"150%",
+		"k100per",							"100%",
+		"k75per",							"75%",
+		"k50per",							"50%",
+		"k25per",							"25%",
+		
+		// SWF Export Dialog Advanced panel description strings
+		"dtNothing",						"Plaats de aanwijzer op een kop voor een beschrijving.",
+		"dtFrameRateMsg",					"Standaardwaarde van 24 fps is geschikt voor meeste SWF-bestanden en komt overeen met standaardframesnelheid van Flash Professional. Animaties bij hogere framesnelheden zijn vloeiender, maar geëxporteerde SWF-bestand  is mogelijk groter. Duur van animaties blijft ongewijzigd wanneer u deze instelling aanpast.",
+		"dtFlashTextMsg",					"Laat InDesign-tekst als tekst in het SWF-bestand. Dit is de beste optie om bestanden zo klein mogelijk te houden.",
+		"dtConvertOutlinesMsg",				"Zet InDesign-tekst om in vectorpaden in het SWF-bestand.",
+		"dtConvertPixelsMsg",				"Zet InDesign-tekst om in rasterafbeeldingen in het SWF-bestand.",
+		"dtFlattenXPMsg",					"Verwijdert actieve transparantie-effecten in het SWF-bestand, maar behoudt de vormgeving van de transparante objecten. Dit betekent dat alle interactiviteit in het SWF-bestand verloren gaat.",
+		"dtRasterizePagesMsg",				"Zet elke geëxporteerde afbeelding om in een afbeelding. De interactiviteit van het SWF-bestand gaat hierbij verloren en het bestand wordt groter.",
+		"dtJPEGMsg",						"Dit is de aanbevolen optie als u bestanden zo klein mogelijk wilt houden of als u de kwaliteitsinstelling wilt gebruiken om de mate van compressie te bepalen.",
+		"dtPNGMsg",							"Dit is de aanbevolen optie voor afbeeldingen van hoge kwaliteit (gebruikt compressie zonder gegevensverlies).",
+		"dtAutoMsg",						"Kiest afbeeldingscompressie op basis van afzonderlijke afbeeldingen.",
+		"dtQualityMsg",						"Maakt de afweging tussen afbeeldingskwaliteit en bestandsgrootte.",
+		"dtResolutionMsg",					"Bij hogere waarden is het resulterende bestand groter, maar kan op afbeeldingen in het SWF-bestand worden ingezoomd zonder dat de weergavekwaliteit afneemt.",
+		"dtRasterizeAlertMsg",				"Bij het rasteren van pagina's gaat alle interactiviteit in het SWF-bestand verloren. Als u de interactiviteit wilt herstellen, schakelt u deze optie uit en selecteert u Alles opnemen bij de opties Interactiviteit en media in het deelvenster Algemeen.",
+		"dtFlattenAlertMsg",				"Bij het afvlakken van transparantie gaat de interactiviteit in het SWF-bestand verloren. Als u de interactiviteit wilt herstellen, schakelt u deze optie uit en selecteert u Alles opnemen bij de opties Interactiviteit en media in het deelvenster Algemeen.",
+
+		// Font Embedding
+		"kEmbeddedFontsTitle",				"Ingesloten lettertypen (alleen van toepassing op Klassieke Flash-tekst)",
+		"kTotalFonts",						"Totaal aantal lettertypen: ",
+		"kFontLicensingInfo",				"Licentie-info lettertype",
+		"kEmbeddedFontName",				"Naam lettertype: ",
+		"kEmbeddedVendorID",				"Leverancier-id: ",
+
+		// Add Page Transition dialog
+		"kPageTransitionsDialogTitle",			"Paginaovergangen",
+		"kPageTransitionApplyToAllSpreads",		"Toepassen op alle spreads",
+		"kPageTurnSWFOnlyString",				"    (alleen SWF)",	// we have to leave the space to match align the text.
+		"kPageTurnTransitionSWFOnlyString",		"Pagina omslaan (alleen .swf)",
+		"kZoomInOutString",						"In-/uitzoomen", 
+		
+		
+		//	Animation UI
+		"kAnimationUIPanelPopup",				"Menu van deelvenster Gebruikersinterface voor animatie",
+		"kAnimationUISubMenu",					"Animatie",
+		"kAnimationUIPresetPopupMenu",			"Menu Voorinstelling gebruikersinterface voor animatie",
+		"kMotionPresetsNoneTextkey",			"Geen",
+		"kAnimationUILoadPresetMenuItem",		"Voorinstelling laden...",
+		"kAnimationUISaveAsPresetMenuItem",		"Opslaan als...",
+		"kAnimationUISavePresetMenuItem",		"Opslaan",
+		"kAnimationUIDeletePresetMenuItem",		"Verwijderen",
+		"kAnimationUIPreviewSelectionMenuItem",	"Voorvertoning selectie: SWF",
+
+		"kAnimationUIConvertToMotionPathMenuItem",	"Omzetten in bewegingspad",
+		"kAnimationUITestInBrowserMenuItem",	"Testen in browser...",
+		"kCustomPresetName",					"Bewegingsvoorinstelling",
+		"kAnimationUIEventSeparator",			", ",
+		
+		"kAnimationUIPanelName",				"Animatie",
+		"kAnimationUIPreviewStaticTextLabel",	"Voorvertoning",
+		"kAnimationUINameStaticTextLabel",		"Naam:",
+		"kAnimationUIPresetStaticTextLabel",	"Voorinstelling:",
+		"kAnimationUICustomPreset",				"Aangepast",
+		"kAnimationUIMixed",					"Gemengd",
+		"kAnimationUIMixed:",					"Gemengd: ",
+		"kAnimationUIChoose",					"Kiezen",
+		"kAnimationUIEventStaticTextLabel",		"Gebeurtenis(sen):",
+		"kAnimationUIDurationStaticTextLabel",	"Duur:",
+		"kAnimationUISecondStaticTextLabel",	"seconde",
+		"kAnimationUISecondsStaticTextLabel",	"seconden",
+		"kAnimationUIPlayStaticTextLabel",		"Afspelen:",
+		"kAnimationUITimeStaticTextLabel",		"keer",
+		"kAnimationUITimesStaticTextLabel",		"keer",
+		"kAnimationUILoopCheckBoxLabel",		"Continu",
+		"kAnimationUISpeedStaticTextLabel",		"Snelheid:",
+		"kAnimationUIVisibilityStaticTextLabel","Zichtbaarheid:",
+		"kAnimationUIPropertyStaticTextLabel",	"Eigenschappen",
+		"kAnimationUIHideBeforeAnimateCheckBoxLabel","Verbergen tot start animatie",
+		"kAnimationUIHideAfterAnimateCheckBoxLabel","Verbergen na animeren",
+		"kAnimationUIOnButtonEvent",			"Bij knopgebeurtenis",
+		"kAnimationUIOnRollOffCheckBoxLabel",	"Omkeren bij rolloff",
+		"kAnimationUIEaseIn",					"Versnellen",
+		"kAnimationUIEaseOut",					"Vertragen",
+		"kAnimationUIEaseInAndOut",				"Versnellen en vertragen",
+		"kAnimationUIFadeIn",					"Infaden",
+		"kAnimationUIFadeOut",					"Uitfaden",
+		"kAnimationUINone",						"Geen",
+		"kAnimationUIFromPreset",				"Op basis van voorinstelling",
+		"kAnimationUIPropertyDesignStaticTextLabel",		"Animeren:",
+		"kAnimationUIPropertyDesignCheckBoxLabel",			"Einde van animatie",
+		"kAnimationFromStaticTextLabel",					"Animeren op basis van",
+		"kAnimationToStaticTextLabel",						"Animeren in",
+		"kAnimationUIPropertyDesignScaleStaticTextLabel",	"Schalen",
+		"kAnimationUIPropertyDesignScaleHorzStaticTextLabel",	"B:",
+		"kAnimationUIPropertyDesignScaleVertStaticTextLabel",	"H:",
+		"kAnimationUIPropertyDesignRotateStaticTextLabel",	"Roteren:",
+		"kAnimationUIPropertyDesignOpacityStaticTextLabel",	"Dekking:",
+		"kAnimationUIPropertyDesignProxyStaticTextLabel",	"Oorsprong:",
+		
+		"kAnimationUIFrom",						"Op basis van huidige vormgeving",
+		"kAnimationUITo",						"Naar huidige vormgeving",
+		"kAnimationUIOffset",					"Naar huidige locatie",
+
+		"kAnimationPanelButtonTriggerTip",		"Knopactivering maken (klik op pictogram en klik op object waarmee deze animatie wordt geactiveerd)",
+		"kAnimationPanelShowProxyTip",			"Animatieproxy weergeven",
+		"kAnimationPanelLockIconTip",			"De schaalwaarde beperken",
+		"kAnimationPanelEventMenuSelectorTip",	"Kies de activeringsgebeurtenis door op de pijl-omlaag te klikken",
+		"kAnimationPanelEventInfoTip",			"Activeringsgebeurtenis(sen) voor de animatie",
+		"kAnimationPanelEventInfoDefaultTip",	"Standaardactiveringsgebeurtenis voor de animatie",
+		"kAnimationPanelPreviewButtonTip",		"Voorvertoning van huidige selectie weergeven",
+		"kAnimationPanelConvertToMotionPathTip","Omzetten in bewegingspad",
+		"kAnimationUIFromTip",					"Gebruikt de eigenschappen van het actieve object als de beginvormgeving van de animatie in de runtime.",
+		"kAnimationUIToTip",					"Gebruikt de eigenschappen van het actieve object als de eindvormgeving van de animatie in de runtime.",
+		"kAnimationUIOffsetTip",				"Gebruikt de eigenschappen van het actieve object als de beginvormgeving en de actieve positie als de eindlocatie van de animatie in de runtime.",
+		"kAnimationUIAnimationOptionTip",		"Animatieopties",
+		"kAnimationUITrashTip",					"Animatie verwijderen",
+		"kAnimationUIXFPointTip",				"Het punt van oorsprong voor schalen en roteren wijzigen.",
+		"kAnimationUIShowTimingButtonTip",		"Deelvenster Timing tonen",
+		
+		"kAnimationUISaveAsPresetTitle",		"Geselecteerde voorinstelling opslaan als",
+		"kAnimationUISavePresetTitle",			"Voorinstelling opslaan",
+		"kAnimationUISavePresetNameLabel",		"Naam:",
+
+		"kAnimationUIEventPopupMenu",			"Pop-upmenu Gebeurtenis",
+		"kAnimationUICreateButtonTriggerCmd",	"Knopactivering maken",
+		"kAnimationUICreateSelfTriggerCmd",		"Automatische activering maken",
+		
+		"kAnimationUIManagePresetsDialogTitle",	"Voorinstellingen beheren",
+		"kAnimationUIManagePresetsDoneButton",	"Gereed",
+		"kAnimationUIManagePresetsDeleteButton","Verwij&deren",
+		"kAnimationUIManagePresetsDuplicateButton","D&upliceren",
+		"kAnimationUIManagePresetsLoadButton",	"&Laden...",
+		"kAnimationUIManagePresetsSaveAsButton","Op&slaan als...",
+		"kAnimationUIManagePresetMenuItem",		"Voorinstellingen beheren...",
+		"kAnimationUIManagePresetPresetsSeparator", "--------------------",
+		"kAnimationUIManagePresetNamePrefix",	"[",
+		"kAnimationUIManagePresetNameSuffix",	"]",
+	}
+};
+
+#endif // __ODFRC__

@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9571F4215CFE10800C95573 /* PstLst.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDD50884173300D809E1 /* PstLst.fr */; };
+		F9571F4315CFE10800C95573 /* PstLstNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDD00884173100D809E1 /* PstLstNoStrip.cpp */; };
+		F9571F4415CFE10800C95573 /* PstLstID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDD10884173200D809E1 /* PstLstID.cpp */; };
+		F9571F4515CFE10800C95573 /* PstLstDataPersist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBC0884172300D809E1 /* PstLstDataPersist.cpp */; };
+		F9571F4615CFE10800C95573 /* PstLstData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBB0884172200D809E1 /* PstLstData.cpp */; };
+		F9571F4715CFE10800C95573 /* PstLstUIDList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBE0884172400D809E1 /* PstLstUIDList.cpp */; };
+		F9571F4815CFE10800C95573 /* PstLstASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDB90884172000D809E1 /* PstLstASB.cpp */; };
+		F9571F4915CFE10800C95573 /* PstLstLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBA0884172100D809E1 /* PstLstLayoutCSB.cpp */; };
+		F9571F4A15CFE10800C95573 /* PstLstNewDataCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC10884172700D809E1 /* PstLstNewDataCmd.cpp */; };
+		F9571F4B15CFE10800C95573 /* PstLstModifyDataCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC20884172800D809E1 /* PstLstModifyDataCmd.cpp */; };
+		F9571F4C15CFE10800C95573 /* PstLstUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC80884172D00D809E1 /* PstLstUtils.cpp */; };
+		F9571F4D15CFE10800C95573 /* PstLstDeleteDataCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC30884172800D809E1 /* PstLstDeleteDataCmd.cpp */; };
+		F9571F4E15CFE10800C95573 /* PstLstDeletePageItemCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC40884172900D809E1 /* PstLstDeletePageItemCmd.cpp */; };
+		F9571F4F15CFE10800C95573 /* PstLstDocObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC50884172A00D809E1 /* PstLstDocObserver.cpp */; };
+		F9571F5015CFE10800C95573 /* PstLstDocServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC60884172B00D809E1 /* PstLstDocServiceProvider.cpp */; };
+		F9571F5115CFE10800C95573 /* PstLstDocResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC70884172C00D809E1 /* PstLstDocResponder.cpp */; };
+		F9571F5215CFE10800C95573 /* PstLstPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDD30884173200D809E1 /* PstLstPlugIn.cpp */; };
+		F9571F5315CFE10800C95573 /* PstLstReferenceConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBF0884172500D809E1 /* PstLstReferenceConverter.cpp */; };
+		F9571F5415CFE10800C95573 /* PstLstScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDCD0884172F00D809E1 /* PstLstScriptProvider.cpp */; };
+		F9571F5515CFE10800C95573 /* PstLstScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDCE0884173000D809E1 /* PstLstScript.cpp */; };
+		F9571F5615CFE10800C95573 /* PstLstErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBD0884172300D809E1 /* PstLstErrorStringService.cpp */; };
+		F9571F5715CFE10800C95573 /* PstLstPhase2Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDCA0884172D00D809E1 /* PstLstPhase2Conversion.cpp */; };
+		F9571F5A15CFE10800C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FDD60884173400D809E1 /* SDKResources.r */; };
+		F9571F6415CFE10B00C95573 /* PstLst.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDD50884173300D809E1 /* PstLst.fr */; };
+		F9571F6515CFE10B00C95573 /* PstLstNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDD00884173100D809E1 /* PstLstNoStrip.cpp */; };
+		F9571F6615CFE10B00C95573 /* PstLstID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDD10884173200D809E1 /* PstLstID.cpp */; };
+		F9571F6715CFE10B00C95573 /* PstLstDataPersist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBC0884172300D809E1 /* PstLstDataPersist.cpp */; };
+		F9571F6815CFE10B00C95573 /* PstLstData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBB0884172200D809E1 /* PstLstData.cpp */; };
+		F9571F6915CFE10B00C95573 /* PstLstUIDList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBE0884172400D809E1 /* PstLstUIDList.cpp */; };
+		F9571F6A15CFE10B00C95573 /* PstLstASB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDB90884172000D809E1 /* PstLstASB.cpp */; };
+		F9571F6B15CFE10B00C95573 /* PstLstLayoutCSB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBA0884172100D809E1 /* PstLstLayoutCSB.cpp */; };
+		F9571F6C15CFE10B00C95573 /* PstLstNewDataCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC10884172700D809E1 /* PstLstNewDataCmd.cpp */; };
+		F9571F6D15CFE10B00C95573 /* PstLstModifyDataCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC20884172800D809E1 /* PstLstModifyDataCmd.cpp */; };
+		F9571F6E15CFE10B00C95573 /* PstLstUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC80884172D00D809E1 /* PstLstUtils.cpp */; };
+		F9571F6F15CFE10B00C95573 /* PstLstDeleteDataCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC30884172800D809E1 /* PstLstDeleteDataCmd.cpp */; };
+		F9571F7015CFE10B00C95573 /* PstLstDeletePageItemCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC40884172900D809E1 /* PstLstDeletePageItemCmd.cpp */; };
+		F9571F7115CFE10B00C95573 /* PstLstDocObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC50884172A00D809E1 /* PstLstDocObserver.cpp */; };
+		F9571F7215CFE10B00C95573 /* PstLstDocServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC60884172B00D809E1 /* PstLstDocServiceProvider.cpp */; };
+		F9571F7315CFE10B00C95573 /* PstLstDocResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDC70884172C00D809E1 /* PstLstDocResponder.cpp */; };
+		F9571F7415CFE10B00C95573 /* PstLstPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDD30884173200D809E1 /* PstLstPlugIn.cpp */; };
+		F9571F7515CFE10B00C95573 /* PstLstReferenceConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBF0884172500D809E1 /* PstLstReferenceConverter.cpp */; };
+		F9571F7615CFE10B00C95573 /* PstLstScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDCD0884172F00D809E1 /* PstLstScriptProvider.cpp */; };
+		F9571F7715CFE10B00C95573 /* PstLstScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDCE0884173000D809E1 /* PstLstScript.cpp */; };
+		F9571F7815CFE10B00C95573 /* PstLstErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDBD0884172300D809E1 /* PstLstErrorStringService.cpp */; };
+		F9571F7915CFE10B00C95573 /* PstLstPhase2Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FDCA0884172D00D809E1 /* PstLstPhase2Conversion.cpp */; };
+		F9571F7C15CFE10B00C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FDD60884173400D809E1 /* SDKResources.r */; };
+		F9571F8415CFE12800C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571F3D15CFE10300C95573 /* InDesignModel.framework */; };
+		F9571F8515CFE12800C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571F3E15CFE10300C95573 /* libPublicPlugIn.a */; };
+		F9571F8615CFE12C00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571F3B15CFE10300C95573 /* InDesignModel.framework */; };
+		F9571F8715CFE12C00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571F3C15CFE10300C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9571F5D15CFE10800C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9571F7F15CFE10B00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73F2A094F8D6700AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73F2B094F8D6700AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F822175DF21800A71E17 /* PstLst_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PstLst_enUS.fr; path = ../../../source/sdksamples/persistentlist/PstLst_enUS.fr; sourceTree = "<group>"; };
+		3227F823175DF21800A71E17 /* PstLst_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PstLst_jaJP.fr; path = ../../../source/sdksamples/persistentlist/PstLst_jaJP.fr; sourceTree = "<group>"; };
+		4B05FDB90884172000D809E1 /* PstLstASB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstASB.cpp; path = ../../../source/sdksamples/persistentlist/PstLstASB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDBA0884172100D809E1 /* PstLstLayoutCSB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstLayoutCSB.cpp; path = ../../../source/sdksamples/persistentlist/PstLstLayoutCSB.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDBB0884172200D809E1 /* PstLstData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstData.cpp; path = ../../../source/sdksamples/persistentlist/PstLstData.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDBC0884172300D809E1 /* PstLstDataPersist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstDataPersist.cpp; path = ../../../source/sdksamples/persistentlist/PstLstDataPersist.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDBD0884172300D809E1 /* PstLstErrorStringService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstErrorStringService.cpp; path = ../../../source/sdksamples/persistentlist/PstLstErrorStringService.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDBE0884172400D809E1 /* PstLstUIDList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUIDList.cpp; path = ../../../source/sdksamples/persistentlist/PstLstUIDList.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDBF0884172500D809E1 /* PstLstReferenceConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstReferenceConverter.cpp; path = ../../../source/sdksamples/persistentlist/PstLstReferenceConverter.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC10884172700D809E1 /* PstLstNewDataCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstNewDataCmd.cpp; path = ../../../source/sdksamples/persistentlist/PstLstNewDataCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC20884172800D809E1 /* PstLstModifyDataCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstModifyDataCmd.cpp; path = ../../../source/sdksamples/persistentlist/PstLstModifyDataCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC30884172800D809E1 /* PstLstDeleteDataCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstDeleteDataCmd.cpp; path = ../../../source/sdksamples/persistentlist/PstLstDeleteDataCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC40884172900D809E1 /* PstLstDeletePageItemCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstDeletePageItemCmd.cpp; path = ../../../source/sdksamples/persistentlist/PstLstDeletePageItemCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC50884172A00D809E1 /* PstLstDocObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstDocObserver.cpp; path = ../../../source/sdksamples/persistentlist/PstLstDocObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC60884172B00D809E1 /* PstLstDocServiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstDocServiceProvider.cpp; path = ../../../source/sdksamples/persistentlist/PstLstDocServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC70884172C00D809E1 /* PstLstDocResponder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstDocResponder.cpp; path = ../../../source/sdksamples/persistentlist/PstLstDocResponder.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC80884172D00D809E1 /* PstLstUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstUtils.cpp; path = ../../../source/sdksamples/persistentlist/PstLstUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDC90884172D00D809E1 /* PstLstUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PstLstUtils.h; path = ../../../source/sdksamples/persistentlist/PstLstUtils.h; sourceTree = SOURCE_ROOT; };
+		4B05FDCA0884172D00D809E1 /* PstLstPhase2Conversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstPhase2Conversion.cpp; path = ../../../source/sdksamples/persistentlist/PstLstPhase2Conversion.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDCC0884172E00D809E1 /* PstLstScriptingDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PstLstScriptingDefs.h; path = ../../../source/sdksamples/persistentlist/PstLstScriptingDefs.h; sourceTree = SOURCE_ROOT; };
+		4B05FDCD0884172F00D809E1 /* PstLstScriptProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstScriptProvider.cpp; path = ../../../source/sdksamples/persistentlist/PstLstScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDCE0884173000D809E1 /* PstLstScript.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstScript.cpp; path = ../../../source/sdksamples/persistentlist/PstLstScript.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDD00884173100D809E1 /* PstLstNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstNoStrip.cpp; path = ../../../source/sdksamples/persistentlist/PstLstNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDD10884173200D809E1 /* PstLstID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstID.cpp; path = ../../../source/sdksamples/persistentlist/PstLstID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDD20884173200D809E1 /* PstLstID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PstLstID.h; path = ../../../source/sdksamples/persistentlist/PstLstID.h; sourceTree = SOURCE_ROOT; };
+		4B05FDD30884173200D809E1 /* PstLstPlugIn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PstLstPlugIn.cpp; path = ../../../source/sdksamples/persistentlist/PstLstPlugIn.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FDD50884173300D809E1 /* PstLst.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PstLst.fr; path = ../../../source/sdksamples/persistentlist/PstLst.fr; sourceTree = SOURCE_ROOT; };
+		4B05FDD60884173400D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F9571F3B15CFE10300C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9571F3C15CFE10300C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9571F3D15CFE10300C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9571F3E15CFE10300C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9571F5815CFE10800C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571F8615CFE12C00C95573 /* InDesignModel.framework in Frameworks */,
+				F9571F8715CFE12C00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571F7A15CFE10B00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571F8415CFE12800C95573 /* InDesignModel.framework in Frameworks */,
+				F9571F8515CFE12800C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05FD9E0884171E00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05FDB80884171E00D809E1 /* Source */,
+				4B05FDD40884173200D809E1 /* Resources */,
+				F9571F3215CFE10300C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05FDB80884171E00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FDB90884172000D809E1 /* PstLstASB.cpp */,
+				4B05FDBA0884172100D809E1 /* PstLstLayoutCSB.cpp */,
+				4B05FDBB0884172200D809E1 /* PstLstData.cpp */,
+				4B05FDBC0884172300D809E1 /* PstLstDataPersist.cpp */,
+				4B05FDBD0884172300D809E1 /* PstLstErrorStringService.cpp */,
+				4B05FDBE0884172400D809E1 /* PstLstUIDList.cpp */,
+				4B05FDBF0884172500D809E1 /* PstLstReferenceConverter.cpp */,
+				4B05FDC10884172700D809E1 /* PstLstNewDataCmd.cpp */,
+				4B05FDC20884172800D809E1 /* PstLstModifyDataCmd.cpp */,
+				4B05FDC30884172800D809E1 /* PstLstDeleteDataCmd.cpp */,
+				4B05FDC40884172900D809E1 /* PstLstDeletePageItemCmd.cpp */,
+				4B05FDC50884172A00D809E1 /* PstLstDocObserver.cpp */,
+				4B05FDC60884172B00D809E1 /* PstLstDocServiceProvider.cpp */,
+				4B05FDC70884172C00D809E1 /* PstLstDocResponder.cpp */,
+				4B05FDC90884172D00D809E1 /* PstLstUtils.h */,
+				4B05FDC80884172D00D809E1 /* PstLstUtils.cpp */,
+				4B05FDCA0884172D00D809E1 /* PstLstPhase2Conversion.cpp */,
+				4B05FDCB0884172D00D809E1 /* Scripting */,
+				4B05FDCF0884173000D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05FDCB0884172D00D809E1 /* Scripting */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FDCC0884172E00D809E1 /* PstLstScriptingDefs.h */,
+				4B05FDCD0884172F00D809E1 /* PstLstScriptProvider.cpp */,
+				4B05FDCE0884173000D809E1 /* PstLstScript.cpp */,
+			);
+			name = Scripting;
+			sourceTree = "<group>";
+		};
+		4B05FDCF0884173000D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FDD00884173100D809E1 /* PstLstNoStrip.cpp */,
+				4B05FDD20884173200D809E1 /* PstLstID.h */,
+				4B05FDD10884173200D809E1 /* PstLstID.cpp */,
+				4B05FDD30884173200D809E1 /* PstLstPlugIn.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05FDD40884173200D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F822175DF21800A71E17 /* PstLst_enUS.fr */,
+				3227F823175DF21800A71E17 /* PstLst_jaJP.fr */,
+				4B05FDD50884173300D809E1 /* PstLst.fr */,
+				4B05FDD60884173400D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73F2A094F8D6700AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73F2B094F8D6700AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9571F3215CFE10300C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9571F3915CFE10300C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9571F3915CFE10300C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9571F3D15CFE10300C95573 /* InDesignModel.framework */,
+				F9571F3E15CFE10300C95573 /* libPublicPlugIn.a */,
+				F9571F3A15CFE10300C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9571F3A15CFE10300C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9571F3B15CFE10300C95573 /* InDesignModel.framework */,
+				F9571F3C15CFE10300C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9571F4015CFE10800C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571F5E15CFE10800C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9571F4115CFE10800C95573 /* Sources */,
+				F9571F5815CFE10800C95573 /* Frameworks */,
+				F9571F5915CFE10800C95573 /* Rez */,
+				F9571F5B15CFE10800C95573 /* Resources */,
+				F9571F5C15CFE10800C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571F5D15CFE10800C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9571F6215CFE10B00C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571F8015CFE10B00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9571F6315CFE10B00C95573 /* Sources */,
+				F9571F7A15CFE10B00C95573 /* Frameworks */,
+				F9571F7B15CFE10B00C95573 /* Rez */,
+				F9571F7D15CFE10B00C95573 /* Resources */,
+				F9571F7E15CFE10B00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571F7F15CFE10B00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05FDA00884171E00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05FDA10884171E00D809E1 /* Build configuration list for PBXProject "PersistentList.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05FD9E0884171E00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9571F4015CFE10800C95573 /* Debug_Cocoa64 */,
+				F9571F6215CFE10B00C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9571F5B15CFE10800C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571F7D15CFE10B00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9571F5915CFE10800C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571F5A15CFE10800C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571F7B15CFE10B00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571F7C15CFE10B00C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9571F5C15CFE10800C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9571F7E15CFE10B00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9571F4115CFE10800C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571F4215CFE10800C95573 /* PstLst.fr in Sources */,
+				F9571F4315CFE10800C95573 /* PstLstNoStrip.cpp in Sources */,
+				F9571F4415CFE10800C95573 /* PstLstID.cpp in Sources */,
+				F9571F4515CFE10800C95573 /* PstLstDataPersist.cpp in Sources */,
+				F9571F4615CFE10800C95573 /* PstLstData.cpp in Sources */,
+				F9571F4715CFE10800C95573 /* PstLstUIDList.cpp in Sources */,
+				F9571F4815CFE10800C95573 /* PstLstASB.cpp in Sources */,
+				F9571F4915CFE10800C95573 /* PstLstLayoutCSB.cpp in Sources */,
+				F9571F4A15CFE10800C95573 /* PstLstNewDataCmd.cpp in Sources */,
+				F9571F4B15CFE10800C95573 /* PstLstModifyDataCmd.cpp in Sources */,
+				F9571F4C15CFE10800C95573 /* PstLstUtils.cpp in Sources */,
+				F9571F4D15CFE10800C95573 /* PstLstDeleteDataCmd.cpp in Sources */,
+				F9571F4E15CFE10800C95573 /* PstLstDeletePageItemCmd.cpp in Sources */,
+				F9571F4F15CFE10800C95573 /* PstLstDocObserver.cpp in Sources */,
+				F9571F5015CFE10800C95573 /* PstLstDocServiceProvider.cpp in Sources */,
+				F9571F5115CFE10800C95573 /* PstLstDocResponder.cpp in Sources */,
+				F9571F5215CFE10800C95573 /* PstLstPlugIn.cpp in Sources */,
+				F9571F5315CFE10800C95573 /* PstLstReferenceConverter.cpp in Sources */,
+				F9571F5415CFE10800C95573 /* PstLstScriptProvider.cpp in Sources */,
+				F9571F5515CFE10800C95573 /* PstLstScript.cpp in Sources */,
+				F9571F5615CFE10800C95573 /* PstLstErrorStringService.cpp in Sources */,
+				F9571F5715CFE10800C95573 /* PstLstPhase2Conversion.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571F6315CFE10B00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571F6415CFE10B00C95573 /* PstLst.fr in Sources */,
+				F9571F6515CFE10B00C95573 /* PstLstNoStrip.cpp in Sources */,
+				F9571F6615CFE10B00C95573 /* PstLstID.cpp in Sources */,
+				F9571F6715CFE10B00C95573 /* PstLstDataPersist.cpp in Sources */,
+				F9571F6815CFE10B00C95573 /* PstLstData.cpp in Sources */,
+				F9571F6915CFE10B00C95573 /* PstLstUIDList.cpp in Sources */,
+				F9571F6A15CFE10B00C95573 /* PstLstASB.cpp in Sources */,
+				F9571F6B15CFE10B00C95573 /* PstLstLayoutCSB.cpp in Sources */,
+				F9571F6C15CFE10B00C95573 /* PstLstNewDataCmd.cpp in Sources */,
+				F9571F6D15CFE10B00C95573 /* PstLstModifyDataCmd.cpp in Sources */,
+				F9571F6E15CFE10B00C95573 /* PstLstUtils.cpp in Sources */,
+				F9571F6F15CFE10B00C95573 /* PstLstDeleteDataCmd.cpp in Sources */,
+				F9571F7015CFE10B00C95573 /* PstLstDeletePageItemCmd.cpp in Sources */,
+				F9571F7115CFE10B00C95573 /* PstLstDocObserver.cpp in Sources */,
+				F9571F7215CFE10B00C95573 /* PstLstDocServiceProvider.cpp in Sources */,
+				F9571F7315CFE10B00C95573 /* PstLstDocResponder.cpp in Sources */,
+				F9571F7415CFE10B00C95573 /* PstLstPlugIn.cpp in Sources */,
+				F9571F7515CFE10B00C95573 /* PstLstReferenceConverter.cpp in Sources */,
+				F9571F7615CFE10B00C95573 /* PstLstScriptProvider.cpp in Sources */,
+				F9571F7715CFE10B00C95573 /* PstLstScript.cpp in Sources */,
+				F9571F7815CFE10B00C95573 /* PstLstErrorStringService.cpp in Sources */,
+				F9571F7915CFE10B00C95573 /* PstLstPhase2Conversion.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05FDA20884171E00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = PersistentList.sdk;
+			};
+			name = Default;
+		};
+		F9571F5F15CFE10800C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F9571F8115CFE10B00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05FDA10884171E00D809E1 /* Build configuration list for PBXProject "PersistentList.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05FDA20884171E00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9571F5E15CFE10800C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571F5F15CFE10800C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9571F8015CFE10B00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571F8115CFE10B00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05FDA00884171E00D809E1 /* Project object */;
+}

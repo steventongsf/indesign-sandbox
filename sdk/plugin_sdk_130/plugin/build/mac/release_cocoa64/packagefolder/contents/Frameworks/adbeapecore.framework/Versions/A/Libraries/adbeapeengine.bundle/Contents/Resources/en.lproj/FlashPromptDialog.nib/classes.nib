@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancel = id; ok = id; }; 
+            CLASS = FlashPromptDialogController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelBtn = NSButton; 
+                label = NSTextField; 
+                okBtn = NSButton; 
+                textField = NSTextField; 
+                window = NSPanel; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

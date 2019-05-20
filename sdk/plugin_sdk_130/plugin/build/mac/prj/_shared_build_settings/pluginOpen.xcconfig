@@ -1,0 +1,41 @@
+ID_BUILD_CONFIG_PLUGIN_OPEN = YES
+
+// InDesign Open plugin build settings (based on common build settings)
+#include "common.xcconfig"
+
+// InDesign Open plugin specific build settings
+
+// InDesign Build variables
+BUILT_APPLICATION_DIR = ../$(ID_BUILDFOLDER_SUBPATH)/packagefolder/contents/macos
+TARGET_BUILD_DIR = $(BUILT_PRODUCTS_DIR)
+WRAPPER_EXTENSION = InDesignPlugin
+
+// Include search paths
+HEADER_SEARCH_PATHS = $(OS_HEADER_SEARCH_PATHS) $(ID_PUBLIC_HEADER_SEARCH_PATHS) $(ID_OPEN_HEADER_SEARCH_PATHS) $(ASL_HEADER_SEARCH_PATHS) $(ID_SDK_ROOT)/external/afl/includes $(ID_SDK_ROOT)/external/bibxmp/include
+
+REZ_SEARCH_PATHS = $(ID_COMMON_REZ_SEARCH_PATHS) $(ID_ICONS_SEARCH_PATHS)
+
+//GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES //TEMPORARY
+//GCC_TREAT_WARNINGS_AS_ERRORS = NO //TEMPORARY  
+
+// GCC flags
+GCC_ENABLE_SYMBOL_SEPARATION = YES
+GCC_PREFIX_HEADER = $(ID_SDK_ROOT)/source/precomp/gcc/PluginPrefix.pch
+//GCC_PREPROCESSOR_DEFINITIONS = $(GCC_PREPROCESSOR_DEFINITIONS) MACINTOSH MACOSX_SDKVERSION=$(MACOSX_SDKVERSION) $(BIB_THROW)
+GCC_WARN_UNUSED_VARIABLE = NO
+GCC_WARN_CHECK_SWITCH_STATEMENTS = NO
+//WARNING_CFLAGS = -Wchar-subscripts -Wimplicit -Wsequence-point -Winit-self -Wmissing-field-initializers -Wpointer-arith -Wcast-align -Wpacked
+
+// Linker Flags
+DEAD_CODE_STRIPPING = YES
+INSTALL_PATH = ./
+ONLY_LINK_ESSENTIAL_SYMBOLS = YES
+// OTHER_LDFLAGS = -Wl,-executable_path -Wl,$(BUILT_APPLICATION_DIR) // these paths are coming in via LIBRARY_SEARCH_PATHS now
+
+// plist compiler flags
+PLC_GENERATE_PKGINFO_FILE = YES
+PLC_OUTPUT_CREATOR = InDn
+PLC_OUTPUT_TYPE = ????
+
+// Misc flags
+ALWAYS_REZ = YES

@@ -1,0 +1,8 @@
+<FILE_LIST>
+<TESTLETTE_FILE_FORMAT FORMAT="1.000000">
+</TESTLETTE_FILE_FORMAT>
+<FILE WHERE="aat:test cases:library:library.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+<FILE WHERE="aat:test cases:library:colors.xml" FILE_RELATIVE_TO="qa_folder">
+</FILE>
+</FILE_LIST>

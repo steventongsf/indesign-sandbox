@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95713DC15CF859800C95573 /* CstAFlt.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F670088412E000D809E1 /* CstAFlt.fr */; };
+		F95713DD15CF859800C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F66E088412DF00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95713DE15CF859800C95573 /* CstAFltActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F667088412DB00D809E1 /* CstAFltActionComponent.cpp */; };
+		F95713DF15CF859800C95573 /* CstAFltActionFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F668088412DC00D809E1 /* CstAFltActionFilter.cpp */; };
+		F95713E015CF859800C95573 /* CstAFltNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F66B088412DD00D809E1 /* CstAFltNoStrip.cpp */; };
+		F95713E115CF859800C95573 /* CstAFltID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F66C088412DE00D809E1 /* CstAFltID.cpp */; };
+		F95713E215CF859800C95573 /* ActionMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AEDA92B0BE9442300A500FD /* ActionMapper.cpp */; };
+		F95713E315CF859800C95573 /* CstAFltStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AEDA92D0BE9442300A500FD /* CstAFltStartupShutdown.cpp */; };
+		F95713EF15CF859900C95573 /* CstAFlt.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F670088412E000D809E1 /* CstAFlt.fr */; };
+		F95713F015CF859900C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F66E088412DF00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95713F115CF859900C95573 /* CstAFltActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F667088412DB00D809E1 /* CstAFltActionComponent.cpp */; };
+		F95713F215CF859900C95573 /* CstAFltActionFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F668088412DC00D809E1 /* CstAFltActionFilter.cpp */; };
+		F95713F315CF859900C95573 /* CstAFltNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F66B088412DD00D809E1 /* CstAFltNoStrip.cpp */; };
+		F95713F415CF859900C95573 /* CstAFltID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F66C088412DE00D809E1 /* CstAFltID.cpp */; };
+		F95713F515CF859900C95573 /* ActionMapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AEDA92B0BE9442300A500FD /* ActionMapper.cpp */; };
+		F95713F615CF859900C95573 /* CstAFltStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AEDA92D0BE9442300A500FD /* CstAFltStartupShutdown.cpp */; };
+		F957140015CF85B800C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95713D715CF858D00C95573 /* InDesignModelAndUI.framework */; };
+		F957140115CF85B800C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95713D815CF858D00C95573 /* libPublicPlugIn.a */; };
+		F957140215CF85BC00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95713D515CF858D00C95573 /* InDesignModelAndUI.framework */; };
+		F957140315CF85BC00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95713D615CF858D00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95713E815CF859800C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95713FB15CF859900C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73D47094F89A200AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73D48094F89A200AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		2AEDA92B0BE9442300A500FD /* ActionMapper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ActionMapper.cpp; path = ../../../source/sdksamples/customactionfilter/ActionMapper.cpp; sourceTree = SOURCE_ROOT; };
+		2AEDA92C0BE9442300A500FD /* ActionMapper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ActionMapper.h; path = ../../../source/sdksamples/customactionfilter/ActionMapper.h; sourceTree = SOURCE_ROOT; };
+		2AEDA92D0BE9442300A500FD /* CstAFltStartupShutdown.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CstAFltStartupShutdown.cpp; path = ../../../source/sdksamples/customactionfilter/CstAFltStartupShutdown.cpp; sourceTree = SOURCE_ROOT; };
+		3227F7F8175DEE9700A71E17 /* CstAFlt_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CstAFlt_enUS.fr; path = ../../../source/sdksamples/customactionfilter/CstAFlt_enUS.fr; sourceTree = "<group>"; };
+		3227F7F9175DEE9700A71E17 /* CstAFlt_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CstAFlt_jaJP.fr; path = ../../../source/sdksamples/customactionfilter/CstAFlt_jaJP.fr; sourceTree = "<group>"; };
+		4B05F667088412DB00D809E1 /* CstAFltActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CstAFltActionComponent.cpp; path = ../../../source/sdksamples/customactionfilter/CstAFltActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F668088412DC00D809E1 /* CstAFltActionFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CstAFltActionFilter.cpp; path = ../../../source/sdksamples/customactionfilter/CstAFltActionFilter.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F669088412DC00D809E1 /* CstAFltActionFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CstAFltActionFilter.h; path = ../../../source/sdksamples/customactionfilter/CstAFltActionFilter.h; sourceTree = SOURCE_ROOT; };
+		4B05F66B088412DD00D809E1 /* CstAFltNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CstAFltNoStrip.cpp; path = ../../../source/sdksamples/customactionfilter/CstAFltNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F66C088412DE00D809E1 /* CstAFltID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CstAFltID.cpp; path = ../../../source/sdksamples/customactionfilter/CstAFltID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F66D088412DE00D809E1 /* CstAFltID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CstAFltID.h; path = ../../../source/sdksamples/customactionfilter/CstAFltID.h; sourceTree = SOURCE_ROOT; };
+		4B05F66E088412DF00D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F670088412E000D809E1 /* CstAFlt.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CstAFlt.fr; path = ../../../source/sdksamples/customactionfilter/CstAFlt.fr; sourceTree = SOURCE_ROOT; };
+		7735565A1203380900E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F95713D515CF858D00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F95713D615CF858D00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95713D715CF858D00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F95713D815CF858D00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95713E415CF859800C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957140215CF85BC00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957140315CF85BC00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95713F715CF859900C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957140015CF85B800C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957140115CF85B800C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F64A088412D800D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F664088412D800D809E1 /* Source */,
+				4B05F66F088412DF00D809E1 /* Resources */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				F95713CC15CF858D00C95573 /* InDesign Libraries */,
+				7735565A1203380900E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F664088412D800D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2AEDA92B0BE9442300A500FD /* ActionMapper.cpp */,
+				2AEDA92C0BE9442300A500FD /* ActionMapper.h */,
+				2AEDA92D0BE9442300A500FD /* CstAFltStartupShutdown.cpp */,
+				4B05F667088412DB00D809E1 /* CstAFltActionComponent.cpp */,
+				4B05F669088412DC00D809E1 /* CstAFltActionFilter.h */,
+				4B05F668088412DC00D809E1 /* CstAFltActionFilter.cpp */,
+				4B05F66A088412DC00D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F66A088412DC00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F66B088412DD00D809E1 /* CstAFltNoStrip.cpp */,
+				4B05F66D088412DE00D809E1 /* CstAFltID.h */,
+				4B05F66C088412DE00D809E1 /* CstAFltID.cpp */,
+				4B05F66E088412DF00D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F66F088412DF00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F7F8175DEE9700A71E17 /* CstAFlt_enUS.fr */,
+				3227F7F9175DEE9700A71E17 /* CstAFlt_jaJP.fr */,
+				4B05F670088412E000D809E1 /* CstAFlt.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73D47094F89A200AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73D48094F89A200AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F95713CC15CF858D00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F95713D315CF858D00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F95713D315CF858D00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F95713D715CF858D00C95573 /* InDesignModelAndUI.framework */,
+				F95713D815CF858D00C95573 /* libPublicPlugIn.a */,
+				F95713D415CF858D00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F95713D415CF858D00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F95713D515CF858D00C95573 /* InDesignModelAndUI.framework */,
+				F95713D615CF858D00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95713DA15CF859800C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95713E915CF859800C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95713DB15CF859800C95573 /* Sources */,
+				F95713E415CF859800C95573 /* Frameworks */,
+				F95713E515CF859800C95573 /* Rez */,
+				F95713E615CF859800C95573 /* Resources */,
+				F95713E715CF859800C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95713E815CF859800C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95713ED15CF859900C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95713FC15CF859900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95713EE15CF859900C95573 /* Sources */,
+				F95713F715CF859900C95573 /* Frameworks */,
+				F95713F815CF859900C95573 /* Rez */,
+				F95713F915CF859900C95573 /* Resources */,
+				F95713FA15CF859900C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95713FB15CF859900C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F64C088412D800D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05F64D088412D800D809E1 /* Build configuration list for PBXProject "CustomActionFilter.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F64A088412D800D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95713DA15CF859800C95573 /* Debug_Cocoa64 */,
+				F95713ED15CF859900C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95713E615CF859800C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95713F915CF859900C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95713E515CF859800C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95713F815CF859900C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95713E715CF859800C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95713FA15CF859900C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95713DB15CF859800C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95713DC15CF859800C95573 /* CstAFlt.fr in Sources */,
+				F95713DD15CF859800C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95713DE15CF859800C95573 /* CstAFltActionComponent.cpp in Sources */,
+				F95713DF15CF859800C95573 /* CstAFltActionFilter.cpp in Sources */,
+				F95713E015CF859800C95573 /* CstAFltNoStrip.cpp in Sources */,
+				F95713E115CF859800C95573 /* CstAFltID.cpp in Sources */,
+				F95713E215CF859800C95573 /* ActionMapper.cpp in Sources */,
+				F95713E315CF859800C95573 /* CstAFltStartupShutdown.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95713EE15CF859900C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95713EF15CF859900C95573 /* CstAFlt.fr in Sources */,
+				F95713F015CF859900C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95713F115CF859900C95573 /* CstAFltActionComponent.cpp in Sources */,
+				F95713F215CF859900C95573 /* CstAFltActionFilter.cpp in Sources */,
+				F95713F315CF859900C95573 /* CstAFltNoStrip.cpp in Sources */,
+				F95713F415CF859900C95573 /* CstAFltID.cpp in Sources */,
+				F95713F515CF859900C95573 /* ActionMapper.cpp in Sources */,
+				F95713F615CF859900C95573 /* CstAFltStartupShutdown.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F64E088412D800D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = CustomActionFilter.sdk;
+			};
+			name = Default;
+		};
+		F95713EA15CF859800C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F95713FD15CF859900C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F64D088412D800D809E1 /* Build configuration list for PBXProject "CustomActionFilter.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F64E088412D800D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95713E915CF859800C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95713EA15CF859800C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95713FC15CF859900C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95713FD15CF859900C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F64C088412D800D809E1 /* Project object */;
+}

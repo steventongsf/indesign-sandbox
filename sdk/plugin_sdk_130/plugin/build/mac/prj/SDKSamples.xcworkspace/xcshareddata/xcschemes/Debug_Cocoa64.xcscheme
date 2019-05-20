@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0460"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "NO">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957085015C90B3B00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicDialog.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957092515C918AC00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicDragDrop.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95709D715C91CBB00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicDrwEvtHandler.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570A0D15C91D5300C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicKit.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570AEF15C91EE500C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicLocalization.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570AA615C91E3100C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicME.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570B4015C91FA400C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicMenu.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570C8815C9323100C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicPanel.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570BDE15C9304300C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicPersistInterface.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570C3C15C9311C00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicPersistInterfaceUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570D7B15C933B600C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicSelectableDialog.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570D2C15C9331F00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicShape.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570DD315C9345500C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:BasicTextAdornment.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957130815CF829600C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CHLinguistic.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95711A815CF7F0400C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CHMLFilter.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957103A15CF793200C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CandleChart.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957110215CF7B3200C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CandleChartUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95710BB15CF7A6700C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CellPanel.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95713DA15CF859800C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CustomActionFilter.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957144015CF869300C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CustomConditionalText.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957150F15CF897A00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CustomConditionalTextUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95716D215CF975700C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CustomScriptEvents.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95715C815CF918100C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CustomUnits.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957174B15CF995200C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:DetailControlListSize.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95717AB15CF9B1900C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:DocWatch.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957185415CFAF2B00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:DynamicMenu.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95718A715CFB06D00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:DynamicPanel.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95719A315CFB6D700C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:FrameLabel.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571A0B15CFB88700C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:FrameLabelUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571A7515CFBB1700C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:GoToLastTextEdit.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571B2F15CFC6BB00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:HiddenText.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571B9F15CFCAF000C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:HiddenTextEditor.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571C1415CFCE1200C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:Hyphenator.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571CB315CFD1D900C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:INXErrorLogging.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571D0515CFD2E100C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:INXErrorLoggingUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571D8115CFDD7700C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:LinkWatcher.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95722FD15CFEAD000C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PDFVT.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957237815CFEC7900C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PDFVTUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9873FC315D10A3600C084CE"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PanelTreeView.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571F4015CFE10800C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PersistentList.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571F9B15CFE1AC00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PersistentListUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9571EDB15CFE05D00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PictureIcon.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957212A15CFE7D000C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PreflightRule.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95720C615CFE6C500C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PreflightRuleUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95721D115CFE9B900C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PrintMemoryStream.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957218A15CFE94B00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:PrintSelection.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95725BE15D0C03F00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:SingleLineComposer.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957255615D0BF8C00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:SnapShot.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957261215D0C0CB00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:SnippetRunner.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95724E515D0BEA300C95573"
+               BuildableName = "StrokeWeightMutator.sdk.InDesignPlugin"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:StrokeWeightMutator.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957248D15D0BDE900C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:SuppUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95728F815D0C5FD00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:TableAttributes.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95729AC15D0C73C00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:TableBasics.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957295C15D0C6B200C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:TextExportFilter.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957289D15D0C53B00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:TextImportFilter.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957282415D0C3D900C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:TransparencyEffect.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F95727D815D0C26F00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:TransparencyEffectUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572B6615D0CC9B00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:WListBoxComposite.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570DD315C9345500C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:WRCComposer.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572AC615D0C9E200C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:WatermarkUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572B0D15D0CAA500C95573"
+               BuildableName = "WaveTool.sdk.InDesignPlugin"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:WaveTool.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572A7A15D0C94300C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:WriteFishPrice.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572C4D15D0CDCC00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:XDocBookWorkflow.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572D7F15D0DB5800C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:XDocBookWorkflowUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572D2D15D0DAA700C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:XMLCatalogHandler.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572CCC15D0D43400C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:XMLDataUpdater.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572DC515D0DBCE00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:XMLDataUpdaterUI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9572E2C15D0DD0B00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:XMLMarkupInjector.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F957085015C90B3B00C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:CSXSDemo.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F9570C8815C9323100C95573"
+               BuildableName = "Debug_Cocoa64"
+               BlueprintName = "Debug_Cocoa64"
+               ReferencedContainer = "container:HiDPI.sdk.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

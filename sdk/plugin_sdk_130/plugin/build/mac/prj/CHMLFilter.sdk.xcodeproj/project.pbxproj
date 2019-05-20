@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95711AA15CF7F0400C95573 /* CHMLFilt.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5FD0884124900D809E1 /* CHMLFilt.fr */; };
+		F95711AB15CF7F0400C95573 /* SDKUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5ED0884123B00D809E1 /* SDKUtilities.cpp */; };
+		F95711AC15CF7F0400C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5EC0884123900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95711AD15CF7F0400C95573 /* CHMLFiltTokenisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F60884124400D809E1 /* CHMLFiltTokenisor.cpp */; };
+		F95711AE15CF7F0400C95573 /* CHMLFiltNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5E90884123400D809E1 /* CHMLFiltNoStrip.cpp */; };
+		F95711AF15CF7F0400C95573 /* CHMLFiltID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5EA0884123600D809E1 /* CHMLFiltID.cpp */; };
+		F95711B015CF7F0400C95573 /* CHMLFiltImportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F40884124100D809E1 /* CHMLFiltImportProvider.cpp */; };
+		F95711B115CF7F0400C95573 /* CHMLFiltHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5FA0884124700D809E1 /* CHMLFiltHelper.cpp */; };
+		F95711B215CF7F0400C95573 /* CHMLFiltExportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F50884124200D809E1 /* CHMLFiltExportProvider.cpp */; };
+		F95711B315CF7F0400C95573 /* CHMLFiltTextHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F80884124600D809E1 /* CHMLFiltTextHelper.cpp */; };
+		F95711B415CF7F0400C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F00884123D00D809E1 /* SDKFileHelper.cpp */; };
+		F95711B515CF7F0400C95573 /* SDKLayoutHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F20884123F00D809E1 /* SDKLayoutHelper.cpp */; };
+		F95711B815CF7F0400C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05F5FE0884124B00D809E1 /* SDKResources.r */; };
+		F95711C215CF7F0600C95573 /* CHMLFilt.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5FD0884124900D809E1 /* CHMLFilt.fr */; };
+		F95711C315CF7F0600C95573 /* SDKUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5ED0884123B00D809E1 /* SDKUtilities.cpp */; };
+		F95711C415CF7F0600C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5EC0884123900D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F95711C515CF7F0600C95573 /* CHMLFiltTokenisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F60884124400D809E1 /* CHMLFiltTokenisor.cpp */; };
+		F95711C615CF7F0600C95573 /* CHMLFiltNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5E90884123400D809E1 /* CHMLFiltNoStrip.cpp */; };
+		F95711C715CF7F0600C95573 /* CHMLFiltID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5EA0884123600D809E1 /* CHMLFiltID.cpp */; };
+		F95711C815CF7F0600C95573 /* CHMLFiltImportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F40884124100D809E1 /* CHMLFiltImportProvider.cpp */; };
+		F95711C915CF7F0600C95573 /* CHMLFiltHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5FA0884124700D809E1 /* CHMLFiltHelper.cpp */; };
+		F95711CA15CF7F0600C95573 /* CHMLFiltExportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F50884124200D809E1 /* CHMLFiltExportProvider.cpp */; };
+		F95711CB15CF7F0600C95573 /* CHMLFiltTextHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F80884124600D809E1 /* CHMLFiltTextHelper.cpp */; };
+		F95711CC15CF7F0600C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F00884123D00D809E1 /* SDKFileHelper.cpp */; };
+		F95711CD15CF7F0600C95573 /* SDKLayoutHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05F5F20884123F00D809E1 /* SDKLayoutHelper.cpp */; };
+		F95711D015CF7F0600C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05F5FE0884124B00D809E1 /* SDKResources.r */; };
+		F95711DA15CF7F1A00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95711A515CF7EF900C95573 /* libPublicPlugIn.a */; };
+		F95711DB15CF7F1A00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95711A615CF7EF900C95573 /* InDesignModel.framework */; };
+		F95711DC15CF7F1D00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95711A315CF7EF900C95573 /* libPublicPlugIn.a */; };
+		F95711DD15CF7F1E00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95711A415CF7EF900C95573 /* InDesignModel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F95711BB15CF7F0400C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F95711D315CF7F0600C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73D2D094F897000AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73D2E094F897000AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F7F6175DEE7A00A71E17 /* CHMLFilt_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CHMLFilt_enUS.fr; path = ../../../source/sdksamples/chmlfilter/CHMLFilt_enUS.fr; sourceTree = "<group>"; };
+		3227F7F7175DEE7A00A71E17 /* CHMLFilt_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CHMLFilt_jaJP.fr; path = ../../../source/sdksamples/chmlfilter/CHMLFilt_jaJP.fr; sourceTree = "<group>"; };
+		4B05F5E90884123400D809E1 /* CHMLFiltNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHMLFiltNoStrip.cpp; path = ../../../source/sdksamples/chmlfilter/CHMLFiltNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5EA0884123600D809E1 /* CHMLFiltID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHMLFiltID.cpp; path = ../../../source/sdksamples/chmlfilter/CHMLFiltID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5EB0884123600D809E1 /* CHMLFiltID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CHMLFiltID.h; path = ../../../source/sdksamples/chmlfilter/CHMLFiltID.h; sourceTree = SOURCE_ROOT; };
+		4B05F5EC0884123900D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5ED0884123B00D809E1 /* SDKUtilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKUtilities.cpp; path = ../../../source/sdksamples/common/SDKUtilities.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5EE0884123B00D809E1 /* SDKUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKUtilities.h; path = ../../../source/sdksamples/common/SDKUtilities.h; sourceTree = SOURCE_ROOT; };
+		4B05F5F00884123D00D809E1 /* SDKFileHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKFileHelper.cpp; path = ../../../source/sdksamples/common/SDKFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5F10884123D00D809E1 /* SDKFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKFileHelper.h; path = ../../../source/sdksamples/common/SDKFileHelper.h; sourceTree = SOURCE_ROOT; };
+		4B05F5F20884123F00D809E1 /* SDKLayoutHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKLayoutHelper.cpp; path = ../../../source/sdksamples/common/SDKLayoutHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5F30884123F00D809E1 /* SDKLayoutHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKLayoutHelper.h; path = ../../../source/sdksamples/common/SDKLayoutHelper.h; sourceTree = SOURCE_ROOT; };
+		4B05F5F40884124100D809E1 /* CHMLFiltImportProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHMLFiltImportProvider.cpp; path = ../../../source/sdksamples/chmlfilter/CHMLFiltImportProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5F50884124200D809E1 /* CHMLFiltExportProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHMLFiltExportProvider.cpp; path = ../../../source/sdksamples/chmlfilter/CHMLFiltExportProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5F60884124400D809E1 /* CHMLFiltTokenisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHMLFiltTokenisor.cpp; path = ../../../source/sdksamples/chmlfilter/CHMLFiltTokenisor.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5F70884124400D809E1 /* CHMLFiltTokenisor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CHMLFiltTokenisor.h; path = ../../../source/sdksamples/chmlfilter/CHMLFiltTokenisor.h; sourceTree = SOURCE_ROOT; };
+		4B05F5F80884124600D809E1 /* CHMLFiltTextHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHMLFiltTextHelper.cpp; path = ../../../source/sdksamples/chmlfilter/CHMLFiltTextHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5F90884124600D809E1 /* CHMLFiltTextHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CHMLFiltTextHelper.h; path = ../../../source/sdksamples/chmlfilter/CHMLFiltTextHelper.h; sourceTree = SOURCE_ROOT; };
+		4B05F5FA0884124700D809E1 /* CHMLFiltHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHMLFiltHelper.cpp; path = ../../../source/sdksamples/chmlfilter/CHMLFiltHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B05F5FB0884124700D809E1 /* CHMLFiltHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CHMLFiltHelper.h; path = ../../../source/sdksamples/chmlfilter/CHMLFiltHelper.h; sourceTree = SOURCE_ROOT; };
+		4B05F5FD0884124900D809E1 /* CHMLFilt.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = CHMLFilt.fr; path = ../../../source/sdksamples/chmlfilter/CHMLFilt.fr; sourceTree = SOURCE_ROOT; };
+		4B05F5FE0884124B00D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		773555D81203365100E6FC19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../source/sdksamples/common/Info.plist; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F95711A315CF7EF900C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95711A415CF7EF900C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F95711A515CF7EF900C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F95711A615CF7EF900C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F95711B615CF7F0400C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95711DC15CF7F1D00C95573 /* libPublicPlugIn.a in Frameworks */,
+				F95711DD15CF7F1E00C95573 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95711CE15CF7F0600C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95711DA15CF7F1A00C95573 /* libPublicPlugIn.a in Frameworks */,
+				F95711DB15CF7F1A00C95573 /* InDesignModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05F5CD0884122F00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05F5E70884122F00D809E1 /* Source */,
+				4B05F5FC0884124700D809E1 /* Resources */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				F957119A15CF7EF900C95573 /* InDesign Libraries */,
+				773555D81203365100E6FC19 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05F5E70884122F00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F5E80884122F00D809E1 /* Plugin */,
+				4B05F5EF0884123B00D809E1 /* Common */,
+				4B05F5F40884124100D809E1 /* CHMLFiltImportProvider.cpp */,
+				4B05F5F50884124200D809E1 /* CHMLFiltExportProvider.cpp */,
+				4B05F5F70884124400D809E1 /* CHMLFiltTokenisor.h */,
+				4B05F5F60884124400D809E1 /* CHMLFiltTokenisor.cpp */,
+				4B05F5F90884124600D809E1 /* CHMLFiltTextHelper.h */,
+				4B05F5F80884124600D809E1 /* CHMLFiltTextHelper.cpp */,
+				4B05F5FB0884124700D809E1 /* CHMLFiltHelper.h */,
+				4B05F5FA0884124700D809E1 /* CHMLFiltHelper.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05F5E80884122F00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F5E90884123400D809E1 /* CHMLFiltNoStrip.cpp */,
+				4B05F5EB0884123600D809E1 /* CHMLFiltID.h */,
+				4B05F5EA0884123600D809E1 /* CHMLFiltID.cpp */,
+				4B05F5EC0884123900D809E1 /* SDKPlugInEntrypoint.cpp */,
+				4B05F5EE0884123B00D809E1 /* SDKUtilities.h */,
+				4B05F5ED0884123B00D809E1 /* SDKUtilities.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05F5EF0884123B00D809E1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4B05F5F10884123D00D809E1 /* SDKFileHelper.h */,
+				4B05F5F00884123D00D809E1 /* SDKFileHelper.cpp */,
+				4B05F5F30884123F00D809E1 /* SDKLayoutHelper.h */,
+				4B05F5F20884123F00D809E1 /* SDKLayoutHelper.cpp */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		4B05F5FC0884124700D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F7F6175DEE7A00A71E17 /* CHMLFilt_enUS.fr */,
+				3227F7F7175DEE7A00A71E17 /* CHMLFilt_jaJP.fr */,
+				4B05F5FD0884124900D809E1 /* CHMLFilt.fr */,
+				4B05F5FE0884124B00D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73D2D094F897000AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73D2E094F897000AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957119A15CF7EF900C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F95711A115CF7EF900C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F95711A115CF7EF900C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F95711A515CF7EF900C95573 /* libPublicPlugIn.a */,
+				F95711A615CF7EF900C95573 /* InDesignModel.framework */,
+				F95711A215CF7EF900C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F95711A215CF7EF900C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F95711A315CF7EF900C95573 /* libPublicPlugIn.a */,
+				F95711A415CF7EF900C95573 /* InDesignModel.framework */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95711A815CF7F0400C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95711BC15CF7F0400C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F95711A915CF7F0400C95573 /* Sources */,
+				F95711B615CF7F0400C95573 /* Frameworks */,
+				F95711B715CF7F0400C95573 /* Rez */,
+				F95711B915CF7F0400C95573 /* Resources */,
+				F95711BA15CF7F0400C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95711BB15CF7F0400C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F95711C015CF7F0600C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95711D415CF7F0600C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F95711C115CF7F0600C95573 /* Sources */,
+				F95711CE15CF7F0600C95573 /* Frameworks */,
+				F95711CF15CF7F0600C95573 /* Rez */,
+				F95711D115CF7F0600C95573 /* Resources */,
+				F95711D215CF7F0600C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F95711D315CF7F0600C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05F5CF0884122F00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05F5D00884122F00D809E1 /* Build configuration list for PBXProject "CHMLFilter.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05F5CD0884122F00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95711A815CF7F0400C95573 /* Debug_Cocoa64 */,
+				F95711C015CF7F0600C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F95711B915CF7F0400C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95711D115CF7F0600C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F95711B715CF7F0400C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95711B815CF7F0400C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95711CF15CF7F0600C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95711D015CF7F0600C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F95711BA15CF7F0400C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F95711D215CF7F0600C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F95711A915CF7F0400C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95711AA15CF7F0400C95573 /* CHMLFilt.fr in Sources */,
+				F95711AB15CF7F0400C95573 /* SDKUtilities.cpp in Sources */,
+				F95711AC15CF7F0400C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95711AD15CF7F0400C95573 /* CHMLFiltTokenisor.cpp in Sources */,
+				F95711AE15CF7F0400C95573 /* CHMLFiltNoStrip.cpp in Sources */,
+				F95711AF15CF7F0400C95573 /* CHMLFiltID.cpp in Sources */,
+				F95711B015CF7F0400C95573 /* CHMLFiltImportProvider.cpp in Sources */,
+				F95711B115CF7F0400C95573 /* CHMLFiltHelper.cpp in Sources */,
+				F95711B215CF7F0400C95573 /* CHMLFiltExportProvider.cpp in Sources */,
+				F95711B315CF7F0400C95573 /* CHMLFiltTextHelper.cpp in Sources */,
+				F95711B415CF7F0400C95573 /* SDKFileHelper.cpp in Sources */,
+				F95711B515CF7F0400C95573 /* SDKLayoutHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95711C115CF7F0600C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95711C215CF7F0600C95573 /* CHMLFilt.fr in Sources */,
+				F95711C315CF7F0600C95573 /* SDKUtilities.cpp in Sources */,
+				F95711C415CF7F0600C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F95711C515CF7F0600C95573 /* CHMLFiltTokenisor.cpp in Sources */,
+				F95711C615CF7F0600C95573 /* CHMLFiltNoStrip.cpp in Sources */,
+				F95711C715CF7F0600C95573 /* CHMLFiltID.cpp in Sources */,
+				F95711C815CF7F0600C95573 /* CHMLFiltImportProvider.cpp in Sources */,
+				F95711C915CF7F0600C95573 /* CHMLFiltHelper.cpp in Sources */,
+				F95711CA15CF7F0600C95573 /* CHMLFiltExportProvider.cpp in Sources */,
+				F95711CB15CF7F0600C95573 /* CHMLFiltTextHelper.cpp in Sources */,
+				F95711CC15CF7F0600C95573 /* SDKFileHelper.cpp in Sources */,
+				F95711CD15CF7F0600C95573 /* SDKLayoutHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05F5D10884122F00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = CHMLFilter.sdk;
+			};
+			name = Default;
+		};
+		F95711BD15CF7F0400C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F95711D515CF7F0600C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05F5D00884122F00D809E1 /* Build configuration list for PBXProject "CHMLFilter.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05F5D10884122F00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F95711BC15CF7F0400C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95711BD15CF7F0400C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F95711D415CF7F0600C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95711D515CF7F0600C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05F5CF0884122F00D809E1 /* Project object */;
+}

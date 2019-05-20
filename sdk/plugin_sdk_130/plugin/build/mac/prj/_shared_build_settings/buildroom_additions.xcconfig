@@ -1,0 +1,6 @@
+
+// Common InDesign buildroom additional settings shared between all projects, targets and configurations
+
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+SEPARATE_STRIP = YES
+DEPLOYMENT_POSTPROCESSING = YES

@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9572C4F15D0CDCC00C95573 /* XDocBk.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506EA08841B5000D809E1 /* XDocBk.fr */; };
+		F9572C5015D0CDCC00C95573 /* XDocBkNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E508841B4D00D809E1 /* XDocBkNoStrip.cpp */; };
+		F9572C5115D0CDCC00C95573 /* XDocBkID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E608841B4E00D809E1 /* XDocBkID.cpp */; };
+		F9572C5215D0CDCC00C95573 /* XDocBkChangeOptionsCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506CC08841B3F00D809E1 /* XDocBkChangeOptionsCmd.cpp */; };
+		F9572C5315D0CDCC00C95573 /* XDocBkImageSizerCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506CD08841B4000D809E1 /* XDocBkImageSizerCmd.cpp */; };
+		F9572C5415D0CDCC00C95573 /* XDocBkOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506DC08841B4A00D809E1 /* XDocBkOptions.cpp */; };
+		F9572C5515D0CDCC00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E808841B4F00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9572C5615D0CDCC00C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506DE08841B4B00D809E1 /* SDKFileHelper.cpp */; };
+		F9572C5715D0CDCC00C95573 /* XDocBkExportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506CE08841B4000D809E1 /* XDocBkExportProvider.cpp */; };
+		F9572C5815D0CDCC00C95573 /* XDocBkFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506DB08841B4900D809E1 /* XDocBkFacade.cpp */; };
+		F9572C5915D0CDCC00C95573 /* XDocBkImportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506CF08841B4100D809E1 /* XDocBkImportProvider.cpp */; };
+		F9572C5A15D0CDCC00C95573 /* SDKLayoutHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E008841B4C00D809E1 /* SDKLayoutHelper.cpp */; };
+		F9572C5B15D0CDCC00C95573 /* XDocBkConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D908841B4800D809E1 /* XDocBkConstants.cpp */; };
+		F9572C5C15D0CDCC00C95573 /* XDocBkTableHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E208841B4C00D809E1 /* XDocBkTableHelper.cpp */; };
+		F9572C5D15D0CDCC00C95573 /* XDocBkChangeServiceXMLImportPrefsCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D008841B4200D809E1 /* XDocBkChangeServiceXMLImportPrefsCmd.cpp */; };
+		F9572C5E15D0CDCC00C95573 /* XDocBkCALSContentXMLImportPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D108841B4300D809E1 /* XDocBkCALSContentXMLImportPrefs.cpp */; };
+		F9572C5F15D0CDCC00C95573 /* XDocBkCALSContentHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D208841B4400D809E1 /* XDocBkCALSContentHandler.cpp */; };
+		F9572C6015D0CDCC00C95573 /* XDocBkXTransXMLImportPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D308841B4400D809E1 /* XDocBkXTransXMLImportPrefs.cpp */; };
+		F9572C6115D0CDCC00C95573 /* XDocBkXPostImpXMLImportPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D408841B4500D809E1 /* XDocBkXPostImpXMLImportPrefs.cpp */; };
+		F9572C6215D0CDCC00C95573 /* XDocBkXMLTransformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D508841B4600D809E1 /* XDocBkXMLTransformer.cpp */; };
+		F9572C6315D0CDCC00C95573 /* XDocBkXMLPostImportIteration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D608841B4700D809E1 /* XDocBkXMLPostImportIteration.cpp */; };
+		F9572C6415D0CDCC00C95573 /* XDocBkErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D708841B4800D809E1 /* XDocBkErrorStringService.cpp */; };
+		F9572C6515D0CDCC00C95573 /* XDocBkPrefsScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8343EC0E1032BBCC0023B091 /* XDocBkPrefsScriptProvider.cpp */; };
+		F9572C7115D0CDCE00C95573 /* XDocBk.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506EA08841B5000D809E1 /* XDocBk.fr */; };
+		F9572C7215D0CDCE00C95573 /* XDocBkNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E508841B4D00D809E1 /* XDocBkNoStrip.cpp */; };
+		F9572C7315D0CDCE00C95573 /* XDocBkID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E608841B4E00D809E1 /* XDocBkID.cpp */; };
+		F9572C7415D0CDCE00C95573 /* XDocBkChangeOptionsCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506CC08841B3F00D809E1 /* XDocBkChangeOptionsCmd.cpp */; };
+		F9572C7515D0CDCE00C95573 /* XDocBkImageSizerCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506CD08841B4000D809E1 /* XDocBkImageSizerCmd.cpp */; };
+		F9572C7615D0CDCE00C95573 /* XDocBkOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506DC08841B4A00D809E1 /* XDocBkOptions.cpp */; };
+		F9572C7715D0CDCE00C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E808841B4F00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9572C7815D0CDCE00C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506DE08841B4B00D809E1 /* SDKFileHelper.cpp */; };
+		F9572C7915D0CDCE00C95573 /* XDocBkExportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506CE08841B4000D809E1 /* XDocBkExportProvider.cpp */; };
+		F9572C7A15D0CDCE00C95573 /* XDocBkFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506DB08841B4900D809E1 /* XDocBkFacade.cpp */; };
+		F9572C7B15D0CDCE00C95573 /* XDocBkImportProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506CF08841B4100D809E1 /* XDocBkImportProvider.cpp */; };
+		F9572C7C15D0CDCE00C95573 /* SDKLayoutHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E008841B4C00D809E1 /* SDKLayoutHelper.cpp */; };
+		F9572C7D15D0CDCE00C95573 /* XDocBkConstants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D908841B4800D809E1 /* XDocBkConstants.cpp */; };
+		F9572C7E15D0CDCE00C95573 /* XDocBkTableHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506E208841B4C00D809E1 /* XDocBkTableHelper.cpp */; };
+		F9572C7F15D0CDCE00C95573 /* XDocBkChangeServiceXMLImportPrefsCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D008841B4200D809E1 /* XDocBkChangeServiceXMLImportPrefsCmd.cpp */; };
+		F9572C8015D0CDCE00C95573 /* XDocBkCALSContentXMLImportPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D108841B4300D809E1 /* XDocBkCALSContentXMLImportPrefs.cpp */; };
+		F9572C8115D0CDCE00C95573 /* XDocBkCALSContentHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D208841B4400D809E1 /* XDocBkCALSContentHandler.cpp */; };
+		F9572C8215D0CDCE00C95573 /* XDocBkXTransXMLImportPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D308841B4400D809E1 /* XDocBkXTransXMLImportPrefs.cpp */; };
+		F9572C8315D0CDCE00C95573 /* XDocBkXPostImpXMLImportPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D408841B4500D809E1 /* XDocBkXPostImpXMLImportPrefs.cpp */; };
+		F9572C8415D0CDCE00C95573 /* XDocBkXMLTransformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D508841B4600D809E1 /* XDocBkXMLTransformer.cpp */; };
+		F9572C8515D0CDCE00C95573 /* XDocBkXMLPostImportIteration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D608841B4700D809E1 /* XDocBkXMLPostImportIteration.cpp */; };
+		F9572C8615D0CDCE00C95573 /* XDocBkErrorStringService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B0506D708841B4800D809E1 /* XDocBkErrorStringService.cpp */; };
+		F9572C8715D0CDCE00C95573 /* XDocBkPrefsScriptProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8343EC0E1032BBCC0023B091 /* XDocBkPrefsScriptProvider.cpp */; };
+		F9572C9115D0CDE800C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9572C4A15D0CDC600C95573 /* InDesignModel.framework */; };
+		F9572C9215D0CDE800C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9572C4B15D0CDC600C95573 /* libPublicPlugIn.a */; };
+		F9572C9315D0CDEC00C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9572C4815D0CDC600C95573 /* InDesignModel.framework */; };
+		F9572C9415D0CDEC00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9572C4915D0CDC600C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9572C6A15D0CDCC00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9572C8C15D0CDCE00C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE7413E094F92EA00AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE7413F094F92EA00AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F84E175DF35C00A71E17 /* XDocBk_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = XDocBk_enUS.fr; path = ../../../source/sdksamples/xdocbookworkflow/XDocBk_enUS.fr; sourceTree = "<group>"; };
+		3227F84F175DF35C00A71E17 /* XDocBk_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = XDocBk_jaJP.fr; path = ../../../source/sdksamples/xdocbookworkflow/XDocBk_jaJP.fr; sourceTree = "<group>"; };
+		4B0506CC08841B3F00D809E1 /* XDocBkChangeOptionsCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkChangeOptionsCmd.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkChangeOptionsCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506CD08841B4000D809E1 /* XDocBkImageSizerCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkImageSizerCmd.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkImageSizerCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506CE08841B4000D809E1 /* XDocBkExportProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkExportProvider.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkExportProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506CF08841B4100D809E1 /* XDocBkImportProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkImportProvider.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkImportProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D008841B4200D809E1 /* XDocBkChangeServiceXMLImportPrefsCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkChangeServiceXMLImportPrefsCmd.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkChangeServiceXMLImportPrefsCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D108841B4300D809E1 /* XDocBkCALSContentXMLImportPrefs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkCALSContentXMLImportPrefs.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkCALSContentXMLImportPrefs.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D208841B4400D809E1 /* XDocBkCALSContentHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkCALSContentHandler.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkCALSContentHandler.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D308841B4400D809E1 /* XDocBkXTransXMLImportPrefs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkXTransXMLImportPrefs.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkXTransXMLImportPrefs.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D408841B4500D809E1 /* XDocBkXPostImpXMLImportPrefs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkXPostImpXMLImportPrefs.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkXPostImpXMLImportPrefs.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D508841B4600D809E1 /* XDocBkXMLTransformer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkXMLTransformer.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkXMLTransformer.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D608841B4700D809E1 /* XDocBkXMLPostImportIteration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkXMLPostImportIteration.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkXMLPostImportIteration.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D708841B4800D809E1 /* XDocBkErrorStringService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkErrorStringService.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkErrorStringService.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506D908841B4800D809E1 /* XDocBkConstants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkConstants.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkConstants.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506DA08841B4800D809E1 /* XDocBkConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XDocBkConstants.h; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkConstants.h; sourceTree = SOURCE_ROOT; };
+		4B0506DB08841B4900D809E1 /* XDocBkFacade.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkFacade.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkFacade.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506DC08841B4A00D809E1 /* XDocBkOptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkOptions.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkOptions.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506DE08841B4B00D809E1 /* SDKFileHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKFileHelper.cpp; path = ../../../source/sdksamples/common/SDKFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506DF08841B4B00D809E1 /* SDKFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKFileHelper.h; path = ../../../source/sdksamples/common/SDKFileHelper.h; sourceTree = SOURCE_ROOT; };
+		4B0506E008841B4C00D809E1 /* SDKLayoutHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKLayoutHelper.cpp; path = ../../../source/sdksamples/common/SDKLayoutHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506E108841B4C00D809E1 /* SDKLayoutHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKLayoutHelper.h; path = ../../../source/sdksamples/common/SDKLayoutHelper.h; sourceTree = SOURCE_ROOT; };
+		4B0506E208841B4C00D809E1 /* XDocBkTableHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkTableHelper.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkTableHelper.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506E308841B4C00D809E1 /* XDocBkTableHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XDocBkTableHelper.h; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkTableHelper.h; sourceTree = SOURCE_ROOT; };
+		4B0506E508841B4D00D809E1 /* XDocBkNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkNoStrip.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506E608841B4E00D809E1 /* XDocBkID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkID.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkID.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506E708841B4E00D809E1 /* XDocBkID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XDocBkID.h; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkID.h; sourceTree = SOURCE_ROOT; };
+		4B0506E808841B4F00D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B0506EA08841B5000D809E1 /* XDocBk.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = XDocBk.fr; path = ../../../source/sdksamples/xdocbookworkflow/XDocBk.fr; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		8343EC0E1032BBCC0023B091 /* XDocBkPrefsScriptProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDocBkPrefsScriptProvider.cpp; path = ../../../source/sdksamples/xdocbookworkflow/XDocBkPrefsScriptProvider.cpp; sourceTree = SOURCE_ROOT; };
+		F9572C4815D0CDC600C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9572C4915D0CDC600C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9572C4A15D0CDC600C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F9572C4B15D0CDC600C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9572C6615D0CDCC00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572C9315D0CDEC00C95573 /* InDesignModel.framework in Frameworks */,
+				F9572C9415D0CDEC00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9572C8815D0CDCE00C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572C9115D0CDE800C95573 /* InDesignModel.framework in Frameworks */,
+				F9572C9215D0CDE800C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B0506B008841B3D00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B0506CA08841B3D00D809E1 /* Source */,
+				4B0506E908841B4F00D809E1 /* Resources */,
+				F9572C3F15D0CDC600C95573 /* InDesign Libs */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B0506CA08841B3D00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8343EC0C1032BB910023B091 /* scripting */,
+				4B0506CB08841B3D00D809E1 /* buildingblocks */,
+				4B0506D808841B4800D809E1 /* core */,
+				4B0506DD08841B4A00D809E1 /* helpers */,
+				4B0506E408841B4C00D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B0506CB08841B3D00D809E1 /* buildingblocks */ = {
+			isa = PBXGroup;
+			children = (
+				4B0506CC08841B3F00D809E1 /* XDocBkChangeOptionsCmd.cpp */,
+				4B0506CD08841B4000D809E1 /* XDocBkImageSizerCmd.cpp */,
+				4B0506CE08841B4000D809E1 /* XDocBkExportProvider.cpp */,
+				4B0506CF08841B4100D809E1 /* XDocBkImportProvider.cpp */,
+				4B0506D008841B4200D809E1 /* XDocBkChangeServiceXMLImportPrefsCmd.cpp */,
+				4B0506D108841B4300D809E1 /* XDocBkCALSContentXMLImportPrefs.cpp */,
+				4B0506D208841B4400D809E1 /* XDocBkCALSContentHandler.cpp */,
+				4B0506D308841B4400D809E1 /* XDocBkXTransXMLImportPrefs.cpp */,
+				4B0506D408841B4500D809E1 /* XDocBkXPostImpXMLImportPrefs.cpp */,
+				4B0506D508841B4600D809E1 /* XDocBkXMLTransformer.cpp */,
+				4B0506D608841B4700D809E1 /* XDocBkXMLPostImportIteration.cpp */,
+				4B0506D708841B4800D809E1 /* XDocBkErrorStringService.cpp */,
+			);
+			name = buildingblocks;
+			sourceTree = "<group>";
+		};
+		4B0506D808841B4800D809E1 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				4B0506DA08841B4800D809E1 /* XDocBkConstants.h */,
+				4B0506D908841B4800D809E1 /* XDocBkConstants.cpp */,
+				4B0506DB08841B4900D809E1 /* XDocBkFacade.cpp */,
+				4B0506DC08841B4A00D809E1 /* XDocBkOptions.cpp */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		4B0506DD08841B4A00D809E1 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B0506DF08841B4B00D809E1 /* SDKFileHelper.h */,
+				4B0506DE08841B4B00D809E1 /* SDKFileHelper.cpp */,
+				4B0506E108841B4C00D809E1 /* SDKLayoutHelper.h */,
+				4B0506E008841B4C00D809E1 /* SDKLayoutHelper.cpp */,
+				4B0506E308841B4C00D809E1 /* XDocBkTableHelper.h */,
+				4B0506E208841B4C00D809E1 /* XDocBkTableHelper.cpp */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		4B0506E408841B4C00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B0506E508841B4D00D809E1 /* XDocBkNoStrip.cpp */,
+				4B0506E708841B4E00D809E1 /* XDocBkID.h */,
+				4B0506E608841B4E00D809E1 /* XDocBkID.cpp */,
+				4B0506E808841B4F00D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B0506E908841B4F00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F84E175DF35C00A71E17 /* XDocBk_enUS.fr */,
+				3227F84F175DF35C00A71E17 /* XDocBk_jaJP.fr */,
+				4B0506EA08841B5000D809E1 /* XDocBk.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE7413E094F92EA00AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE7413F094F92EA00AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		8343EC0C1032BB910023B091 /* scripting */ = {
+			isa = PBXGroup;
+			children = (
+				8343EC0E1032BBCC0023B091 /* XDocBkPrefsScriptProvider.cpp */,
+			);
+			name = scripting;
+			sourceTree = "<group>";
+		};
+		F9572C3F15D0CDC600C95573 /* InDesign Libs */ = {
+			isa = PBXGroup;
+			children = (
+				F9572C4615D0CDC600C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libs";
+			sourceTree = "<group>";
+		};
+		F9572C4615D0CDC600C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9572C4A15D0CDC600C95573 /* InDesignModel.framework */,
+				F9572C4B15D0CDC600C95573 /* libPublicPlugIn.a */,
+				F9572C4715D0CDC600C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9572C4715D0CDC600C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9572C4815D0CDC600C95573 /* InDesignModel.framework */,
+				F9572C4915D0CDC600C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9572C4D15D0CDCC00C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9572C6B15D0CDCC00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9572C4E15D0CDCC00C95573 /* Sources */,
+				F9572C6615D0CDCC00C95573 /* Frameworks */,
+				F9572C6715D0CDCC00C95573 /* Rez */,
+				F9572C6815D0CDCC00C95573 /* Resources */,
+				F9572C6915D0CDCC00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9572C6A15D0CDCC00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9572C6F15D0CDCE00C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9572C8D15D0CDCE00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9572C7015D0CDCE00C95573 /* Sources */,
+				F9572C8815D0CDCE00C95573 /* Frameworks */,
+				F9572C8915D0CDCE00C95573 /* Rez */,
+				F9572C8A15D0CDCE00C95573 /* Resources */,
+				F9572C8B15D0CDCE00C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9572C8C15D0CDCE00C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B0506B208841B3D00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B0506B308841B3D00D809E1 /* Build configuration list for PBXProject "XDocBookWorkflow.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B0506B008841B3D00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9572C4D15D0CDCC00C95573 /* Debug_Cocoa64 */,
+				F9572C6F15D0CDCE00C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9572C6815D0CDCC00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9572C8A15D0CDCE00C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9572C6715D0CDCC00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9572C8915D0CDCE00C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9572C6915D0CDCC00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9572C8B15D0CDCE00C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9572C4E15D0CDCC00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572C4F15D0CDCC00C95573 /* XDocBk.fr in Sources */,
+				F9572C5015D0CDCC00C95573 /* XDocBkNoStrip.cpp in Sources */,
+				F9572C5115D0CDCC00C95573 /* XDocBkID.cpp in Sources */,
+				F9572C5215D0CDCC00C95573 /* XDocBkChangeOptionsCmd.cpp in Sources */,
+				F9572C5315D0CDCC00C95573 /* XDocBkImageSizerCmd.cpp in Sources */,
+				F9572C5415D0CDCC00C95573 /* XDocBkOptions.cpp in Sources */,
+				F9572C5515D0CDCC00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9572C5615D0CDCC00C95573 /* SDKFileHelper.cpp in Sources */,
+				F9572C5715D0CDCC00C95573 /* XDocBkExportProvider.cpp in Sources */,
+				F9572C5815D0CDCC00C95573 /* XDocBkFacade.cpp in Sources */,
+				F9572C5915D0CDCC00C95573 /* XDocBkImportProvider.cpp in Sources */,
+				F9572C5A15D0CDCC00C95573 /* SDKLayoutHelper.cpp in Sources */,
+				F9572C5B15D0CDCC00C95573 /* XDocBkConstants.cpp in Sources */,
+				F9572C5C15D0CDCC00C95573 /* XDocBkTableHelper.cpp in Sources */,
+				F9572C5D15D0CDCC00C95573 /* XDocBkChangeServiceXMLImportPrefsCmd.cpp in Sources */,
+				F9572C5E15D0CDCC00C95573 /* XDocBkCALSContentXMLImportPrefs.cpp in Sources */,
+				F9572C5F15D0CDCC00C95573 /* XDocBkCALSContentHandler.cpp in Sources */,
+				F9572C6015D0CDCC00C95573 /* XDocBkXTransXMLImportPrefs.cpp in Sources */,
+				F9572C6115D0CDCC00C95573 /* XDocBkXPostImpXMLImportPrefs.cpp in Sources */,
+				F9572C6215D0CDCC00C95573 /* XDocBkXMLTransformer.cpp in Sources */,
+				F9572C6315D0CDCC00C95573 /* XDocBkXMLPostImportIteration.cpp in Sources */,
+				F9572C6415D0CDCC00C95573 /* XDocBkErrorStringService.cpp in Sources */,
+				F9572C6515D0CDCC00C95573 /* XDocBkPrefsScriptProvider.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9572C7015D0CDCE00C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9572C7115D0CDCE00C95573 /* XDocBk.fr in Sources */,
+				F9572C7215D0CDCE00C95573 /* XDocBkNoStrip.cpp in Sources */,
+				F9572C7315D0CDCE00C95573 /* XDocBkID.cpp in Sources */,
+				F9572C7415D0CDCE00C95573 /* XDocBkChangeOptionsCmd.cpp in Sources */,
+				F9572C7515D0CDCE00C95573 /* XDocBkImageSizerCmd.cpp in Sources */,
+				F9572C7615D0CDCE00C95573 /* XDocBkOptions.cpp in Sources */,
+				F9572C7715D0CDCE00C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9572C7815D0CDCE00C95573 /* SDKFileHelper.cpp in Sources */,
+				F9572C7915D0CDCE00C95573 /* XDocBkExportProvider.cpp in Sources */,
+				F9572C7A15D0CDCE00C95573 /* XDocBkFacade.cpp in Sources */,
+				F9572C7B15D0CDCE00C95573 /* XDocBkImportProvider.cpp in Sources */,
+				F9572C7C15D0CDCE00C95573 /* SDKLayoutHelper.cpp in Sources */,
+				F9572C7D15D0CDCE00C95573 /* XDocBkConstants.cpp in Sources */,
+				F9572C7E15D0CDCE00C95573 /* XDocBkTableHelper.cpp in Sources */,
+				F9572C7F15D0CDCE00C95573 /* XDocBkChangeServiceXMLImportPrefsCmd.cpp in Sources */,
+				F9572C8015D0CDCE00C95573 /* XDocBkCALSContentXMLImportPrefs.cpp in Sources */,
+				F9572C8115D0CDCE00C95573 /* XDocBkCALSContentHandler.cpp in Sources */,
+				F9572C8215D0CDCE00C95573 /* XDocBkXTransXMLImportPrefs.cpp in Sources */,
+				F9572C8315D0CDCE00C95573 /* XDocBkXPostImpXMLImportPrefs.cpp in Sources */,
+				F9572C8415D0CDCE00C95573 /* XDocBkXMLTransformer.cpp in Sources */,
+				F9572C8515D0CDCE00C95573 /* XDocBkXMLPostImportIteration.cpp in Sources */,
+				F9572C8615D0CDCE00C95573 /* XDocBkErrorStringService.cpp in Sources */,
+				F9572C8715D0CDCE00C95573 /* XDocBkPrefsScriptProvider.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B0506B408841B3D00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = XDocBookWorkflow.sdk;
+			};
+			name = Default;
+		};
+		F9572C6C15D0CDCC00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F9572C8E15D0CDCE00C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0506B308841B3D00D809E1 /* Build configuration list for PBXProject "XDocBookWorkflow.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0506B408841B3D00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9572C6B15D0CDCC00C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9572C6C15D0CDCC00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9572C8D15D0CDCE00C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9572C8E15D0CDCE00C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B0506B208841B3D00D809E1 /* Project object */;
+}

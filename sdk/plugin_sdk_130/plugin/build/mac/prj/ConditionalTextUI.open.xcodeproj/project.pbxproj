@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = E1F9D6910CD2965F00FB8F9E /* PluginPList.plc */; };
+		00A84D3015CFF1C1001D87F1 /* ConditionalTextUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D5440CD2827A00FB8F9E /* ConditionalTextUI.fr */; };
+		00A84D3115CFF1C1001D87F1 /* ConditionalTextUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4AA0CD2605500FB8F9E /* ConditionalTextUIID.cpp */; };
+		00A84D3215CFF1C1001D87F1 /* ConditionalTextUIMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4AB0CD2605500FB8F9E /* ConditionalTextUIMWHacks.cpp */; };
+		00A84D3315CFF1C1001D87F1 /* ConditionalTextUIPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4AC0CD2605500FB8F9E /* ConditionalTextUIPlugin.cpp */; };
+		00A84D3415CFF1C1001D87F1 /* TriggerResourceDeps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4AD0CD2605500FB8F9E /* TriggerResourceDeps.cpp */; };
+		00A84D3515CFF1C1001D87F1 /* ConditionalTextUIPanelMenuAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E40CD262B800FB8F9E /* ConditionalTextUIPanelMenuAction.cpp */; };
+		00A84D3615CFF1C1001D87F1 /* ConditionalTextUIPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E50CD262B800FB8F9E /* ConditionalTextUIPanelView.cpp */; };
+		00A84D3715CFF1C1001D87F1 /* ConditionTagEyeballObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E60CD262B800FB8F9E /* ConditionTagEyeballObserver.cpp */; };
+		00A84D3815CFF1C1001D87F1 /* ConditionTagListDNDHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E70CD262B800FB8F9E /* ConditionTagListDNDHandler.cpp */; };
+		00A84D3915CFF1C1001D87F1 /* ConditionTagListDNDSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E80CD262B800FB8F9E /* ConditionTagListDNDSource.cpp */; };
+		00A84D3A15CFF1C1001D87F1 /* ConditionTagListTreeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E90CD262B800FB8F9E /* ConditionTagListTreeObserver.cpp */; };
+		00A84D3B15CFF1C1001D87F1 /* ConditionTagListTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4EA0CD262B800FB8F9E /* ConditionTagListTreeViewAdapter.cpp */; };
+		00A84D3C15CFF1C1001D87F1 /* ConditionTagListTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4EB0CD262B800FB8F9E /* ConditionTagListTreeViewWidgetMgr.cpp */; };
+		00A84D3D15CFF1C1001D87F1 /* ConditionTagNameILEObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4EC0CD262B800FB8F9E /* ConditionTagNameILEObserver.cpp */; };
+		00A84D3E15CFF1C1001D87F1 /* DeleteConditionTagButtonDNDTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4EF0CD262B800FB8F9E /* DeleteConditionTagButtonDNDTarget.cpp */; };
+		00A84D3F15CFF1C1001D87F1 /* DeleteConditionTagButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4F00CD262B800FB8F9E /* DeleteConditionTagButtonObserver.cpp */; };
+		00A84D4015CFF1C1001D87F1 /* NewConditionTagButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4F10CD262B800FB8F9E /* NewConditionTagButtonObserver.cpp */; };
+		00A84D4115CFF1C1001D87F1 /* ConditionTagNameILEEditingAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D5D80CD288D600FB8F9E /* ConditionTagNameILEEditingAttributes.cpp */; };
+		00A84D4215CFF1C1001D87F1 /* ConditionTagNameTextValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D61D0CD28D4200FB8F9E /* ConditionTagNameTextValidation.cpp */; };
+		00A84D4315CFF1C1001D87F1 /* ConditionalTextUIFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0D7210CD9311100291CDC /* ConditionalTextUIFacade.cpp */; };
+		00A84D4415CFF1C1001D87F1 /* ConditionTagColorSwatchView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0D7220CD9311100291CDC /* ConditionTagColorSwatchView.cpp */; };
+		00A84D4515CFF1C1001D87F1 /* ConditionTagListTreeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0D7230CD9311100291CDC /* ConditionTagListTreeController.cpp */; };
+		00A84D4615CFF1C1001D87F1 /* ConditionTagOptionsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0D7250CD9311100291CDC /* ConditionTagOptionsDialogController.cpp */; };
+		00A84D4715CFF1C1001D87F1 /* ConditionTagListTreeSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1C19ABE0CE0FCF600C31071 /* ConditionTagListTreeSelectionObserver.cpp */; };
+		00A84D4815CFF1C1001D87F1 /* ConditionalTextLayoutAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12710000CE2691F00798FAD /* ConditionalTextLayoutAction.cpp */; };
+		00A84D4915CFF1C1001D87F1 /* ConditionalTextLayoutObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12710010CE2691F00798FAD /* ConditionalTextLayoutObserver.cpp */; };
+		00A84D4A15CFF1C1001D87F1 /* ConditionTagEyeballView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12710A10CE28C2200798FAD /* ConditionTagEyeballView.cpp */; };
+		00A84D4B15CFF1C1001D87F1 /* ShowConditionIndicatorsObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E148636E0CEA6BE100F6018A /* ShowConditionIndicatorsObserver.cpp */; };
+		00A84D4C15CFF1C1001D87F1 /* ConditionSetDropDownObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06D0627F0CFF439700355A04 /* ConditionSetDropDownObserver.cpp */; };
+		00A84D4D15CFF1C1001D87F1 /* ConditionTagOptionsDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E10413620D09CC0200228CBF /* ConditionTagOptionsDialogObserver.cpp */; };
+		00A84D4E15CFF1C1001D87F1 /* ConditionalTextTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16BECD180D11A55800B6B3DE /* ConditionalTextTips.cpp */; };
+		00A84D4F15CFF1C1001D87F1 /* ConditionalTextVisitorHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16BECD190D11A55800B6B3DE /* ConditionalTextVisitorHelper.cpp */; };
+		00A84D5015CFF1C1001D87F1 /* ConditionTagTVNodeTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16C476DA0D12416B00F324EF /* ConditionTagTVNodeTip.cpp */; };
+		00A84D5115CFF1C1001D87F1 /* ConditionTagTVNodeContextMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A92A580D1352CB00F40C00 /* ConditionTagTVNodeContextMenu.cpp */; };
+		00A84D5215CFF1C1001D87F1 /* ConditionTagTVNodeEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A92A590D1352CB00F40C00 /* ConditionTagTVNodeEH.cpp */; };
+		00A84D5315CFF1C1001D87F1 /* ConditionTagDeleteDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E409E80D1985DA00DF6ADD /* ConditionTagDeleteDialogController.cpp */; };
+		00A84D5415CFF1C1001D87F1 /* ConditionSetNameDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06CA09730D31B8A000E3D884 /* ConditionSetNameDialogController.cpp */; };
+		00A84D5515CFF1C1001D87F1 /* ConditionsQuickApplyService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0691BF270D3536AF0089C480 /* ConditionsQuickApplyService.cpp */; };
+		00A84D5615CFF1C1001D87F1 /* NewConditionSetButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06C5D2F00D37D7C1006F5D54 /* NewConditionSetButtonObserver.cpp */; };
+		00A84D5715CFF1C1001D87F1 /* ConditionStatusTextSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0637866C0D3D60C700766560 /* ConditionStatusTextSelectionObserver.cpp */; };
+		00A84D5815CFF1C1001D87F1 /* ConditionStaticTextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 063786820D3D685600766560 /* ConditionStaticTextView.cpp */; };
+		00A84D5915CFF1C1001D87F1 /* ConditionalTextUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E41BDB0D47F78200C1529F /* ConditionalTextUIUtils.cpp */; };
+		00A84D5A15CFF1C1001D87F1 /* ConditionalTextUIPanelDetailController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E172A9AE0DAC459200316433 /* ConditionalTextUIPanelDetailController.cpp */; };
+		00A84D5B15CFF1C1001D87F1 /* ConditionSetDropDownTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FC46B60F55A415000C7612 /* ConditionSetDropDownTip.cpp */; };
+		32AF372017ED993900CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = E1F9D6910CD2965F00FB8F9E /* PluginPList.plc */; };
+		00A84D6815CFF1C3001D87F1 /* ConditionalTextUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D5440CD2827A00FB8F9E /* ConditionalTextUI.fr */; };
+		00A84D6915CFF1C3001D87F1 /* ConditionalTextUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4AA0CD2605500FB8F9E /* ConditionalTextUIID.cpp */; };
+		00A84D6A15CFF1C3001D87F1 /* ConditionalTextUIMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4AB0CD2605500FB8F9E /* ConditionalTextUIMWHacks.cpp */; };
+		00A84D6B15CFF1C3001D87F1 /* ConditionalTextUIPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4AC0CD2605500FB8F9E /* ConditionalTextUIPlugin.cpp */; };
+		00A84D6C15CFF1C3001D87F1 /* TriggerResourceDeps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4AD0CD2605500FB8F9E /* TriggerResourceDeps.cpp */; };
+		00A84D6D15CFF1C3001D87F1 /* ConditionalTextUIPanelMenuAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E40CD262B800FB8F9E /* ConditionalTextUIPanelMenuAction.cpp */; };
+		00A84D6E15CFF1C3001D87F1 /* ConditionalTextUIPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E50CD262B800FB8F9E /* ConditionalTextUIPanelView.cpp */; };
+		00A84D6F15CFF1C3001D87F1 /* ConditionTagEyeballObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E60CD262B800FB8F9E /* ConditionTagEyeballObserver.cpp */; };
+		00A84D7015CFF1C3001D87F1 /* ConditionTagListDNDHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E70CD262B800FB8F9E /* ConditionTagListDNDHandler.cpp */; };
+		00A84D7115CFF1C3001D87F1 /* ConditionTagListDNDSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E80CD262B800FB8F9E /* ConditionTagListDNDSource.cpp */; };
+		00A84D7215CFF1C3001D87F1 /* ConditionTagListTreeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4E90CD262B800FB8F9E /* ConditionTagListTreeObserver.cpp */; };
+		00A84D7315CFF1C3001D87F1 /* ConditionTagListTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4EA0CD262B800FB8F9E /* ConditionTagListTreeViewAdapter.cpp */; };
+		00A84D7415CFF1C3001D87F1 /* ConditionTagListTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4EB0CD262B800FB8F9E /* ConditionTagListTreeViewWidgetMgr.cpp */; };
+		00A84D7515CFF1C3001D87F1 /* ConditionTagNameILEObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4EC0CD262B800FB8F9E /* ConditionTagNameILEObserver.cpp */; };
+		00A84D7615CFF1C3001D87F1 /* DeleteConditionTagButtonDNDTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4EF0CD262B800FB8F9E /* DeleteConditionTagButtonDNDTarget.cpp */; };
+		00A84D7715CFF1C3001D87F1 /* DeleteConditionTagButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4F00CD262B800FB8F9E /* DeleteConditionTagButtonObserver.cpp */; };
+		00A84D7815CFF1C3001D87F1 /* NewConditionTagButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D4F10CD262B800FB8F9E /* NewConditionTagButtonObserver.cpp */; };
+		00A84D7915CFF1C3001D87F1 /* ConditionTagNameILEEditingAttributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D5D80CD288D600FB8F9E /* ConditionTagNameILEEditingAttributes.cpp */; };
+		00A84D7A15CFF1C3001D87F1 /* ConditionTagNameTextValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1F9D61D0CD28D4200FB8F9E /* ConditionTagNameTextValidation.cpp */; };
+		00A84D7B15CFF1C3001D87F1 /* ConditionalTextUIFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0D7210CD9311100291CDC /* ConditionalTextUIFacade.cpp */; };
+		00A84D7C15CFF1C3001D87F1 /* ConditionTagColorSwatchView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0D7220CD9311100291CDC /* ConditionTagColorSwatchView.cpp */; };
+		00A84D7D15CFF1C3001D87F1 /* ConditionTagListTreeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0D7230CD9311100291CDC /* ConditionTagListTreeController.cpp */; };
+		00A84D7E15CFF1C3001D87F1 /* ConditionTagOptionsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0D7250CD9311100291CDC /* ConditionTagOptionsDialogController.cpp */; };
+		00A84D7F15CFF1C3001D87F1 /* ConditionTagListTreeSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1C19ABE0CE0FCF600C31071 /* ConditionTagListTreeSelectionObserver.cpp */; };
+		00A84D8015CFF1C3001D87F1 /* ConditionalTextLayoutAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12710000CE2691F00798FAD /* ConditionalTextLayoutAction.cpp */; };
+		00A84D8115CFF1C3001D87F1 /* ConditionalTextLayoutObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12710010CE2691F00798FAD /* ConditionalTextLayoutObserver.cpp */; };
+		00A84D8215CFF1C3001D87F1 /* ConditionTagEyeballView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12710A10CE28C2200798FAD /* ConditionTagEyeballView.cpp */; };
+		00A84D8315CFF1C3001D87F1 /* ShowConditionIndicatorsObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E148636E0CEA6BE100F6018A /* ShowConditionIndicatorsObserver.cpp */; };
+		00A84D8415CFF1C3001D87F1 /* ConditionSetDropDownObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06D0627F0CFF439700355A04 /* ConditionSetDropDownObserver.cpp */; };
+		00A84D8515CFF1C3001D87F1 /* ConditionTagOptionsDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E10413620D09CC0200228CBF /* ConditionTagOptionsDialogObserver.cpp */; };
+		00A84D8615CFF1C3001D87F1 /* ConditionalTextTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16BECD180D11A55800B6B3DE /* ConditionalTextTips.cpp */; };
+		00A84D8715CFF1C3001D87F1 /* ConditionalTextVisitorHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16BECD190D11A55800B6B3DE /* ConditionalTextVisitorHelper.cpp */; };
+		00A84D8815CFF1C3001D87F1 /* ConditionTagTVNodeTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16C476DA0D12416B00F324EF /* ConditionTagTVNodeTip.cpp */; };
+		00A84D8915CFF1C3001D87F1 /* ConditionTagTVNodeContextMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A92A580D1352CB00F40C00 /* ConditionTagTVNodeContextMenu.cpp */; };
+		00A84D8A15CFF1C3001D87F1 /* ConditionTagTVNodeEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16A92A590D1352CB00F40C00 /* ConditionTagTVNodeEH.cpp */; };
+		00A84D8B15CFF1C3001D87F1 /* ConditionTagDeleteDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E409E80D1985DA00DF6ADD /* ConditionTagDeleteDialogController.cpp */; };
+		00A84D8C15CFF1C3001D87F1 /* ConditionSetNameDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06CA09730D31B8A000E3D884 /* ConditionSetNameDialogController.cpp */; };
+		00A84D8D15CFF1C3001D87F1 /* ConditionsQuickApplyService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0691BF270D3536AF0089C480 /* ConditionsQuickApplyService.cpp */; };
+		00A84D8E15CFF1C3001D87F1 /* NewConditionSetButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06C5D2F00D37D7C1006F5D54 /* NewConditionSetButtonObserver.cpp */; };
+		00A84D8F15CFF1C3001D87F1 /* ConditionStatusTextSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0637866C0D3D60C700766560 /* ConditionStatusTextSelectionObserver.cpp */; };
+		00A84D9015CFF1C3001D87F1 /* ConditionStaticTextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 063786820D3D685600766560 /* ConditionStaticTextView.cpp */; };
+		00A84D9115CFF1C3001D87F1 /* ConditionalTextUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E41BDB0D47F78200C1529F /* ConditionalTextUIUtils.cpp */; };
+		00A84D9215CFF1C3001D87F1 /* ConditionalTextUIPanelDetailController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E172A9AE0DAC459200316433 /* ConditionalTextUIPanelDetailController.cpp */; };
+		00A84D9315CFF1C3001D87F1 /* ConditionSetDropDownTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FC46B60F55A415000C7612 /* ConditionSetDropDownTip.cpp */; };
+		00A84DA315CFF1F1001D87F1 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A84DA115CFF1F1001D87F1 /* InDesignModelAndUI.framework */; };
+		00A84DA415CFF1F1001D87F1 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A84DA215CFF1F1001D87F1 /* libPublicPlugIn.a */; };
+		00A84DA815CFF1FB001D87F1 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A84DA615CFF1FB001D87F1 /* InDesignModelAndUI.framework */; };
+		00A84DA915CFF1FB001D87F1 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A84DA715CFF1FB001D87F1 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		00A84D6015CFF1C1001D87F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		00A84D6115CFF1C1001D87F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+		00A84D9815CFF1C3001D87F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		00A84D9915CFF1C3001D87F1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		00A84D6415CFF1C1001D87F1 /* Conditional Text UI.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Conditional Text UI.InDesignPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A84D9C15CFF1C3001D87F1 /* Conditional Text UI.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Conditional Text UI.InDesignPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A84DA115CFF1F1001D87F1 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		00A84DA215CFF1F1001D87F1 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		00A84DA615CFF1FB001D87F1 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		00A84DA715CFF1FB001D87F1 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		0637866C0D3D60C700766560 /* ConditionStatusTextSelectionObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionStatusTextSelectionObserver.cpp; path = ../../../source/open/components/conditionaltextui/ConditionStatusTextSelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		063786820D3D685600766560 /* ConditionStaticTextView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionStaticTextView.cpp; path = ../../../source/open/components/conditionaltextui/ConditionStaticTextView.cpp; sourceTree = SOURCE_ROOT; };
+		0691BF270D3536AF0089C480 /* ConditionsQuickApplyService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionsQuickApplyService.cpp; path = ../../../source/open/components/conditionaltextui/ConditionsQuickApplyService.cpp; sourceTree = SOURCE_ROOT; };
+		06C5D2F00D37D7C1006F5D54 /* NewConditionSetButtonObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NewConditionSetButtonObserver.cpp; path = ../../../source/open/components/conditionaltextui/NewConditionSetButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		06CA09730D31B8A000E3D884 /* ConditionSetNameDialogController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionSetNameDialogController.cpp; path = ../../../source/open/components/conditionaltextui/ConditionSetNameDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		06D0627F0CFF439700355A04 /* ConditionSetDropDownObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionSetDropDownObserver.cpp; path = ../../../source/open/components/conditionaltextui/ConditionSetDropDownObserver.cpp; sourceTree = SOURCE_ROOT; };
+		16A92A580D1352CB00F40C00 /* ConditionTagTVNodeContextMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagTVNodeContextMenu.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagTVNodeContextMenu.cpp; sourceTree = SOURCE_ROOT; };
+		16A92A590D1352CB00F40C00 /* ConditionTagTVNodeEH.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagTVNodeEH.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagTVNodeEH.cpp; sourceTree = SOURCE_ROOT; };
+		16BECD180D11A55800B6B3DE /* ConditionalTextTips.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextTips.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextTips.cpp; sourceTree = SOURCE_ROOT; };
+		16BECD190D11A55800B6B3DE /* ConditionalTextVisitorHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextVisitorHelper.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextVisitorHelper.cpp; sourceTree = SOURCE_ROOT; };
+		16C476DA0D12416B00F324EF /* ConditionTagTVNodeTip.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagTVNodeTip.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagTVNodeTip.cpp; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/pluginOpen.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/pluginOpen.xcconfig; sourceTree = SOURCE_ROOT; };
+		E10413620D09CC0200228CBF /* ConditionTagOptionsDialogObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagOptionsDialogObserver.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagOptionsDialogObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E12710000CE2691F00798FAD /* ConditionalTextLayoutAction.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextLayoutAction.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextLayoutAction.cpp; sourceTree = SOURCE_ROOT; };
+		E12710010CE2691F00798FAD /* ConditionalTextLayoutObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextLayoutObserver.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextLayoutObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E12710A10CE28C2200798FAD /* ConditionTagEyeballView.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagEyeballView.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagEyeballView.cpp; sourceTree = SOURCE_ROOT; };
+		E148636E0CEA6BE100F6018A /* ShowConditionIndicatorsObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ShowConditionIndicatorsObserver.cpp; path = ../../../source/open/components/conditionaltextui/ShowConditionIndicatorsObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E172A9AE0DAC459200316433 /* ConditionalTextUIPanelDetailController.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextUIPanelDetailController.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextUIPanelDetailController.cpp; sourceTree = SOURCE_ROOT; };
+		E1C19ABE0CE0FCF600C31071 /* ConditionTagListTreeSelectionObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagListTreeSelectionObserver.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagListTreeSelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E1E0D7210CD9311100291CDC /* ConditionalTextUIFacade.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextUIFacade.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextUIFacade.cpp; sourceTree = SOURCE_ROOT; };
+		E1E0D7220CD9311100291CDC /* ConditionTagColorSwatchView.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagColorSwatchView.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagColorSwatchView.cpp; sourceTree = SOURCE_ROOT; };
+		E1E0D7230CD9311100291CDC /* ConditionTagListTreeController.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagListTreeController.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagListTreeController.cpp; sourceTree = SOURCE_ROOT; };
+		E1E0D7250CD9311100291CDC /* ConditionTagOptionsDialogController.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagOptionsDialogController.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagOptionsDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		E1E409E80D1985DA00DF6ADD /* ConditionTagDeleteDialogController.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagDeleteDialogController.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagDeleteDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		E1E41BDB0D47F78200C1529F /* ConditionalTextUIUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextUIUtils.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextUIUtils.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4AA0CD2605500FB8F9E /* ConditionalTextUIID.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextUIID.cpp; path = ../../../source/open/components/conditionaltextui/plugin/ConditionalTextUIID.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4AB0CD2605500FB8F9E /* ConditionalTextUIMWHacks.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextUIMWHacks.cpp; path = ../../../source/open/components/conditionaltextui/plugin/ConditionalTextUIMWHacks.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4AC0CD2605500FB8F9E /* ConditionalTextUIPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextUIPlugin.cpp; path = ../../../source/open/components/conditionaltextui/plugin/ConditionalTextUIPlugin.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4AD0CD2605500FB8F9E /* TriggerResourceDeps.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TriggerResourceDeps.cpp; path = ../../../source/open/components/conditionaltextui/plugin/TriggerResourceDeps.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4D80CD2621C00FB8F9E /* ConditionalTextUIDefs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ConditionalTextUIDefs.h; path = ../../../source/open/components/conditionaltextui/includes/ConditionalTextUIDefs.h; sourceTree = SOURCE_ROOT; };
+		E1F9D4D90CD2621C00FB8F9E /* ConditionalTextUIFactoryList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ConditionalTextUIFactoryList.h; path = ../../../source/open/components/conditionaltextui/includes/ConditionalTextUIFactoryList.h; sourceTree = SOURCE_ROOT; };
+		E1F9D4E40CD262B800FB8F9E /* ConditionalTextUIPanelMenuAction.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextUIPanelMenuAction.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextUIPanelMenuAction.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4E50CD262B800FB8F9E /* ConditionalTextUIPanelView.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionalTextUIPanelView.cpp; path = ../../../source/open/components/conditionaltextui/ConditionalTextUIPanelView.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4E60CD262B800FB8F9E /* ConditionTagEyeballObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagEyeballObserver.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagEyeballObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4E70CD262B800FB8F9E /* ConditionTagListDNDHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagListDNDHandler.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagListDNDHandler.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4E80CD262B800FB8F9E /* ConditionTagListDNDSource.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagListDNDSource.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagListDNDSource.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4E90CD262B800FB8F9E /* ConditionTagListTreeObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagListTreeObserver.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagListTreeObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4EA0CD262B800FB8F9E /* ConditionTagListTreeViewAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagListTreeViewAdapter.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagListTreeViewAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4EB0CD262B800FB8F9E /* ConditionTagListTreeViewWidgetMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagListTreeViewWidgetMgr.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagListTreeViewWidgetMgr.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4EC0CD262B800FB8F9E /* ConditionTagNameILEObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagNameILEObserver.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagNameILEObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4EF0CD262B800FB8F9E /* DeleteConditionTagButtonDNDTarget.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DeleteConditionTagButtonDNDTarget.cpp; path = ../../../source/open/components/conditionaltextui/DeleteConditionTagButtonDNDTarget.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4F00CD262B800FB8F9E /* DeleteConditionTagButtonObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DeleteConditionTagButtonObserver.cpp; path = ../../../source/open/components/conditionaltextui/DeleteConditionTagButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D4F10CD262B800FB8F9E /* NewConditionTagButtonObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = NewConditionTagButtonObserver.cpp; path = ../../../source/open/components/conditionaltextui/NewConditionTagButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D5440CD2827A00FB8F9E /* ConditionalTextUI.fr */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = ConditionalTextUI.fr; path = ../../../source/open/components/conditionaltextui/resources/ConditionalTextUI.fr; sourceTree = SOURCE_ROOT; };
+		E1F9D5D80CD288D600FB8F9E /* ConditionTagNameILEEditingAttributes.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagNameILEEditingAttributes.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagNameILEEditingAttributes.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D61D0CD28D4200FB8F9E /* ConditionTagNameTextValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionTagNameTextValidation.cpp; path = ../../../source/open/components/conditionaltextui/ConditionTagNameTextValidation.cpp; sourceTree = SOURCE_ROOT; };
+		E1F9D6910CD2965F00FB8F9E /* PluginPList.plc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = PluginPList.plc; path = ../../../source/open/components/resourcedefs/PluginPList.plc; sourceTree = SOURCE_ROOT; };
+		E1FC46B60F55A415000C7612 /* ConditionSetDropDownTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConditionSetDropDownTip.cpp; path = ../../../source/open/components/conditionaltextui/ConditionSetDropDownTip.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A84D5C15CFF1C1001D87F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A84DA315CFF1F1001D87F1 /* InDesignModelAndUI.framework in Frameworks */,
+				00A84DA415CFF1F1001D87F1 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A84D9415CFF1C3001D87F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A84DA815CFF1FB001D87F1 /* InDesignModelAndUI.framework in Frameworks */,
+				00A84DA915CFF1FB001D87F1 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A84D2815CFF1AC001D87F1 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				00A84DA615CFF1FB001D87F1 /* InDesignModelAndUI.framework */,
+				00A84DA715CFF1FB001D87F1 /* libPublicPlugIn.a */,
+				00A84D2915CFF1AC001D87F1 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		00A84D2915CFF1AC001D87F1 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				00A84DA115CFF1F1001D87F1 /* InDesignModelAndUI.framework */,
+				00A84DA215CFF1F1001D87F1 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		0B050A610883839D00D809E1 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				00A84D2815CFF1AC001D87F1 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		4B05BBFF0883DD6200D809E1 = {
+			isa = PBXGroup;
+			children = (
+				E1F9D4E30CD2628A00FB8F9E /* Source */,
+				4B05BC7C0883DDC500D809E1 /* Includes */,
+				E1F9D5430CD2825B00FB8F9E /* Resources */,
+				E1F9D4A90CD2602C00FB8F9E /* Plugin */,
+				0B050A610883839D00D809E1 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B05BC0D0883DD6200D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05BC0D0883DD6200D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A84D6415CFF1C1001D87F1 /* Conditional Text UI.InDesignPlugin */,
+				00A84D9C15CFF1C3001D87F1 /* Conditional Text UI.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B05BC7C0883DDC500D809E1 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				E1F9D4D80CD2621C00FB8F9E /* ConditionalTextUIDefs.h */,
+				E1F9D4D90CD2621C00FB8F9E /* ConditionalTextUIFactoryList.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/pluginOpen.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		E1F9D4A90CD2602C00FB8F9E /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				E1F9D4AA0CD2605500FB8F9E /* ConditionalTextUIID.cpp */,
+				E1F9D4AB0CD2605500FB8F9E /* ConditionalTextUIMWHacks.cpp */,
+				E1F9D4AC0CD2605500FB8F9E /* ConditionalTextUIPlugin.cpp */,
+				E1F9D4AD0CD2605500FB8F9E /* TriggerResourceDeps.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		E1F9D4E30CD2628A00FB8F9E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E1FC46B60F55A415000C7612 /* ConditionSetDropDownTip.cpp */,
+				E172A9AE0DAC459200316433 /* ConditionalTextUIPanelDetailController.cpp */,
+				E1E41BDB0D47F78200C1529F /* ConditionalTextUIUtils.cpp */,
+				06CA09730D31B8A000E3D884 /* ConditionSetNameDialogController.cpp */,
+				0637866C0D3D60C700766560 /* ConditionStatusTextSelectionObserver.cpp */,
+				063786820D3D685600766560 /* ConditionStaticTextView.cpp */,
+				E1E409E80D1985DA00DF6ADD /* ConditionTagDeleteDialogController.cpp */,
+				16A92A580D1352CB00F40C00 /* ConditionTagTVNodeContextMenu.cpp */,
+				16A92A590D1352CB00F40C00 /* ConditionTagTVNodeEH.cpp */,
+				16C476DA0D12416B00F324EF /* ConditionTagTVNodeTip.cpp */,
+				16BECD180D11A55800B6B3DE /* ConditionalTextTips.cpp */,
+				16BECD190D11A55800B6B3DE /* ConditionalTextVisitorHelper.cpp */,
+				E10413620D09CC0200228CBF /* ConditionTagOptionsDialogObserver.cpp */,
+				0691BF270D3536AF0089C480 /* ConditionsQuickApplyService.cpp */,
+				E148636E0CEA6BE100F6018A /* ShowConditionIndicatorsObserver.cpp */,
+				06D0627F0CFF439700355A04 /* ConditionSetDropDownObserver.cpp */,
+				E12710A10CE28C2200798FAD /* ConditionTagEyeballView.cpp */,
+				E12710000CE2691F00798FAD /* ConditionalTextLayoutAction.cpp */,
+				E12710010CE2691F00798FAD /* ConditionalTextLayoutObserver.cpp */,
+				E1C19ABE0CE0FCF600C31071 /* ConditionTagListTreeSelectionObserver.cpp */,
+				E1E0D7210CD9311100291CDC /* ConditionalTextUIFacade.cpp */,
+				E1E0D7220CD9311100291CDC /* ConditionTagColorSwatchView.cpp */,
+				E1E0D7230CD9311100291CDC /* ConditionTagListTreeController.cpp */,
+				E1E0D7250CD9311100291CDC /* ConditionTagOptionsDialogController.cpp */,
+				E1F9D61D0CD28D4200FB8F9E /* ConditionTagNameTextValidation.cpp */,
+				E1F9D5D80CD288D600FB8F9E /* ConditionTagNameILEEditingAttributes.cpp */,
+				E1F9D4E40CD262B800FB8F9E /* ConditionalTextUIPanelMenuAction.cpp */,
+				E1F9D4E50CD262B800FB8F9E /* ConditionalTextUIPanelView.cpp */,
+				E1F9D4E60CD262B800FB8F9E /* ConditionTagEyeballObserver.cpp */,
+				E1F9D4E70CD262B800FB8F9E /* ConditionTagListDNDHandler.cpp */,
+				E1F9D4E80CD262B800FB8F9E /* ConditionTagListDNDSource.cpp */,
+				E1F9D4E90CD262B800FB8F9E /* ConditionTagListTreeObserver.cpp */,
+				E1F9D4EA0CD262B800FB8F9E /* ConditionTagListTreeViewAdapter.cpp */,
+				E1F9D4EB0CD262B800FB8F9E /* ConditionTagListTreeViewWidgetMgr.cpp */,
+				E1F9D4EC0CD262B800FB8F9E /* ConditionTagNameILEObserver.cpp */,
+				E1F9D4EF0CD262B800FB8F9E /* DeleteConditionTagButtonDNDTarget.cpp */,
+				E1F9D4F00CD262B800FB8F9E /* DeleteConditionTagButtonObserver.cpp */,
+				E1F9D4F10CD262B800FB8F9E /* NewConditionTagButtonObserver.cpp */,
+				06C5D2F00D37D7C1006F5D54 /* NewConditionSetButtonObserver.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E1F9D5430CD2825B00FB8F9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1F9D6910CD2965F00FB8F9E /* PluginPList.plc */,
+				E1F9D5440CD2827A00FB8F9E /* ConditionalTextUI.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A84D2D15CFF1C1001D87F1 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A84D6215CFF1C1001D87F1 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				00A84D2E15CFF1C1001D87F1 /* Sources */,
+				00A84D5C15CFF1C1001D87F1 /* Frameworks */,
+				00A84D5D15CFF1C1001D87F1 /* Rez */,
+				00A84D5E15CFF1C1001D87F1 /* Resources */,
+				00A84D5F15CFF1C1001D87F1 /* ShellScript */,
+			);
+			buildRules = (
+				00A84D6015CFF1C1001D87F1 /* PBXBuildRule */,
+				00A84D6115CFF1C1001D87F1 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = 00A84D6415CFF1C1001D87F1 /* Conditional Text UI.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		00A84D6515CFF1C3001D87F1 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A84D9A15CFF1C3001D87F1 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				00A84D6615CFF1C3001D87F1 /* Sources */,
+				00A84D9415CFF1C3001D87F1 /* Frameworks */,
+				00A84D9515CFF1C3001D87F1 /* Rez */,
+				00A84D9615CFF1C3001D87F1 /* Resources */,
+				00A84D9715CFF1C3001D87F1 /* ShellScript */,
+			);
+			buildRules = (
+				00A84D9815CFF1C3001D87F1 /* PBXBuildRule */,
+				00A84D9915CFF1C3001D87F1 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = 00A84D9C15CFF1C3001D87F1 /* Conditional Text UI.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05BC010883DD6200D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05BC020883DD6200D809E1 /* Build configuration list for PBXProject "ConditionalTextUI.open" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05BBFF0883DD6200D809E1;
+			productRefGroup = 4B05BC0D0883DD6200D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A84D2D15CFF1C1001D87F1 /* Debug_Cocoa64 */,
+				00A84D6515CFF1C3001D87F1 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A84D5E15CFF1C1001D87F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A84D9615CFF1C3001D87F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372017ED993900CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		00A84D5D15CFF1C1001D87F1 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A84D9515CFF1C3001D87F1 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A84D5F15CFF1C1001D87F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		00A84D9715CFF1C3001D87F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A84D2E15CFF1C1001D87F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A84D3015CFF1C1001D87F1 /* ConditionalTextUI.fr in Sources */,
+				00A84D3115CFF1C1001D87F1 /* ConditionalTextUIID.cpp in Sources */,
+				00A84D3215CFF1C1001D87F1 /* ConditionalTextUIMWHacks.cpp in Sources */,
+				00A84D3315CFF1C1001D87F1 /* ConditionalTextUIPlugin.cpp in Sources */,
+				00A84D3415CFF1C1001D87F1 /* TriggerResourceDeps.cpp in Sources */,
+				00A84D3515CFF1C1001D87F1 /* ConditionalTextUIPanelMenuAction.cpp in Sources */,
+				00A84D3615CFF1C1001D87F1 /* ConditionalTextUIPanelView.cpp in Sources */,
+				00A84D3715CFF1C1001D87F1 /* ConditionTagEyeballObserver.cpp in Sources */,
+				00A84D3815CFF1C1001D87F1 /* ConditionTagListDNDHandler.cpp in Sources */,
+				00A84D3915CFF1C1001D87F1 /* ConditionTagListDNDSource.cpp in Sources */,
+				00A84D3A15CFF1C1001D87F1 /* ConditionTagListTreeObserver.cpp in Sources */,
+				00A84D3B15CFF1C1001D87F1 /* ConditionTagListTreeViewAdapter.cpp in Sources */,
+				00A84D3C15CFF1C1001D87F1 /* ConditionTagListTreeViewWidgetMgr.cpp in Sources */,
+				00A84D3D15CFF1C1001D87F1 /* ConditionTagNameILEObserver.cpp in Sources */,
+				00A84D3E15CFF1C1001D87F1 /* DeleteConditionTagButtonDNDTarget.cpp in Sources */,
+				00A84D3F15CFF1C1001D87F1 /* DeleteConditionTagButtonObserver.cpp in Sources */,
+				00A84D4015CFF1C1001D87F1 /* NewConditionTagButtonObserver.cpp in Sources */,
+				00A84D4115CFF1C1001D87F1 /* ConditionTagNameILEEditingAttributes.cpp in Sources */,
+				00A84D4215CFF1C1001D87F1 /* ConditionTagNameTextValidation.cpp in Sources */,
+				00A84D4315CFF1C1001D87F1 /* ConditionalTextUIFacade.cpp in Sources */,
+				00A84D4415CFF1C1001D87F1 /* ConditionTagColorSwatchView.cpp in Sources */,
+				00A84D4515CFF1C1001D87F1 /* ConditionTagListTreeController.cpp in Sources */,
+				00A84D4615CFF1C1001D87F1 /* ConditionTagOptionsDialogController.cpp in Sources */,
+				00A84D4715CFF1C1001D87F1 /* ConditionTagListTreeSelectionObserver.cpp in Sources */,
+				00A84D4815CFF1C1001D87F1 /* ConditionalTextLayoutAction.cpp in Sources */,
+				00A84D4915CFF1C1001D87F1 /* ConditionalTextLayoutObserver.cpp in Sources */,
+				00A84D4A15CFF1C1001D87F1 /* ConditionTagEyeballView.cpp in Sources */,
+				00A84D4B15CFF1C1001D87F1 /* ShowConditionIndicatorsObserver.cpp in Sources */,
+				00A84D4C15CFF1C1001D87F1 /* ConditionSetDropDownObserver.cpp in Sources */,
+				00A84D4D15CFF1C1001D87F1 /* ConditionTagOptionsDialogObserver.cpp in Sources */,
+				00A84D4E15CFF1C1001D87F1 /* ConditionalTextTips.cpp in Sources */,
+				00A84D4F15CFF1C1001D87F1 /* ConditionalTextVisitorHelper.cpp in Sources */,
+				00A84D5015CFF1C1001D87F1 /* ConditionTagTVNodeTip.cpp in Sources */,
+				00A84D5115CFF1C1001D87F1 /* ConditionTagTVNodeContextMenu.cpp in Sources */,
+				00A84D5215CFF1C1001D87F1 /* ConditionTagTVNodeEH.cpp in Sources */,
+				00A84D5315CFF1C1001D87F1 /* ConditionTagDeleteDialogController.cpp in Sources */,
+				00A84D5415CFF1C1001D87F1 /* ConditionSetNameDialogController.cpp in Sources */,
+				00A84D5515CFF1C1001D87F1 /* ConditionsQuickApplyService.cpp in Sources */,
+				00A84D5615CFF1C1001D87F1 /* NewConditionSetButtonObserver.cpp in Sources */,
+				00A84D5715CFF1C1001D87F1 /* ConditionStatusTextSelectionObserver.cpp in Sources */,
+				00A84D5815CFF1C1001D87F1 /* ConditionStaticTextView.cpp in Sources */,
+				00A84D5915CFF1C1001D87F1 /* ConditionalTextUIUtils.cpp in Sources */,
+				00A84D5A15CFF1C1001D87F1 /* ConditionalTextUIPanelDetailController.cpp in Sources */,
+				00A84D5B15CFF1C1001D87F1 /* ConditionSetDropDownTip.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A84D6615CFF1C3001D87F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A84D6815CFF1C3001D87F1 /* ConditionalTextUI.fr in Sources */,
+				00A84D6915CFF1C3001D87F1 /* ConditionalTextUIID.cpp in Sources */,
+				00A84D6A15CFF1C3001D87F1 /* ConditionalTextUIMWHacks.cpp in Sources */,
+				00A84D6B15CFF1C3001D87F1 /* ConditionalTextUIPlugin.cpp in Sources */,
+				00A84D6C15CFF1C3001D87F1 /* TriggerResourceDeps.cpp in Sources */,
+				00A84D6D15CFF1C3001D87F1 /* ConditionalTextUIPanelMenuAction.cpp in Sources */,
+				00A84D6E15CFF1C3001D87F1 /* ConditionalTextUIPanelView.cpp in Sources */,
+				00A84D6F15CFF1C3001D87F1 /* ConditionTagEyeballObserver.cpp in Sources */,
+				00A84D7015CFF1C3001D87F1 /* ConditionTagListDNDHandler.cpp in Sources */,
+				00A84D7115CFF1C3001D87F1 /* ConditionTagListDNDSource.cpp in Sources */,
+				00A84D7215CFF1C3001D87F1 /* ConditionTagListTreeObserver.cpp in Sources */,
+				00A84D7315CFF1C3001D87F1 /* ConditionTagListTreeViewAdapter.cpp in Sources */,
+				00A84D7415CFF1C3001D87F1 /* ConditionTagListTreeViewWidgetMgr.cpp in Sources */,
+				00A84D7515CFF1C3001D87F1 /* ConditionTagNameILEObserver.cpp in Sources */,
+				00A84D7615CFF1C3001D87F1 /* DeleteConditionTagButtonDNDTarget.cpp in Sources */,
+				00A84D7715CFF1C3001D87F1 /* DeleteConditionTagButtonObserver.cpp in Sources */,
+				00A84D7815CFF1C3001D87F1 /* NewConditionTagButtonObserver.cpp in Sources */,
+				00A84D7915CFF1C3001D87F1 /* ConditionTagNameILEEditingAttributes.cpp in Sources */,
+				00A84D7A15CFF1C3001D87F1 /* ConditionTagNameTextValidation.cpp in Sources */,
+				00A84D7B15CFF1C3001D87F1 /* ConditionalTextUIFacade.cpp in Sources */,
+				00A84D7C15CFF1C3001D87F1 /* ConditionTagColorSwatchView.cpp in Sources */,
+				00A84D7D15CFF1C3001D87F1 /* ConditionTagListTreeController.cpp in Sources */,
+				00A84D7E15CFF1C3001D87F1 /* ConditionTagOptionsDialogController.cpp in Sources */,
+				00A84D7F15CFF1C3001D87F1 /* ConditionTagListTreeSelectionObserver.cpp in Sources */,
+				00A84D8015CFF1C3001D87F1 /* ConditionalTextLayoutAction.cpp in Sources */,
+				00A84D8115CFF1C3001D87F1 /* ConditionalTextLayoutObserver.cpp in Sources */,
+				00A84D8215CFF1C3001D87F1 /* ConditionTagEyeballView.cpp in Sources */,
+				00A84D8315CFF1C3001D87F1 /* ShowConditionIndicatorsObserver.cpp in Sources */,
+				00A84D8415CFF1C3001D87F1 /* ConditionSetDropDownObserver.cpp in Sources */,
+				00A84D8515CFF1C3001D87F1 /* ConditionTagOptionsDialogObserver.cpp in Sources */,
+				00A84D8615CFF1C3001D87F1 /* ConditionalTextTips.cpp in Sources */,
+				00A84D8715CFF1C3001D87F1 /* ConditionalTextVisitorHelper.cpp in Sources */,
+				00A84D8815CFF1C3001D87F1 /* ConditionTagTVNodeTip.cpp in Sources */,
+				00A84D8915CFF1C3001D87F1 /* ConditionTagTVNodeContextMenu.cpp in Sources */,
+				00A84D8A15CFF1C3001D87F1 /* ConditionTagTVNodeEH.cpp in Sources */,
+				00A84D8B15CFF1C3001D87F1 /* ConditionTagDeleteDialogController.cpp in Sources */,
+				00A84D8C15CFF1C3001D87F1 /* ConditionSetNameDialogController.cpp in Sources */,
+				00A84D8D15CFF1C3001D87F1 /* ConditionsQuickApplyService.cpp in Sources */,
+				00A84D8E15CFF1C3001D87F1 /* NewConditionSetButtonObserver.cpp in Sources */,
+				00A84D8F15CFF1C3001D87F1 /* ConditionStatusTextSelectionObserver.cpp in Sources */,
+				00A84D9015CFF1C3001D87F1 /* ConditionStaticTextView.cpp in Sources */,
+				00A84D9115CFF1C3001D87F1 /* ConditionalTextUIUtils.cpp in Sources */,
+				00A84D9215CFF1C3001D87F1 /* ConditionalTextUIPanelDetailController.cpp in Sources */,
+				00A84D9315CFF1C3001D87F1 /* ConditionSetDropDownTip.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00A84D6315CFF1C1001D87F1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../debug_cocoa64/packagefolder/contents/macos\"",
+				);
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../debug_cocoa64/packagefolder/contents/macos/libs\"",
+				);
+			};
+			name = Default;
+		};
+		00A84D9B15CFF1C3001D87F1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../release_cocoa64/packagefolder/contents/macos\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../release_cocoa64/packagefolder/contents/macos/libs\"",
+				);
+			};
+			name = Default;
+		};
+		4B05BC030883DD6200D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/pluginOpen.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_PLUGINS_DIR)/Text";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ../../../source/precomp/gcc/PluginPrefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(DVA_HEADER_SEARCH_PATHS)",
+					../../../source/open/components/conditionaltextui/resources,
+					../../../source/open/components/conditionaltextui/includes,
+					../../../source/public/interfaces/incopy,
+				);
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = "Conditional Text UI";
+				TARGET_BUILD_DIR = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A84D6215CFF1C1001D87F1 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A84D6315CFF1C1001D87F1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		00A84D9A15CFF1C3001D87F1 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A84D9B15CFF1C3001D87F1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4B05BC020883DD6200D809E1 /* Build configuration list for PBXProject "ConditionalTextUI.open" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05BC030883DD6200D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05BC010883DD6200D809E1 /* Project object */;
+}
+

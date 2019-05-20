@@ -1,0 +1,72 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/sdksamples/basicdialog/BscDlg_enUS.fr $
+//  
+//  Owner: Adobe Developer Technologies
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#ifdef __ODFRC__
+
+
+
+
+//========================================================================================
+// English strings
+//========================================================================================
+
+// English string table is defined here
+
+resource StringTable (kSDKDefStringsResourceID + index_enUS)
+{
+	k_enUS,									// Locale Id
+	kEuropeanMacToWinEncodingConverter,		// Character encoding converter
+	
+	{
+
+		// ----- Menu strings
+		kBscDlgCompanyKey,					kBscDlgCompanyValue,					
+		kBscDlgAboutMenuKey,				kBscDlgPluginName "[US]...",
+		kBscDlgPluginsMenuKey,				kBscDlgPluginName "[US]",
+
+		kBscDlgDialogMenuItemKey,			kBscDlgPluginName "[US]...",
+	
+		// ----- Command strings
+
+		
+		// ----- Window strings
+
+		
+		// ----- Panel/dialog strings
+		kBscDlgDialogTitleKey,     kBscDlgPluginName "[US]",
+
+		// ----- Error strings
+
+			
+		// ----- Misc strings
+		kBscDlgAboutBoxStringKey,			kBscDlgPluginName "[US], version " kBscDlgVersion " by " kBscDlgAuthor "\n\n" kSDKDefCopyrightStandardValue "\n\n" kSDKDefPartnersStandardValue_enUS,
+	}
+
+};
+
+#endif // __ODFRC__
+
+// End , BscDlg_enUS.fr
+
+
+

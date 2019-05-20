@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9571BA115CFCAF000C95573 /* HidTxtEd.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FAC5088415CC00D809E1 /* HidTxtEd.fr */; };
+		F9571BA215CFCAF000C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FAC1088415CB00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571BA315CFCAF000C95573 /* HidTxtEdActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABA088415C600D809E1 /* HidTxtEdActionComponent.cpp */; };
+		F9571BA415CFCAF000C95573 /* HidTxtEdSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABB088415C700D809E1 /* HidTxtEdSelectionObserver.cpp */; };
+		F9571BA515CFCAF000C95573 /* HidTxtEdDlgController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABC088415C800D809E1 /* HidTxtEdDlgController.cpp */; };
+		F9571BA615CFCAF000C95573 /* HidTxtEdNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABE088415C900D809E1 /* HidTxtEdNoStrip.cpp */; };
+		F9571BA715CFCAF000C95573 /* HidTxtEdID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABF088415CA00D809E1 /* HidTxtEdID.cpp */; };
+		F9571BA815CFCAF000C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675BEB8508D24AA400E22277 /* SDKFileHelper.cpp */; };
+		F9571BAB15CFCAF000C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FAC6088415CD00D809E1 /* SDKResources.r */; };
+		F9571BB515CFCAF300C95573 /* HidTxtEd.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FAC5088415CC00D809E1 /* HidTxtEd.fr */; };
+		F9571BB615CFCAF300C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FAC1088415CB00D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F9571BB715CFCAF300C95573 /* HidTxtEdActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABA088415C600D809E1 /* HidTxtEdActionComponent.cpp */; };
+		F9571BB815CFCAF300C95573 /* HidTxtEdSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABB088415C700D809E1 /* HidTxtEdSelectionObserver.cpp */; };
+		F9571BB915CFCAF300C95573 /* HidTxtEdDlgController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABC088415C800D809E1 /* HidTxtEdDlgController.cpp */; };
+		F9571BBA15CFCAF300C95573 /* HidTxtEdNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABE088415C900D809E1 /* HidTxtEdNoStrip.cpp */; };
+		F9571BBB15CFCAF300C95573 /* HidTxtEdID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05FABF088415CA00D809E1 /* HidTxtEdID.cpp */; };
+		F9571BBC15CFCAF300C95573 /* SDKFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675BEB8508D24AA400E22277 /* SDKFileHelper.cpp */; };
+		F9571BBF15CFCAF300C95573 /* SDKResources.r in Rez */ = {isa = PBXBuildFile; fileRef = 4B05FAC6088415CD00D809E1 /* SDKResources.r */; };
+		F9571BC715CFCB3800C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571B9C15CFCAE300C95573 /* InDesignModelAndUI.framework */; };
+		F9571BC815CFCB3800C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571B9D15CFCAE300C95573 /* libPublicPlugIn.a */; };
+		F9571BC915CFCB3C00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571B9A15CFCAE300C95573 /* InDesignModelAndUI.framework */; };
+		F9571BCA15CFCB3C00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9571B9B15CFCAE300C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F9571BAE15CFCAF000C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F9571BC215CFCAF300C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "$ID_SDK_ROOT/devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2AE73E54094F8BC900AA5929 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = "<group>"; };
+		2AE73E55094F8BC900AA5929 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = "<group>"; };
+		3227F812175DF0F100A71E17 /* HidTxtEd_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = HidTxtEd_enUS.fr; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEd_enUS.fr; sourceTree = "<group>"; };
+		3227F813175DF0F100A71E17 /* HidTxtEd_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = HidTxtEd_jaJP.fr; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEd_jaJP.fr; sourceTree = "<group>"; };
+		4B05FABA088415C600D809E1 /* HidTxtEdActionComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtEdActionComponent.cpp; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEdActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FABB088415C700D809E1 /* HidTxtEdSelectionObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtEdSelectionObserver.cpp; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEdSelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FABC088415C800D809E1 /* HidTxtEdDlgController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtEdDlgController.cpp; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEdDlgController.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FABE088415C900D809E1 /* HidTxtEdNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtEdNoStrip.cpp; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEdNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FABF088415CA00D809E1 /* HidTxtEdID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HidTxtEdID.cpp; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEdID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FAC0088415CA00D809E1 /* HidTxtEdID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HidTxtEdID.h; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEdID.h; sourceTree = SOURCE_ROOT; };
+		4B05FAC1088415CB00D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05FAC5088415CC00D809E1 /* HidTxtEd.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = HidTxtEd.fr; path = ../../../source/sdksamples/hiddentexteditor/HidTxtEd.fr; sourceTree = SOURCE_ROOT; };
+		4B05FAC6088415CD00D809E1 /* SDKResources.r */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = SDKResources.r; path = ../../../source/sdksamples/common/SDKResources.r; sourceTree = SOURCE_ROOT; };
+		675BEB8508D24AA400E22277 /* SDKFileHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SDKFileHelper.cpp; path = ../../../source/sdksamples/common/SDKFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		675BEB8608D24AA400E22277 /* SDKFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDKFileHelper.h; path = ../../../source/sdksamples/common/SDKFileHelper.h; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		F9571B9A15CFCAE300C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9571B9B15CFCAE300C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F9571B9C15CFCAE300C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F9571B9D15CFCAE300C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9571BA915CFCAF000C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571BC915CFCB3C00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9571BCA15CFCB3C00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571BBD15CFCAF300C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571BC715CFCB3800C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F9571BC815CFCB3800C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05FA9F088415C400D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05FAB9088415C400D809E1 /* Source */,
+				4B05FAC4088415CB00D809E1 /* Resources */,
+				F9571B9115CFCAE300C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05FAB9088415C400D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4B05FABA088415C600D809E1 /* HidTxtEdActionComponent.cpp */,
+				4B05FABB088415C700D809E1 /* HidTxtEdSelectionObserver.cpp */,
+				4B05FABC088415C800D809E1 /* HidTxtEdDlgController.cpp */,
+				4B05FABD088415C800D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05FABD088415C800D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				675BEB8508D24AA400E22277 /* SDKFileHelper.cpp */,
+				675BEB8608D24AA400E22277 /* SDKFileHelper.h */,
+				4B05FABE088415C900D809E1 /* HidTxtEdNoStrip.cpp */,
+				4B05FAC0088415CA00D809E1 /* HidTxtEdID.h */,
+				4B05FABF088415CA00D809E1 /* HidTxtEdID.cpp */,
+				4B05FAC1088415CB00D809E1 /* SDKPlugInEntrypoint.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05FAC4088415CB00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F812175DF0F100A71E17 /* HidTxtEd_enUS.fr */,
+				3227F813175DF0F100A71E17 /* HidTxtEd_jaJP.fr */,
+				4B05FAC5088415CC00D809E1 /* HidTxtEd.fr */,
+				4B05FAC6088415CD00D809E1 /* SDKResources.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				2AE73E54094F8BC900AA5929 /* _shared_build_settings/common_debug.xcconfig */,
+				2AE73E55094F8BC900AA5929 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F9571B9115CFCAE300C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F9571B9815CFCAE300C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F9571B9815CFCAE300C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F9571B9C15CFCAE300C95573 /* InDesignModelAndUI.framework */,
+				F9571B9D15CFCAE300C95573 /* libPublicPlugIn.a */,
+				F9571B9915CFCAE300C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F9571B9915CFCAE300C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F9571B9A15CFCAE300C95573 /* InDesignModelAndUI.framework */,
+				F9571B9B15CFCAE300C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9571B9F15CFCAF000C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571BAF15CFCAF000C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F9571BA015CFCAF000C95573 /* Sources */,
+				F9571BA915CFCAF000C95573 /* Frameworks */,
+				F9571BAA15CFCAF000C95573 /* Rez */,
+				F9571BAC15CFCAF000C95573 /* Resources */,
+				F9571BAD15CFCAF000C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571BAE15CFCAF000C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F9571BB315CFCAF300C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9571BC315CFCAF300C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F9571BB415CFCAF300C95573 /* Sources */,
+				F9571BBD15CFCAF300C95573 /* Frameworks */,
+				F9571BBE15CFCAF300C95573 /* Rez */,
+				F9571BC015CFCAF300C95573 /* Resources */,
+				F9571BC115CFCAF300C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F9571BC215CFCAF300C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05FAA1088415C400D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05FAA2088415C400D809E1 /* Build configuration list for PBXProject "HiddenTextEditor.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05FA9F088415C400D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9571B9F15CFCAF000C95573 /* Debug_Cocoa64 */,
+				F9571BB315CFCAF300C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9571BAC15CFCAF000C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571BC015CFCAF300C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F9571BAA15CFCAF000C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571BAB15CFCAF000C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571BBE15CFCAF300C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571BBF15CFCAF300C95573 /* SDKResources.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9571BAD15CFCAF000C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F9571BC115CFCAF300C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9571BA015CFCAF000C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571BA115CFCAF000C95573 /* HidTxtEd.fr in Sources */,
+				F9571BA215CFCAF000C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571BA315CFCAF000C95573 /* HidTxtEdActionComponent.cpp in Sources */,
+				F9571BA415CFCAF000C95573 /* HidTxtEdSelectionObserver.cpp in Sources */,
+				F9571BA515CFCAF000C95573 /* HidTxtEdDlgController.cpp in Sources */,
+				F9571BA615CFCAF000C95573 /* HidTxtEdNoStrip.cpp in Sources */,
+				F9571BA715CFCAF000C95573 /* HidTxtEdID.cpp in Sources */,
+				F9571BA815CFCAF000C95573 /* SDKFileHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9571BB415CFCAF300C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9571BB515CFCAF300C95573 /* HidTxtEd.fr in Sources */,
+				F9571BB615CFCAF300C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F9571BB715CFCAF300C95573 /* HidTxtEdActionComponent.cpp in Sources */,
+				F9571BB815CFCAF300C95573 /* HidTxtEdSelectionObserver.cpp in Sources */,
+				F9571BB915CFCAF300C95573 /* HidTxtEdDlgController.cpp in Sources */,
+				F9571BBA15CFCAF300C95573 /* HidTxtEdNoStrip.cpp in Sources */,
+				F9571BBB15CFCAF300C95573 /* HidTxtEdID.cpp in Sources */,
+				F9571BBC15CFCAF300C95573 /* SDKFileHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05FAA3088415C400D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/components/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/facades/graphics,
+					$ID_SDK_ROOT/source/public/facades/text,
+					$ID_SDK_ROOT/source/public/facades/layout,
+					$ID_SDK_ROOT/source/public/components/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/components/publiclib/files,
+					$ID_SDK_ROOT/source/public/components/publiclib/objectmodel,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+					$ID_SDK_ROOT/source/sdksamples/hiddentext,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = HiddenTextEditor.sdk;
+			};
+			name = Default;
+		};
+		F9571BB015CFCAF000C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F9571BC415CFCAF300C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05FAA2088415C400D809E1 /* Build configuration list for PBXProject "HiddenTextEditor.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05FAA3088415C400D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F9571BAF15CFCAF000C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571BB015CFCAF000C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F9571BC315CFCAF300C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9571BC415CFCAF300C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05FAA1088415C400D809E1 /* Project object */;
+}

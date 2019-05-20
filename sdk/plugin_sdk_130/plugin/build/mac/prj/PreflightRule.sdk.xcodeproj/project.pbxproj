@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F957212C15CFE7D000C95573 /* PreflightRule.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EED108840E9500D809E1 /* PreflightRule.fr */; };
+		F957212D15CFE7D000C95573 /* PreflightRuleNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECD08840E9300D809E1 /* PreflightRuleNoStrip.cpp */; };
+		F957212E15CFE7D000C95573 /* PreflightRuleID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECE08840E9400D809E1 /* PreflightRuleID.cpp */; };
+		F957212F15CFE7D000C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957213015CFE7D000C95573 /* PreflightRuleService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA9BAA0D942D370017990C /* PreflightRuleService.cpp */; };
+		F957213115CFE7D000C95573 /* PreflightSDKRuleUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA9BC90D9430090017990C /* PreflightSDKRuleUtilities.cpp */; };
+		F957213215CFE7D000C95573 /* PreflightBlackOverprintRuleVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C587410E07947F00845F2C /* PreflightBlackOverprintRuleVisitor.cpp */; };
+		F957213315CFE7D000C95573 /* PreflightFontRuleVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C587430E07947F00845F2C /* PreflightFontRuleVisitor.cpp */; };
+		F957213F15CFE7D300C95573 /* PreflightRule.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EED108840E9500D809E1 /* PreflightRule.fr */; };
+		F957214015CFE7D300C95573 /* PreflightRuleNoStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECD08840E9300D809E1 /* PreflightRuleNoStrip.cpp */; };
+		F957214115CFE7D300C95573 /* PreflightRuleID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECE08840E9400D809E1 /* PreflightRuleID.cpp */; };
+		F957214215CFE7D300C95573 /* SDKPlugInEntrypoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */; };
+		F957214315CFE7D300C95573 /* PreflightRuleService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA9BAA0D942D370017990C /* PreflightRuleService.cpp */; };
+		F957214415CFE7D300C95573 /* PreflightSDKRuleUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA9BC90D9430090017990C /* PreflightSDKRuleUtilities.cpp */; };
+		F957214515CFE7D300C95573 /* PreflightBlackOverprintRuleVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C587410E07947F00845F2C /* PreflightBlackOverprintRuleVisitor.cpp */; };
+		F957214615CFE7D300C95573 /* PreflightFontRuleVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C587430E07947F00845F2C /* PreflightFontRuleVisitor.cpp */; };
+		F957215215CFE80300C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957212715CFE7C500C95573 /* InDesignModel.framework */; };
+		F957215315CFE80300C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957212815CFE7C500C95573 /* libPublicPlugIn.a */; };
+		F957215415CFE80700C95573 /* InDesignModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957212515CFE7C500C95573 /* InDesignModel.framework */; };
+		F957215515CFE80700C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957212615CFE7C500C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957213815CFE7D000C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "\"$ID_SDK_ROOT/devtools/bin/odfrc-cmd\" -d DEBUG -d MACINTOSH -d __GNUC__ -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957214B15CFE7D300C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "\"$ID_SDK_ROOT/devtools/bin/odfrc-cmd\" -d RELEASE -d MACINTOSH -d __GNUC__ -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		2ACA9BAA0D942D370017990C /* PreflightRuleService.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PreflightRuleService.cpp; path = ../../../source/sdksamples/preflightrule/PreflightRuleService.cpp; sourceTree = SOURCE_ROOT; };
+		2ACA9BB10D942D900017990C /* SDKRuleTable.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDKRuleTable.h; path = ../../../source/sdksamples/preflightrule/SDKRuleTable.h; sourceTree = SOURCE_ROOT; };
+		2ACA9BC90D9430090017990C /* PreflightSDKRuleUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PreflightSDKRuleUtilities.cpp; path = ../../../source/sdksamples/preflightrule/PreflightSDKRuleUtilities.cpp; sourceTree = SOURCE_ROOT; };
+		3227F828175DF23F00A71E17 /* PreflightRule_enUS.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PreflightRule_enUS.fr; path = ../../../source/sdksamples/preflightrule/PreflightRule_enUS.fr; sourceTree = "<group>"; };
+		3227F829175DF23F00A71E17 /* PreflightRule_jaJP.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PreflightRule_jaJP.fr; path = ../../../source/sdksamples/preflightrule/PreflightRule_jaJP.fr; sourceTree = "<group>"; };
+		4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKPlugInEntrypoint.cpp; path = ../../../source/sdksamples/common/SDKPlugInEntrypoint.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECD08840E9300D809E1 /* PreflightRuleNoStrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PreflightRuleNoStrip.cpp; path = ../../../source/sdksamples/preflightrule/PreflightRuleNoStrip.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECE08840E9400D809E1 /* PreflightRuleID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PreflightRuleID.cpp; path = ../../../source/sdksamples/preflightrule/PreflightRuleID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05EECF08840E9400D809E1 /* PreflightRuleID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PreflightRuleID.h; path = ../../../source/sdksamples/preflightrule/PreflightRuleID.h; sourceTree = SOURCE_ROOT; };
+		4B05EED108840E9500D809E1 /* PreflightRule.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = PreflightRule.fr; path = ../../../source/sdksamples/preflightrule/PreflightRule.fr; sourceTree = SOURCE_ROOT; };
+		77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_debug.xcconfig; sourceTree = "<group>"; };
+		77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_release.xcconfig; sourceTree = "<group>"; };
+		77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_model_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/plugin.sdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		D6B86C250DBD813400CAFC35 /* PreflightRuleConsts.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PreflightRuleConsts.h; path = ../../../source/sdksamples/preflightrule/PreflightRuleConsts.h; sourceTree = SOURCE_ROOT; };
+		D6C587410E07947F00845F2C /* PreflightBlackOverprintRuleVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PreflightBlackOverprintRuleVisitor.cpp; path = ../../../source/sdksamples/preflightrule/PreflightBlackOverprintRuleVisitor.cpp; sourceTree = SOURCE_ROOT; };
+		D6C587430E07947F00845F2C /* PreflightFontRuleVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = PreflightFontRuleVisitor.cpp; path = ../../../source/sdksamples/preflightrule/PreflightFontRuleVisitor.cpp; sourceTree = SOURCE_ROOT; };
+		F957212515CFE7C500C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957212615CFE7C500C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957212715CFE7C500C95573 /* InDesignModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModel.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModel.framework; sourceTree = SOURCE_ROOT; };
+		F957212815CFE7C500C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957213415CFE7D000C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957215415CFE80700C95573 /* InDesignModel.framework in Frameworks */,
+				F957215515CFE80700C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957214715CFE7D300C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957215215CFE80300C95573 /* InDesignModel.framework in Frameworks */,
+				F957215315CFE80300C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05EEAD08840E8D00D809E1 = {
+			isa = PBXGroup;
+			children = (
+				4B05EEC708840E8D00D809E1 /* Source */,
+				4B05EED008840E9400D809E1 /* Resources */,
+				F957211C15CFE7C500C95573 /* InDesign Libraries */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05EEC708840E8D00D809E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6C587410E07947F00845F2C /* PreflightBlackOverprintRuleVisitor.cpp */,
+				D6C587430E07947F00845F2C /* PreflightFontRuleVisitor.cpp */,
+				D6B86C250DBD813400CAFC35 /* PreflightRuleConsts.h */,
+				2ACA9BB10D942D900017990C /* SDKRuleTable.h */,
+				2ACA9BAA0D942D370017990C /* PreflightRuleService.cpp */,
+				2ACA9BC90D9430090017990C /* PreflightSDKRuleUtilities.cpp */,
+				4B05EECB08840E9100D809E1 /* Plugin */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4B05EECB08840E9100D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05EECC08840E9200D809E1 /* SDKPlugInEntrypoint.cpp */,
+				4B05EECD08840E9300D809E1 /* PreflightRuleNoStrip.cpp */,
+				4B05EECF08840E9400D809E1 /* PreflightRuleID.h */,
+				4B05EECE08840E9400D809E1 /* PreflightRuleID.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05EED008840E9400D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3227F828175DF23F00A71E17 /* PreflightRule_enUS.fr */,
+				3227F829175DF23F00A71E17 /* PreflightRule_jaJP.fr */,
+				4B05EED108840E9500D809E1 /* PreflightRule.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */,
+				77D685EA1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_debug.xcconfig */,
+				77D685EB1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_release.xcconfig */,
+				77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */,
+				77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957211C15CFE7C500C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957212315CFE7C500C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957212315CFE7C500C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957212715CFE7C500C95573 /* InDesignModel.framework */,
+				F957212815CFE7C500C95573 /* libPublicPlugIn.a */,
+				F957212415CFE7C500C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957212415CFE7C500C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957212515CFE7C500C95573 /* InDesignModel.framework */,
+				F957212615CFE7C500C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957212A15CFE7D000C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957213915CFE7D000C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957212B15CFE7D000C95573 /* Sources */,
+				F957213415CFE7D000C95573 /* Frameworks */,
+				F957213515CFE7D000C95573 /* Rez */,
+				F957213615CFE7D000C95573 /* Resources */,
+				F957213715CFE7D000C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957213815CFE7D000C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productType = "com.apple.product-type.framework";
+		};
+		F957213D15CFE7D300C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957214C15CFE7D300C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957213E15CFE7D300C95573 /* Sources */,
+				F957214715CFE7D300C95573 /* Frameworks */,
+				F957214815CFE7D300C95573 /* Rez */,
+				F957214915CFE7D300C95573 /* Resources */,
+				F957214A15CFE7D300C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957214B15CFE7D300C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05EEAF08840E8D00D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05EEB008840E8D00D809E1 /* Build configuration list for PBXProject "PreflightRule.sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05EEAD08840E8D00D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957212A15CFE7D000C95573 /* Debug_Cocoa64 */,
+				F957213D15CFE7D300C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957213615CFE7D000C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957214915CFE7D300C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957213515CFE7D000C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957214815CFE7D300C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957213715CFE7D000C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957214A15CFE7D300C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957212B15CFE7D000C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957212C15CFE7D000C95573 /* PreflightRule.fr in Sources */,
+				F957212D15CFE7D000C95573 /* PreflightRuleNoStrip.cpp in Sources */,
+				F957212E15CFE7D000C95573 /* PreflightRuleID.cpp in Sources */,
+				F957212F15CFE7D000C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957213015CFE7D000C95573 /* PreflightRuleService.cpp in Sources */,
+				F957213115CFE7D000C95573 /* PreflightSDKRuleUtilities.cpp in Sources */,
+				F957213215CFE7D000C95573 /* PreflightBlackOverprintRuleVisitor.cpp in Sources */,
+				F957213315CFE7D000C95573 /* PreflightFontRuleVisitor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957213E15CFE7D300C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957213F15CFE7D300C95573 /* PreflightRule.fr in Sources */,
+				F957214015CFE7D300C95573 /* PreflightRuleNoStrip.cpp in Sources */,
+				F957214115CFE7D300C95573 /* PreflightRuleID.cpp in Sources */,
+				F957214215CFE7D300C95573 /* SDKPlugInEntrypoint.cpp in Sources */,
+				F957214315CFE7D300C95573 /* PreflightRuleService.cpp in Sources */,
+				F957214415CFE7D300C95573 /* PreflightSDKRuleUtilities.cpp in Sources */,
+				F957214515CFE7D300C95573 /* PreflightBlackOverprintRuleVisitor.cpp in Sources */,
+				F957214615CFE7D300C95573 /* PreflightFontRuleVisitor.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05EEB108840E8D00D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5845A08AD6DB8007DB654 /* _shared_build_settings/plugin.sdk.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					$ID_SDK_ROOT/source/public/interfaces/preflight,
+					$ID_SDK_ROOT/source/public/interfaces/tables,
+					$ID_SDK_ROOT/source/public/libs/widgetbin/includes,
+					$ID_SDK_ROOT/source/public/interfaces/workgroup,
+					$ID_SDK_ROOT/source/public/interfaces/interactive,
+					$ID_SDK_ROOT/source/public/interfaces/interactive/ui,
+					$ID_SDK_ROOT/source/public/interfaces/colormgmt,
+					$ID_SDK_ROOT/source/public/interfaces/incopy,
+					$ID_SDK_ROOT/source/public/interfaces/cjk,
+					$ID_SDK_ROOT/source/public/libs/publiclib/plugins,
+					$ID_SDK_ROOT/source/public/libs/publiclib/files,
+					$ID_SDK_ROOT/source/public/libs/publiclib/objectmodel,
+					$ID_SDK_ROOT/external/boost,
+					$ID_SDK_ROOT/source/sdksamples/common,
+					$ID_SDK_ROOT/external/afl/includes,
+					$ID_SDK_ROOT/source/sdksamples/preflightrule,
+				);
+				INFOPLIST_FILE = $ID_SDK_ROOT/source/sdksamples/common/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				PRODUCT_NAME = PreflightRule.sdk;
+			};
+			name = Default;
+		};
+		F957213A15CFE7D000C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685EC1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_debug.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				INFOPLIST_PREPROCESS = YES;
+				TARGET_BUILD_DIR = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Default;
+		};
+		F957214D15CFE7D300C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D685ED1135CC4F00D56A9C /* _shared_build_settings/cocoa_model_x64_release.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_BUILT_SDK_SAMPLES_DIR)";
+				INFOPLIST_PREPROCESS = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05EEB008840E8D00D809E1 /* Build configuration list for PBXProject "PreflightRule.sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05EEB108840E8D00D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957213915CFE7D000C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957213A15CFE7D000C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957214C15CFE7D300C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957214D15CFE7D300C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05EEAF08840E8D00D809E1 /* Project object */;
+}

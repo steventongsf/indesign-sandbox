@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ConsoleLogger.itk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DetailSwitchLogger.itk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DiagnosticLog.itk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LoggerPreferences.itk.xcodeproj">
+   </FileRef>
+</Workspace>

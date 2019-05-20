@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45BF320815C9222500AED3D6 /* SpellPanel.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC6A0883DDBD00D809E1 /* SpellPanel.fr */; };
+		32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B05BC810883DDCB00D809E1 /* PluginPList.plc */; };
+		45BF320A15C9222500AED3D6 /* SpellPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC490883DD9900D809E1 /* SpellPanelObserver.cpp */; };
+		45BF320B15C9222500AED3D6 /* SpellScopeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4B0883DD9B00D809E1 /* SpellScopeObserver.cpp */; };
+		45BF320C15C9222500AED3D6 /* SpellWordObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4A0883DD9A00D809E1 /* SpellWordObserver.cpp */; };
+		45BF320D15C9222500AED3D6 /* SpellWordEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC570883DDA900D809E1 /* SpellWordEH.cpp */; };
+		45BF320E15C9222500AED3D6 /* SpellAlternativesObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4C0883DD9D00D809E1 /* SpellAlternativesObserver.cpp */; };
+		45BF320F15C9222500AED3D6 /* SpellChangeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4D0883DD9E00D809E1 /* SpellChangeObserver.cpp */; };
+		45BF321015C9222500AED3D6 /* SpellMisspelledObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4E0883DD9F00D809E1 /* SpellMisspelledObserver.cpp */; };
+		45BF321115C9222500AED3D6 /* SpellIgnoreObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4F0883DDA000D809E1 /* SpellIgnoreObserver.cpp */; };
+		45BF321215C9222500AED3D6 /* SpellAddToListObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC500883DDA200D809E1 /* SpellAddToListObserver.cpp */; };
+		45BF321315C9222500AED3D6 /* SpellChangeAllObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC510883DDA300D809E1 /* SpellChangeAllObserver.cpp */; };
+		45BF321415C9222500AED3D6 /* SpellSkipObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC520883DDA400D809E1 /* SpellSkipObserver.cpp */; };
+		45BF321515C9222500AED3D6 /* SpellMisspelledEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC580883DDAB00D809E1 /* SpellMisspelledEH.cpp */; };
+		45BF321615C9222500AED3D6 /* SpellListBoxEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC590883DDAC00D809E1 /* SpellListBoxEH.cpp */; };
+		45BF321715C9222500AED3D6 /* SpellStatusTextObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC530883DDA600D809E1 /* SpellStatusTextObserver.cpp */; };
+		45BF321815C9222500AED3D6 /* SpellTargetServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC5F0883DDB100D809E1 /* SpellTargetServer.cpp */; };
+		45BF321915C9222500AED3D6 /* SpellCheckWalker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC5B0883DDAD00D809E1 /* SpellCheckWalker.cpp */; };
+		45BF321A15C9222500AED3D6 /* SpellReplaceWalker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC5D0883DDB000D809E1 /* SpellReplaceWalker.cpp */; };
+		45BF321B15C9222500AED3D6 /* SpellPanelID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC600883DDB200D809E1 /* SpellPanelID.cpp */; };
+		45BF321C15C9222500AED3D6 /* SpellPanelMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC610883DDB400D809E1 /* SpellPanelMWHacks.cpp */; };
+		45BF321D15C9222500AED3D6 /* SpellPanelPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC620883DDB500D809E1 /* SpellPanelPlugIn.cpp */; };
+		45BF321E15C9222500AED3D6 /* SpellMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC630883DDB600D809E1 /* SpellMenuComponent.cpp */; };
+		45BF321F15C9222500AED3D6 /* ApplySpellPanelOptionsCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC3D0883DD8E00D809E1 /* ApplySpellPanelOptionsCmd.cpp */; };
+		45BF322015C9222500AED3D6 /* SpellCheckWalkerData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC5C0883DDAF00D809E1 /* SpellCheckWalkerData.cpp */; };
+		45BF322115C9222500AED3D6 /* DynamicSpellCheckAdornment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC370883DD8800D809E1 /* DynamicSpellCheckAdornment.cpp */; settings = {COMPILER_FLAGS = "-fexceptions"; }; };
+		45BF322215C9222500AED3D6 /* SpellPanelDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC440883DD9500D809E1 /* SpellPanelDialogController.cpp */; };
+		45BF322315C9222500AED3D6 /* SpellPrefsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC460883DD9600D809E1 /* SpellPrefsDialogController.cpp */; };
+		45BF322415C9222500AED3D6 /* SpellPrefsPanelCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC470883DD9700D809E1 /* SpellPrefsPanelCreator.cpp */; };
+		45BF322515C9222500AED3D6 /* DSCServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC350883DD8500D809E1 /* DSCServiceProvider.cpp */; };
+		45BF322615C9222500AED3D6 /* DSCStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC360883DD8700D809E1 /* DSCStartupShutdown.cpp */; };
+		45BF322715C9222500AED3D6 /* DynamicSpellCheckCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC380883DD8900D809E1 /* DynamicSpellCheckCache.cpp */; };
+		45BF322815C9222500AED3D6 /* DynamicSpellCheckIdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC390883DD8B00D809E1 /* DynamicSpellCheckIdleTask.cpp */; };
+		45BF322915C9222500AED3D6 /* DynamicSpellCheckObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC3A0883DD8C00D809E1 /* DynamicSpellCheckObserver.cpp */; };
+		45BF322A15C9222500AED3D6 /* DynSpellCheckEventWatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC3B0883DD8D00D809E1 /* DynSpellCheckEventWatcher.cpp */; };
+		45BF322B15C9222500AED3D6 /* SpellPanelOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC3E0883DD9000D809E1 /* SpellPanelOptions.cpp */; };
+		45BF322C15C9222500AED3D6 /* LinguisticTestMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC650883DDB900D809E1 /* LinguisticTestMenu.cpp */; };
+		45BF322D15C9222500AED3D6 /* PrivateSpellingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC670883DDBA00D809E1 /* PrivateSpellingUtils.cpp */; };
+		45BF322E15C9222500AED3D6 /* AutoCorrectPrefsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC310883DD8100D809E1 /* AutoCorrectPrefsDialogController.cpp */; };
+		45BF322F15C9222500AED3D6 /* AutoCorrectPrefsPanelCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC330883DD8400D809E1 /* AutoCorrectPrefsPanelCreator.cpp */; };
+		45BF323015C9222500AED3D6 /* AutoCorrectTypingIdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC210883DD6E00D809E1 /* AutoCorrectTypingIdleTask.cpp */; };
+		45BF323115C9222500AED3D6 /* AutoCorrectEventWatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC1D0883DD6800D809E1 /* AutoCorrectEventWatcher.cpp */; };
+		45BF323215C9222500AED3D6 /* AutoCorrectObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC1E0883DD6A00D809E1 /* AutoCorrectObserver.cpp */; };
+		45BF323315C9222500AED3D6 /* AutoCorrectServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC1F0883DD6B00D809E1 /* AutoCorrectServiceProvider.cpp */; };
+		45BF323415C9222500AED3D6 /* AutoCorrectStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC200883DD6C00D809E1 /* AutoCorrectStartupShutdown.cpp */; };
+		45BF323515C9222500AED3D6 /* AutoCorrectNodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC250883DD7200D809E1 /* AutoCorrectNodeID.cpp */; };
+		45BF323615C9222500AED3D6 /* AutoCorrectTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2F0883DD7F00D809E1 /* AutoCorrectTreeViewAdapter.cpp */; };
+		45BF323715C9222500AED3D6 /* AutoCorrectTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC300883DD8000D809E1 /* AutoCorrectTreeViewWidgetMgr.cpp */; };
+		45BF323815C9222500AED3D6 /* AutoCorrectTreeViewObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC280883DD7500D809E1 /* AutoCorrectTreeViewObserver.cpp */; };
+		45BF323915C9222500AED3D6 /* AutoCorrectPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2A0883DD7800D809E1 /* AutoCorrectPanelObserver.cpp */; };
+		45BF323A15C9222500AED3D6 /* AutoCorrectLanguageObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2B0883DD7900D809E1 /* AutoCorrectLanguageObserver.cpp */; };
+		45BF323B15C9222500AED3D6 /* AutoCorrectButtonObservers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2D0883DD7C00D809E1 /* AutoCorrectButtonObservers.cpp */; };
+		45BF323C15C9222500AED3D6 /* AutoCorrectAddPairDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2E0883DD7D00D809E1 /* AutoCorrectAddPairDialogController.cpp */; };
+		45BF323D15C9222500AED3D6 /* SpellCaseSensitiveObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC540883DDA700D809E1 /* SpellCaseSensitiveObserver.cpp */; };
+		45BF323E15C9222500AED3D6 /* SpellTargetListObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC550883DDA800D809E1 /* SpellTargetListObserver.cpp */; };
+		45BF323F15C9222500AED3D6 /* AutoCorrectWSResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC220883DD6F00D809E1 /* AutoCorrectWSResponder.cpp */; };
+		45BF324015C9222500AED3D6 /* AutoCorrectFolderIdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC230883DD7000D809E1 /* AutoCorrectFolderIdleTask.cpp */; };
+		45BF324C15C9222500AED3D6 /* SpellPanel.fr in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC6A0883DDBD00D809E1 /* SpellPanel.fr */; };
+		32AF372017ED993900CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B05BC810883DDCB00D809E1 /* PluginPList.plc */; };
+		45BF324E15C9222500AED3D6 /* SpellPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC490883DD9900D809E1 /* SpellPanelObserver.cpp */; };
+		45BF324F15C9222500AED3D6 /* SpellAlternativesObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4C0883DD9D00D809E1 /* SpellAlternativesObserver.cpp */; };
+		45BF325015C9222500AED3D6 /* SpellWordObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4A0883DD9A00D809E1 /* SpellWordObserver.cpp */; };
+		45BF325115C9222500AED3D6 /* SpellWordEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC570883DDA900D809E1 /* SpellWordEH.cpp */; };
+		45BF325215C9222500AED3D6 /* SpellIgnoreObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4F0883DDA000D809E1 /* SpellIgnoreObserver.cpp */; };
+		45BF325315C9222500AED3D6 /* SpellSkipObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC520883DDA400D809E1 /* SpellSkipObserver.cpp */; };
+		45BF325415C9222500AED3D6 /* SpellScopeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4B0883DD9B00D809E1 /* SpellScopeObserver.cpp */; };
+		45BF325515C9222500AED3D6 /* SpellPanelPlugIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC620883DDB500D809E1 /* SpellPanelPlugIn.cpp */; };
+		45BF325615C9222500AED3D6 /* SpellPanelMWHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC610883DDB400D809E1 /* SpellPanelMWHacks.cpp */; };
+		45BF325715C9222500AED3D6 /* SpellPanelID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC600883DDB200D809E1 /* SpellPanelID.cpp */; };
+		45BF325815C9222500AED3D6 /* SpellMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC630883DDB600D809E1 /* SpellMenuComponent.cpp */; };
+		45BF325915C9222500AED3D6 /* SpellAddToListObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC500883DDA200D809E1 /* SpellAddToListObserver.cpp */; };
+		45BF325A15C9222500AED3D6 /* SpellChangeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4D0883DD9E00D809E1 /* SpellChangeObserver.cpp */; };
+		45BF325B15C9222500AED3D6 /* SpellChangeAllObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC510883DDA300D809E1 /* SpellChangeAllObserver.cpp */; };
+		45BF325C15C9222500AED3D6 /* SpellCheckWalker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC5B0883DDAD00D809E1 /* SpellCheckWalker.cpp */; };
+		45BF325D15C9222500AED3D6 /* ApplySpellPanelOptionsCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC3D0883DD8E00D809E1 /* ApplySpellPanelOptionsCmd.cpp */; };
+		45BF325E15C9222500AED3D6 /* SpellMisspelledEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC580883DDAB00D809E1 /* SpellMisspelledEH.cpp */; };
+		45BF325F15C9222500AED3D6 /* SpellMisspelledObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC4E0883DD9F00D809E1 /* SpellMisspelledObserver.cpp */; };
+		45BF326015C9222500AED3D6 /* SpellStatusTextObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC530883DDA600D809E1 /* SpellStatusTextObserver.cpp */; };
+		45BF326115C9222500AED3D6 /* SpellListBoxEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC590883DDAC00D809E1 /* SpellListBoxEH.cpp */; };
+		45BF326215C9222500AED3D6 /* SpellTargetServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC5F0883DDB100D809E1 /* SpellTargetServer.cpp */; };
+		45BF326315C9222500AED3D6 /* SpellReplaceWalker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC5D0883DDB000D809E1 /* SpellReplaceWalker.cpp */; };
+		45BF326415C9222500AED3D6 /* SpellCheckWalkerData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC5C0883DDAF00D809E1 /* SpellCheckWalkerData.cpp */; };
+		45BF326515C9222500AED3D6 /* DynamicSpellCheckAdornment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC370883DD8800D809E1 /* DynamicSpellCheckAdornment.cpp */; settings = {COMPILER_FLAGS = "-fexceptions"; }; };
+		45BF326615C9222500AED3D6 /* SpellPanelDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC440883DD9500D809E1 /* SpellPanelDialogController.cpp */; };
+		45BF326715C9222500AED3D6 /* SpellPrefsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC460883DD9600D809E1 /* SpellPrefsDialogController.cpp */; };
+		45BF326815C9222500AED3D6 /* SpellPrefsPanelCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC470883DD9700D809E1 /* SpellPrefsPanelCreator.cpp */; };
+		45BF326915C9222500AED3D6 /* DSCServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC350883DD8500D809E1 /* DSCServiceProvider.cpp */; };
+		45BF326A15C9222500AED3D6 /* DSCStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC360883DD8700D809E1 /* DSCStartupShutdown.cpp */; };
+		45BF326B15C9222500AED3D6 /* DynamicSpellCheckCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC380883DD8900D809E1 /* DynamicSpellCheckCache.cpp */; };
+		45BF326C15C9222500AED3D6 /* DynamicSpellCheckIdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC390883DD8B00D809E1 /* DynamicSpellCheckIdleTask.cpp */; };
+		45BF326D15C9222500AED3D6 /* DynamicSpellCheckObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC3A0883DD8C00D809E1 /* DynamicSpellCheckObserver.cpp */; };
+		45BF326E15C9222500AED3D6 /* DynSpellCheckEventWatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC3B0883DD8D00D809E1 /* DynSpellCheckEventWatcher.cpp */; };
+		45BF326F15C9222500AED3D6 /* SpellPanelOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC3E0883DD9000D809E1 /* SpellPanelOptions.cpp */; };
+		45BF327015C9222500AED3D6 /* PrivateSpellingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC670883DDBA00D809E1 /* PrivateSpellingUtils.cpp */; };
+		45BF327115C9222500AED3D6 /* AutoCorrectPrefsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC310883DD8100D809E1 /* AutoCorrectPrefsDialogController.cpp */; };
+		45BF327215C9222500AED3D6 /* AutoCorrectPrefsPanelCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC330883DD8400D809E1 /* AutoCorrectPrefsPanelCreator.cpp */; };
+		45BF327315C9222500AED3D6 /* AutoCorrectTypingIdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC210883DD6E00D809E1 /* AutoCorrectTypingIdleTask.cpp */; };
+		45BF327415C9222500AED3D6 /* AutoCorrectEventWatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC1D0883DD6800D809E1 /* AutoCorrectEventWatcher.cpp */; };
+		45BF327515C9222500AED3D6 /* AutoCorrectObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC1E0883DD6A00D809E1 /* AutoCorrectObserver.cpp */; };
+		45BF327615C9222500AED3D6 /* AutoCorrectServiceProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC1F0883DD6B00D809E1 /* AutoCorrectServiceProvider.cpp */; };
+		45BF327715C9222500AED3D6 /* AutoCorrectStartupShutdown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC200883DD6C00D809E1 /* AutoCorrectStartupShutdown.cpp */; };
+		45BF327815C9222500AED3D6 /* AutoCorrectNodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC250883DD7200D809E1 /* AutoCorrectNodeID.cpp */; };
+		45BF327915C9222500AED3D6 /* AutoCorrectTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2F0883DD7F00D809E1 /* AutoCorrectTreeViewAdapter.cpp */; };
+		45BF327A15C9222500AED3D6 /* AutoCorrectTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC300883DD8000D809E1 /* AutoCorrectTreeViewWidgetMgr.cpp */; };
+		45BF327B15C9222500AED3D6 /* AutoCorrectTreeViewObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC280883DD7500D809E1 /* AutoCorrectTreeViewObserver.cpp */; };
+		45BF327C15C9222500AED3D6 /* AutoCorrectPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2A0883DD7800D809E1 /* AutoCorrectPanelObserver.cpp */; };
+		45BF327D15C9222500AED3D6 /* AutoCorrectLanguageObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2B0883DD7900D809E1 /* AutoCorrectLanguageObserver.cpp */; };
+		45BF327E15C9222500AED3D6 /* AutoCorrectButtonObservers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2D0883DD7C00D809E1 /* AutoCorrectButtonObservers.cpp */; };
+		45BF327F15C9222500AED3D6 /* AutoCorrectAddPairDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC2E0883DD7D00D809E1 /* AutoCorrectAddPairDialogController.cpp */; };
+		45BF328015C9222500AED3D6 /* SpellCaseSensitiveObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC540883DDA700D809E1 /* SpellCaseSensitiveObserver.cpp */; };
+		45BF328115C9222500AED3D6 /* SpellTargetListObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC550883DDA800D809E1 /* SpellTargetListObserver.cpp */; };
+		45BF328215C9222500AED3D6 /* AutoCorrectWSResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC220883DD6F00D809E1 /* AutoCorrectWSResponder.cpp */; };
+		45BF328315C9222500AED3D6 /* AutoCorrectFolderIdleTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B05BC230883DD7000D809E1 /* AutoCorrectFolderIdleTask.cpp */; };
+		45BF32FB15C922AA00AED3D6 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF32AB15C9223B00AED3D6 /* libPublicPlugIn.a */; };
+		45BF32FD15C922AA00AED3D6 /* ICUData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF329B15C9223B00AED3D6 /* ICUData.framework */; };
+		45BF32FE15C922AA00AED3D6 /* ICUInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF329C15C9223B00AED3D6 /* ICUInternationalization.framework */; };
+		45BF32FF15C922AA00AED3D6 /* ICUUnicode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF329D15C9223B00AED3D6 /* ICUUnicode.framework */; };
+		45BF330015C922B300AED3D6 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF32AE15C9223B00AED3D6 /* libPublicPlugIn.a */; };
+		45BF330215C922B300AED3D6 /* ICUData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF32A015C9223B00AED3D6 /* ICUData.framework */; };
+		45BF330315C922B300AED3D6 /* ICUInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF32A115C9223B00AED3D6 /* ICUInternationalization.framework */; };
+		45BF330415C922B300AED3D6 /* ICUUnicode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF32A215C9223B00AED3D6 /* ICUUnicode.framework */; };
+		45BF330F15C9232A00AED3D6 /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF330D15C9232A00AED3D6 /* libtbb.dylib */; };
+		45BF331015C9232A00AED3D6 /* WRServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF330E15C9232A00AED3D6 /* WRServices.framework */; };
+		45BF331315C9233B00AED3D6 /* libtbb_debug.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF331115C9233B00AED3D6 /* libtbb_debug.dylib */; };
+		45BF331415C9233B00AED3D6 /* WRServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF331215C9233B00AED3D6 /* WRServices.framework */; };
+		45BF332715C9246A00AED3D6 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF332615C9246A00AED3D6 /* InDesignModelAndUI.framework */; };
+		45BF332915C9247D00AED3D6 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BF332815C9247D00AED3D6 /* InDesignModelAndUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		45BF324515C9222500AED3D6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		45BF324615C9222500AED3D6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+		45BF328815C9222500AED3D6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		45BF328915C9222500AED3D6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		0646845B0BE7BE84002F76C5 /* _shared_build_settings/pluginOpen.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/pluginOpen.xcconfig; sourceTree = "<group>"; };
+		45BF324915C9222500AED3D6 /* Spelling Panel.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Spelling Panel.InDesignPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF328C15C9222500AED3D6 /* Spelling Panel.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Spelling Panel.InDesignPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF329B15C9223B00AED3D6 /* ICUData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICUData.framework; path = ../release_cocoa64/packagefolder/contents/Frameworks/ICUData.framework; sourceTree = SOURCE_ROOT; };
+		45BF329C15C9223B00AED3D6 /* ICUInternationalization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICUInternationalization.framework; path = ../release_cocoa64/packagefolder/contents/Frameworks/ICUInternationalization.framework; sourceTree = SOURCE_ROOT; };
+		45BF329D15C9223B00AED3D6 /* ICUUnicode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICUUnicode.framework; path = ../release_cocoa64/packagefolder/contents/Frameworks/ICUUnicode.framework; sourceTree = SOURCE_ROOT; };
+		45BF32A015C9223B00AED3D6 /* ICUData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICUData.framework; path = ../debug_cocoa64/packagefolder/contents/Frameworks/ICUData.framework; sourceTree = SOURCE_ROOT; };
+		45BF32A115C9223B00AED3D6 /* ICUInternationalization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICUInternationalization.framework; path = ../debug_cocoa64/packagefolder/contents/Frameworks/ICUInternationalization.framework; sourceTree = SOURCE_ROOT; };
+		45BF32A215C9223B00AED3D6 /* ICUUnicode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICUUnicode.framework; path = ../debug_cocoa64/packagefolder/contents/Frameworks/ICUUnicode.framework; sourceTree = SOURCE_ROOT; };
+		45BF32AB15C9223B00AED3D6 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		45BF32AE15C9223B00AED3D6 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		45BF330D15C9232A00AED3D6 /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = ../release_cocoa64/packagefolder/contents/Frameworks/libtbb.dylib; sourceTree = SOURCE_ROOT; };
+		45BF330E15C9232A00AED3D6 /* WRServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WRServices.framework; path = ../release_cocoa64/packagefolder/contents/Frameworks/WRServices.framework; sourceTree = SOURCE_ROOT; };
+		45BF331115C9233B00AED3D6 /* libtbb_debug.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb_debug.dylib; path = ../debug_cocoa64/packagefolder/contents/Frameworks/libtbb_debug.dylib; sourceTree = SOURCE_ROOT; };
+		45BF331215C9233B00AED3D6 /* WRServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WRServices.framework; path = ../debug_cocoa64/packagefolder/contents/Frameworks/WRServices.framework; sourceTree = SOURCE_ROOT; };
+		45BF332615C9246A00AED3D6 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		45BF332815C9247D00AED3D6 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		4B05BC1A0883DD6600D809E1 /* SpellPanelID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpellPanelID.h; path = ../../../source/public/interfaces/text/SpellPanelID.h; sourceTree = SOURCE_ROOT; };
+		4B05BC1B0883DD6700D809E1 /* SpellPanelObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpellPanelObserver.h; path = ../../../source/open/components/spellpanel/SpellPanelObserver.h; sourceTree = SOURCE_ROOT; };
+		4B05BC1D0883DD6800D809E1 /* AutoCorrectEventWatcher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectEventWatcher.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectEventWatcher.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC1E0883DD6A00D809E1 /* AutoCorrectObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectObserver.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC1F0883DD6B00D809E1 /* AutoCorrectServiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectServiceProvider.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC200883DD6C00D809E1 /* AutoCorrectStartupShutdown.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectStartupShutdown.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectStartupShutdown.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC210883DD6E00D809E1 /* AutoCorrectTypingIdleTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectTypingIdleTask.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectTypingIdleTask.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC220883DD6F00D809E1 /* AutoCorrectWSResponder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectWSResponder.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectWSResponder.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC230883DD7000D809E1 /* AutoCorrectFolderIdleTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectFolderIdleTask.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectFolderIdleTask.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC250883DD7200D809E1 /* AutoCorrectNodeID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectNodeID.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectNodeID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC260883DD7200D809E1 /* AutoCorrectNodeID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutoCorrectNodeID.h; path = ../../../source/open/components/spellpanel/AutoCorrectNodeID.h; sourceTree = SOURCE_ROOT; };
+		4B05BC270883DD7400D809E1 /* AutoCorrectTreeViewObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutoCorrectTreeViewObserver.h; path = ../../../source/open/components/spellpanel/AutoCorrectTreeViewObserver.h; sourceTree = SOURCE_ROOT; };
+		4B05BC280883DD7500D809E1 /* AutoCorrectTreeViewObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectTreeViewObserver.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectTreeViewObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC290883DD7700D809E1 /* AutoCorrectPanelObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutoCorrectPanelObserver.h; path = ../../../source/open/components/spellpanel/AutoCorrectPanelObserver.h; sourceTree = SOURCE_ROOT; };
+		4B05BC2A0883DD7800D809E1 /* AutoCorrectPanelObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectPanelObserver.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC2B0883DD7900D809E1 /* AutoCorrectLanguageObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectLanguageObserver.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectLanguageObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC2C0883DD7B00D809E1 /* AutoCorrectButtonObservers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutoCorrectButtonObservers.h; path = ../../../source/open/components/spellpanel/AutoCorrectButtonObservers.h; sourceTree = SOURCE_ROOT; };
+		4B05BC2D0883DD7C00D809E1 /* AutoCorrectButtonObservers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectButtonObservers.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectButtonObservers.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC2E0883DD7D00D809E1 /* AutoCorrectAddPairDialogController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectAddPairDialogController.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectAddPairDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC2F0883DD7F00D809E1 /* AutoCorrectTreeViewAdapter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectTreeViewAdapter.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectTreeViewAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC300883DD8000D809E1 /* AutoCorrectTreeViewWidgetMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectTreeViewWidgetMgr.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectTreeViewWidgetMgr.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC310883DD8100D809E1 /* AutoCorrectPrefsDialogController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectPrefsDialogController.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectPrefsDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC320883DD8100D809E1 /* AutoCorrectPrefsDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AutoCorrectPrefsDialogController.h; path = ../../../source/open/components/spellpanel/AutoCorrectPrefsDialogController.h; sourceTree = SOURCE_ROOT; };
+		4B05BC330883DD8400D809E1 /* AutoCorrectPrefsPanelCreator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AutoCorrectPrefsPanelCreator.cpp; path = ../../../source/open/components/spellpanel/AutoCorrectPrefsPanelCreator.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC350883DD8500D809E1 /* DSCServiceProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DSCServiceProvider.cpp; path = ../../../source/open/components/spellpanel/DSCServiceProvider.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC360883DD8700D809E1 /* DSCStartupShutdown.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DSCStartupShutdown.cpp; path = ../../../source/open/components/spellpanel/DSCStartupShutdown.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC370883DD8800D809E1 /* DynamicSpellCheckAdornment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicSpellCheckAdornment.cpp; path = ../../../source/open/components/spellpanel/DynamicSpellCheckAdornment.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC380883DD8900D809E1 /* DynamicSpellCheckCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicSpellCheckCache.cpp; path = ../../../source/open/components/spellpanel/DynamicSpellCheckCache.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC390883DD8B00D809E1 /* DynamicSpellCheckIdleTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicSpellCheckIdleTask.cpp; path = ../../../source/open/components/spellpanel/DynamicSpellCheckIdleTask.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC3A0883DD8C00D809E1 /* DynamicSpellCheckObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DynamicSpellCheckObserver.cpp; path = ../../../source/open/components/spellpanel/DynamicSpellCheckObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC3B0883DD8D00D809E1 /* DynSpellCheckEventWatcher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DynSpellCheckEventWatcher.cpp; path = ../../../source/open/components/spellpanel/DynSpellCheckEventWatcher.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC3D0883DD8E00D809E1 /* ApplySpellPanelOptionsCmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ApplySpellPanelOptionsCmd.cpp; path = ../../../source/open/components/spellpanel/ApplySpellPanelOptionsCmd.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC3E0883DD9000D809E1 /* SpellPanelOptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellPanelOptions.cpp; path = ../../../source/open/components/spellpanel/SpellPanelOptions.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC3F0883DD9100D809E1 /* SpellPrefsDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpellPrefsDialogController.h; path = ../../../source/open/components/spellpanel/SpellPrefsDialogController.h; sourceTree = SOURCE_ROOT; };
+		4B05BC440883DD9500D809E1 /* SpellPanelDialogController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellPanelDialogController.cpp; path = ../../../source/open/components/spellpanel/SpellPanelDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC450883DD9500D809E1 /* SpellPanelDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpellPanelDialogController.h; path = ../../../source/open/components/spellpanel/SpellPanelDialogController.h; sourceTree = SOURCE_ROOT; };
+		4B05BC460883DD9600D809E1 /* SpellPrefsDialogController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellPrefsDialogController.cpp; path = ../../../source/open/components/spellpanel/SpellPrefsDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC470883DD9700D809E1 /* SpellPrefsPanelCreator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellPrefsPanelCreator.cpp; path = ../../../source/open/components/spellpanel/SpellPrefsPanelCreator.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC490883DD9900D809E1 /* SpellPanelObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellPanelObserver.cpp; path = ../../../source/open/components/spellpanel/SpellPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC4A0883DD9A00D809E1 /* SpellWordObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellWordObserver.cpp; path = ../../../source/open/components/spellpanel/SpellWordObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC4B0883DD9B00D809E1 /* SpellScopeObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellScopeObserver.cpp; path = ../../../source/open/components/spellpanel/SpellScopeObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC4C0883DD9D00D809E1 /* SpellAlternativesObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellAlternativesObserver.cpp; path = ../../../source/open/components/spellpanel/SpellAlternativesObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC4D0883DD9E00D809E1 /* SpellChangeObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellChangeObserver.cpp; path = ../../../source/open/components/spellpanel/SpellChangeObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC4E0883DD9F00D809E1 /* SpellMisspelledObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellMisspelledObserver.cpp; path = ../../../source/open/components/spellpanel/SpellMisspelledObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC4F0883DDA000D809E1 /* SpellIgnoreObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellIgnoreObserver.cpp; path = ../../../source/open/components/spellpanel/SpellIgnoreObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC500883DDA200D809E1 /* SpellAddToListObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellAddToListObserver.cpp; path = ../../../source/open/components/spellpanel/SpellAddToListObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC510883DDA300D809E1 /* SpellChangeAllObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellChangeAllObserver.cpp; path = ../../../source/open/components/spellpanel/SpellChangeAllObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC520883DDA400D809E1 /* SpellSkipObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellSkipObserver.cpp; path = ../../../source/open/components/spellpanel/SpellSkipObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC530883DDA600D809E1 /* SpellStatusTextObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellStatusTextObserver.cpp; path = ../../../source/open/components/spellpanel/SpellStatusTextObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC540883DDA700D809E1 /* SpellCaseSensitiveObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellCaseSensitiveObserver.cpp; path = ../../../source/open/components/spellpanel/SpellCaseSensitiveObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC550883DDA800D809E1 /* SpellTargetListObserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellTargetListObserver.cpp; path = ../../../source/open/components/spellpanel/SpellTargetListObserver.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC570883DDA900D809E1 /* SpellWordEH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellWordEH.cpp; path = ../../../source/open/components/spellpanel/SpellWordEH.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC580883DDAB00D809E1 /* SpellMisspelledEH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellMisspelledEH.cpp; path = ../../../source/open/components/spellpanel/SpellMisspelledEH.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC590883DDAC00D809E1 /* SpellListBoxEH.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellListBoxEH.cpp; path = ../../../source/open/components/spellpanel/SpellListBoxEH.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC5B0883DDAD00D809E1 /* SpellCheckWalker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellCheckWalker.cpp; path = ../../../source/open/components/spellpanel/SpellCheckWalker.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC5C0883DDAF00D809E1 /* SpellCheckWalkerData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellCheckWalkerData.cpp; path = ../../../source/open/components/spellpanel/SpellCheckWalkerData.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC5D0883DDB000D809E1 /* SpellReplaceWalker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellReplaceWalker.cpp; path = ../../../source/open/components/spellpanel/SpellReplaceWalker.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC5F0883DDB100D809E1 /* SpellTargetServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellTargetServer.cpp; path = ../../../source/open/components/spellpanel/SpellTargetServer.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC600883DDB200D809E1 /* SpellPanelID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellPanelID.cpp; path = ../../../source/open/components/spellpanel/SpellPanelID.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC610883DDB400D809E1 /* SpellPanelMWHacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellPanelMWHacks.cpp; path = ../../../source/open/components/spellpanel/SpellPanelMWHacks.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC620883DDB500D809E1 /* SpellPanelPlugIn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellPanelPlugIn.cpp; path = ../../../source/open/components/spellpanel/SpellPanelPlugIn.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC630883DDB600D809E1 /* SpellMenuComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpellMenuComponent.cpp; path = ../../../source/open/components/spellpanel/SpellMenuComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC650883DDB900D809E1 /* LinguisticTestMenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LinguisticTestMenu.cpp; path = ../../../source/open/components/spellpanel/LinguisticTestMenu.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC670883DDBA00D809E1 /* PrivateSpellingUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PrivateSpellingUtils.cpp; path = ../../../source/open/components/spellpanel/PrivateSpellingUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B05BC6A0883DDBD00D809E1 /* SpellPanel.fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = SpellPanel.fr; path = ../../../source/open/components/spellpanel/SpellPanel.fr; sourceTree = SOURCE_ROOT; };
+		4B05BC7D0883DDC600D809E1 /* ISpellingPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISpellingPrefs.h; path = ../../../source/public/interfaces/text/ISpellingPrefs.h; sourceTree = SOURCE_ROOT; };
+		4B05BC7E0883DDC700D809E1 /* SpellPanelFactoryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpellPanelFactoryList.h; path = ../../../source/open/components/spellpanel/SpellPanelFactoryList.h; sourceTree = SOURCE_ROOT; };
+		4B05BC810883DDCB00D809E1 /* PluginPList.plc */ = {isa = PBXFileReference; lastKnownFileType = text; name = PluginPList.plc; path = ../../../source/open/components/resourcedefs/PluginPList.plc; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845A08AD6DB8007DB654 /* _shared_build_settings/pluginOpen.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/pluginOpen.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BF324115C9222500AED3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF330015C922B300AED3D6 /* libPublicPlugIn.a in Frameworks */,
+				45BF330215C922B300AED3D6 /* ICUData.framework in Frameworks */,
+				45BF330315C922B300AED3D6 /* ICUInternationalization.framework in Frameworks */,
+				45BF330415C922B300AED3D6 /* ICUUnicode.framework in Frameworks */,
+				45BF331315C9233B00AED3D6 /* libtbb_debug.dylib in Frameworks */,
+				45BF331415C9233B00AED3D6 /* WRServices.framework in Frameworks */,
+				45BF332915C9247D00AED3D6 /* InDesignModelAndUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF328415C9222500AED3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF32FB15C922AA00AED3D6 /* libPublicPlugIn.a in Frameworks */,
+				45BF32FD15C922AA00AED3D6 /* ICUData.framework in Frameworks */,
+				45BF32FE15C922AA00AED3D6 /* ICUInternationalization.framework in Frameworks */,
+				45BF32FF15C922AA00AED3D6 /* ICUUnicode.framework in Frameworks */,
+				45BF330F15C9232A00AED3D6 /* libtbb.dylib in Frameworks */,
+				45BF331015C9232A00AED3D6 /* WRServices.framework in Frameworks */,
+				45BF332715C9246A00AED3D6 /* InDesignModelAndUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45BF328D15C9223B00AED3D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45BF329915C9223B00AED3D6 /* For Cocoa64 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45BF329915C9223B00AED3D6 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				45BF330D15C9232A00AED3D6 /* libtbb.dylib */,
+				45BF330E15C9232A00AED3D6 /* WRServices.framework */,
+				45BF329B15C9223B00AED3D6 /* ICUData.framework */,
+				45BF329C15C9223B00AED3D6 /* ICUInternationalization.framework */,
+				45BF329D15C9223B00AED3D6 /* ICUUnicode.framework */,
+				45BF329E15C9223B00AED3D6 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		45BF329E15C9223B00AED3D6 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				45BF331115C9233B00AED3D6 /* libtbb_debug.dylib */,
+				45BF331215C9233B00AED3D6 /* WRServices.framework */,
+				45BF32A015C9223B00AED3D6 /* ICUData.framework */,
+				45BF32A115C9223B00AED3D6 /* ICUInternationalization.framework */,
+				45BF32A215C9223B00AED3D6 /* ICUUnicode.framework */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		45BF32A315C9223B00AED3D6 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				45BF32AA15C9223B00AED3D6 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		45BF32AA15C9223B00AED3D6 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				45BF32AB15C9223B00AED3D6 /* libPublicPlugIn.a */,
+				45BF332615C9246A00AED3D6 /* InDesignModelAndUI.framework */,
+				45BF32AD15C9223B00AED3D6 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		45BF32AD15C9223B00AED3D6 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				45BF32AE15C9223B00AED3D6 /* libPublicPlugIn.a */,
+				45BF332815C9247D00AED3D6 /* InDesignModelAndUI.framework */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		4B05BBFF0883DD6200D809E1 = {
+			isa = PBXGroup;
+			children = (
+				45BF32A315C9223B00AED3D6 /* InDesign Libraries */,
+				45BF328D15C9223B00AED3D6 /* Frameworks */,
+				4B05BC190883DD6200D809E1 /* Rescued Items */,
+				4B05BC1C0883DD6700D809E1 /* Auto Correct */,
+				4B05BC240883DD7000D809E1 /* Auto Correct UI */,
+				4B05BC340883DD8400D809E1 /* Dynamic Spell Check */,
+				4B05BC3C0883DD8D00D809E1 /* Preferences */,
+				4B05BC400883DD9100D809E1 /* StringListBox */,
+				4B05BC430883DD9400D809E1 /* Spell Dialog */,
+				4B05BC480883DD9700D809E1 /* SpellDialog Observer */,
+				4B05BC560883DDA800D809E1 /* SpellDialog EH */,
+				4B05BC5A0883DDAC00D809E1 /* Walker */,
+				4B05BC5E0883DDB000D809E1 /* SpellPanel Plugin */,
+				4B05BC660883DDB900D809E1 /* Utils */,
+				4B05BC680883DDBA00D809E1 /* Resources */,
+				4B05BC7C0883DDC500D809E1 /* Includes */,
+				4B05BC810883DDCB00D809E1 /* PluginPList.plc */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				4B05BC0D0883DD6200D809E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05BC0D0883DD6200D809E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BF324915C9222500AED3D6 /* Spelling Panel.InDesignPlugin */,
+				45BF328C15C9222500AED3D6 /* Spelling Panel.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B05BC190883DD6200D809E1 /* Rescued Items */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC1A0883DD6600D809E1 /* SpellPanelID.h */,
+				4B05BC1B0883DD6700D809E1 /* SpellPanelObserver.h */,
+			);
+			name = "Rescued Items";
+			sourceTree = "<group>";
+		};
+		4B05BC1C0883DD6700D809E1 /* Auto Correct */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC1D0883DD6800D809E1 /* AutoCorrectEventWatcher.cpp */,
+				4B05BC1E0883DD6A00D809E1 /* AutoCorrectObserver.cpp */,
+				4B05BC1F0883DD6B00D809E1 /* AutoCorrectServiceProvider.cpp */,
+				4B05BC200883DD6C00D809E1 /* AutoCorrectStartupShutdown.cpp */,
+				4B05BC210883DD6E00D809E1 /* AutoCorrectTypingIdleTask.cpp */,
+				4B05BC220883DD6F00D809E1 /* AutoCorrectWSResponder.cpp */,
+				4B05BC230883DD7000D809E1 /* AutoCorrectFolderIdleTask.cpp */,
+			);
+			name = "Auto Correct";
+			sourceTree = "<group>";
+		};
+		4B05BC240883DD7000D809E1 /* Auto Correct UI */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC260883DD7200D809E1 /* AutoCorrectNodeID.h */,
+				4B05BC250883DD7200D809E1 /* AutoCorrectNodeID.cpp */,
+				4B05BC270883DD7400D809E1 /* AutoCorrectTreeViewObserver.h */,
+				4B05BC280883DD7500D809E1 /* AutoCorrectTreeViewObserver.cpp */,
+				4B05BC290883DD7700D809E1 /* AutoCorrectPanelObserver.h */,
+				4B05BC2A0883DD7800D809E1 /* AutoCorrectPanelObserver.cpp */,
+				4B05BC2B0883DD7900D809E1 /* AutoCorrectLanguageObserver.cpp */,
+				4B05BC2C0883DD7B00D809E1 /* AutoCorrectButtonObservers.h */,
+				4B05BC2D0883DD7C00D809E1 /* AutoCorrectButtonObservers.cpp */,
+				4B05BC2E0883DD7D00D809E1 /* AutoCorrectAddPairDialogController.cpp */,
+				4B05BC2F0883DD7F00D809E1 /* AutoCorrectTreeViewAdapter.cpp */,
+				4B05BC300883DD8000D809E1 /* AutoCorrectTreeViewWidgetMgr.cpp */,
+				4B05BC320883DD8100D809E1 /* AutoCorrectPrefsDialogController.h */,
+				4B05BC310883DD8100D809E1 /* AutoCorrectPrefsDialogController.cpp */,
+				4B05BC330883DD8400D809E1 /* AutoCorrectPrefsPanelCreator.cpp */,
+			);
+			name = "Auto Correct UI";
+			sourceTree = "<group>";
+		};
+		4B05BC340883DD8400D809E1 /* Dynamic Spell Check */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC350883DD8500D809E1 /* DSCServiceProvider.cpp */,
+				4B05BC360883DD8700D809E1 /* DSCStartupShutdown.cpp */,
+				4B05BC370883DD8800D809E1 /* DynamicSpellCheckAdornment.cpp */,
+				4B05BC380883DD8900D809E1 /* DynamicSpellCheckCache.cpp */,
+				4B05BC390883DD8B00D809E1 /* DynamicSpellCheckIdleTask.cpp */,
+				4B05BC3A0883DD8C00D809E1 /* DynamicSpellCheckObserver.cpp */,
+				4B05BC3B0883DD8D00D809E1 /* DynSpellCheckEventWatcher.cpp */,
+			);
+			name = "Dynamic Spell Check";
+			sourceTree = "<group>";
+		};
+		4B05BC3C0883DD8D00D809E1 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC3D0883DD8E00D809E1 /* ApplySpellPanelOptionsCmd.cpp */,
+				4B05BC3E0883DD9000D809E1 /* SpellPanelOptions.cpp */,
+				4B05BC3F0883DD9100D809E1 /* SpellPrefsDialogController.h */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		4B05BC400883DD9100D809E1 /* StringListBox */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = StringListBox;
+			sourceTree = "<group>";
+		};
+		4B05BC430883DD9400D809E1 /* Spell Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC450883DD9500D809E1 /* SpellPanelDialogController.h */,
+				4B05BC440883DD9500D809E1 /* SpellPanelDialogController.cpp */,
+				4B05BC460883DD9600D809E1 /* SpellPrefsDialogController.cpp */,
+				4B05BC470883DD9700D809E1 /* SpellPrefsPanelCreator.cpp */,
+			);
+			name = "Spell Dialog";
+			sourceTree = "<group>";
+		};
+		4B05BC480883DD9700D809E1 /* SpellDialog Observer */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC490883DD9900D809E1 /* SpellPanelObserver.cpp */,
+				4B05BC4A0883DD9A00D809E1 /* SpellWordObserver.cpp */,
+				4B05BC4B0883DD9B00D809E1 /* SpellScopeObserver.cpp */,
+				4B05BC4C0883DD9D00D809E1 /* SpellAlternativesObserver.cpp */,
+				4B05BC4D0883DD9E00D809E1 /* SpellChangeObserver.cpp */,
+				4B05BC4E0883DD9F00D809E1 /* SpellMisspelledObserver.cpp */,
+				4B05BC4F0883DDA000D809E1 /* SpellIgnoreObserver.cpp */,
+				4B05BC500883DDA200D809E1 /* SpellAddToListObserver.cpp */,
+				4B05BC510883DDA300D809E1 /* SpellChangeAllObserver.cpp */,
+				4B05BC520883DDA400D809E1 /* SpellSkipObserver.cpp */,
+				4B05BC530883DDA600D809E1 /* SpellStatusTextObserver.cpp */,
+				4B05BC540883DDA700D809E1 /* SpellCaseSensitiveObserver.cpp */,
+				4B05BC550883DDA800D809E1 /* SpellTargetListObserver.cpp */,
+			);
+			name = "SpellDialog Observer";
+			sourceTree = "<group>";
+		};
+		4B05BC560883DDA800D809E1 /* SpellDialog EH */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC570883DDA900D809E1 /* SpellWordEH.cpp */,
+				4B05BC580883DDAB00D809E1 /* SpellMisspelledEH.cpp */,
+				4B05BC590883DDAC00D809E1 /* SpellListBoxEH.cpp */,
+			);
+			name = "SpellDialog EH";
+			sourceTree = "<group>";
+		};
+		4B05BC5A0883DDAC00D809E1 /* Walker */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC5B0883DDAD00D809E1 /* SpellCheckWalker.cpp */,
+				4B05BC5C0883DDAF00D809E1 /* SpellCheckWalkerData.cpp */,
+				4B05BC5D0883DDB000D809E1 /* SpellReplaceWalker.cpp */,
+			);
+			name = Walker;
+			sourceTree = "<group>";
+		};
+		4B05BC5E0883DDB000D809E1 /* SpellPanel Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC5F0883DDB100D809E1 /* SpellTargetServer.cpp */,
+				4B05BC600883DDB200D809E1 /* SpellPanelID.cpp */,
+				4B05BC610883DDB400D809E1 /* SpellPanelMWHacks.cpp */,
+				4B05BC620883DDB500D809E1 /* SpellPanelPlugIn.cpp */,
+				4B05BC630883DDB600D809E1 /* SpellMenuComponent.cpp */,
+				4B05BC650883DDB900D809E1 /* LinguisticTestMenu.cpp */,
+			);
+			name = "SpellPanel Plugin";
+			sourceTree = "<group>";
+		};
+		4B05BC660883DDB900D809E1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC670883DDBA00D809E1 /* PrivateSpellingUtils.cpp */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		4B05BC680883DDBA00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC6A0883DDBD00D809E1 /* SpellPanel.fr */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4B05BC7C0883DDC500D809E1 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				4B05BC7D0883DDC600D809E1 /* ISpellingPrefs.h */,
+				4B05BC7E0883DDC700D809E1 /* SpellPanelFactoryList.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				7FE5845A08AD6DB8007DB654 /* _shared_build_settings/pluginOpen.xcconfig */,
+				0646845B0BE7BE84002F76C5 /* _shared_build_settings/pluginOpen.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BF320615C9222500AED3D6 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BF324715C9222500AED3D6 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				45BF320715C9222500AED3D6 /* Sources */,
+				45BF324115C9222500AED3D6 /* Frameworks */,
+				45BF324215C9222500AED3D6 /* Rez */,
+				45BF324315C9222500AED3D6 /* Resources */,
+				45BF324415C9222500AED3D6 /* ShellScript */,
+			);
+			buildRules = (
+				45BF324515C9222500AED3D6 /* PBXBuildRule */,
+				45BF324615C9222500AED3D6 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = 45BF324915C9222500AED3D6 /* Spelling Panel.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		45BF324A15C9222500AED3D6 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BF328A15C9222500AED3D6 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				45BF324B15C9222500AED3D6 /* Sources */,
+				45BF328415C9222500AED3D6 /* Frameworks */,
+				45BF328515C9222500AED3D6 /* Rez */,
+				45BF328615C9222500AED3D6 /* Resources */,
+				45BF328715C9222500AED3D6 /* ShellScript */,
+			);
+			buildRules = (
+				45BF328815C9222500AED3D6 /* PBXBuildRule */,
+				45BF328915C9222500AED3D6 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = 45BF328C15C9222500AED3D6 /* Spelling Panel.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05BC010883DD6200D809E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B05BC020883DD6200D809E1 /* Build configuration list for PBXProject "SpellingPanel.open" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05BBFF0883DD6200D809E1;
+			productRefGroup = 4B05BC0D0883DD6200D809E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = ../../..;
+			targets = (
+				45BF320615C9222500AED3D6 /* Debug_Cocoa64 */,
+				45BF324A15C9222500AED3D6 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BF324315C9222500AED3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF328615C9222500AED3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372017ED993900CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		45BF324215C9222500AED3D6 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF328515C9222500AED3D6 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45BF324415C9222500AED3D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		45BF328715C9222500AED3D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BF320715C9222500AED3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF320815C9222500AED3D6 /* SpellPanel.fr in Sources */,
+				45BF320A15C9222500AED3D6 /* SpellPanelObserver.cpp in Sources */,
+				45BF320B15C9222500AED3D6 /* SpellScopeObserver.cpp in Sources */,
+				45BF320C15C9222500AED3D6 /* SpellWordObserver.cpp in Sources */,
+				45BF320D15C9222500AED3D6 /* SpellWordEH.cpp in Sources */,
+				45BF320E15C9222500AED3D6 /* SpellAlternativesObserver.cpp in Sources */,
+				45BF320F15C9222500AED3D6 /* SpellChangeObserver.cpp in Sources */,
+				45BF321015C9222500AED3D6 /* SpellMisspelledObserver.cpp in Sources */,
+				45BF321115C9222500AED3D6 /* SpellIgnoreObserver.cpp in Sources */,
+				45BF321215C9222500AED3D6 /* SpellAddToListObserver.cpp in Sources */,
+				45BF321315C9222500AED3D6 /* SpellChangeAllObserver.cpp in Sources */,
+				45BF321415C9222500AED3D6 /* SpellSkipObserver.cpp in Sources */,
+				45BF321515C9222500AED3D6 /* SpellMisspelledEH.cpp in Sources */,
+				45BF321615C9222500AED3D6 /* SpellListBoxEH.cpp in Sources */,
+				45BF321715C9222500AED3D6 /* SpellStatusTextObserver.cpp in Sources */,
+				45BF321815C9222500AED3D6 /* SpellTargetServer.cpp in Sources */,
+				45BF321915C9222500AED3D6 /* SpellCheckWalker.cpp in Sources */,
+				45BF321A15C9222500AED3D6 /* SpellReplaceWalker.cpp in Sources */,
+				45BF321B15C9222500AED3D6 /* SpellPanelID.cpp in Sources */,
+				45BF321C15C9222500AED3D6 /* SpellPanelMWHacks.cpp in Sources */,
+				45BF321D15C9222500AED3D6 /* SpellPanelPlugIn.cpp in Sources */,
+				45BF321E15C9222500AED3D6 /* SpellMenuComponent.cpp in Sources */,
+				45BF321F15C9222500AED3D6 /* ApplySpellPanelOptionsCmd.cpp in Sources */,
+				45BF322015C9222500AED3D6 /* SpellCheckWalkerData.cpp in Sources */,
+				45BF322115C9222500AED3D6 /* DynamicSpellCheckAdornment.cpp in Sources */,
+				45BF322215C9222500AED3D6 /* SpellPanelDialogController.cpp in Sources */,
+				45BF322315C9222500AED3D6 /* SpellPrefsDialogController.cpp in Sources */,
+				45BF322415C9222500AED3D6 /* SpellPrefsPanelCreator.cpp in Sources */,
+				45BF322515C9222500AED3D6 /* DSCServiceProvider.cpp in Sources */,
+				45BF322615C9222500AED3D6 /* DSCStartupShutdown.cpp in Sources */,
+				45BF322715C9222500AED3D6 /* DynamicSpellCheckCache.cpp in Sources */,
+				45BF322815C9222500AED3D6 /* DynamicSpellCheckIdleTask.cpp in Sources */,
+				45BF322915C9222500AED3D6 /* DynamicSpellCheckObserver.cpp in Sources */,
+				45BF322A15C9222500AED3D6 /* DynSpellCheckEventWatcher.cpp in Sources */,
+				45BF322B15C9222500AED3D6 /* SpellPanelOptions.cpp in Sources */,
+				45BF322C15C9222500AED3D6 /* LinguisticTestMenu.cpp in Sources */,
+				45BF322D15C9222500AED3D6 /* PrivateSpellingUtils.cpp in Sources */,
+				45BF322E15C9222500AED3D6 /* AutoCorrectPrefsDialogController.cpp in Sources */,
+				45BF322F15C9222500AED3D6 /* AutoCorrectPrefsPanelCreator.cpp in Sources */,
+				45BF323015C9222500AED3D6 /* AutoCorrectTypingIdleTask.cpp in Sources */,
+				45BF323115C9222500AED3D6 /* AutoCorrectEventWatcher.cpp in Sources */,
+				45BF323215C9222500AED3D6 /* AutoCorrectObserver.cpp in Sources */,
+				45BF323315C9222500AED3D6 /* AutoCorrectServiceProvider.cpp in Sources */,
+				45BF323415C9222500AED3D6 /* AutoCorrectStartupShutdown.cpp in Sources */,
+				45BF323515C9222500AED3D6 /* AutoCorrectNodeID.cpp in Sources */,
+				45BF323615C9222500AED3D6 /* AutoCorrectTreeViewAdapter.cpp in Sources */,
+				45BF323715C9222500AED3D6 /* AutoCorrectTreeViewWidgetMgr.cpp in Sources */,
+				45BF323815C9222500AED3D6 /* AutoCorrectTreeViewObserver.cpp in Sources */,
+				45BF323915C9222500AED3D6 /* AutoCorrectPanelObserver.cpp in Sources */,
+				45BF323A15C9222500AED3D6 /* AutoCorrectLanguageObserver.cpp in Sources */,
+				45BF323B15C9222500AED3D6 /* AutoCorrectButtonObservers.cpp in Sources */,
+				45BF323C15C9222500AED3D6 /* AutoCorrectAddPairDialogController.cpp in Sources */,
+				45BF323D15C9222500AED3D6 /* SpellCaseSensitiveObserver.cpp in Sources */,
+				45BF323E15C9222500AED3D6 /* SpellTargetListObserver.cpp in Sources */,
+				45BF323F15C9222500AED3D6 /* AutoCorrectWSResponder.cpp in Sources */,
+				45BF324015C9222500AED3D6 /* AutoCorrectFolderIdleTask.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF324B15C9222500AED3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF324C15C9222500AED3D6 /* SpellPanel.fr in Sources */,
+				45BF324E15C9222500AED3D6 /* SpellPanelObserver.cpp in Sources */,
+				45BF324F15C9222500AED3D6 /* SpellAlternativesObserver.cpp in Sources */,
+				45BF325015C9222500AED3D6 /* SpellWordObserver.cpp in Sources */,
+				45BF325115C9222500AED3D6 /* SpellWordEH.cpp in Sources */,
+				45BF325215C9222500AED3D6 /* SpellIgnoreObserver.cpp in Sources */,
+				45BF325315C9222500AED3D6 /* SpellSkipObserver.cpp in Sources */,
+				45BF325415C9222500AED3D6 /* SpellScopeObserver.cpp in Sources */,
+				45BF325515C9222500AED3D6 /* SpellPanelPlugIn.cpp in Sources */,
+				45BF325615C9222500AED3D6 /* SpellPanelMWHacks.cpp in Sources */,
+				45BF325715C9222500AED3D6 /* SpellPanelID.cpp in Sources */,
+				45BF325815C9222500AED3D6 /* SpellMenuComponent.cpp in Sources */,
+				45BF325915C9222500AED3D6 /* SpellAddToListObserver.cpp in Sources */,
+				45BF325A15C9222500AED3D6 /* SpellChangeObserver.cpp in Sources */,
+				45BF325B15C9222500AED3D6 /* SpellChangeAllObserver.cpp in Sources */,
+				45BF325C15C9222500AED3D6 /* SpellCheckWalker.cpp in Sources */,
+				45BF325D15C9222500AED3D6 /* ApplySpellPanelOptionsCmd.cpp in Sources */,
+				45BF325E15C9222500AED3D6 /* SpellMisspelledEH.cpp in Sources */,
+				45BF325F15C9222500AED3D6 /* SpellMisspelledObserver.cpp in Sources */,
+				45BF326015C9222500AED3D6 /* SpellStatusTextObserver.cpp in Sources */,
+				45BF326115C9222500AED3D6 /* SpellListBoxEH.cpp in Sources */,
+				45BF326215C9222500AED3D6 /* SpellTargetServer.cpp in Sources */,
+				45BF326315C9222500AED3D6 /* SpellReplaceWalker.cpp in Sources */,
+				45BF326415C9222500AED3D6 /* SpellCheckWalkerData.cpp in Sources */,
+				45BF326515C9222500AED3D6 /* DynamicSpellCheckAdornment.cpp in Sources */,
+				45BF326615C9222500AED3D6 /* SpellPanelDialogController.cpp in Sources */,
+				45BF326715C9222500AED3D6 /* SpellPrefsDialogController.cpp in Sources */,
+				45BF326815C9222500AED3D6 /* SpellPrefsPanelCreator.cpp in Sources */,
+				45BF326915C9222500AED3D6 /* DSCServiceProvider.cpp in Sources */,
+				45BF326A15C9222500AED3D6 /* DSCStartupShutdown.cpp in Sources */,
+				45BF326B15C9222500AED3D6 /* DynamicSpellCheckCache.cpp in Sources */,
+				45BF326C15C9222500AED3D6 /* DynamicSpellCheckIdleTask.cpp in Sources */,
+				45BF326D15C9222500AED3D6 /* DynamicSpellCheckObserver.cpp in Sources */,
+				45BF326E15C9222500AED3D6 /* DynSpellCheckEventWatcher.cpp in Sources */,
+				45BF326F15C9222500AED3D6 /* SpellPanelOptions.cpp in Sources */,
+				45BF327015C9222500AED3D6 /* PrivateSpellingUtils.cpp in Sources */,
+				45BF327115C9222500AED3D6 /* AutoCorrectPrefsDialogController.cpp in Sources */,
+				45BF327215C9222500AED3D6 /* AutoCorrectPrefsPanelCreator.cpp in Sources */,
+				45BF327315C9222500AED3D6 /* AutoCorrectTypingIdleTask.cpp in Sources */,
+				45BF327415C9222500AED3D6 /* AutoCorrectEventWatcher.cpp in Sources */,
+				45BF327515C9222500AED3D6 /* AutoCorrectObserver.cpp in Sources */,
+				45BF327615C9222500AED3D6 /* AutoCorrectServiceProvider.cpp in Sources */,
+				45BF327715C9222500AED3D6 /* AutoCorrectStartupShutdown.cpp in Sources */,
+				45BF327815C9222500AED3D6 /* AutoCorrectNodeID.cpp in Sources */,
+				45BF327915C9222500AED3D6 /* AutoCorrectTreeViewAdapter.cpp in Sources */,
+				45BF327A15C9222500AED3D6 /* AutoCorrectTreeViewWidgetMgr.cpp in Sources */,
+				45BF327B15C9222500AED3D6 /* AutoCorrectTreeViewObserver.cpp in Sources */,
+				45BF327C15C9222500AED3D6 /* AutoCorrectPanelObserver.cpp in Sources */,
+				45BF327D15C9222500AED3D6 /* AutoCorrectLanguageObserver.cpp in Sources */,
+				45BF327E15C9222500AED3D6 /* AutoCorrectButtonObservers.cpp in Sources */,
+				45BF327F15C9222500AED3D6 /* AutoCorrectAddPairDialogController.cpp in Sources */,
+				45BF328015C9222500AED3D6 /* SpellCaseSensitiveObserver.cpp in Sources */,
+				45BF328115C9222500AED3D6 /* SpellTargetListObserver.cpp in Sources */,
+				45BF328215C9222500AED3D6 /* AutoCorrectWSResponder.cpp in Sources */,
+				45BF328315C9222500AED3D6 /* AutoCorrectFolderIdleTask.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45BF324815C9222500AED3D6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../debug_cocoa64/packagefolder/contents/macos\"",
+				);
+			};
+			name = Default;
+		};
+		45BF328B15C9222500AED3D6 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../release_cocoa64/packagefolder/contents/macos\"",
+				);
+			};
+			name = Default;
+		};
+		4B05BC030883DD6200D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0646845B0BE7BE84002F76C5 /* _shared_build_settings/pluginOpen.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_PLUGINS_DIR)/Text";
+				GCC_WARN_SHADOW = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(DVA_HEADER_SEARCH_PATHS)",
+					../../../source/public/interfaces/tables,
+					../../../source/public/interfaces/incopy,
+					../../../source/public/interfaces/cjk,
+					../../../source/open/widgets/includes,
+					../../../source/open/components/includes,
+					../../../source/open/libs/widgetbin/includes,
+					../../../source/open/components/spellpanel,
+					../../../source/private/includes/graphics,
+					../../../external/WRServices/Public/Includes,
+					../../../external/agm/includes/,
+					../../../external/icu/include,
+					../../../source/private/includes/text,
+				);
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = "Spelling Panel";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BF324715C9222500AED3D6 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF324815C9222500AED3D6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		45BF328A15C9222500AED3D6 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF328B15C9222500AED3D6 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4B05BC020883DD6200D809E1 /* Build configuration list for PBXProject "SpellingPanel.open" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05BC030883DD6200D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05BC010883DD6200D809E1 /* Project object */;
+}
+

@@ -1,0 +1,433 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/open/components/dynamicdocumentsui/resources/SWFExportAdvancedOptionsPanel_enUS.fr $
+//  
+//  Owner: DBerggren
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  ADOBE CONFIDENTIAL
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "IconStyleDefs.h"
+#include "ApplDefs.h"
+
+#ifdef __ODFRC__
+
+//========================================================================================
+// SWFExportDialog resource 
+//========================================================================================
+
+resource SWFExportAdvancedOptionsPanel (kSWFExportAdvancedPanelRsrcID + index_enUS)
+{
+	__FILE__, __LINE__,
+	kSWFExportAdvancedParentWidgetId,						// WidgetId
+	kPMRsrcID_None,							// RsrcId
+	kBindNone,								// Frame binding
+	Frame(0,0,450+50,395)		// Frame
+	kTrue,									// Visible
+	kTrue,									// Enabled
+	"Advanced",						// Panel name
+	{
+		// Upper dialog
+		EVEGenericPanelWidget
+		(
+			kGenericPanelWidgetID,					// WidgetId
+			0,0,				// RsrcId
+			kBindNone,						// Frame binding
+			Frame(0,0,0,0)		// Frame
+			kTrue,							// Visible
+			kTrue,							// Enabled
+			kEVEAlignLeft|kEVERegularSpaceAfter|kEVEArrangeChildrenInRow|kEVEChildRegularSpaceAfter,		// EVE info
+			{
+				// Field Names Group Column
+				EVEGenericPanelWidget
+				(
+					kGenericPanel1WidgetID,					// WidgetId
+					0,0,				// RsrcId
+					kBindNone,						// Frame binding
+					Frame(0,0,0,0)		// Frame
+					kTrue,							// Visible
+					kTrue,							// Enabled
+					kEVEAlignRight|kEVERegularSpaceAfter|kEVEArrangeChildrenInColumn|kEVEChildAlignRight,		// EVE info
+					{
+						EVEStaticTextWidget
+						(
+							kFrameRateStrWidgetID,            // WidgetId
+							kSysStaticTextPMRsrcId, // RsrcId
+							kBindNone,              // Frame binding
+							Frame(0,0,105,0)       // Frame
+							kTrue,kTrue, kAlignRight,  // Visible, Enabled, Alignment
+							kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+							"kFrameRateStr",       // Initial text
+							kFramesPerSecEditWidgetID,  // Associated widget
+							kEVEAlignRight|kEVERegularSpaceAfter,    // EVE info
+						),
+						EVEStaticTextWidget
+						(
+							kTextStrWidgetID,            // WidgetId
+							kSysStaticTextPMRsrcId, // RsrcId
+							kBindNone,              // Frame binding
+							Frame(0,0,105,0)       // Frame
+							kTrue,kTrue, kAlignRight,  // Visible, Enabled, Alignment
+							kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+							"kTextStr",       // Initial text
+							kTextPopupWID,  // Associated widget
+							kEVEAlignRight|kEVERegularSpaceAfter,    // EVE info
+						),
+						EVEStaticTextWidget
+						(
+							kOptionsStrWidgetID,            // WidgetId
+							kSysStaticTextPMRsrcId, // RsrcId
+							kBindNone,              // Frame binding
+							Frame(0,0,105,0)       // Frame
+							kTrue,kTrue, kAlignRight,  // Visible, Enabled, Alignment
+							kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+							"kOptionsStr",       // Initial text
+							0,  // Associated widget
+							kEVEAlignRight|kEVERegularSpaceAfter,    // EVE info
+						),
+					}
+				),
+				// Fields Group Column
+				EVEGenericPanelWidget
+				(
+					kGenericPanel1WidgetID,					// WidgetId
+					0,0,				// RsrcId
+					kBindNone,						// Frame binding
+					Frame(0,0,0,0)		// Frame
+					kTrue,							// Visible
+					kTrue,							// Enabled
+					kEVEAlignRight|kEVERegularSpaceAfter|kEVEArrangeChildrenInColumn|kEVEChildAlignLeft,		// EVE info
+					{
+						EVEGenericPanelWidget
+						(
+							kGenericPanel2WidgetID,					// WidgetId
+							0,0,				// RsrcId
+							kBindNone,						// Frame binding
+							Frame(0,0,0,0)		// Frame
+							kTrue,							// Visible
+							kTrue,							// Enabled
+							kEVEAlignLeft|kEVERegularSpaceAfter|kEVEArrangeChildrenInRow|kEVEChildAlignLeft|kEVEChildRegularSpaceAfter,		// EVE info
+							{
+								EVEIntEditBoxWidget
+								(
+									kFramesPerSecEditWidgetID,        // WidgetId
+									kSysEditBoxPMRsrcId,            // RsrcId
+									kBindNone,
+									Frame(0,0,74,0)        // Frame
+									kTrue, kTrue                    // Visible, Enabled
+									0,                                // Widget id of nudge button (0 so we don't get one)
+									1, 5,                            // small,large nudge amount
+									0,                                        // max num chars( 0 = no limit)
+									kFalse,                                    // is read only
+									kFalse,                                    // should notify each key stroke
+									kTrue,                                    // range checking enabled
+									kFalse,                                    // blank entry allowed
+									kMaxFrameRate,                                // Upper bounds
+									kMinFrameRate,                                // Lower bounds
+									"24",                                // Initial text
+									kEVERegularSpaceAfter
+								),
+								EVEStaticTextWidget
+								(
+									kFrameSecStrWidgetID,            // WidgetId
+									kSysStaticTextPMRsrcId, // RsrcId
+									kBindNone,              // Frame binding
+									Frame(0,0,50,0)       // Frame
+									kTrue,kTrue, kAlignLeft,  // Visible, Enabled, Alignment
+									kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+									"kFramesPerSecStr",       // Initial text
+									0,  // Associated widget
+									kEVEAlignLeft|kEVERegularSpaceAfter,    // EVE info
+								),
+							}
+						),
+						EVEDropDownListWidget
+						(
+							kTextPopupWID,    // WidgetId
+							kSysDropDownPMRsrcId,      // RsrcId
+							kBindNone,
+							Frame(0,0,250,0)        // Frame
+							kTrue, kTrue,
+							{{
+								"kFlashText",
+								"kVectorText",
+								"kRasterText" 
+							}}
+							kEVEAlignLeft|kEVERegularSpaceAfter
+						),
+						EVEGenericPanelWidget
+						(
+							kGenericPanel2WidgetID,					// WidgetId
+							0,0,				// RsrcId
+							kBindNone,						// Frame binding
+							Frame(0,0,0,0)		// Frame
+							kTrue,							// Visible
+							kTrue,							// Enabled
+							kEVEAlignLeft|kEVERegularSpaceAfter|kEVEArrangeChildrenInRow|kEVEChildAlignLeft|kEVEChildRegularSpaceAfter,		// EVE info
+							{
+								EVECheckBoxWidget
+								(
+									kRastorizeCheckboxWID,	// WID
+									kSysCheckBoxPMRsrcId,						// RsrcId
+									kBindNone,									// Frame binding
+									Frame(0,0,120,0)							// Frame
+									kTrue, kTrue,								// Visible, Enabled
+									kAlignLeft,									// Alignment
+									"kRasterizeStr"			// Initial Text		
+									kEVERegularSpaceAfter,
+								),
+								EVEIconFieldWidget
+								(
+									kRastorizeWarningIconWidgetId,                 //                     WidgetId,
+									kMediumWarningSignRsrcID, kApplicationRsrcPluginID,    // RsrcId
+									kBindNone,
+									Frame(0,0,20,20),                            // Frame
+									kTrue, kTrue,                    // Invisible, Enabled
+									kADBEIconSuiteButtonType,
+									kEVERegularSpaceAfter,            // Blank space after
+								),
+							}
+						),
+						EVEGenericPanelWidget
+						(
+							kGenericPanel3WidgetID,					// WidgetId
+							0,0,				// RsrcId
+							kBindNone,						// Frame binding
+							Frame(0,0,0,0)		// Frame
+							kTrue,							// Visible
+							kTrue,							// Enabled
+							kEVEAlignLeft|kEVERegularSpaceAfter|kEVEArrangeChildrenInRow|kEVEChildAlignLeft,		// EVE info
+							{
+								EVECheckBoxWidget
+								(
+									kFlattenXPCheckboxWID,	// WID
+									kSysCheckBoxPMRsrcId,						// RsrcId
+									kBindNone,									// Frame binding
+									Frame(0,0,150,0)							// Frame
+									kTrue, kTrue,								// Visible, Enabled
+									kAlignLeft,									// Alignment
+									"kFlattenXPStr"			// Initial Text		
+									kEVEAlignLeft|kEVESmallSpaceAfter,
+								),
+								EVEIconFieldWidget
+								(
+									kFlattenWarningIconWidgetId,                 //                     WidgetId,
+									kMediumWarningSignRsrcID, kApplicationRsrcPluginID,    // RsrcId
+									kBindNone,
+									Frame(0,0,20,20),                            // Frame
+									kTrue, kTrue,                    // Invisible, Enabled
+									kADBEIconSuiteButtonType,
+									kEVERegularSpaceAfter,            // Blank space after
+								),
+							}
+						),
+					}
+				),						
+			}
+		),
+				
+		// Image settings
+		EVEGroupPanelWidget
+		(
+			kImageCompressGroupWidgetId,        // WidgetId
+			kPMRsrcID_None,                    // RsrcId
+			kBindNone,
+			Frame(0,0,0,0)        // Frame
+			kTrue,                            // Visible
+			kTrue,                            // Enabled
+			kImageCompressBorderWidgetID,        // widget id of border widget
+			kEVEAlignFill|kEVELargeSpaceAfter|kEVEArrangeChildrenInRow|kEVERegularButSmallBottomMargin|kEVEChildNoSpaceAfter,        // EVE info
+			{
+				EVEStaticTextWidget	
+				(
+					kImageCompressBorderWidgetID,        // WidgetId
+					kSysStaticTextPMRsrcId,            // RsrcId
+					kBindNone,
+					Frame(0,0,0,0)                // Frame
+					kTrue, kTrue,					// Visible, Enabled,
+					kAlignCenter,                        // Alignment
+					kDontEllipsize, kTrue,                        // Ellipsize style, Convert ampersands
+					"kImageCompression",                        // Initial text
+					0,
+					kEVENoSpaceAfter
+				),
+
+				EVEGenericPanelWidget
+				(
+					kICFieldNamesWidgetID,					// WidgetId
+					0,0,				// RsrcId
+					kBindNone,						// Frame binding
+					Frame(0,0,0,0)		// Frame
+					kTrue,							// Visible
+					kTrue,							// Enabled
+					kEVEAlignLeft|kEVERegularSpaceAfter|kEVEArrangeChildrenInColumn|kEVEChildAlignRight|kEVEChildNoSpaceAfter,		// EVE info
+					{
+						EVEStaticTextWidget
+						(
+							kCompressionStrWidgetID,            // WidgetId
+							kSysStaticTextPMRsrcId, // RsrcId
+							kBindNone,              // Frame binding
+							Frame(0,0,50,0)       // Frame
+							kTrue,kTrue, kAlignRight,  // Visible, Enabled, Alignment
+							kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+							"&Compression:",       // Initial text
+							kCompressionPopupWID,  // Associated widget
+							kEVEAlignRight|kEVERegularSpaceAfter,    // EVE info
+						),
+						EVEStaticTextWidget
+						(
+							kJPEGQualityStrWidgetID,            // WidgetId
+							kSysStaticTextPMRsrcId, // RsrcId
+							kBindNone,              // Frame binding
+							Frame(0,0,50,0)       // Frame
+							kTrue,kTrue, kAlignRight,  // Visible, Enabled, Alignment
+							kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+							"kJPEGQuality",       // Initial text
+							kJPEGQualityPopupWID,  // Associated widget
+							kEVEAlignRight|kEVERegularSpaceAfter,    // EVE info
+						),
+						EVEStaticTextWidget
+						(
+							kResolutionStrWidgetID,            // WidgetId
+							kSysStaticTextPMRsrcId, // RsrcId
+							kBindNone,              // Frame binding
+							Frame(0,0,50,0)       // Frame
+							kTrue,kTrue, kAlignRight,  // Visible, Enabled, Alignment
+							kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+							"kResolution",       // Initial text
+							kResolutionComboWID,  // Associated widget
+							kEVEAlignRight|kEVENoSpaceAfter,    // EVE info
+						),
+					}
+				),
+								
+				EVEGenericPanelWidget
+				(
+					kICFieldsWidgetID,					// WidgetId
+					0,0,				// RsrcId
+					kBindNone,						// Frame binding
+					Frame(0,0,0,0)		// Frame
+					kTrue,							// Visible
+					kTrue,							// Enabled
+					kEVEAlignLeft|kEVEChildNoSpaceAfter|kEVEArrangeChildrenInColumn|kEVEChildAlignLeft,		// EVE info
+					{
+						EVEDropDownListWidget
+						(
+							kCompressionPopupWID,    // WidgetId
+							kSysDropDownPMRsrcId,      // RsrcId
+							kBindNone,
+							Frame(0,0,140,0)        // Frame
+							kTrue, kTrue,
+							{{
+								"kJPG_LossyStr",
+								"kPNG_LosslessStr",
+								"kAutomatic"
+							}}
+							kEVEAlignLeft|kEVERegularSpaceAfter
+						),
+						EVEDropDownListWidget
+						(
+							kJPEGQualityPopupWID,    // WidgetId
+							kSysDropDownPMRsrcId,      // RsrcId
+							kBindNone,
+							Frame(0,0,140,0)        // Frame
+							kTrue, kTrue,
+							{{
+								"PDF_Minimum",
+								"Low",
+								"PDF_Medium",
+								"High",
+								"PDF_Maximum"
+							}}
+							kEVEAlignLeft|kEVERegularSpaceAfter
+						),
+						IntComboBoxWidget
+						(
+							kResolutionComboWID,    kPMRsrcID_None,                   // WidgetId,    RsrcId
+							kBindNone,                                      // Frame binding
+							Frame(0,0,140,0)        // Frame
+							kTrue, kTrue,                                  // Visible, Enabled
+							0,                                        // widget    id of nudge    button
+							0,        0,                                      // small/large nudge amount
+							0,                                        // max num chars( 0    = no limit)
+							kFalse,                                    // is read only
+							kFalse,                                    // should notify each key stroke
+							kTrue,                                    // range checking enabled
+							kFalse,                                    // blank entry allowed
+							kMaxRasterRes,    kMinRasterRes, // upper/lower bounds
+							"72",                                          // initial text
+							{{
+								"72", "96", "144", "300"
+							}}
+						),	
+					}
+				),
+			}
+		),
+
+		EVEStaticTextWidget
+		(
+			kDescriptionStrWidgetID,            // WidgetId
+			kSysStaticTextPMRsrcId, // RsrcId
+			kBindNone,              // Frame binding
+			Frame(0,0,0,0)       // Frame
+			kTrue,kTrue, kAlignLeft,  // Visible, Enabled, Alignment
+			kDontEllipsize, kTrue,           // Ellipsize style, Convert ampersands
+			"kDescriptionStr",       // Initial text
+			0,	// Associated widget
+			kEVEAlignLeft|kEVENoSpaceAfter,    // EVE info
+		),
+		EVEGenericPanelWithBorderWidget
+		(
+			kDescriptionGroupWidgetId,            // WID
+			kPMRsrcID_None,                    // RsrcId
+			kBindNone,
+			Frame(0,0,0,0)                    // Frame
+			kTrue,                                // Visible
+			kTrue,                                // Enabled
+			"",
+			{
+				EVEStaticMultiLineTextWidget
+				(
+					kSWFExportDescriptionTextWidgetID,	// WidgetId
+					kSysStaticTextPMRsrcId,				// RsrcId
+					kBindNone,							// Frame binding
+				#ifdef MACINTOSH
+					Frame(0,0,417+50,82)				// Frame
+				#else
+					Frame(0,0,417+50,72)				// Frame
+				#endif
+					kTrue, kTrue,                    // Visible, Enabled
+					kAlignLeft,                    // Alignment
+					kDontEllipsize, kTrue,                 // Ellipsize style, Convert ampersands
+					0,								// fScrollBarWidgetID
+					kDialogWindowFontId;                    // fFontID
+					3,                                            // fNumPixelsBetweenLines
+					0,0,                                        // fInset. 5 pixel inset from margin
+					"",                // Initial text
+					kEVENoSpaceAfter,
+				),
+			}
+			kEVEAlignFill|kEVESmallMargin|kEVENoSpaceAfter,    // EVE info
+		),
+	}
+	kEVENoSpaceAfter|kEVEArrangeChildrenInColumn|kEVEAlignFill|kEVELargeMargin,	// EVE info
+};
+
+#endif

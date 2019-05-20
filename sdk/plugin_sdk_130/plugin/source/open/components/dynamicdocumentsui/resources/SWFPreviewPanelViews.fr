@@ -1,0 +1,80 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/open/components/dynamicdocumentsui/resources/SWFPreviewPanelViews.fr $
+//  
+//  Owner: Yeming Liu
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "Widgets.fh"
+#include "SysControlIds.h"
+#include "LocaleIndex.h"
+#include "PMLocaleIds.h"
+#include "DynamicDocumentsUIID.h"
+#include "DynamicDocumentsUIDefs.h"
+#include "IControlViewDefs.h"
+#include "IconStyleDefs.h"
+#include "EveInfo.fh"
+
+#ifdef __ODFRC__
+
+//========================================================================================
+// TYPES
+//========================================================================================
+type SWFPreviewPanelWidget   (kViewRsrcType) : GenericPalettePanelWidget (ClassID = kSWFPreviewPanelBoss)
+{
+    CPanelMenuData;
+};
+#ifndef AnimationPreviewPanelWidget_defined	//	This maybe already defined in AnimationUIViews.fr.
+#define AnimationPreviewPanelWidget_defined
+type AnimationPreviewPanelWidget			(kViewRsrcType) : Widget (ClassID = kAnimationPreviewPanelWidgetBoss)
+{
+    ErasablePanelView; 
+    CTextControlData; 
+    CPanelControlData; 
+}
+#endif
+
+type SWFPreviewOWLFlashPlayerWidget (kViewRsrcType) : OWLFlashPlayerWidget() { }
+
+type SWFPreviewWarningButtonWidget(kViewRsrcType) : RollOverIconButtonWidget(ClassID = kSWFPreviewWarningIconWidgetBoss) { };
+type FirstSpreadButtonWidget(kViewRsrcType)		: RollOverIconButtonWidget() { };
+type PreviousSpreadButtonWidget(kViewRsrcType)	: RollOverIconButtonWidget() { };
+type NextSpreadButtonWidget(kViewRsrcType)		: RollOverIconButtonWidget() { };
+type LastSpreadButtonWidget(kViewRsrcType)		: RollOverIconButtonWidget() { };
+
+type SWFPreviewButtonWidget				(kViewRsrcType)	: RollOverIconButtonWidget(ClassID = kSWFPreviewButtonWidgetBoss) { };
+type SWFStopButtonWidget				(kViewRsrcType)	: RollOverIconButtonWidget() { };
+
+type SWFPreviewCurrentPageWidget (kViewRsrcType) : StaticTextWidget  (ClassID = kSWFPreviewCurrentPageWidgetBoss) {}; 
+
+//========================================================================================
+// RESOURCES Local Index
+//========================================================================================
+
+resource LocaleIndex (kSWFPreviewPaletteRsrcID)
+{
+	kViewRsrcType,
+	{
+		kWildFS, k_Wild, 	kSWFPreviewPaletteRsrcID + index_enUS
+	}
+}
+
+#endif // __ODFRC__
+
+#include "SWFPreviewPanelViews_enUS.fr"

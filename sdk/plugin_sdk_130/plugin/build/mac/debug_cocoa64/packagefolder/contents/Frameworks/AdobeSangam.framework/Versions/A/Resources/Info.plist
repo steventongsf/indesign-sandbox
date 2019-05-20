@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>2018/08/13-23:37:19</string>
+	<key>BuildId</key>
+	<string>41704</string>
+	<key>BuildType</key>
+	<string>Debug</string>
+	<key>BuildVersion</key>
+	<string>79.271291</string>
+	<key>CFBundleExecutable</key>
+	<string>AdobeSangam</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AdobeSangam 5.65.0.41704, © 2000-2009 Adobe Systems Incorporated. All Rights Reserved.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.AdobeSangam</string>
+	<key>CFBundleName</key>
+	<string>AdobeSangam</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>AdobeSangam 5.65.0.41704</string>
+	<key>CFBundleSignature</key>
+	<string>Adbe</string>
+	<key>CFBundleVersion</key>
+	<string>5.65.0.41704</string>
+	<key>Configuration</key>
+	<string>AdobeSangam</string>
+</dict>
+</plist>

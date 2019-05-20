@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AF372017ED993900CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B05A3A30883D12600D809E1 /* PluginPList.plc */; };
+		32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */ = {isa = PBXBuildFile; fileRef = 4B05A3A30883D12600D809E1 /* PluginPList.plc */; };
+		F957E2D715C7E90200C95573 /* LinksUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AD50D18403300BBB1EF /* LinksUI.fr */; };
+		F957E2D915C7E90200C95573 /* CEditOriginalWithMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADA0D18405F00BBB1EF /* CEditOriginalWithMenu.cpp */; };
+		F957E2DA15C7E90200C95573 /* CEditOriginalWithMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADB0D18405F00BBB1EF /* CEditOriginalWithMenuComponent.cpp */; };
+		F957E2DB15C7E90200C95573 /* ChooseLinksColumnsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADC0D18405F00BBB1EF /* ChooseLinksColumnsDialogController.cpp */; };
+		F957E2DC15C7E90200C95573 /* EditOriginalResumeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADD0D18405F00BBB1EF /* EditOriginalResumeObserver.cpp */; };
+		F957E2DD15C7E90200C95573 /* FilesChanging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADE0D18405F00BBB1EF /* FilesChanging.cpp */; };
+		F957E2DE15C7E90200C95573 /* LinkInfoIconView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADF0D18405F00BBB1EF /* LinkInfoIconView.cpp */; };
+		F957E2DF15C7E90200C95573 /* LinkInfoPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE00D18405F00BBB1EF /* LinkInfoPanelObserver.cpp */; };
+		F957E2E015C7E90200C95573 /* LinksTreeNodeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE10D18405F00BBB1EF /* LinksTreeNodeList.cpp */; };
+		F957E2E115C7E90200C95573 /* LinksTreeUIDNodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE20D18405F00BBB1EF /* LinksTreeUIDNodeID.cpp */; };
+		F957E2E215C7E90200C95573 /* LinksUIColumnHeaderObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE30D18405F00BBB1EF /* LinksUIColumnHeaderObserver.cpp */; };
+		F957E2E315C7E90200C95573 /* LinksUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE40D18405F00BBB1EF /* LinksUIID.cpp */; };
+		F957E2E415C7E90200C95573 /* LinksUIPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE50D18405F00BBB1EF /* LinksUIPanelMenuComponent.cpp */; };
+		F957E2E515C7E90200C95573 /* LinksUIPanelPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE60D18405F00BBB1EF /* LinksUIPanelPrefs.cpp */; };
+		F957E2E615C7E90200C95573 /* LinksUIPanelSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE70D18405F00BBB1EF /* LinksUIPanelSelectionObserver.cpp */; };
+		F957E2E715C7E90200C95573 /* LinksUIPanelTreeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE80D18405F00BBB1EF /* LinksUIPanelTreeObserver.cpp */; };
+		F957E2E815C7E90200C95573 /* LinksUIPanelTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE90D18405F00BBB1EF /* LinksUIPanelTreeViewAdapter.cpp */; };
+		F957E2E915C7E90200C95573 /* LinksUIPanelTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEA0D18405F00BBB1EF /* LinksUIPanelTreeViewWidgetMgr.cpp */; };
+		F957E2EA15C7E90200C95573 /* LinksUIPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEB0D18405F00BBB1EF /* LinksUIPanelView.cpp */; };
+		F957E2EB15C7E90200C95573 /* LinksUIPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEC0D18405F00BBB1EF /* LinksUIPlugin.cpp */; };
+		F957E2EC15C7E90200C95573 /* LinksUITestMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AED0D18405F00BBB1EF /* LinksUITestMenu.cpp */; };
+		F957E2ED15C7E90200C95573 /* LinksUITreeViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEE0D18405F00BBB1EF /* LinksUITreeViewController.cpp */; };
+		F957E2EE15C7E90200C95573 /* LinksUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEF0D18405F00BBB1EF /* LinksUIUtils.cpp */; };
+		F957E2EF15C7E90200C95573 /* LinksUIVCHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF00D18405F00BBB1EF /* LinksUIVCHacks.cpp */; };
+		F957E2F015C7E90200C95573 /* LinkThumbnailView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF10D18405F00BBB1EF /* LinkThumbnailView.cpp */; };
+		F957E2F115C7E90200C95573 /* LinkUIStaticTextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF30D18405F00BBB1EF /* LinkUIStaticTextView.cpp */; };
+		F957E2F215C7E90200C95573 /* OpenProblemLinksDialogCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF50D18405F00BBB1EF /* OpenProblemLinksDialogCmd.cpp */; };
+		F957E2F315C7E90200C95573 /* ProblemLinksDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF60D18405F00BBB1EF /* ProblemLinksDialogObserver.cpp */; };
+		F957E2F415C7E90200C95573 /* ToggleLinkInfoButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AFA0D18405F00BBB1EF /* ToggleLinkInfoButtonObserver.cpp */; };
+		F957E2F515C7E90200C95573 /* LinksUITreeRowPanelEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A31AF060D2D5CA6004BF2B2 /* LinksUITreeRowPanelEH.cpp */; };
+		F957E2F615C7E90200C95573 /* LinksUIPanelXMLGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A687E530D32B76900BE667E /* LinksUIPanelXMLGenerator.cpp */; };
+		F957E2F715C7E90200C95573 /* LinksUIPanelSAXHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A687E570D32B7A600BE667E /* LinksUIPanelSAXHandler.cpp */; };
+		F957E2F815C7E90200C95573 /* LinksUIButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D6EBE0D3554960005BAEF /* LinksUIButtonObserver.cpp */; };
+		F957E2F915C7E90200C95573 /* LinksUITreePanelControlData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D6F9E0D3820E40005BAEF /* LinksUITreePanelControlData.cpp */; };
+		F957E2FA15C7E90200C95573 /* LinkUILinkNameTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D700A0D3841B40005BAEF /* LinkUILinkNameTip.cpp */; };
+		F957E2FB15C7E90200C95573 /* LinkInfoIconTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D70180D3BE0090005BAEF /* LinkInfoIconTip.cpp */; };
+		F957E2FC15C7E90200C95573 /* LinksUIStatusTextTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D701B0D3BE0640005BAEF /* LinksUIStatusTextTip.cpp */; };
+		F957E2FD15C7E90200C95573 /* LinkInfoPanelPanorama.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E04B30D3D651D0054C78D /* LinkInfoPanelPanorama.cpp */; };
+		F957E2FE15C7E90200C95573 /* LinkInfoPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E06260D3FE6DE0054C78D /* LinkInfoPanelView.cpp */; };
+		F957E2FF15C7E90200C95573 /* NextPrevLinkButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A271AEA0D452DC7003CE137 /* NextPrevLinkButtonObserver.cpp */; };
+		F957E30015C7E90200C95573 /* LinkInfoPanelEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A95DB5D0D48002F00F04E56 /* LinkInfoPanelEH.cpp */; };
+		F957E30115C7E90200C95573 /* LinksUIStatusTextObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A95DB6F0D4811A500F04E56 /* LinksUIStatusTextObserver.cpp */; };
+		F957E30215C7E90200C95573 /* LinkInfoIconEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A61A7890D57E31B00E64E48 /* LinkInfoIconEH.cpp */; };
+		F957E30315C7E90200C95573 /* LinkInfoTextLabelEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE86CD0DA57F2F00A973CF /* LinkInfoTextLabelEH.cpp */; };
+		F957E30415C7E90200C95573 /* LinksUIButtonTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A888BFF0DAAEB4C009431FA /* LinksUIButtonTips.cpp */; };
+		F957E30515C7E90200C95573 /* LinksUIRowElementCursorProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ECAB7980DCA645200529915 /* LinksUIRowElementCursorProvider.cpp */; };
+		F957E30615C7E90200C95573 /* Templates_LinksUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8316F0DF71886006255A3 /* Templates_LinksUI.cpp */; };
+		F957E30715C7E90200C95573 /* LinkInfoDebugUIDsProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ED7DA9B0E3941AE00B8211C /* LinkInfoDebugUIDsProvider.cpp */; };
+		F957E30815C7E90200C95573 /* GenerateLinkCaptionDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EE826A40E92A90800B24455 /* GenerateLinkCaptionDialogController.cpp */; };
+		F957E30915C7E90200C95573 /* LinkCaptionActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E9AE8961020ECF0007D3877 /* LinkCaptionActionComponent.cpp */; };
+		F957E30A15C7E90200C95573 /* AddDeleteCaptionRowButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7AB2310277A5B00543018 /* AddDeleteCaptionRowButtonObserver.cpp */; };
+		F957E30B15C7E90200C95573 /* CaptionParaStyleObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3F3C3102A28B300F252F6 /* CaptionParaStyleObserver.cpp */; };
+		F957E30C15C7E90200C95573 /* CaptionLayerObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3F6A3102CD9AF00F252F6 /* CaptionLayerObserver.cpp */; };
+		F957E30D15C7E90200C95573 /* LinksTreeViewTypeAhead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F645810B5E63B00DE2260 /* LinksTreeViewTypeAhead.cpp */; };
+		F957E30E15C7E90200C95573 /* MetadataLabelEVEInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A333DD910FFA26F00FF35EC /* MetadataLabelEVEInfo.cpp */; };
+		F957E30F15C7E90200C95573 /* LinksUILinkNamePanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008FAF541599F46800567666 /* LinksUILinkNamePanelView.cpp */; };
+		F957E31B15C7E90500C95573 /* LinksUI.fr in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AD50D18403300BBB1EF /* LinksUI.fr */; };
+		F957E31D15C7E90500C95573 /* CEditOriginalWithMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADA0D18405F00BBB1EF /* CEditOriginalWithMenu.cpp */; };
+		F957E31E15C7E90500C95573 /* CEditOriginalWithMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADB0D18405F00BBB1EF /* CEditOriginalWithMenuComponent.cpp */; };
+		F957E31F15C7E90500C95573 /* ChooseLinksColumnsDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADC0D18405F00BBB1EF /* ChooseLinksColumnsDialogController.cpp */; };
+		F957E32015C7E90500C95573 /* EditOriginalResumeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADD0D18405F00BBB1EF /* EditOriginalResumeObserver.cpp */; };
+		F957E32115C7E90500C95573 /* FilesChanging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADE0D18405F00BBB1EF /* FilesChanging.cpp */; };
+		F957E32215C7E90500C95573 /* LinkInfoIconView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4ADF0D18405F00BBB1EF /* LinkInfoIconView.cpp */; };
+		F957E32315C7E90500C95573 /* LinkInfoPanelObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE00D18405F00BBB1EF /* LinkInfoPanelObserver.cpp */; };
+		F957E32415C7E90500C95573 /* LinksTreeNodeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE10D18405F00BBB1EF /* LinksTreeNodeList.cpp */; };
+		F957E32515C7E90500C95573 /* LinksTreeUIDNodeID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE20D18405F00BBB1EF /* LinksTreeUIDNodeID.cpp */; };
+		F957E32615C7E90500C95573 /* LinksUIColumnHeaderObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE30D18405F00BBB1EF /* LinksUIColumnHeaderObserver.cpp */; };
+		F957E32715C7E90500C95573 /* LinksUIID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE40D18405F00BBB1EF /* LinksUIID.cpp */; };
+		F957E32815C7E90500C95573 /* LinksUIPanelMenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE50D18405F00BBB1EF /* LinksUIPanelMenuComponent.cpp */; };
+		F957E32915C7E90500C95573 /* LinksUIPanelPrefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE60D18405F00BBB1EF /* LinksUIPanelPrefs.cpp */; };
+		F957E32A15C7E90500C95573 /* LinksUIPanelSelectionObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE70D18405F00BBB1EF /* LinksUIPanelSelectionObserver.cpp */; };
+		F957E32B15C7E90500C95573 /* LinksUIPanelTreeObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE80D18405F00BBB1EF /* LinksUIPanelTreeObserver.cpp */; };
+		F957E32C15C7E90500C95573 /* LinksUIPanelTreeViewAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AE90D18405F00BBB1EF /* LinksUIPanelTreeViewAdapter.cpp */; };
+		F957E32D15C7E90500C95573 /* LinksUIPanelTreeViewWidgetMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEA0D18405F00BBB1EF /* LinksUIPanelTreeViewWidgetMgr.cpp */; };
+		F957E32E15C7E90500C95573 /* LinksUIPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEB0D18405F00BBB1EF /* LinksUIPanelView.cpp */; };
+		F957E32F15C7E90500C95573 /* LinksUIPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEC0D18405F00BBB1EF /* LinksUIPlugin.cpp */; };
+		F957E33015C7E90500C95573 /* LinksUITestMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AED0D18405F00BBB1EF /* LinksUITestMenu.cpp */; };
+		F957E33115C7E90500C95573 /* LinksUITreeViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEE0D18405F00BBB1EF /* LinksUITreeViewController.cpp */; };
+		F957E33215C7E90500C95573 /* LinksUIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AEF0D18405F00BBB1EF /* LinksUIUtils.cpp */; };
+		F957E33315C7E90500C95573 /* LinksUIVCHacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF00D18405F00BBB1EF /* LinksUIVCHacks.cpp */; };
+		F957E33415C7E90500C95573 /* LinkThumbnailView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF10D18405F00BBB1EF /* LinkThumbnailView.cpp */; };
+		F957E33515C7E90500C95573 /* LinkUIStaticTextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF30D18405F00BBB1EF /* LinkUIStaticTextView.cpp */; };
+		F957E33615C7E90500C95573 /* OpenProblemLinksDialogCmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF50D18405F00BBB1EF /* OpenProblemLinksDialogCmd.cpp */; };
+		F957E33715C7E90500C95573 /* ProblemLinksDialogObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AF60D18405F00BBB1EF /* ProblemLinksDialogObserver.cpp */; };
+		F957E33815C7E90500C95573 /* ToggleLinkInfoButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A4AFA0D18405F00BBB1EF /* ToggleLinkInfoButtonObserver.cpp */; };
+		F957E33915C7E90500C95573 /* LinksUITreeRowPanelEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A31AF060D2D5CA6004BF2B2 /* LinksUITreeRowPanelEH.cpp */; };
+		F957E33A15C7E90500C95573 /* LinksUIPanelXMLGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A687E530D32B76900BE667E /* LinksUIPanelXMLGenerator.cpp */; };
+		F957E33B15C7E90500C95573 /* LinksUIPanelSAXHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A687E570D32B7A600BE667E /* LinksUIPanelSAXHandler.cpp */; };
+		F957E33C15C7E90500C95573 /* LinksUIButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D6EBE0D3554960005BAEF /* LinksUIButtonObserver.cpp */; };
+		F957E33D15C7E90500C95573 /* LinksUITreePanelControlData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D6F9E0D3820E40005BAEF /* LinksUITreePanelControlData.cpp */; };
+		F957E33E15C7E90500C95573 /* LinkUILinkNameTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D700A0D3841B40005BAEF /* LinkUILinkNameTip.cpp */; };
+		F957E33F15C7E90500C95573 /* LinkInfoIconTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D70180D3BE0090005BAEF /* LinkInfoIconTip.cpp */; };
+		F957E34015C7E90500C95573 /* LinksUIStatusTextTip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D701B0D3BE0640005BAEF /* LinksUIStatusTextTip.cpp */; };
+		F957E34115C7E90500C95573 /* LinkInfoPanelPanorama.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E04B30D3D651D0054C78D /* LinkInfoPanelPanorama.cpp */; };
+		F957E34215C7E90500C95573 /* LinkInfoPanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E06260D3FE6DE0054C78D /* LinkInfoPanelView.cpp */; };
+		F957E34315C7E90500C95573 /* NextPrevLinkButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A271AEA0D452DC7003CE137 /* NextPrevLinkButtonObserver.cpp */; };
+		F957E34415C7E90500C95573 /* LinkInfoPanelEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A95DB5D0D48002F00F04E56 /* LinkInfoPanelEH.cpp */; };
+		F957E34515C7E90500C95573 /* LinksUIStatusTextObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A95DB6F0D4811A500F04E56 /* LinksUIStatusTextObserver.cpp */; };
+		F957E34615C7E90500C95573 /* LinkInfoIconEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A61A7890D57E31B00E64E48 /* LinkInfoIconEH.cpp */; };
+		F957E34715C7E90500C95573 /* LinkInfoTextLabelEH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE86CD0DA57F2F00A973CF /* LinkInfoTextLabelEH.cpp */; };
+		F957E34815C7E90500C95573 /* LinksUIButtonTips.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A888BFF0DAAEB4C009431FA /* LinksUIButtonTips.cpp */; };
+		F957E34915C7E90500C95573 /* LinksUIRowElementCursorProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ECAB7980DCA645200529915 /* LinksUIRowElementCursorProvider.cpp */; };
+		F957E34A15C7E90500C95573 /* Templates_LinksUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8316F0DF71886006255A3 /* Templates_LinksUI.cpp */; };
+		F957E34B15C7E90500C95573 /* LinkInfoDebugUIDsProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ED7DA9B0E3941AE00B8211C /* LinkInfoDebugUIDsProvider.cpp */; };
+		F957E34C15C7E90500C95573 /* GenerateLinkCaptionDialogController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EE826A40E92A90800B24455 /* GenerateLinkCaptionDialogController.cpp */; };
+		F957E34D15C7E90500C95573 /* LinkCaptionActionComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E9AE8961020ECF0007D3877 /* LinkCaptionActionComponent.cpp */; };
+		F957E34E15C7E90500C95573 /* AddDeleteCaptionRowButtonObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7AB2310277A5B00543018 /* AddDeleteCaptionRowButtonObserver.cpp */; };
+		F957E34F15C7E90500C95573 /* CaptionParaStyleObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3F3C3102A28B300F252F6 /* CaptionParaStyleObserver.cpp */; };
+		F957E35015C7E90500C95573 /* CaptionLayerObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3F6A3102CD9AF00F252F6 /* CaptionLayerObserver.cpp */; };
+		F957E35115C7E90500C95573 /* LinksTreeViewTypeAhead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F645810B5E63B00DE2260 /* LinksTreeViewTypeAhead.cpp */; };
+		F957E35215C7E90500C95573 /* MetadataLabelEVEInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A333DD910FFA26F00FF35EC /* MetadataLabelEVEInfo.cpp */; };
+		F957E35315C7E90500C95573 /* LinksUILinkNamePanelView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008FAF541599F46800567666 /* LinksUILinkNamePanelView.cpp */; };
+		F957E36115C7E92B00C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957E2CA15C7E8FA00C95573 /* InDesignModelAndUI.framework */; };
+		F957E36215C7E92B00C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957E2CB15C7E8FA00C95573 /* libPublicPlugIn.a */; };
+		F957E36315C7E93100C95573 /* InDesignModelAndUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F957E2CD15C7E8FA00C95573 /* InDesignModelAndUI.framework */; };
+		F957E36415C7E93100C95573 /* libPublicPlugIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F957E2CE15C7E8FA00C95573 /* libPublicPlugIn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		F957E31415C7E90200C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d DEBUG $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957E31515C7E90200C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+		F957E35815C7E90500C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fr";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(REZ_COLLECTOR_DIR)/$(INPUT_FILE_NAME).rsrc",
+			);
+			script = "../../../devtools/bin/odfrc-cmd -d RELEASE $ODFRC_ADDITIONAL_FLAGS -o \"$REZ_COLLECTOR_DIR/$INPUT_FILE_NAME.rsrc\" \"$INPUT_FILE_PATH\"";
+		};
+		F957E35915C7E90500C95573 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.plc";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			script = "/usr/bin/python ../../../devtools/scripts/xcode/PList.py";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		008FAF541599F46800567666 /* LinksUILinkNamePanelView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUILinkNamePanelView.cpp; path = ../../../source/open/components/linksui/LinksUILinkNamePanelView.cpp; sourceTree = SOURCE_ROOT; };
+		4B05A3A30883D12600D809E1 /* PluginPList.plc */ = {isa = PBXFileReference; lastKnownFileType = text; name = PluginPList.plc; path = ../../../source/open/components/resourcedefs/PluginPList.plc; sourceTree = SOURCE_ROOT; };
+		77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_release.xcconfig; sourceTree = "<group>"; };
+		77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_debug.xcconfig; sourceTree = "<group>"; };
+		77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/cocoa_ui_x64_release.xcconfig; sourceTree = "<group>"; };
+		7A0A4AD50D18403300BBB1EF /* LinksUI.fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LinksUI.fr; path = ../../../source/open/components/linksui/resources/LinksUI.fr; sourceTree = SOURCE_ROOT; };
+		7A0A4ADA0D18405F00BBB1EF /* CEditOriginalWithMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CEditOriginalWithMenu.cpp; path = ../../../source/open/components/linksui/CEditOriginalWithMenu.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4ADB0D18405F00BBB1EF /* CEditOriginalWithMenuComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CEditOriginalWithMenuComponent.cpp; path = ../../../source/open/components/linksui/CEditOriginalWithMenuComponent.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4ADC0D18405F00BBB1EF /* ChooseLinksColumnsDialogController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChooseLinksColumnsDialogController.cpp; path = ../../../source/open/components/linksui/ChooseLinksColumnsDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4ADD0D18405F00BBB1EF /* EditOriginalResumeObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EditOriginalResumeObserver.cpp; path = ../../../source/open/components/linksui/EditOriginalResumeObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4ADE0D18405F00BBB1EF /* FilesChanging.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FilesChanging.cpp; path = ../../../source/open/components/linksui/FilesChanging.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4ADF0D18405F00BBB1EF /* LinkInfoIconView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoIconView.cpp; path = ../../../source/open/components/linksui/LinkInfoIconView.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE00D18405F00BBB1EF /* LinkInfoPanelObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoPanelObserver.cpp; path = ../../../source/open/components/linksui/LinkInfoPanelObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE10D18405F00BBB1EF /* LinksTreeNodeList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksTreeNodeList.cpp; path = ../../../source/open/components/linksui/LinksTreeNodeList.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE20D18405F00BBB1EF /* LinksTreeUIDNodeID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksTreeUIDNodeID.cpp; path = ../../../source/open/components/linksui/LinksTreeUIDNodeID.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE30D18405F00BBB1EF /* LinksUIColumnHeaderObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIColumnHeaderObserver.cpp; path = ../../../source/open/components/linksui/LinksUIColumnHeaderObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE40D18405F00BBB1EF /* LinksUIID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIID.cpp; path = ../../../source/open/components/linksui/LinksUIID.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE50D18405F00BBB1EF /* LinksUIPanelMenuComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelMenuComponent.cpp; path = ../../../source/open/components/linksui/LinksUIPanelMenuComponent.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE60D18405F00BBB1EF /* LinksUIPanelPrefs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelPrefs.cpp; path = ../../../source/open/components/linksui/LinksUIPanelPrefs.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE70D18405F00BBB1EF /* LinksUIPanelSelectionObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelSelectionObserver.cpp; path = ../../../source/open/components/linksui/LinksUIPanelSelectionObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE80D18405F00BBB1EF /* LinksUIPanelTreeObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelTreeObserver.cpp; path = ../../../source/open/components/linksui/LinksUIPanelTreeObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AE90D18405F00BBB1EF /* LinksUIPanelTreeViewAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelTreeViewAdapter.cpp; path = ../../../source/open/components/linksui/LinksUIPanelTreeViewAdapter.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AEA0D18405F00BBB1EF /* LinksUIPanelTreeViewWidgetMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelTreeViewWidgetMgr.cpp; path = ../../../source/open/components/linksui/LinksUIPanelTreeViewWidgetMgr.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AEB0D18405F00BBB1EF /* LinksUIPanelView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelView.cpp; path = ../../../source/open/components/linksui/LinksUIPanelView.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AEC0D18405F00BBB1EF /* LinksUIPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPlugin.cpp; path = ../../../source/open/components/linksui/LinksUIPlugin.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AED0D18405F00BBB1EF /* LinksUITestMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUITestMenu.cpp; path = ../../../source/open/components/linksui/LinksUITestMenu.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AEE0D18405F00BBB1EF /* LinksUITreeViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUITreeViewController.cpp; path = ../../../source/open/components/linksui/LinksUITreeViewController.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AEF0D18405F00BBB1EF /* LinksUIUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIUtils.cpp; path = ../../../source/open/components/linksui/LinksUIUtils.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AF00D18405F00BBB1EF /* LinksUIVCHacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIVCHacks.cpp; path = ../../../source/open/components/linksui/LinksUIVCHacks.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AF10D18405F00BBB1EF /* LinkThumbnailView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkThumbnailView.cpp; path = ../../../source/open/components/linksui/LinkThumbnailView.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AF30D18405F00BBB1EF /* LinkUIStaticTextView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkUIStaticTextView.cpp; path = ../../../source/open/components/linksui/LinkUIStaticTextView.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AF50D18405F00BBB1EF /* OpenProblemLinksDialogCmd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenProblemLinksDialogCmd.cpp; path = ../../../source/open/components/linksui/OpenProblemLinksDialogCmd.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AF60D18405F00BBB1EF /* ProblemLinksDialogObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProblemLinksDialogObserver.cpp; path = ../../../source/open/components/linksui/ProblemLinksDialogObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4AFA0D18405F00BBB1EF /* ToggleLinkInfoButtonObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToggleLinkInfoButtonObserver.cpp; path = ../../../source/open/components/linksui/ToggleLinkInfoButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A0A4C9B0D18737B00BBB1EF /* _shared_build_settings/pluginOpen.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = _shared_build_settings/pluginOpen.xcconfig; sourceTree = "<group>"; };
+		7A0F645810B5E63B00DE2260 /* LinksTreeViewTypeAhead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksTreeViewTypeAhead.cpp; path = ../../../source/open/components/linksui/LinksTreeViewTypeAhead.cpp; sourceTree = SOURCE_ROOT; };
+		7A1E04B30D3D651D0054C78D /* LinkInfoPanelPanorama.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoPanelPanorama.cpp; path = ../../../source/open/components/linksui/LinkInfoPanelPanorama.cpp; sourceTree = SOURCE_ROOT; };
+		7A1E06260D3FE6DE0054C78D /* LinkInfoPanelView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoPanelView.cpp; path = ../../../source/open/components/linksui/LinkInfoPanelView.cpp; sourceTree = SOURCE_ROOT; };
+		7A271AEA0D452DC7003CE137 /* NextPrevLinkButtonObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NextPrevLinkButtonObserver.cpp; path = ../../../source/open/components/linksui/NextPrevLinkButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A2D6EBE0D3554960005BAEF /* LinksUIButtonObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIButtonObserver.cpp; path = ../../../source/open/components/linksui/LinksUIButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7A2D6F9E0D3820E40005BAEF /* LinksUITreePanelControlData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUITreePanelControlData.cpp; path = ../../../source/open/components/linksui/LinksUITreePanelControlData.cpp; sourceTree = SOURCE_ROOT; };
+		7A2D700A0D3841B40005BAEF /* LinkUILinkNameTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkUILinkNameTip.cpp; path = ../../../source/open/components/linksui/LinkUILinkNameTip.cpp; sourceTree = SOURCE_ROOT; };
+		7A2D70180D3BE0090005BAEF /* LinkInfoIconTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoIconTip.cpp; path = ../../../source/open/components/linksui/LinkInfoIconTip.cpp; sourceTree = SOURCE_ROOT; };
+		7A2D701B0D3BE0640005BAEF /* LinksUIStatusTextTip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIStatusTextTip.cpp; path = ../../../source/open/components/linksui/LinksUIStatusTextTip.cpp; sourceTree = SOURCE_ROOT; };
+		7A31AF060D2D5CA6004BF2B2 /* LinksUITreeRowPanelEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUITreeRowPanelEH.cpp; path = ../../../source/open/components/linksui/LinksUITreeRowPanelEH.cpp; sourceTree = SOURCE_ROOT; };
+		7A333DD910FFA26F00FF35EC /* MetadataLabelEVEInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MetadataLabelEVEInfo.cpp; path = ../../../source/open/components/linksui/MetadataLabelEVEInfo.cpp; sourceTree = SOURCE_ROOT; };
+		7A61A7890D57E31B00E64E48 /* LinkInfoIconEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoIconEH.cpp; path = ../../../source/open/components/linksui/LinkInfoIconEH.cpp; sourceTree = SOURCE_ROOT; };
+		7A687E530D32B76900BE667E /* LinksUIPanelXMLGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelXMLGenerator.cpp; path = ../../../source/open/components/linksui/LinksUIPanelXMLGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		7A687E570D32B7A600BE667E /* LinksUIPanelSAXHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIPanelSAXHandler.cpp; path = ../../../source/open/components/linksui/LinksUIPanelSAXHandler.cpp; sourceTree = SOURCE_ROOT; };
+		7A888BFF0DAAEB4C009431FA /* LinksUIButtonTips.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIButtonTips.cpp; path = ../../../source/open/components/linksui/LinksUIButtonTips.cpp; sourceTree = SOURCE_ROOT; };
+		7A95DB5D0D48002F00F04E56 /* LinkInfoPanelEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoPanelEH.cpp; path = ../../../source/open/components/linksui/LinkInfoPanelEH.cpp; sourceTree = SOURCE_ROOT; };
+		7A95DB6F0D4811A500F04E56 /* LinksUIStatusTextObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIStatusTextObserver.cpp; path = ../../../source/open/components/linksui/LinksUIStatusTextObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7ABE86CD0DA57F2F00A973CF /* LinkInfoTextLabelEH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoTextLabelEH.cpp; path = ../../../source/open/components/linksui/LinkInfoTextLabelEH.cpp; sourceTree = SOURCE_ROOT; };
+		7E9AE8961020ECF0007D3877 /* LinkCaptionActionComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkCaptionActionComponent.cpp; path = ../../../source/open/components/linksui/LinkCaptionActionComponent.cpp; sourceTree = SOURCE_ROOT; };
+		7EA8316F0DF71886006255A3 /* Templates_LinksUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Templates_LinksUI.cpp; path = ../../../source/open/components/linksui/Templates_LinksUI.cpp; sourceTree = SOURCE_ROOT; };
+		7EB7AB2310277A5B00543018 /* AddDeleteCaptionRowButtonObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AddDeleteCaptionRowButtonObserver.cpp; path = ../../../source/open/components/linksui/AddDeleteCaptionRowButtonObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7ECAB7980DCA645200529915 /* LinksUIRowElementCursorProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinksUIRowElementCursorProvider.cpp; path = ../../../source/open/components/linksui/LinksUIRowElementCursorProvider.cpp; sourceTree = SOURCE_ROOT; };
+		7ED7DA9B0E3941AE00B8211C /* LinkInfoDebugUIDsProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkInfoDebugUIDsProvider.cpp; path = ../../../source/open/components/linksui/LinkInfoDebugUIDsProvider.cpp; sourceTree = SOURCE_ROOT; };
+		7EE3F3C3102A28B300F252F6 /* CaptionParaStyleObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CaptionParaStyleObserver.cpp; path = ../../../source/open/components/linksui/CaptionParaStyleObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7EE3F6A3102CD9AF00F252F6 /* CaptionLayerObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CaptionLayerObserver.cpp; path = ../../../source/open/components/linksui/CaptionLayerObserver.cpp; sourceTree = SOURCE_ROOT; };
+		7EE826A40E92A90800B24455 /* GenerateLinkCaptionDialogController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenerateLinkCaptionDialogController.cpp; path = ../../../source/open/components/linksui/GenerateLinkCaptionDialogController.cpp; sourceTree = SOURCE_ROOT; };
+		7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = _shared_build_settings/common_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		F957E2CA15C7E8FA00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../release_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957E2CB15C7E8FA00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../release_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957E2CD15C7E8FA00C95573 /* InDesignModelAndUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InDesignModelAndUI.framework; path = ../debug_cocoa64/packagefolder/contents/macos/InDesignModelAndUI.framework; sourceTree = SOURCE_ROOT; };
+		F957E2CE15C7E8FA00C95573 /* libPublicPlugIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicPlugIn.a; path = ../debug_cocoa64/packagefolder/contents/macos/libs/libPublicPlugIn.a; sourceTree = SOURCE_ROOT; };
+		F957E31815C7E90200C95573 /* Links UI.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Links UI.InDesignPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F957E35C15C7E90500C95573 /* Links UI.InDesignPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Links UI.InDesignPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F957E31015C7E90200C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957E36315C7E93100C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957E36415C7E93100C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957E35415C7E90500C95573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957E36115C7E92B00C95573 /* InDesignModelAndUI.framework in Frameworks */,
+				F957E36215C7E92B00C95573 /* libPublicPlugIn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B05A3120883D08000D809E1 = {
+			isa = PBXGroup;
+			children = (
+				7EB7AB2210277A3100543018 /* Captions */,
+				7A6EE9540C68DC9C00C5BC25 /* Problem links */,
+				7A4BC3240BF3974A005803DC /* Panel Prefs */,
+				7AB892570BC6FBB7001D6113 /* Panel */,
+				4B05A3560883D0BD00D809E1 /* Plugin */,
+				4B05A3610883D0CC00D809E1 /* Resources */,
+				7F52248408AFCE1F00139994 /* xcconfig */,
+				F957E2C815C7E8FA00C95573 /* InDesign Libraries */,
+				F957E2BF15C7E8A500C95573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B05A3560883D0BD00D809E1 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A4AE40D18405F00BBB1EF /* LinksUIID.cpp */,
+				7EA8316F0DF71886006255A3 /* Templates_LinksUI.cpp */,
+				7A0A4AEB0D18405F00BBB1EF /* LinksUIPanelView.cpp */,
+				7A0A4AEC0D18405F00BBB1EF /* LinksUIPlugin.cpp */,
+				7A0A4AF00D18405F00BBB1EF /* LinksUIVCHacks.cpp */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		4B05A3610883D0CC00D809E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A4AD50D18403300BBB1EF /* LinksUI.fr */,
+				4B05A3A30883D12600D809E1 /* PluginPList.plc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7A1E062B0D3FE7800054C78D /* LinkInfo */ = {
+			isa = PBXGroup;
+			children = (
+				008FAF541599F46800567666 /* LinksUILinkNamePanelView.cpp */,
+				7A95DB5D0D48002F00F04E56 /* LinkInfoPanelEH.cpp */,
+				7A1E06260D3FE6DE0054C78D /* LinkInfoPanelView.cpp */,
+				7A0A4AE00D18405F00BBB1EF /* LinkInfoPanelObserver.cpp */,
+				7A1E04B30D3D651D0054C78D /* LinkInfoPanelPanorama.cpp */,
+				7A2D70180D3BE0090005BAEF /* LinkInfoIconTip.cpp */,
+			);
+			name = LinkInfo;
+			sourceTree = "<group>";
+		};
+		7A2D6EB50D3553340005BAEF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A4AFA0D18405F00BBB1EF /* ToggleLinkInfoButtonObserver.cpp */,
+				7A2D6EBE0D3554960005BAEF /* LinksUIButtonObserver.cpp */,
+				7A888BFF0DAAEB4C009431FA /* LinksUIButtonTips.cpp */,
+				7A271AEA0D452DC7003CE137 /* NextPrevLinkButtonObserver.cpp */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		7A4BC3240BF3974A005803DC /* Panel Prefs */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A4ADC0D18405F00BBB1EF /* ChooseLinksColumnsDialogController.cpp */,
+				7A0A4AE60D18405F00BBB1EF /* LinksUIPanelPrefs.cpp */,
+				7A687E530D32B76900BE667E /* LinksUIPanelXMLGenerator.cpp */,
+				7A687E570D32B7A600BE667E /* LinksUIPanelSAXHandler.cpp */,
+			);
+			name = "Panel Prefs";
+			sourceTree = "<group>";
+		};
+		7A4BC3250BF39763005803DC /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				7A0F645810B5E63B00DE2260 /* LinksTreeViewTypeAhead.cpp */,
+				7A61A7890D57E31B00E64E48 /* LinkInfoIconEH.cpp */,
+				7A2D6F9E0D3820E40005BAEF /* LinksUITreePanelControlData.cpp */,
+				7A2D700A0D3841B40005BAEF /* LinkUILinkNameTip.cpp */,
+				7A31AF060D2D5CA6004BF2B2 /* LinksUITreeRowPanelEH.cpp */,
+				7A0A4AEE0D18405F00BBB1EF /* LinksUITreeViewController.cpp */,
+				7A0A4AE70D18405F00BBB1EF /* LinksUIPanelSelectionObserver.cpp */,
+				7A0A4AF10D18405F00BBB1EF /* LinkThumbnailView.cpp */,
+				7ABE86CD0DA57F2F00A973CF /* LinkInfoTextLabelEH.cpp */,
+				7A0A4AF30D18405F00BBB1EF /* LinkUIStaticTextView.cpp */,
+				7A0A4ADF0D18405F00BBB1EF /* LinkInfoIconView.cpp */,
+				7A0A4AE10D18405F00BBB1EF /* LinksTreeNodeList.cpp */,
+				7A0A4AE20D18405F00BBB1EF /* LinksTreeUIDNodeID.cpp */,
+				7A0A4AE80D18405F00BBB1EF /* LinksUIPanelTreeObserver.cpp */,
+				7A0A4AE90D18405F00BBB1EF /* LinksUIPanelTreeViewAdapter.cpp */,
+				7A0A4AEA0D18405F00BBB1EF /* LinksUIPanelTreeViewWidgetMgr.cpp */,
+				7ECAB7980DCA645200529915 /* LinksUIRowElementCursorProvider.cpp */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
+		7A6EE9540C68DC9C00C5BC25 /* Problem links */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A4AF50D18405F00BBB1EF /* OpenProblemLinksDialogCmd.cpp */,
+				7A0A4AF60D18405F00BBB1EF /* ProblemLinksDialogObserver.cpp */,
+			);
+			name = "Problem links";
+			sourceTree = "<group>";
+		};
+		7A86A36F0C440471000E3314 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A4ADA0D18405F00BBB1EF /* CEditOriginalWithMenu.cpp */,
+				7A0A4ADB0D18405F00BBB1EF /* CEditOriginalWithMenuComponent.cpp */,
+				7A0A4AED0D18405F00BBB1EF /* LinksUITestMenu.cpp */,
+				7A0A4AE50D18405F00BBB1EF /* LinksUIPanelMenuComponent.cpp */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		7A95DB750D48124800F04E56 /* Status widget */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D701B0D3BE0640005BAEF /* LinksUIStatusTextTip.cpp */,
+				7A95DB6F0D4811A500F04E56 /* LinksUIStatusTextObserver.cpp */,
+			);
+			name = "Status widget";
+			sourceTree = "<group>";
+		};
+		7AB892570BC6FBB7001D6113 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D6EB50D3553340005BAEF /* Buttons */,
+				7A86A36F0C440471000E3314 /* Menu */,
+				7A4BC3250BF39763005803DC /* Tree */,
+				7A1E062B0D3FE7800054C78D /* LinkInfo */,
+				7A95DB750D48124800F04E56 /* Status widget */,
+				7A0A4ADD0D18405F00BBB1EF /* EditOriginalResumeObserver.cpp */,
+				7A0A4ADE0D18405F00BBB1EF /* FilesChanging.cpp */,
+				7A0A4AEF0D18405F00BBB1EF /* LinksUIUtils.cpp */,
+				7A0A4AE30D18405F00BBB1EF /* LinksUIColumnHeaderObserver.cpp */,
+				7ED7DA9B0E3941AE00B8211C /* LinkInfoDebugUIDsProvider.cpp */,
+			);
+			name = Panel;
+			sourceTree = "<group>";
+		};
+		7EB7AB2210277A3100543018 /* Captions */ = {
+			isa = PBXGroup;
+			children = (
+				7A333DD910FFA26F00FF35EC /* MetadataLabelEVEInfo.cpp */,
+				7EE826A40E92A90800B24455 /* GenerateLinkCaptionDialogController.cpp */,
+				7EE3F3C3102A28B300F252F6 /* CaptionParaStyleObserver.cpp */,
+				7EE3F6A3102CD9AF00F252F6 /* CaptionLayerObserver.cpp */,
+				7EB7AB2310277A5B00543018 /* AddDeleteCaptionRowButtonObserver.cpp */,
+				7E9AE8961020ECF0007D3877 /* LinkCaptionActionComponent.cpp */,
+			);
+			name = Captions;
+			sourceTree = "<group>";
+		};
+		7F52248408AFCE1F00139994 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				7A0A4C9B0D18737B00BBB1EF /* _shared_build_settings/pluginOpen.xcconfig */,
+				7FE5845808AD6DB8007DB654 /* _shared_build_settings/common_release.xcconfig */,
+				7FE5845908AD6DB8007DB654 /* _shared_build_settings/common_debug.xcconfig */,
+				77D687F1113861B500D56A9C /* _shared_build_settings/cocoa_ui_debug.xcconfig */,
+				77D687F2113861B500D56A9C /* _shared_build_settings/cocoa_ui_release.xcconfig */,
+				77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */,
+				77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */,
+			);
+			name = xcconfig;
+			sourceTree = "<group>";
+		};
+		F957E2BF15C7E8A500C95573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F957E31815C7E90200C95573 /* Links UI.InDesignPlugin */,
+				F957E35C15C7E90500C95573 /* Links UI.InDesignPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F957E2C815C7E8FA00C95573 /* InDesign Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F957E2C915C7E8FA00C95573 /* For Cocoa64 */,
+			);
+			name = "InDesign Libraries";
+			sourceTree = "<group>";
+		};
+		F957E2C915C7E8FA00C95573 /* For Cocoa64 */ = {
+			isa = PBXGroup;
+			children = (
+				F957E2CA15C7E8FA00C95573 /* InDesignModelAndUI.framework */,
+				F957E2CB15C7E8FA00C95573 /* libPublicPlugIn.a */,
+				F957E2CC15C7E8FA00C95573 /* Debug */,
+			);
+			name = "For Cocoa64";
+			sourceTree = "<group>";
+		};
+		F957E2CC15C7E8FA00C95573 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F957E2CD15C7E8FA00C95573 /* InDesignModelAndUI.framework */,
+				F957E2CE15C7E8FA00C95573 /* libPublicPlugIn.a */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F957E2D515C7E90200C95573 /* Debug_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957E31615C7E90200C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */;
+			buildPhases = (
+				F957E2D615C7E90200C95573 /* Sources */,
+				F957E31015C7E90200C95573 /* Frameworks */,
+				F957E31115C7E90200C95573 /* Rez */,
+				F957E31215C7E90200C95573 /* Resources */,
+				F957E31315C7E90200C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957E31415C7E90200C95573 /* PBXBuildRule */,
+				F957E31515C7E90200C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Debug_Cocoa64;
+			productName = Debug;
+			productReference = F957E31815C7E90200C95573 /* Links UI.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+		F957E31915C7E90500C95573 /* Release_Cocoa64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F957E35A15C7E90500C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */;
+			buildPhases = (
+				F957E31A15C7E90500C95573 /* Sources */,
+				F957E35415C7E90500C95573 /* Frameworks */,
+				F957E35515C7E90500C95573 /* Rez */,
+				F957E35615C7E90500C95573 /* Resources */,
+				F957E35715C7E90500C95573 /* ShellScript */,
+			);
+			buildRules = (
+				F957E35815C7E90500C95573 /* PBXBuildRule */,
+				F957E35915C7E90500C95573 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Release_Cocoa64;
+			productName = Release;
+			productReference = F957E35C15C7E90500C95573 /* Links UI.InDesignPlugin */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B05A3140883D08000D809E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B05A3150883D08000D809E1 /* Build configuration list for PBXProject "LinksUI.open" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4B05A3120883D08000D809E1;
+			productRefGroup = 4B05A3120883D08000D809E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F957E2D515C7E90200C95573 /* Debug_Cocoa64 */,
+				F957E31915C7E90500C95573 /* Release_Cocoa64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F957E31215C7E90200C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372117ED993A00CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957E35615C7E90500C95573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AF372017ED993900CBD067 /* PluginPList.plc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F957E31115C7E90200C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957E35515C7E90500C95573 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F957E31315C7E90200C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+		F957E35715C7E90500C95573 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ../packagescripts/copyResources.sh;
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F957E2D615C7E90200C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957E2D715C7E90200C95573 /* LinksUI.fr in Sources */,
+				F957E2D915C7E90200C95573 /* CEditOriginalWithMenu.cpp in Sources */,
+				F957E2DA15C7E90200C95573 /* CEditOriginalWithMenuComponent.cpp in Sources */,
+				F957E2DB15C7E90200C95573 /* ChooseLinksColumnsDialogController.cpp in Sources */,
+				F957E2DC15C7E90200C95573 /* EditOriginalResumeObserver.cpp in Sources */,
+				F957E2DD15C7E90200C95573 /* FilesChanging.cpp in Sources */,
+				F957E2DE15C7E90200C95573 /* LinkInfoIconView.cpp in Sources */,
+				F957E2DF15C7E90200C95573 /* LinkInfoPanelObserver.cpp in Sources */,
+				F957E2E015C7E90200C95573 /* LinksTreeNodeList.cpp in Sources */,
+				F957E2E115C7E90200C95573 /* LinksTreeUIDNodeID.cpp in Sources */,
+				F957E2E215C7E90200C95573 /* LinksUIColumnHeaderObserver.cpp in Sources */,
+				F957E2E315C7E90200C95573 /* LinksUIID.cpp in Sources */,
+				F957E2E415C7E90200C95573 /* LinksUIPanelMenuComponent.cpp in Sources */,
+				F957E2E515C7E90200C95573 /* LinksUIPanelPrefs.cpp in Sources */,
+				F957E2E615C7E90200C95573 /* LinksUIPanelSelectionObserver.cpp in Sources */,
+				F957E2E715C7E90200C95573 /* LinksUIPanelTreeObserver.cpp in Sources */,
+				F957E2E815C7E90200C95573 /* LinksUIPanelTreeViewAdapter.cpp in Sources */,
+				F957E2E915C7E90200C95573 /* LinksUIPanelTreeViewWidgetMgr.cpp in Sources */,
+				F957E2EA15C7E90200C95573 /* LinksUIPanelView.cpp in Sources */,
+				F957E2EB15C7E90200C95573 /* LinksUIPlugin.cpp in Sources */,
+				F957E2EC15C7E90200C95573 /* LinksUITestMenu.cpp in Sources */,
+				F957E2ED15C7E90200C95573 /* LinksUITreeViewController.cpp in Sources */,
+				F957E2EE15C7E90200C95573 /* LinksUIUtils.cpp in Sources */,
+				F957E2EF15C7E90200C95573 /* LinksUIVCHacks.cpp in Sources */,
+				F957E2F015C7E90200C95573 /* LinkThumbnailView.cpp in Sources */,
+				F957E2F115C7E90200C95573 /* LinkUIStaticTextView.cpp in Sources */,
+				F957E2F215C7E90200C95573 /* OpenProblemLinksDialogCmd.cpp in Sources */,
+				F957E2F315C7E90200C95573 /* ProblemLinksDialogObserver.cpp in Sources */,
+				F957E2F415C7E90200C95573 /* ToggleLinkInfoButtonObserver.cpp in Sources */,
+				F957E2F515C7E90200C95573 /* LinksUITreeRowPanelEH.cpp in Sources */,
+				F957E2F615C7E90200C95573 /* LinksUIPanelXMLGenerator.cpp in Sources */,
+				F957E2F715C7E90200C95573 /* LinksUIPanelSAXHandler.cpp in Sources */,
+				F957E2F815C7E90200C95573 /* LinksUIButtonObserver.cpp in Sources */,
+				F957E2F915C7E90200C95573 /* LinksUITreePanelControlData.cpp in Sources */,
+				F957E2FA15C7E90200C95573 /* LinkUILinkNameTip.cpp in Sources */,
+				F957E2FB15C7E90200C95573 /* LinkInfoIconTip.cpp in Sources */,
+				F957E2FC15C7E90200C95573 /* LinksUIStatusTextTip.cpp in Sources */,
+				F957E2FD15C7E90200C95573 /* LinkInfoPanelPanorama.cpp in Sources */,
+				F957E2FE15C7E90200C95573 /* LinkInfoPanelView.cpp in Sources */,
+				F957E2FF15C7E90200C95573 /* NextPrevLinkButtonObserver.cpp in Sources */,
+				F957E30015C7E90200C95573 /* LinkInfoPanelEH.cpp in Sources */,
+				F957E30115C7E90200C95573 /* LinksUIStatusTextObserver.cpp in Sources */,
+				F957E30215C7E90200C95573 /* LinkInfoIconEH.cpp in Sources */,
+				F957E30315C7E90200C95573 /* LinkInfoTextLabelEH.cpp in Sources */,
+				F957E30415C7E90200C95573 /* LinksUIButtonTips.cpp in Sources */,
+				F957E30515C7E90200C95573 /* LinksUIRowElementCursorProvider.cpp in Sources */,
+				F957E30615C7E90200C95573 /* Templates_LinksUI.cpp in Sources */,
+				F957E30715C7E90200C95573 /* LinkInfoDebugUIDsProvider.cpp in Sources */,
+				F957E30815C7E90200C95573 /* GenerateLinkCaptionDialogController.cpp in Sources */,
+				F957E30915C7E90200C95573 /* LinkCaptionActionComponent.cpp in Sources */,
+				F957E30A15C7E90200C95573 /* AddDeleteCaptionRowButtonObserver.cpp in Sources */,
+				F957E30B15C7E90200C95573 /* CaptionParaStyleObserver.cpp in Sources */,
+				F957E30C15C7E90200C95573 /* CaptionLayerObserver.cpp in Sources */,
+				F957E30D15C7E90200C95573 /* LinksTreeViewTypeAhead.cpp in Sources */,
+				F957E30E15C7E90200C95573 /* MetadataLabelEVEInfo.cpp in Sources */,
+				F957E30F15C7E90200C95573 /* LinksUILinkNamePanelView.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F957E31A15C7E90500C95573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F957E31B15C7E90500C95573 /* LinksUI.fr in Sources */,
+				F957E31D15C7E90500C95573 /* CEditOriginalWithMenu.cpp in Sources */,
+				F957E31E15C7E90500C95573 /* CEditOriginalWithMenuComponent.cpp in Sources */,
+				F957E31F15C7E90500C95573 /* ChooseLinksColumnsDialogController.cpp in Sources */,
+				F957E32015C7E90500C95573 /* EditOriginalResumeObserver.cpp in Sources */,
+				F957E32115C7E90500C95573 /* FilesChanging.cpp in Sources */,
+				F957E32215C7E90500C95573 /* LinkInfoIconView.cpp in Sources */,
+				F957E32315C7E90500C95573 /* LinkInfoPanelObserver.cpp in Sources */,
+				F957E32415C7E90500C95573 /* LinksTreeNodeList.cpp in Sources */,
+				F957E32515C7E90500C95573 /* LinksTreeUIDNodeID.cpp in Sources */,
+				F957E32615C7E90500C95573 /* LinksUIColumnHeaderObserver.cpp in Sources */,
+				F957E32715C7E90500C95573 /* LinksUIID.cpp in Sources */,
+				F957E32815C7E90500C95573 /* LinksUIPanelMenuComponent.cpp in Sources */,
+				F957E32915C7E90500C95573 /* LinksUIPanelPrefs.cpp in Sources */,
+				F957E32A15C7E90500C95573 /* LinksUIPanelSelectionObserver.cpp in Sources */,
+				F957E32B15C7E90500C95573 /* LinksUIPanelTreeObserver.cpp in Sources */,
+				F957E32C15C7E90500C95573 /* LinksUIPanelTreeViewAdapter.cpp in Sources */,
+				F957E32D15C7E90500C95573 /* LinksUIPanelTreeViewWidgetMgr.cpp in Sources */,
+				F957E32E15C7E90500C95573 /* LinksUIPanelView.cpp in Sources */,
+				F957E32F15C7E90500C95573 /* LinksUIPlugin.cpp in Sources */,
+				F957E33015C7E90500C95573 /* LinksUITestMenu.cpp in Sources */,
+				F957E33115C7E90500C95573 /* LinksUITreeViewController.cpp in Sources */,
+				F957E33215C7E90500C95573 /* LinksUIUtils.cpp in Sources */,
+				F957E33315C7E90500C95573 /* LinksUIVCHacks.cpp in Sources */,
+				F957E33415C7E90500C95573 /* LinkThumbnailView.cpp in Sources */,
+				F957E33515C7E90500C95573 /* LinkUIStaticTextView.cpp in Sources */,
+				F957E33615C7E90500C95573 /* OpenProblemLinksDialogCmd.cpp in Sources */,
+				F957E33715C7E90500C95573 /* ProblemLinksDialogObserver.cpp in Sources */,
+				F957E33815C7E90500C95573 /* ToggleLinkInfoButtonObserver.cpp in Sources */,
+				F957E33915C7E90500C95573 /* LinksUITreeRowPanelEH.cpp in Sources */,
+				F957E33A15C7E90500C95573 /* LinksUIPanelXMLGenerator.cpp in Sources */,
+				F957E33B15C7E90500C95573 /* LinksUIPanelSAXHandler.cpp in Sources */,
+				F957E33C15C7E90500C95573 /* LinksUIButtonObserver.cpp in Sources */,
+				F957E33D15C7E90500C95573 /* LinksUITreePanelControlData.cpp in Sources */,
+				F957E33E15C7E90500C95573 /* LinkUILinkNameTip.cpp in Sources */,
+				F957E33F15C7E90500C95573 /* LinkInfoIconTip.cpp in Sources */,
+				F957E34015C7E90500C95573 /* LinksUIStatusTextTip.cpp in Sources */,
+				F957E34115C7E90500C95573 /* LinkInfoPanelPanorama.cpp in Sources */,
+				F957E34215C7E90500C95573 /* LinkInfoPanelView.cpp in Sources */,
+				F957E34315C7E90500C95573 /* NextPrevLinkButtonObserver.cpp in Sources */,
+				F957E34415C7E90500C95573 /* LinkInfoPanelEH.cpp in Sources */,
+				F957E34515C7E90500C95573 /* LinksUIStatusTextObserver.cpp in Sources */,
+				F957E34615C7E90500C95573 /* LinkInfoIconEH.cpp in Sources */,
+				F957E34715C7E90500C95573 /* LinkInfoTextLabelEH.cpp in Sources */,
+				F957E34815C7E90500C95573 /* LinksUIButtonTips.cpp in Sources */,
+				F957E34915C7E90500C95573 /* LinksUIRowElementCursorProvider.cpp in Sources */,
+				F957E34A15C7E90500C95573 /* Templates_LinksUI.cpp in Sources */,
+				F957E34B15C7E90500C95573 /* LinkInfoDebugUIDsProvider.cpp in Sources */,
+				F957E34C15C7E90500C95573 /* GenerateLinkCaptionDialogController.cpp in Sources */,
+				F957E34D15C7E90500C95573 /* LinkCaptionActionComponent.cpp in Sources */,
+				F957E34E15C7E90500C95573 /* AddDeleteCaptionRowButtonObserver.cpp in Sources */,
+				F957E34F15C7E90500C95573 /* CaptionParaStyleObserver.cpp in Sources */,
+				F957E35015C7E90500C95573 /* CaptionLayerObserver.cpp in Sources */,
+				F957E35115C7E90500C95573 /* LinksTreeViewTypeAhead.cpp in Sources */,
+				F957E35215C7E90500C95573 /* MetadataLabelEVEInfo.cpp in Sources */,
+				F957E35315C7E90500C95573 /* LinksUILinkNamePanelView.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B05A3160883D08000D809E1 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0A4C9B0D18737B00BBB1EF /* _shared_build_settings/pluginOpen.xcconfig */;
+			buildSettings = {
+				BUILT_PRODUCTS_DIR = "$(ID_PLUGINS_DIR)/Layout";
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS)",
+					"$(DVA_HEADER_SEARCH_PATHS)",
+					../../../source/open/components/linksui,
+					../../../source/public/interfaces/sharedcontent,
+					../../../source/public/interfaces/text,
+					../../../source/public/interfaces/workgroup,
+					../../../source/public/interfaces/interactive,
+					../../../source/public/interfaces/incopy,
+					../../../source/public/interfaces/tables,
+					../../../source/private/interfaces/architecture,
+					../../../source/private/interfaces/text,
+					../../../source/private/interfaces/graphics,
+					"../../../source/private/includes/ui",
+				);
+				PLC_OUTPUT_TYPE = InDa;
+				PRODUCT_NAME = "Links UI";
+			};
+			name = Default;
+		};
+		F957E31715C7E90200C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F3113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F957E35B15C7E90500C95573 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D687F4113861B500D56A9C /* _shared_build_settings/cocoa_ui_x64_release.xcconfig */;
+			buildSettings = {
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B05A3150883D08000D809E1 /* Build configuration list for PBXProject "LinksUI.open" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B05A3160883D08000D809E1 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		F957E31615C7E90200C95573 /* Build configuration list for PBXNativeTarget "Debug_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957E31715C7E90200C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F957E35A15C7E90500C95573 /* Build configuration list for PBXNativeTarget "Release_Cocoa64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F957E35B15C7E90500C95573 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B05A3140883D08000D809E1 /* Project object */;
+}

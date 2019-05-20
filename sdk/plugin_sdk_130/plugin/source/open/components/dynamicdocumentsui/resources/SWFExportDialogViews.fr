@@ -1,0 +1,73 @@
+//========================================================================================
+//  
+//  $File: //depot/devtech/14.0/plugin/source/open/components/dynamicdocumentsui/resources/SWFExportDialogViews.fr $
+//  
+//  Owner: DBerggren
+//  
+//  $Author: pmbuilder $
+//  
+//  $DateTime: 2018/09/10 00:46:19 $
+//  
+//  $Revision: #2 $
+//  
+//  $Change: 1031899 $
+//  
+//  Copyright 1997-2010 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+#include "Widgets.fh"
+#include "SysControlIds.h"
+#include "DynamicDocumentsUIID.h"
+#include "DynamicDocumentsUIDefs.h"
+#include "EveInfo.fh"
+#include "IControlViewDefs.h"
+#include "IDList.fh"
+#include "IDListPair.fh"
+#include "LocaleIndex.h"
+#include "PMLocaleIds.h"
+#include "TreeViewDefs.h"
+
+#ifdef __ODFRC__
+
+resource IDList (kSWFExportDialogOrderingRsrcID)
+{
+	{
+		kSWFExportGeneralOptionsPanelBoss,
+		kSWFExportAdvancedOptionsPanelBoss,
+	},
+};
+
+type SWFExportDialog (kViewRsrcType) : DialogBoss (ClassID = kSWFExportDialogBoss)
+{ 
+	WidgetEveInfo;
+};
+
+type SWFExportGeneralOptionsPanel(kViewRsrcType) : PrimaryResourcePanelWidget(ClassID = kSWFExportGeneralOptionsPanelBoss)
+{
+	WidgetEveInfo;
+};
+
+type SWFExportAdvancedOptionsPanel(kViewRsrcType) : PrimaryResourcePanelWidget(ClassID = kSWFExportAdvancedOptionsPanelBoss)
+{
+	WidgetEveInfo;
+};
+
+resource LocaleIndex (kSWFExportDialogRsrcID)
+{
+	kViewRsrcType,
+	{
+		kWildFS, k_Wild, 	kSWFExportDialogRsrcID + index_enUS
+	}
+};
+
+
+#endif // __ODFRC__
+
+#include "SWFExportDialogViews_enUS.fr"
+
