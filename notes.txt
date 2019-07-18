@@ -3,3 +3,6 @@ https://stackoverflow.com/questions/31965413/compile-c14-code-with-g
 
 Google hit with compiler settings and AddressSanitizer issue:
 https://gist.github.com/kwk/4171e37f4bcdf7705329
+
+CLang and AddressSanitizer:
+https://clang.llvm.org/docs/AddressSanitizer.html
